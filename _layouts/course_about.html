@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<div class="row">
+  <div class="sidebar span4">
+    <ul class="nav nav-list">
+    {% for subpage in site.categories.content reversed %}
+      <li> <a href="{{site.baseurl}}{{ subpage.url }}">{{subpage.title}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="content span8">
+    {{ content }}
+ 
+  </div>
+</div>
