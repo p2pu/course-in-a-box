@@ -1,0 +1,60 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+	<meta charset="utf-8">
+	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
+
+	<title>{{ site.data.course.title }} | {{ page.title }}</title>
+	<meta name="description" content="Learning for everyone, by everyone, about almost anything.">
+	<meta name="author" content="p2pu">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--change this to serve from gh pages -->
+	<link rel="shortcut icon" href="https://p2pu.org/static/images/favicon.ico">
+	<link rel="apple-touch-icon" href="https://p2pu.org/static/images/apple-touch-icon.png">
+
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+	      rel="stylesheet">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<noscript>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style-noscript.css" />
+	</noscript>
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+
+
+	<!--<link rel="stylesheet" href="{{site.baseurl}}/css/site.css">-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v9.css" /><![endif]-->
+	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
+</head>
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %} class="{{ page.body-class }}">
+
+{% include navigation.html %}
+
+
+{% if page.url == '/index.html' %}
+	{% include banner.html %}
+{% endif %}
+
+
+{{ content }}
+
+
+{% include footer.html %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+<!-- Google Analytics -->
+{% if site.ga_tracking_code %}
+	{% include ga.html %}
+{% endif %}
+</body>
+</html>
