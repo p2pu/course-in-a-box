@@ -1,0 +1,55 @@
+<!-- Navigation -->
+<nav class="navbar {% if page.url == '/index.html' %}affix-top{% else %} affix {% endif %}"
+     role="navigation"
+		{% if page.url == '/index.html' %}
+     data-spy="affix"
+     data-offset-top="700"
+		{% endif %}
+		>
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+			        data-target="#p2pu-menu">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="{{ site.baseurl }}/">
+				<img src="{{ site.baseurl }}/img/logo.png" alt="P2PU Logo" />
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="p2pu-menu">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="{{ site.baseurl }}/">Getting started</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						Modules
+					</a>
+					<ul class="dropdown-menu">
+						{% for post in site.categories.content reversed %}
+							<li>
+								<a {% if post.url == page.url %}class="active"{% endif %}
+								   href="{{ site.baseurl }}{{ post.url }}">
+									{{ post.title }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</li>
+				<li>
+					<a href="http://thepeople.p2pu.org/category/learning/">Discussion</a>
+				</li>
+				<li>
+					<a href="http://thepeople.p2pu.org" class="btn btn-primary">Sign Up</a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+<!-- End Navigation -->
