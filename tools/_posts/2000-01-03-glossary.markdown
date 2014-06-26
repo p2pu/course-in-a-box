@@ -3,12 +3,30 @@ title: Glossary
 layout: course_page
 ---
 
-Github
+DNS - Domain Name Service. The telephone directory of the internet. In short, when you enter p2pu.org, DNS is what sends you to the right computer on the internet that contains the website you are looking for. Why is this relevant? Well, maybe you want to use myawesomecourse.org for your course. In that case you will need to register a domain name.
 
-Git
+[Github](https://github.com) - Git hosting service with other colaborative tools added. Hosting for open source software and open content is free! See our Github cheatsheet.
 
-Jekyll
+Git - Version control software. Basic rundown - it allows you to track changes to a set of documents. Not sure what I mean, have a look at [the history for this repostory](https://github.com/p2pu/jekyll-course-experiment/commits/gh-pages).
 
-Google Analytics
+Jekyll - Software that takes a directory with files as input and outputs a directory of files ready to host as a website on the internet.
 
-GitHub Pages
+GitHub Pages - A hosted version of Github + Jekyll. Important part -> you don't need to install and run Jekyll and you don't need to pay for hosting!
+
+Google Analytics - Service offered by Google to track page views and other metrics on a web page.
+
+Discourse - 
+
+Disqus - 
+
+MailChimp - 
+
+IFTTT - Online service that allows you to string together different web services
+
+Etherpads - Collaborative online document editing. Hackpad is close enough and hosted for you, but unfortunately not open source :(
+
+Google Docs - 
+
+Google Forms - 
+
+
