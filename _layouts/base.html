@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
 
 
-	<!--<link rel="stylesheet" href="{{site.baseurl}}/css/site.css">-->
+	<link rel="stylesheet" href="{{site.baseurl}}/css/site.css">
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v9.css" /><![endif]-->
 	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
@@ -37,24 +37,17 @@
 
 {% include navigation.html %}
 
-
-{% if page.url == '/index.html' %}
-	{% include banner.html %}
-{% endif %}
-
-
 {{ content }}
-
 
 {% include footer.html %}
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-
 <!-- Google Analytics -->
 {% if site.ga_tracking_code %}
 	{% include ga.html %}
 {% endif %}
+
 </body>
 </html>
