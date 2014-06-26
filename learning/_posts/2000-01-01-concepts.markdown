@@ -1,0 +1,30 @@
+---
+title: Concepts
+layout: course_page
+---
+
+## Jim Groom on Learning Theories for Communities
+
+## Learning Theories
+
+ - [Play As Learning](http://web.media.mit.edu/~mres/papers/CC2007-handout.pdf)
+ - Motivation and Engagement
+ - [Flow](http://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow)
+ - [Mindset](https://www.stanford.edu/dept/psychology/cgi-bin/drupalm/system/files/Intelligence%20Praise%20Can%20Undermine%20Motivation%20and%20Performance.pdf)
+ - Connected Learning
+ - Affective Dimension of Learning
+ - UDL: multiple modes of engagement
+
+## Content
+
+ - Peers co-create content 
+ - Tap Open Content 
+ - Learners create content for other learners
+
+## P2PU Examples
+
+ - Webmaker Teaching Kits (learners create content for other learners)
+ - Python (open content)
+ - Peers co-create content
+
+

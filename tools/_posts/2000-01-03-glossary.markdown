@@ -1,0 +1,14 @@
+---
+title: Glossary
+layout: course_page
+---
+
+Github
+
+Git
+
+Jekyll
+
+Google Analytics
+
+GitHub Pages

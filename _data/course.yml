@@ -1,8 +1,9 @@
 title: A Jekyll course experiment
+modules: [community, learning, feedback, content, tools]
 signups:
- - name: The great unknown
-   image: https://pbs.twimg.com/profile_images/1728864434/p2pu-twitter-square_400x400.png
-   twitter: p2pu
- - name: Dirk
+ - name: Vanessa Gennarelli
+   image: https://pbs.twimg.com/profile_images/472187634685448194/LpV133Sr.jpeg
+   twitter: mozzadrella
+ - name: Vanessa Gennarelli
    image: https://pbs.twimg.com/profile_images/1789721843/7OGyxdxm_400x400
-   twitter: riskycud
+   twitter: mozzadrella
