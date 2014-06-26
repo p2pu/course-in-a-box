@@ -1,0 +1,14 @@
+---
+title: "Projects"
+layout: course_page
+---
+
+# Projects 
+
+So it turns out you are already part of a community! You joined this course didn't you?
+
+## Project 1: Get to know this community.
+
+During signup you we asked for you name and a twitter handle. Take some time and look at the other people who signed up for the course. Consider following those that tweet about things you are interested in. Maybe send some tweets and start a conversation.
+
+This course is also nestled in a larger community of people interested in creating open online learning rock for everyone! How about introducing yourself on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28)?

@@ -1,0 +1,89 @@
+---
+title: "Concepts"
+layout: course_page
+excerpt: Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course. 
+---
+
+# Community: the Dynamics of Generating Awesome
+
+<img src="//discourse-uploads.s3.amazonaws.com/1405ecbe3fcd5ef2f1004d29ae05329d518c6dd3dab.jpg" width="690" height="388"> 
+
+## What Does a Learning Community Look Like?
+[Dave Cormier](http://davecormier.com/), lead raconteur of [Rhizomatic Learning: the Community is the Curriculum](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/) ([#rhizo14](https://twitter.com/search?q=rhizo14&src=typd)) and reluctant stepfather of the MOOC movement, answers the following core questions:
+
+- Why is learning in community important?
+- How do you ask people to participate?
+- How did you build with your audience?
+
+[![Dave Cormier - How We Built Rhizomatic Learning](http://img.youtube.com/vi/c4KM9QgfOXA/0.jpg)](http://youtu.be/c4KM9QgfOXA?t=2s)
+
+
+## Why does Community Matter for Learning?
+
+**Diversity of perspectives.** As Dave said, books are inert objects. Pushing "play" on a video is one passive experience. When you engage ideas with other people, the dialogue and exchanges challenge you to look at things several different ways. We won't tell you what to think--engaging others helps us think uniquely and engage collaboratively.
+
+**Support and stretch.** When you find your learning crew--the folks who share your vision and your values--they can buoy you up when you encounter setbacks and help you set the next goalpost. They can deliver feedback that helps you hone in on weaknesses or develop strengths. 
+
+*Learners go farther when they learn together.*
+
+The way we see it, any online learning experience consists of three parts:
+
+- Social presence (that you have a crew & we're in it together)
+- Cognitive presence (ideas & content)
+- Teaching presence (feedback & questions)
+
+The way those pieces work together looks like this:
+
+<img src="//discourse-uploads.s3.amazonaws.com/1384a351ba9573e7fb989063d8eb8cde521058e95df.jpg" width="560" height="478"> 
+
+Source: [Community of Inquiry Framework](http://www.uwb.edu/learningtech/elearning/hybrid-and-online-learning/hybrid-learning/faculty-hybrid/hybrid-intro)
+
+In this part of the course, we’ll talk about “social presence” (or community), and how to build one around your learning goals. 
+
+## OK, But What’s Community?
+
+Community is a sense of *shared purpose and belonging*. Think about your local PTA, block party organization, church, book club or alumni association. There’s always a reason that you’re there, and a sense that you’re included. 
+
+As a course facilitator, you are designing a learning community. Peer-to-peer learning is a network of people helping each other. Once you have your learning goals established, the next series of ideas to think about is how to build a community around those goals. 
+
+In your course, how will you:
+
+- Ask learners to participate?
+Often at P2PU learners and facilitators design the course together. We talked about collaborative goal-setting in the last section, and asking for input or feedback on the course design is a great first step. 
+
+- Welcome new members to the community?
+We like to ask folks to introduce themselves on [thepeople.org](http://thepeople.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background. 
+
+<img src="//discourse-uploads.s3.amazonaws.com/139b1013f766915a79ca48f2837ea1808e67df308cc.png" width="690" height="328"> 
+
+- Celebrate successes?
+
+ 
+ Community is a continuum. 
+
+ Community is a sense of trust. Trust emerges when you share personal details.
+
+# P2PU Examples: 
+
+## P2PU School of Ed.
+In 2011, [Karen Fasimpaur](https://twitter.com/kfasimpaur) was looking to experiment with teacher professional development. She wanted to focus on  inquiry, self-direction, critical thinking, and collaboration with continuing education that was relevant to the lives of teachers. What came out of her curiosity was the P2PU School of Ed. 30 courses on the [p2pu.org](https://p2pu.org/en/) platform and two years later, she recommends the following design principles:
+
+>First, in our experience, the formation of community has been critical. The social nature of peer learning relies on trust and relationships. This is not something that can be fostered over a few weeks. While this kind of community-building takes time, we are beginning to see some evidence of it at P2PU. In large part this has been due to the ongoing, generous participation of many individuals, as well as organizations such as the National Writing Project. We have benefitted greatly from the participation of their already-existing community of passionate and deep thinking educators who share our values and goals.
+
+>We have also learned that peer learning experiences work best when they are designed by the group, not instituted from the top down. This can be challenging to achieve, but the groups that have been co-planned and co-facilitated collaboratively have been most compelling.
+
+Check out the full report at [reports.p2pu.org](http://reports.p2pu.org/reports/school_of_ed/soe_index.html)
+
+## Data Explorer Mission
+
+In 2013, P2PU and [Open Knowledge](http://us.okfn.org/) teamed up to offer [“Data Explorer Missions”](http://schoolofdata.org/datamooc/) an introduction to working with data over the course of 3 weeks. 151 learners signed up for our initial pilot. After the course ended, we took at look at the engagement metrics—one group (Team 10) cohered quickly and took off like a rocketship. When we looked into their comments to each other, we saw how they built *social presence*, *trust* and *asked each other to participate*.
+
+- *Spontaneous prompts to check in*: Members sent short messages to each other to keep the course alive, i.e. “Are you doing alright? Haven’t heard from you in ages” “Just making some noise.”
+- *Familiarity*: Members referred to each other by name (as opposed to “Team 10″) and shared bits of contextual information about their lives, such as when they found time to do the assignments, where they were traveling, etc.
+- *Building upon shared interest*: Team 10 shared content related to the subject matter of the course that others might find interesting–such as other Data MOOCs, White House open data, etc.
+- *Tried new tools together*: Members tried out new tools like Google Fusion Tables together, and shared their frustrations, setbacks and successes. 
+- *Summaries of Hangouts*: In a brilliant move, members sent a summary of the synchronous Hangout to the whole group, which kept the folks who couldn’t make it in the loop.
+
+See the full recap at [Data MOOC: Results, Findings and Recommendations](http://info.p2pu.org/2013/06/18/data-mooc-results-findings-and-recommendations/)
+
+## Rhizomatic Learning: The Community is the Curriculum
