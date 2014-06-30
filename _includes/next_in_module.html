@@ -1,0 +1,14 @@
+{% assign next=null %}
+{% assign prev=null %}
+{% assign temp=null %}
+
+{% for p in site.categories[module] reversed %}
+  {% if p.url == page.url %}
+    {% if temp %}
+      {% assign prev=temp %}
+    {% endif %}
+  {% elsif temp.url == page.url %}
+    {% assign next=p %}
+  {% endif %}
+  {% assign temp=p %}
+{% endfor %}
