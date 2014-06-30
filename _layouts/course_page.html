@@ -10,10 +10,10 @@ layout: base
       {% include next_in_module.html %}
 
       {% if prev %} 
-        <p><a rel="prev" href="{{ prev.url }}">&larr; Go back to {{prev.title}}</a></p>
+        <p><a rel="prev" href="{{ site.baseurl }}{{ prev.url }}">&larr; Go back to {{prev.title}}</a></p>
       {% endif %}
       {% if next %} 
-        <p><a rel="next" href="{{ next.url }}">Move on to {{ next.title }} &rarr;</a></p>
+        <p><a rel="next" href="{{ site.baseurl }}{{ next.url }}">Move on to {{ next.title }} &rarr;</a></p>
       {% endif %}
     </div>
   </div>
