@@ -2,8 +2,6 @@
 layout: page
 ---
 
-This course is an experiment in leveraging GitHub to collaboratively take a course.
-
 ## Signing up
 To sign up for this course you need to fork this repository and submit a pull request. We hope you've already done this. Making edits in your own version and submitting pull requests are the basic way that this course will work.
 
