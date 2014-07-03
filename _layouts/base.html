@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>{{ site.data.course.title }} | {{ page.title }}</title>
+	<title>{{ site.data.course.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 	<meta name="description" content="Learning for everyone, by everyone, about almost anything.">
 	<meta name="author" content="p2pu">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
