@@ -9,6 +9,12 @@ So it turns out you are already part of a community! You joined this course didn
 
 ## Project 1: Get to know this community.
 
-During signup you we asked for you name and a twitter handle. Take some time and look at the other people who signed up for the course. Consider following those that tweet about things you are interested in. Maybe send some tweets and start a conversation.
+During signup you were asked for your name and a twitter handle. Take some time and look at the other folks who signed up. Consider following those that tweet about things you are interested in. Send some tweets and start a conversation. If relevant, tag with #sociallearning
 
-This course is also nestled in a larger community of people interested in creating open online learning rock for everyone! How about introducing yourself on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28)?
+This course is nestled in a larger community of people interested in creating open online learning experiences for everyone! How about introducing yourself on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28)?
+
+<a class="twitter-timeline"  href="https://twitter.com/hashtag/p2pupurl"  data-widget-id="484738746420453376" data-chrome="transparent noscrollbar">#p2pupurl Tweets</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
