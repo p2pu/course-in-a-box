@@ -6,7 +6,7 @@ layout: course_page
 
 By signing up for this course you also created your own version of this course! You can view this version of the course by going to `https://yourgithubname.github.io/jekyll-course-experiment/`, just replace yourgithubname with your github username.
 
-By the end of this course your own course should be ready!
+During this course you will be working on the version you forked and by the end of this course your own course should be ready!
 
 ## A bit about branches
 
@@ -16,7 +16,7 @@ Create a new branch in your repository called p2pu. This will be the branch that
 
 Update index.html in your repository on the gh-pages branch
 
-Update data.yml with a link to your github username in the p2pu branch and submit a pull request.
+Update [data.yml]({{site.github.repository_url}}/edit/gh-pages/index.html) with a link to your github username in the p2pu branch and submit a pull request.
 
 ## What are the other people doing?
 
