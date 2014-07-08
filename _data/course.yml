@@ -1,9 +1,10 @@
 title: Purl
-modules: [community, learning, feedback, content, tools]
+modules: [start, community, learning, feedback, content, tools]
 signups:
  - name: Dirk Uys
    image: https://pbs.twimg.com/profile_images/1789721843/7OGyxdxm_400x400
    twitter: riskycud
+   github_username: dirkcuys
  - name: Vanessa Gennarelli
    image: https://pbs.twimg.com/profile_images/472187634685448194/LpV133Sr.jpeg
    twitter: mozzadrella

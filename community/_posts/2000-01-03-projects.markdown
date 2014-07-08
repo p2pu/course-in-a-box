@@ -13,8 +13,6 @@ During signup you were asked for your name and a twitter handle. Take some time 
 
 This course is nestled in a larger community of people interested in creating open online learning experiences for everyone! How about introducing yourself on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28)?
 
-<a class="twitter-timeline"  href="https://twitter.com/hashtag/p2pupurl"  data-widget-id="484738746420453376" data-chrome="transparent noscrollbar">#p2pupurl Tweets</a>
+<a class="twitter-timeline"  href="https://twitter.com/hashtag/p2pu"  data-widget-id="484738746420453376">#p2pu Tweets</a>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
