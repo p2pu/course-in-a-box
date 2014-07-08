@@ -16,7 +16,7 @@ Create a new branch in your repository called p2pu. This will be the branch that
 
 Update index.html in your repository on the gh-pages branch
 
-Update [data.yml]({{site.github.repository_url}}/edit/gh-pages/index.html) with a link to your github username in the p2pu branch and submit a pull request.
+Update [_data/course.yml]({{site.github.repository_url}}/edit/gh-pages/_data/course.yml) with a link to your github username in the p2pu branch and submit a pull request.
 
 ## What are the other people doing?
 
