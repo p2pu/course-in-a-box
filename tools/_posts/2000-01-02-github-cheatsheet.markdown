@@ -35,6 +35,12 @@ You can click on the "Files changed" tab to see the changes that was made.
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-6-small.png)
 
+## How to edit a file
+
+Go to your repository
+
+...
+
 ## How to upload an image
 
 ## How to create a new repository

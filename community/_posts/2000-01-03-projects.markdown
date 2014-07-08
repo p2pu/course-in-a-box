@@ -5,8 +5,6 @@ layout: course_page
 
 # Projects 
 
-So it turns out you are already part of a community! You joined this course didn't you?
-
 ## Project 1: Get to know this community.
 
 During signup you were asked for your name and a twitter handle. Take some time and look at the other folks who signed up. Consider following those that tweet about things you are interested in. Send some tweets and start a conversation. If relevant, tag with #sociallearning
@@ -16,3 +14,11 @@ This course is nestled in a larger community of people interested in creating op
 <a class="twitter-timeline"  href="https://twitter.com/hashtag/p2pu"  data-widget-id="484738746420453376">#p2pu Tweets</a>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+## Project 2: Think about the community for your course?
+
+How will people join your community? What type of community will you build for your course? Will it be a community of interest, practive or inquiry? Will you add a personality to your community?
+
+## Project 3: What tools will you use to build your community?
+
+What are the tools you are considering for your community? Can you think of advantages and drawback this these tools may have?

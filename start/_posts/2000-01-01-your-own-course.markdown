@@ -8,15 +8,14 @@ By signing up for this course you also created your own version of this course! 
 
 During this course you will be working on the version you forked and by the end of this course your own course should be ready!
 
-## A bit about branches
-
-Create a new branch in your repository called p2pu. This will be the branch that you will be using to submit your "homework".
-
 ## Update your course landing page
 
-Update index.html in your repository on the gh-pages branch
+How about getting started and updating your course landing page by adding some information about what your course will be about. You don't have to settle on the final copy, this is to share with the other people taking this course.
 
-Update [_data/course.yml]({{site.github.repository_url}}/edit/gh-pages/_data/course.yml) with a link to your github username in the p2pu branch and submit a pull request.
+To update your course landing page, you need to edit the file called `index.html` in your forked repository. Not sure how to do it? See [this section]({{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}) in our github cheatsheet about editing a page on github.
+
+
+Update [_data/course.yml]({{site.github.repository_url}}/edit/gh-pages/_data/course.yml) with a link to your github username in the p2pu branch and submit a pull request. If you just follow the link you'll be able to submit a pull request without the changes you've made to your course.
 
 ## What are the other people doing?
 
