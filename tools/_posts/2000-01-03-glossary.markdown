@@ -3,30 +3,28 @@ title: Glossary
 layout: course_page
 ---
 
-DNS - Domain Name Service. The telephone directory of the internet. In short, when you enter p2pu.org, DNS is what sends you to the right computer on the internet that contains the website you are looking for. Why is this relevant? Well, maybe you want to use myawesomecourse.org for your course. In that case you will need to register a domain name.
+[DNS](http://www.wikipedia.org/wiki/Domain_Name_System) - Domain Name Service. The telephone directory of the internet. In short, when you enter p2pu.org, DNS is what sends you to the right computer on the internet that contains the website you are looking for. Why is this relevant? Well, maybe you want to use myawesomecourse.org for your course. In that case you will need to register a domain name.
 
 [Github](https://github.com) - Git hosting service with other colaborative tools added. Hosting for open source software and open content is free! See our Github cheatsheet.
 
-Git - Version control software. Basic rundown - it allows you to track changes to a set of documents. Not sure what I mean, have a look at [the history for this repostory](https://github.com/p2pu/jekyll-course-experiment/commits/gh-pages).
+[Git](http://git-scm.com/) - Version control software. Basic rundown - it allows you to track changes to a set of documents. Not sure what I mean, have a look at [the history for this repostory](https://github.com/p2pu/jekyll-course-experiment/commits/gh-pages).
 
-Jekyll - Software that takes a directory with files as input and outputs a directory of files ready to host as a website on the internet.
+[Jekyll](http://jekyllrb.com) - Software that takes a directory with files as input and outputs a directory of files ready to host as a website on the internet.
 
-GitHub Pages - A hosted version of Github + Jekyll. Important part -> you don't need to install and run Jekyll and you don't need to pay for hosting!
+[GitHub Pages](https://pages.github.com) - A hosted version of Github + Jekyll. Important part -> you don't need to install and run Jekyll and you don't need to pay for hosting!
 
-Google Analytics - Service offered by Google to track page views and other metrics on a web page.
+[Google Analytics](http://www.google.com/analytics/) - Service offered by Google to track page views and other metrics on a web page.
 
-Discourse - 
+[Discourse](http://www.discourse.org) - Takes online forum to a whole new level.  Conversations with a continuous flow and categories that keep you up to date on what you are interested in.  Come join in on our conversations at [http://community.p2pu.org/](http://community.p2pu.org/).
 
-Disqus - 
+[Disqus](https://disqus.com) - You have probably used Disqus already without even realizing it, it's everywhere.  Disqus makes it simple to add comment sections to any page and is supported on many popular blogging and content management platforms.
 
-MailChimp - 
+[MailChimp](http://mailchimp.com) - Online service for automating emails that also provides analytics on how your community is interacting with your email communications.
 
-IFTTT - Online service that allows you to string together different web services
+[IFTTT](https://ifttt.com) - If This Then That. Online service that allows you to string together different web services.
 
-Etherpads - Collaborative online document editing. Hackpad is close enough and hosted for you, but unfortunately not open source :(
+[Etherpads](http://etherpad.org) - Collaborative online document editing. [Hackpad](https://hackpad.com) is close enough and hosted for you, but unfortunately not open source :(
 
-Google Docs - 
+[Google Docs](http://www.google.com/docs/about/) - Collaborative online document, spreadsheet, and presentation editing provided by Google.
 
-Google Forms - 
-
-
+Google Forms - A component of Google Docs but worth mentioning on its own.  Google Forms allows for the easy creation, sending, and collection of responses for online surveys.
