@@ -2,7 +2,7 @@ title: Purl
 modules: [start, community, learning, content, feedback, tools]
 signups:
  - name: Dirk Uys
-   image: https://pbs.twimg.com/profile_images/1789721843/7OGyxdxm_400x400
+   image: http://thebacklog.net/img/profile.jpeg
    twitter: riskycud
    github_username: dirkcuys
  - name: Vanessa Gennarelli
