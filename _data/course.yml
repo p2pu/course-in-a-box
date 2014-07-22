@@ -38,3 +38,6 @@ signups:
  - name: Audrey Watters
    image: https://s3.amazonaws.com/hackedu/audreywatters_75.jpg
    twitter: audreywatters
+ - name: Arvind Gupta
+   image: https://pbs.twimg.com/profile_images/2813409156/00d80eb50e38901b4028ea8b3e6579c9.jpeg
+   twitter: arvindcg
