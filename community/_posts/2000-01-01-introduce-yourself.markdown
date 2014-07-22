@@ -7,8 +7,6 @@ layout: course_page
 
 > Creating a course **is** creating a community
 
-Take a moment to introduce yourself. Tell us a bit about yourself and the course will be about that you want to create.
-
+Take a moment to introduce yourself. Tell us about yourself, what do you like doing, what type of course would you like to create?
 
 {% include disqus.html %}
-
