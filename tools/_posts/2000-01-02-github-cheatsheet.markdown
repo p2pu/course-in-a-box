@@ -53,16 +53,22 @@ Go to your repository
 
 You just forked this awesome project but it got more awesome... what do you do?
 
+1. Open a terminal (for Mac and Linux users) or command line (for Windows users).
+
 1. Add a new remote that points to the original repository.
+
         git remote add upstream https://github.com/p2pu/jekyll-course-experiment.git
 
 1. Update your repository so it knows about all the stuff that has been going on since you forked.
+
         git fetch upstream
 
 1. Merge the changes from the upstream repository into yours.  This will bring your repository up-to-date without losing any of your local changes.
+
         git merge upstream/gh-pages
 
 1. Push the changes up to your repository on GitHub.
+
         git push origin gh-pages
 
 ## How to create a new repository
