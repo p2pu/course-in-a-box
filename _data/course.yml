@@ -1,10 +1,6 @@
 title: Purl
 modules: [start, community, learning, content, feedback, tools]
 signups:
- - name: Robert Morris
-   image: http://s4.postimg.org/s0w975fp9/coalminer2.png
-   twitter: @musenz
-   github username: serious-kiwi
  - name: Dirk Uys
    image: http://thebacklog.net/img/profile.jpeg
    twitter: riskycud
@@ -60,3 +56,7 @@ signups:
  - name: Nicole McGee
    image: https://pbs.twimg.com/profile_images/378800000703658823/a956cfc8630c0baa84dc2acd6d20639e.jpeg
    twitter: nicolejam
+ - name: Robert Morris
+   image: http://s4.postimg.org/s0w975fp9/coalminer2.png
+   twitter: musenz
+   github_username: serious-kiwi
