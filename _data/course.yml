@@ -60,3 +60,7 @@ signups:
    image: http://s4.postimg.org/s0w975fp9/coalminer2.png
    twitter: musenz
    github_username: serious-kiwi
+ - name: Jane Park
+   image: http://creativecommons.org/images/people/jane.jpg
+   twitter: janedaily
+   github_username: janeatcc
