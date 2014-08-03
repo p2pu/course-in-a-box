@@ -68,3 +68,7 @@ signups:
    image: https://pbs.twimg.com/profile_images/1161722291/profilepic_bigger.jpg
    twitter: epilepticrabbit
    github_username: LauraHilliger
+ - name: Alex Ruthmann
+   image: http://community.musedlab.org/uploads/default/14/dad39a02e812c453.png
+   twitter: musedlab
+   github_username: NYUMusEdLab
