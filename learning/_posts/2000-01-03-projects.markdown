@@ -4,20 +4,10 @@ layout: course_page
 ---
 # Projects
 
-You joined this course for a reason right? Maybe you want to create some open online learning opportunity?
+## Project 3
 
-## Project 2:
+Write down the things that you want people to learn when taking your course. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
 
-What is the the last memorable thing that you’ve learned? Who was there? What sort of project was it? What kind of mood were you in?
+Share your learning outcomes and ideas for projects below.
 
-Read some other peoples thoughts below and then add your own.
-
-Do you see any common traits among them. 
-
-----
-
-## Project 7: 
-Take each of your learning goals and find 5-6 resources that support each goal. 
-
-## Project 8: 
-Determine what kind of project learners could make that would satisfy each learning goal. What should they demonstrate that they understand? 
+{% include disqus.html %}
