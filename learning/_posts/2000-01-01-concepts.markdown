@@ -44,52 +44,6 @@ At the same time, we didn't want learners to feel constrained by the structure o
 - Learning styles. 
 We want learners to feel comfortable and give them options for how to engage. Like the Play With Your Music course we mentioned above, we encourage folks to convey the information in different ways--visually (like mental maps), audially (like pronounciation clips), or via text (like readings or Wikipedia entries). We recommend that you offer content that appeals to different styles, and give learners options for what sorts of projects they might want to undertake. 
 
-## Developing Content
-
-Traditionally, online courses followed this very top-down, regimented formula:
-
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Online%20Learning%20Formula.003.jpg" width="690" height="388"> 
-
-But open online courses think about content a bit differently. Since learners will find their own resources and interact with others, knowledge emerges organically. Here are a few ways that you can think about developing content in your course: 
-
-- Peers co-create the content. 
-
-In the video above, Jim Groom mentions that content is the "residue" of interactions in the course. What this means is that, when the activities are open-ended and creative, the social interactions around them build out much of what we think of as "content" for an open course. 
-
-In another P2PU course, [Rhizomatic Learning](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/), Dave Cormier asked learners to participate in the design of the course--the community was going to decide what to learn together. After Dave "officially" stopped running the course in week 6, the course continued to evolve without him--proof of success if there every was one. 
-
-- Use openly-licensed content that already exists.
-
-Creative Commons licenses and the Open Education movement have given rise to a wealth of open educational resources. If you'd like to pull together a few foundational resources, [MIT OpenCourseWare](http://ocw.mit.edu/index.htm) and the [Saylor Foundation](http://www.saylor.org/) both are great sources for OER you can use in your course. Don't forget to attribute :)
-
-- Learners can create tutorials for other learners.
-
-Seasoned educators know that when a student teaches another student, their understanding deepens. That's peer learning in a nutshell. You might want to prompt learners to create a ["Teaching Kit"](http://discourse.webmakerprototypes.org/t/activity-1-create-a-teaching-kit/332) to accompany their project. For our [Mozilla Webmaker course](https://training.webmakerprototypes.org/en/), learners created these tutorials to help someone else complete the project in the future. 
-
-These teaching kits/tutorials ask learners to reflect on their project and model a ["reflective practice"](http://en.wikipedia.org/wiki/Reflective_practice) (mmmmm, tasty self-assessment). At the same time, learners are creating their own OERs to contributione to the wider open learning landscape. 
-
-## Course Length
-
-Let's re-think "length." Because ideally what you are building is an online community--one that is ongoing, self-sustaining, and engaged. And in a community, you're never really "done." When is the last time you were done being a musician? Or a teacher? Or a writer? 
-
-When you look at your community longitudinally, it's natural that folks are going to participate in different ways. Our fellow community-builder [Alex Hillman](http://dangerouslyawesome.com/) subscribes to the 80/20 rule: your community will break down into gradiations of someone active to most active participants:
-
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Kickstarter%20Copy.001.jpg" width="690" height="388"> 
-
-Participation is a continuum of activity, and our data at P2PU bears that out. When looking at our recent P2PU course, folks reported engaging on a pleathora of ways:
-
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Kickstarter%20Copy.002.jpg" width="690" height="388"> 
-
-So instead of thinking about beginning and finishing, you might think about the course you are developing as *an onramp to your ongoing community* that lives on P2PU or somewhere else. Maybe you run Arduino 101 every 8 weeks, but the Arduino G+ group is always there to help. That way the expert folks can help newbies. 
-
-Some relevant data as your design your onborading: recent research by [Martin Weller](http://nogoodreason.typepad.co.uk/no_good_reason/2013/12/design-responses-to-mooc-completion-rates.html) and [Katy Jorda](http://www.katyjordan.com/MOOCproject.html) indicate that, no matter the discipline, there seems to be a 4-week long "sweet spot" in active participation. 
-
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Fig4_1.png
-" width="690" height="388"> 
-
-So the first 30 days of your course make all the difference. We'd recommend a four-week onboarding course that runs regularly as an introduction to your learning community. 
-
-
 # Other peoples good ideas
 
 ## Motivation & Mindset
