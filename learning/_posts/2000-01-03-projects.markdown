@@ -6,7 +6,7 @@ layout: course_page
 
 ## Project 3
 
-Write down the things that you want people to learn when taking your course. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
+Write down the things that you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
 
 Share your learning outcomes and ideas for projects below.
 
