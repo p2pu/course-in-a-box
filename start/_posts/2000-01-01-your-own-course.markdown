@@ -9,9 +9,7 @@ By signing up for this course you also created your own version of this course! 
 During this course you will be working on the version you forked and by the end of this course your own course should be ready!
 
 ## Possible error: pages not displayed
-You can get an email after forking the repository with the following message: "The page build failed with the following error: Page build failed". To solve this issues, you have to [enable the automatic page generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator) on your repository.
-
-To do so, click on the settings button on the right hand side and select the 
+You can get an email after forking the repository with the following message: "The page build failed with the following error: Page build failed". To solve this issue, check you have [enabled the automatic page generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator) on your repository. Another possible cause would be a missing whitespace in your newly added content. Double check it and commit again to trigger page generation.
 
 ## Update your course landing page
 
