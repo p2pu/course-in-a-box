@@ -3,28 +3,80 @@ title: Concepts
 layout: course_page
 ---
 
-## Jim Groom on Learning Theories for Communities
+# Learning Design: Assignments, Content, Length 
 
-## Learning Theories
+## How to Design a Learning Experience that Works
 
- - [Play As Learning](http://web.media.mit.edu/~mres/papers/CC2007-handout.pdf)
- - Motivation and Engagement
- - [Flow](http://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow)
- - [Mindset](https://www.stanford.edu/dept/psychology/cgi-bin/drupalm/system/files/Intelligence%20Praise%20Can%20Undermine%20Motivation%20and%20Performance.pdf)
- - Connected Learning
- - Affective Dimension of Learning
- - UDL: multiple modes of engagement
+[Jim Groom](http://bavatuesdays.com/) is the wizard behind the curtain at [ds106](http://ds106.us/), or Digital Storytelling 106--widely known as one of the most vibrant and successful learning communities on the internet. In this chat, we tackle:
 
-## Content
-
- - Peers co-create content 
- - Tap Open Content 
- - Learners create content for other learners
-
-## P2PU Examples
-
- - Webmaker Teaching Kits (learners create content for other learners)
- - Python (open content)
- - Peers co-create content
+- What were the design principles behind your course?
+- How do you develop content for an open online course?
+- How do you motivate learners to sustain their interest?
 
 
+[![Jim Groom - Learning Design](http://img.youtube.com/vi/T_1ONj1vFBk/0.jpg)](https://www.youtube.com/watch?v=T_1ONj1vFBkt=2s)
+
+
+## Learning Design: Motivation, Play and Styles
+
+### When Did Learning Get so Boring?
+Imagine playing with Legos as a kid. You were probably relaxed, curious, and not particulary focused on what the final outcome might look like. You might have built a little bit, decided what whas working and what wasn't, and perhaps even lost track of time in the process.
+
+We strive to create learning experiences that are like playing with Legos. When we don't feel the pressure of time, of outcomes, of what other people are doing or the "right" answer, we imagine what's possible and we follow our passions. 
+
+For every learning module, think through:
+
+- Playful projects. 
+How could someone make a project where they fiddle, tinker and lose themselves in it? Open-ended projects and thematic prompts help learners find their own paths and ideas. These types of assignments nurture ["Flow"](http://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow), where learners become completely engaged and [intrinsically motivated](http://en.wikipedia.org/wiki/Motivation#Intrinsic_and_extrinsic_motivation) to work on the activity.
+
+- Low floors, wide walls. 
+We recommend  activities that can work for both beginner and advanced learners. Activities of this type have few barriers to entry (with easy-to-use tools Googledocs or Twitter) but that advanced folks can layer in more complex elements. That way beginners can learn from the projects of advanced learners, and more advanced students are still challenged by the project.
+
+## P2PU Example: Play With Your Music
+An example of a playful activity with low floors and wide walls is from our [Play With Your Music course](http://www.playwithyourmusic.org/). Learners were prompted to select their favorite song, and write down where they heard the various instruments in space. From there, they were asked to map on out a Googledoc graph where they perceived the instruments and sounds in the song. 
+
+<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Screen%20Shot%202014-07-06%20at%209.02.24%20PM.png" width="690" height="388"> 
+
+At the same time, we didn't want learners to feel constrained by the structure of the activity. If learners wanted to try another tool, we welcomed that creativity. 
+
+>As you might have guessed, we encourage you to be creative in this course. If you find our Perceived Space Graph Template limiting, feel free to use your imagination and develop a different template than the one shared in Step 2, above. Some people prefer to work with pens, markers, and paper. For others, Google Charts is fine. If you decide to create multiple >space graphs for your song, we encourage you to edit them into a video using iMovie or the free web-based Mozilla Popcorn Maker11 synchronizing your graphs to the recording. Whatever method you use, be sure to either share a link or take a photograph of it and post a photo of it to your learning ensemble.
+
+- Learning styles. 
+We want learners to feel comfortable and give them options for how to engage. Like the Play With Your Music course we mentioned above, we encourage folks to convey the information in different ways--visually (like mental maps), audially (like pronounciation clips), or via text (like readings or Wikipedia entries). We recommend that you offer content that appeals to different styles, and give learners options for what sorts of projects they might want to undertake. 
+
+# Other peoples good ideas
+
+## Motivation & Mindset
+>In a fixed mindset, people believe their basic qualities, like their intelligence or talent, are simply fixed traits. They spend their time documenting their intelligence or talent instead of developing them. They also believe that talent alone creates success—without effort. They’re wrong.
+In a growth mindset, people believe that their most basic abilities can be developed through dedication and hard work—brains and talent are just the starting point. This view creates a love of learning and a resilience that is essential for great accomplishment. Virtually all great people have had these qualities.
+[Carol Dweck, Mindset](http://mindsetonline.com/whatisit/about/)
+
+## Learning Styles
+>In developing technologies for older learners, we try to 
+achieve a similar effect. Our guiding principle is “many 
+paths, many styles” – that is, to develop technologies that 
+can be used along many different paths, by children with 
+many different styles. Too often, educational technologies 
+are overly constrained, such as tutoring software for 
+teaching algebra, or simulation software for modeling 
+planetary motion in the solar system. Our goal is to provide 
+tools that can be used in multiple ways, leaving more room 
+for children’s imaginations. 
+[Mitch Resnick, All I Really Need to Know (About Creative Thinking)I Learned (By Studying How Children Learn) in Kindergarten*](http://web.media.mit.edu/~mres/papers/CC2007-handout.pdf)
+
+
+## Learners Constructing Knowledge
+
+>I can identify examples (as an existence proof) that constructionism can work for adults as well as children.
+
+>Teachers know that if you want to learn a new subject, sign up to teach the new subject. Constructing the course and teaching it to others is a great way of developing that knowledge.
+
+>Programmers take on new projects to learn a new method, language, context, or community. My former PhD student, Mike Hewner, wanted to know what professional game development was like. Because he’s an exceptional software engineer, he was able to land himself an internship with a game company one summer (with no prior game experience), explicitly to learn game development.
+
+[http://computinged.wordpress.com/2014/05/23/constructionism-for-adults/](http://computinged.wordpress.com/2014/05/23/constructionism-for-adults/)
+
+## Learning Styles and Accessibility
+
+<img src="//discourse-uploads.s3.amazonaws.com/132cf9b76ed895d43ed6c956d8535e85c2734e14397.png" width="690" height="426"> 
+
+CAST, "[Post Secondary Triple Blended Courses](http://udloncourse.cast.org/page/planning_course#.U3-6AVhdVy9)"

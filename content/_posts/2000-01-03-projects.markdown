@@ -3,3 +3,10 @@ title: Projects
 layout: course_page
 ---
 
+# Projects
+
+## Project 4 - What content will students need to complete projects?
+
+How will you provide the needed content for people to complete the projects in your course? Are there existing sources of content? What tools will you use for developing/hosting content?
+
+{% include disqus.html %}
