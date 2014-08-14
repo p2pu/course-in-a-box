@@ -49,9 +49,53 @@ Go to your repository
 ## How to upload an image
 
 ## How to keep your fork up-to-date
-> Note: This can only be done using git directly and cannot be done through the GitHub website
-
 You just forked this awesome project but it got more awesome... what do you do?
+
+### Through GitHub
+> Note:  This is assuming none of the updates made to the main repository conflict with changes you have made to yours.  Conflicts can make things a bit trickier but hopefully this is useful in most situations.
+
+Go to your repository on GitHub and click the green Pull Request button.
+
+ ![]({{site.baseurl}}/img/tools/github-upstream-step-1.png)
+
+If you haven't made any updates to your repository it will tell you there is nothing to compare.  Click 'switching the base' and jump past the next couple steps to 'Create pull request.'  If you have made updates to your repository click the 'Edit' button.
+
+ ![]({{site.baseurl}}/img/tools/github-upstream-step-2.png)
+
+Change the base fork to your repository
+ 
+  ![]({{site.baseurl}}/img/tools/github-upstream-step-2-1.png)
+ 
+It will tell you that there isn't anything to compare (Which is true! You are comparing your respository to itself!).
+ 
+Click 'Edit' again and click 'compare across forks.'
+ 
+  ![]({{site.baseurl}}/img/tools/github-upstream-step-2-2.png) 
+ 
+Change the head fork to main respository (p2pu in this case).
+
+  ![]({{site.baseurl}}/img/tools/github-upstream-step-2-3.png)
+
+Click 'Create pull request.'
+ 
+ ![]({{site.baseurl}}/img/tools/github-upstream-step-3.png)
+
+Fill out your merge request that will be submitted to yourself.
+
+ ![]({{site.baseurl}}/img/tools/github-upstream-step-4.png)
+
+Go to the bottom of the page and click 'Merge pull request.'
+
+ ![]({{site.baseurl}}/img/tools/github-upstream-step-5.png)
+
+Click 'Confirm merge.'
+
+ ![]({{site.baseurl}}/img/tools/github-upstream-step-6.png)
+
+That's it!  
+ 
+### Through Git
+> Note: This can only be done using git directly and cannot be done through the GitHub website
 
 1. Open a terminal (for Mac and Linux users) or command line (for Windows users).
 
