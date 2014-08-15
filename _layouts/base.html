@@ -19,19 +19,19 @@
 	<link rel="shortcut icon" href="https://p2pu.org/static/images/favicon.ico">
 	<link rel="apple-touch-icon" href="https://p2pu.org/static/images/apple-touch-icon.png">
 
-	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
 	      rel="stylesheet">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<noscript>
-		<link rel="stylesheet" href="/css/style-noscript.css" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style-noscript.css" />
 	</noscript>
-	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
 
 
-	<link rel="stylesheet" href="/css/site.css">
-	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
-	<script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href="{{site.baseurl}}/css/site.css">
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v9.css" /><![endif]-->
+	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
 </head>
 <body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %} class="{{ page.body-class }}">
 
