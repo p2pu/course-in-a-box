@@ -1,6 +1,7 @@
 ---
 title: Your own course
 layout: course_page
+permalink: /start/your-own-course/
 ---
 # Your own course
 
@@ -24,6 +25,6 @@ When you are done, update [_data/course.yml]({{site.github.repository_url}}/edit
 ## What are the other people doing?
 
 {% for user in site.data.course.signups %}
-  {% if user.github_username != blank %}[{{user.github_username}}](http://{{user.github_username}}.github.io/jekyll-course-experiment/){% endif %}
+  {% if user.github_username %}[{{user.github_username}}](http://{{user.github_username}}.github.io/jekyll-course-experiment/){% endif %}
 {% endfor %}
 
