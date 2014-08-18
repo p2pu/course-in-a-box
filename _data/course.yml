@@ -76,3 +76,7 @@ signups:
    image: https://pbs.twimg.com/profile_images/1655182544/logo_twitter2_400x400.JPG
    twitter: elsatch
    github_username: elsatch
+ - name: Elliot Harmon
+   image: https://pbs.twimg.com/profile_images/356114067/elliotwater.jpg
+   twitter: elliotharmon
+   github_username: elliotharmon
