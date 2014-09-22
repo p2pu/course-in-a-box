@@ -1,0 +1,67 @@
+.p2pu-footer {
+
+	background-color: $gray-dark;
+	color: $gray-snow;
+	padding: 1.5em 0 2em 0;
+	margin-top: 60px;
+	line-height: 1.5;
+	margin-bottom: 0;
+
+	a {
+		color: $gray-snow;
+		border-bottom: 1px dotted;
+		text-decoration: none;
+		transition: all 0.3s linear;
+
+		&:hover, &:focus {
+			border-bottom: none;
+			text-decoration: none;
+		}
+	}
+
+}
+
+.footer-social {
+
+	list-style-type: none;
+	padding: 0;
+
+	li {
+
+		display: inline-block;
+
+	}
+
+	a {
+		display: inline-block;
+		font-size: 2em;
+		border-bottom: none;
+		padding: 0.2em 0.4em;
+		transition: all 0.3s linear;
+
+		&:hover {
+			background-color: $gray-lighter;
+			color: $p2pu-orange !important;
+		}
+	}
+}
+
+.cc-by-sa {
+	img {
+		margin: 1em 0;
+	}
+}
+
+.footer-links {
+
+	list-style-type: none;
+	padding: 0;
+	line-height: 2;
+
+	li {
+		i {
+			margin-right: 0.2em;
+			font-size: 1.1em;
+		}
+	}
+}
