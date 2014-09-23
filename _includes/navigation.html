@@ -17,7 +17,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="{{ site.baseurl }}/">Home</a></li>
 	        {% for module in site.data.course.modules %}
-		        {% assign first_post = site.categories[module]|first %}
+		        {% assign first_post = site.categories[module]|reverse|first %}
 					<li class="dropdown {% if page.url contains module %}active{% endif %}">
 						<a href="{{ site.baseurl }}{{ first_post.url }}"
 						   class="dropdown-item">
