@@ -17,11 +17,14 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="{{ site.baseurl }}/">Home</a></li>
 	        {% for module in site.data.course.modules %}
+		        {% assign first_post = site.categories[module]|first %}
 					<li class="dropdown {% if page.url contains module %}active{% endif %}">
-						<a href="#" class="dropdown-item" data-toggle="dropdown">
+						<a href="{{ site.baseurl }}{{ first_post.url }}"
+						   class="dropdown-item">
 							{{ module }}
 						</a>
-						<ul class="dropdown-menu">
+						{% comment %}
+						<ul class="dropdown-menu hidden-md hidden-lg">
 							{% for post in site.categories[module] reversed %}
 								<li>
 									<a {% if post.url == page.url %}class="active"{% endif %}
@@ -31,6 +34,7 @@
 								</li>
 							{% endfor %}
 						</ul>
+						{% endcomment %}
 					</li>
 	        {% endfor %}
 					<li>

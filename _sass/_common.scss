@@ -1,7 +1,16 @@
-/**
- * Created with PyCharm.
- * User: erika
- * Date: 9/17/14
- * Time: 3:46 PM
- * To change this template use File | Settings | File Templates.
- */
+body{
+	background-color: $gray-lighter;
+}
+.background-white{
+	padding: 60px 0;
+	background-color: $white;
+}
+.p2pu-footer{
+	margin-top: 0;
+}
+.sidebar{
+	padding: 60px 0;
+}
+.sidebar ul{
+	list-style-type: none;
+}

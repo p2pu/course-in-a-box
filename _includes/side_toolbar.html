@@ -1,0 +1,18 @@
+<div class="sidebar col-md-3">
+	{% capture current_module %}{{ page.url | split:"/" }}{% endcapture %}
+
+	{% for module in site.data.course.modules %}
+		{% if page.url contains module %}
+			<ul>
+				{% for post in site.categories[module] reversed %}
+					<li>
+						<a {% if post.url == page.url %}class="active"{% endif %}
+						   href="{{ site.baseurl }}{{ post.url }}">
+							{{ post.title }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+	{% endfor %}
+</div>
