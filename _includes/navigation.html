@@ -1,29 +1,26 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
 
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-			<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-				<i class="fa fa-bars"></i>
-			</a>
-			<a class="navbar-brand" href="{{ site.baseurl }}/">
-				<img src="{{ site.baseurl }}/img/logo.png" alt="P2PU Logo" />
-			</a>
-		</div>
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu"> <i
+				class="fa fa-bars"></i> </a> <a class="navbar-brand" href="{{ site.baseurl }}/"> <img
+			src="{{ site.baseurl }}/img/logo.png" alt="P2PU Logo" /> </a>
+	</div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="container">
-			<div class="collapse navbar-collapse" id="p2pu-menu">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="{{ site.baseurl }}/">Home</a></li>
-	        {% for module in site.data.course.modules %}
-		        {% assign first_post = site.categories[module]|reverse|first %}
-					<li class="dropdown {% if page.url contains module %}active{% endif %}">
-						<a href="{{ site.baseurl }}{{ first_post.url }}"
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="container">
+		<div class="collapse navbar-collapse" id="p2pu-menu">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="{{ site.baseurl }}/">Home</a></li>
+				{% for module in site.data.course.modules %}
+					{% assign first-post = site.categories[module]|reverse|first %}
+					{% assign dir = page.dir | replace:'/','' %}
+					<li class="dropdown {% if dir == module %}active{% endif %}">
+						<a href="{{ site.baseurl }}{{ first-post.url }}"
 						   class="dropdown-item">
 							{{ module }}
-						</a>
-						{% comment %}
+						</a> {% comment %}
 						<ul class="dropdown-menu hidden-md hidden-lg">
 							{% for post in site.categories[module] reversed %}
 								<li>
@@ -36,14 +33,14 @@
 						</ul>
 						{% endcomment %}
 					</li>
-	        {% endfor %}
-					<li>
-						<a href="http://community.p2pu.org/">Discussion</a>
-					</li>
-				</ul>
-			</div>
-		<!-- /.navbar-collapse -->
+				{% endfor %}
+				<li>
+					<a href="http://community.p2pu.org/">Discussion</a>
+				</li>
+			</ul>
 		</div>
+		<!-- /.navbar-collapse -->
+	</div>
 	<!-- /.container-fluid -->
 </nav>
 <!-- End Navigation -->

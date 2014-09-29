@@ -1,16 +1,56 @@
-body{
+body {
 	background-color: $gray-lighter;
 }
-.background-white{
+
+.background-white {
 	padding: 60px 0;
 	background-color: $white;
 }
-.p2pu-footer{
+
+.p2pu-footer {
 	margin-top: 0;
 }
-.sidebar{
+
+.sidebar {
 	padding: 60px 0;
 }
-.sidebar ul{
+
+.sidebar ul {
 	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar li {
+	border-top: 1px solid #eee;
+	padding-left: 60px;
+	@include transition(color, 0.3s, linear);
+}
+
+.sidebar li a:before {
+	content: "\f0da";
+	font-family: FontAwesome;
+	color: cadetblue;
+	position: absolute;
+	left: 45px;
+	line-height: 4;
+}
+
+.sidebar li:last-child {
+	border-bottom: 1px solid #eee;
+}
+
+.sidebar li:hover {
+	color: $brand-primary;
+}
+
+.sidebar li a {
+	line-height: 4;
+	text-transform: uppercase;
+	@include transition(color, 0.3s, linear);
+}
+
+
+.sidebar li a:hover, .sidebar li a:focus {
+	text-decoration: none;
+	color: $brand-primary;
 }
