@@ -7,6 +7,10 @@ body {
 	background-color: $white;
 }
 
+.navbar-brand {
+	padding: 12.5px 15px;
+}
+
 .p2pu-footer {
 	margin-top: 0;
 }
@@ -21,36 +25,111 @@ body {
 }
 
 .sidebar li {
-	border-top: 1px solid #eee;
+	line-height: 4;
 	padding-left: 60px;
+	position: relative;
 	@include transition(color, 0.3s, linear);
 }
 
-.sidebar li a:before {
-	content: "\f0da";
-	font-family: FontAwesome;
-	color: cadetblue;
-	position: absolute;
-	left: 45px;
-	line-height: 4;
-}
-
-.sidebar li:last-child {
-	border-bottom: 1px solid #eee;
-}
-
 .sidebar li:hover {
-	color: $brand-primary;
+	background-color: cadetblue;
+
+	a:hover, a:focus {
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+.sidebar li.active {
+	background-color: $white;
+}
+
+.sidebar li.active a:hover {
+	color: cadetblue;
+}
+
+.sidebar li:before {
+	content: "";
+	border-left: 3px solid #aab0bf;
+	position: absolute;
+	left: 40px;
+	height: 100%;
+	top: 0;
+}
+
+.sidebar li.first:before {
+	height: 50%;
+	top: 50%;
+}
+
+.sidebar li.last:before {
+	height: 50%;
+	top: 0;
+}
+
+.sidebar li.first.last:before {
+	height: 0;
+	top: 0;
 }
 
 .sidebar li a {
+	display: block;
 	line-height: 4;
 	text-transform: uppercase;
 	@include transition(color, 0.3s, linear);
 }
 
+.sidebar li a:before {
+	content: "\f005";
+	font-family: FontAwesome;
+	color: cadetblue;
+	position: absolute;
+	left: 29px;
+	line-height: 1.7;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 3px solid $gray;
+	top: 18px;
+	background-color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
 
-.sidebar li a:hover, .sidebar li a:focus {
-	text-decoration: none;
-	color: $brand-primary;
+.sidebar li.active a:before {
+	content: "\f04b";
+}
+
+.sidebar li a:after {
+	content: "";
+
+}
+
+.pagination-section {
+	margin: 1em 0;
+}
+
+.pagination-section .title {
+	color: $gray;
+	line-height: 2;
+}
+
+.pagination-section {
+	.next, .prev {
+		text-transform: uppercase;
+	}
+}
+
+.pagination-section .next:after {
+	content: "\f0da";
+	font-family: FontAwesome;
+}
+
+.pagination-section .prev:before {
+	content: "\f0d9";
+	font-family: FontAwesome;
+}
+
+.sidebar .pagination-section {
+	padding-left: 60px;
 }
