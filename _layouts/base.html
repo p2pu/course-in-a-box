@@ -19,21 +19,12 @@
 	<link rel="shortcut icon" href="https://p2pu.org/static/images/favicon.ico">
 	<link rel="apple-touch-icon" href="https://p2pu.org/static/images/apple-touch-icon.png">
 
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-	      rel="stylesheet">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<noscript>
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/style-noscript.css" />
-	</noscript>
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
-
-
-	<link rel="stylesheet" href="{{site.baseurl}}/css/site.css">
-	<!--[if lte IE 8]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="{{site.baseurl}}/css/ie/v9.css" /><![endif]-->
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
+	<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
 	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
 </head>
-<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %} class="{{ page.body-class }}">
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %}
+      class="{{ page.body-class }}">
 
 {% include navigation.html %}
 
@@ -43,7 +34,16 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
+<script type="text/javascript"
+        src="//rawgithub.com/p2pu/p2pu_navigation_widget/master/p2pu_menu_slider.js"></script>
+<script type="text/javascript">
+	$(".p2pu-tab").p2puSlider({
+		navbarContainer: '.navbar',
+		icon: '.p2pu-tab-icon',
+		iconUp: 'fa fa-chevron-down',
+		iconDown: 'fa fa-chevron-up'
+	});
+</script>
 <!-- Google Analytics -->
 {% if site.ga_tracking_code %}
 	{% include ga.html %}

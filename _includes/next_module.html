@@ -1,0 +1,17 @@
+{% assign next=null %}
+{% assign prev=null %}
+{% assign temp=null %}
+
+{% for mod in site.data.course.modules %}
+	{% if mod == module and forloop.first != true %}
+		{% assign prev=temp %}
+		{% assign prev_post=site.categories[prev]|reverse|first %}
+	{% endif %}
+	{% if mod == module and forloop.last != true %}
+		{% assign n=forloop.index0 | plus:1  %}
+		{% assign next=site.data.course.modules[n] %}
+		{% assign next_post=site.categories[next]|reverse|first %}
+	{% endif %}
+	{% assign temp=mod %}
+{% endfor %}
+

@@ -2,44 +2,86 @@
 layout: base
 ---
 <!-- Banner -->
-<section id="banner">
-	<div class="inner">
+<div class="jumbotron">
+	<div class="container text-center">
 
 		<header>
-			<h2>{{ site.data.course.title }}</h2>
+			<h1>Create a learning community <br /> that lasts</h1>
 		</header>
-		<p>Build a successful course<br />
-		   together with <a href="http://p2pu.org">P2PU</a>.</p>
+		<p>Build a successful course together with <a href="http://p2pu.org">P2PU</a>.</p>
+
+		<h2>{{ site.data.course.title }}</h2>
+	</div>
+</div>
+<div class="container">
+	<div class="clearfix">
+		<div class="col-md-8 col-md-offset-2">
+			<section>
+				<h2>What are your experiences?</h2>
+
+				<p>Online courses often feel large, intimidating and anonymous. It's hard to feel invested
+					in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
+					don't know anyone.</p>
+
+				<p>In a stellar learning experiece, you'd know who was in the room and feel super-comfy.
+					You'd make projects together and find help when you get stuck. You'd want to send people
+					thank-you cards and chicken soup.</p>
+
+				<p>We know designing a creative, participatory community can be tricky. We're here to help
+					you craft assignments that rule, build an audience and support you along the way. You'll
+					even learn a few technical skills in the process. Don't worry, the 1s and 0s wash off
+					pretty easily.</p>
+			</section>
+			<section>
+				<h2>OK, but who are you guys?</h2>
+
+				<p>We're <a href="http://p2pu.org">Peer 2 Peer University</a>--we build learning communities
+					on the web. In our 5 years of experience, we put together courses like <a
+							href="http://www.playwithyourmusic.org/">Play With Your Music</a>, <a
+							href="http://learn.media.mit.edu/lcl/">Learning Creative Learning</a>, the <a
+							href="http://dlmooc.deeper-learning.org/">Deeper Learning MOOC</a>, and <a
+							href="http://mechanicalmooc.org/">A Gentle Intro to Python</a>. Also, we're a
+					non-profit and a distributed team (so we use the tools we recommend).
+			</section>
+			<section>
+				<h2>I'm in--how do I get started?</h2>
+				<ol>
+					<li>
+						<a class="btn btn-primary" href="https://github.com/p2pu/jekyll-course-experiment/fork"
+						   target="_blank"> <i class="fa fa-code-fork"></i> Fork this repository on GitHub. </a>
+					</li>
+					<li>
+						Add your name, profile image and Twitter handle to <a
+							href="https://github.com/p2pu/jekyll-course-experiment/blob/gh-pages/_data/course.yml"
+							target="_blank">_data/course.yml </a>.
+					</li>
+					<li>
+						Submit a pull request to get your changes merged into the main version of the course and
+						have your mug show up here! Not sure how to submit a pull request? See the <a
+							href="{{ site.baseurl }}{% post_url 2000-01-02-github-cheatsheet %}">GitHub
+						Cheatsheet </a>.
+					</li>
+					<li>
+						<a href="{{ site.baseurl }}/start/your-own-course/">Get started!</a> You can jump in at
+						any time, and we''ll be tweeting a "Hello" at you shortly!
+					</li>
+				</ol>
+			</section>
+		</div>
+	</div>
+</div>
+<section class="people clearfix">
+	<div class="container">
+		<h2>Who else is here?</h2>
+		<hr />
+		<ul class="list-inline">
+			{% for user in site.data.course.signups %}
+				<li class="col-md-1">
+					<a href="https://twitter.com/{{ user.twitter }}" target="_blank"> <img
+							class="img-circle profile-picture" src="{{ user.image }}"
+							alt="{{ user.name }}"> </a>
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 </section>
-<div class="container">
-  <div class="row">
-    <h2>Create a learning community that lasts</h2>
-    <p>Online courses often feel large, intimidating and anonymous. It's hard to feel invested in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you don't know anyone.</p>
-    <p>In a stellar learning experiece, you'd know who was in the room and feel super-comfy. You'd make projects together and find help when you get stuck. You'd want to send people thank-you cards and chicken soup.</p>
-    <p>We know designing a creative, participatory community can be tricky. We're here to help you craft assignments that rule, build an audience and support you along the way. You'll even learn a few technical skills in the process. Don't worry, the 1s and 0s wash off pretty easily.</p>
-    
-    <h2>OK, but who are you guys?</h2>
-    <p>We're <a href="http://p2pu.org">Peer 2 Peer University</a>--we build learning communities on the web. In our 5 years of experience, we put together courses like <a href="http://www.playwithyourmusic.org/">Play With Your Music</a>, <a href="http://learn.media.mit.edu/lcl/">Learning Creative Learning</a>, the <a href="http://dlmooc.deeper-learning.org/">Deeper Learning MOOC</a>, and <a href="http://mechanicalmooc.org/">A Gentle Intro to Python</a>. Also, we're a non-profit and a distributed team (so we use the tools we recommend). 
-    
-        <h2>I'm in--how do I get started?</h2>
-    <ol>
-      <li><a class="btn btn-primary" href="https://github.com/p2pu/jekyll-course-experiment/fork" target="_blank"><i class="fa fa-code-fork"></i> Fork this repository on GitHub.</a></li>
-      <li>Add your name, profile image and Twitter handle to <a href="https://github.com/p2pu/jekyll-course-experiment/blob/gh-pages/_data/course.yml" target="_blank">_data/course.yml</a>.</li>
-      <li>Submit a pull request to get your changes merged into the main version of the course and have your mug show up here! Not sure how to submit a pull request? See the <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">GitHub Cheatsheet</a>.</li>
-      <li><a href="{{site.baseurl}}/start/your-own-course/">Get started!</a> You can jump in at any time, and we''ll be tweeting a "Hello" at you shortly!
-      </li>
-    </ol>
-    <h2>Who else is here?</h2>
-    <ul class="list-inline">
-      {% for user in site.data.course.signups %}
-      <li>
-        <a href="https://twitter.com/{{user.twitter}}">
-          <img class="img-circle profile-picture" src="{{user.image}}" alt="{{user.name}}">
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-
-  </div>
-</div>
