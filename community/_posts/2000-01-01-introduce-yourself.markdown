@@ -3,10 +3,21 @@ title: "Introduce yourself"
 layout: course_page
 ---
 
-# Introduce yourself
+## Introduce yourself
 
-> Creating a course **is** creating a community
+Now that you have something to share it is time to introduce yourself to the other people taking this course with you. We are using [Discourse](http://www.discourse.org) as the forum for this course. Go to [this thread](http://community.p2pu.org) on our discourse forum share a link to your course and tell us why you are building it.
 
-Take a moment to introduce yourself. Tell us about yourself, what do you like doing, what type of course would you like to create?
+## Get to know this community
 
-{% include disqus.html %}
+This is also a good time to get to know the other people in the room:
+
+- choose one of two “buddies” who are working on an interesting course and follow their activity. 
+- consider following them on twitter.
+
+## Think about the community for your course?
+
+The course you are creating will form a community of its own. How will people join your community? What type of community will you build for your course? Will it be a community of interest, practice or inquiry? Will you add a personality/theme to your community? Will the community keep going after the course is done? What tools will you use to build your community? Can you think of advantages and drawbacks these tools may have?
+
+Share your thoughts with the rest of the group.
+
+The follow sections contains some information to help you answer these questions.
