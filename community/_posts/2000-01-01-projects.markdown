@@ -1,5 +1,5 @@
 ---
-title: "Introduce yourself"
+title: "Projects"
 layout: course_page
 ---
 
