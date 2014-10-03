@@ -3,3 +3,12 @@ title: Concepts
 layout: course_page
 ---
 
+# Feedback and Assessment
+
+![Image of four badge icons]({{site.baseurl}}/img/badges.png)
+
+## Projects + feedback > assessment
+
+## Digital Badges
+
+## Portfolios

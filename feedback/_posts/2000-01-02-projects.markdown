@@ -13,4 +13,10 @@ Design a badge for every project in your course. You can create a badge by regis
 
 For in depth details on creating badges, you should see our [course on creating a badge](https://p2pu.org/en/courses/653/content/1254/) for your course.
 
-To add your badges to your course, you should grab the embed code from the badges page by clicking on the embed button and paste the code into a seperate section in your module called badges. 
+To add your badges to your course, you should grab the embed code from the badges page by clicking on the embed button and paste the code into a seperate section in your module called badges.
+
+This is an example of what the embed code looks like:
+
+{% highlight html %}
+<iframe id="badge_embed" type="text/html" frameborder="0" height="310" width="210" src="//badges.p2pu.org/en/badge/view/3/embedded/?rendering=normal"></iframe>
+{% endhighlight %}
