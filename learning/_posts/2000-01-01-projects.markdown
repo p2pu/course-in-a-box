@@ -4,10 +4,35 @@ layout: course_page
 ---
 # Projects
 
-## Project 3
 
-Write down the things that you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
+## Join another P2PU course and observe 
+(Note for review: can we drop this activity if we feel that this course is enough of a peer learning experience?)
+You can choose any P2PU course, but if you have no idea where to start, here's a short list:
 
-Share your learning outcomes and ideas for projects below.
+ - Why Open 
+ - [Write for Change](http://writing4change.p2pu.org)
+ - [Play With Your Music](http://playwithyourmusic.org)
 
-{% include disqus.html %}
+- What are the exercises like? What is the product, how do people share it?
+- How do people interact?
+- When do they give each other feedback?
+
+Complete one of the exercise from the course course.
+
+## Plan your Learning outcomes
+
+Write down what you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
+
+Now create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module that you identified. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/jekyll-course-experiment). Inside the folder you just created you also need to create an extra folder called `_posts`.
+
+Every module can have multiple sections. One of these sections should be `projects`. Create a new file called `2000-01-01-projects.md` inside the `_posts` folder for the project you just created. The date part is a bit out of place, but it is used to determine the order of the sections in the module.
+
+You can also rename one of the folders for the modules in this course that you copied (start, community, learning, content) and update the sections appropriately.
+
+For modules to show up, you need to update the list modules in `_data/course.yml`.
+
+{% highlight yaml %}
+modules: [start, community, learning, content, feedback, references]
+{% endhighlight %}
+
+Once you’ve created the folders, create a file in each folder called projects.md. In this file you can describe the project for the module.
