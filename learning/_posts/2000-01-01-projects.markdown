@@ -9,15 +9,17 @@ layout: course_page
 (Note for review: can we drop this activity if we feel that this course is enough of a peer learning experience?)
 You can choose any P2PU course, but if you have no idea where to start, here's a short list:
 
- - Why Open 
- - [Write for Change](http://writing4change.p2pu.org)
- - [Play With Your Music](http://playwithyourmusic.org)
+- Why Open 
+- [Write for Change](http://writing4change.p2pu.org)
+- [Play With Your Music](http://playwithyourmusic.org)
+
+Here are some things to think about while looking at the course:
 
 - What are the exercises like? What is the product, how do people share it?
 - How do people interact?
 - When do they give each other feedback?
 
-Complete one of the exercise from the course course.
+Complete one of the exercise from the course.
 
 ## Plan your Learning outcomes
 
