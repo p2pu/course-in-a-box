@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+{% assign module=page.categories[0] %}
 <div class="clearfix">
 	{% include side_toolbar.html %}
 	<div class="col-md-9 background-white">
@@ -8,9 +9,7 @@ layout: base
 			<div class="row">
 				<div class="content col-lg-12">
 					{{ content }}
-					{% assign module=page.categories[0] %}
 					{% include next_in_module.html %}
-
 					{% if prev or next %}
 						<hr />
 					{% endif %}
