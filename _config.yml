@@ -2,3 +2,12 @@ baseurl: /jekyll-course-experiment
 markdown: redcarpet
 permalink: /:categories/:title/
 disqus_shortname: p2pugithub
+prose:
+  media: /img
+  ignore:
+    - /_includes
+    - /_layouts
+    - /_sass
+    - /fonts
+    - /js
+    - /css
