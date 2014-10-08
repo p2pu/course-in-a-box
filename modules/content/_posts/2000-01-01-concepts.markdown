@@ -7,7 +7,7 @@ layout: course_page
 
 Traditionally, online courses followed this very top-down, regimented formula:
 
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Online%20Learning%20Formula.003.jpg" width="690" height="388"> 
+![]({{site.baseurl}}/img/content.jpg)
 
 But open online courses think about content a bit differently. Since learners will find their own resources and interact with others, knowledge emerges organically. Here are a few ways that you can think about developing content in your course: 
 
