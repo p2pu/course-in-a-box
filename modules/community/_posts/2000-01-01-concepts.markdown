@@ -6,7 +6,7 @@ excerpt: Find out why community is important in learning something new, what mak
 
 # Community: the Dynamics of Generating Awesome
 
-<img src="//discourse-uploads.s3.amazonaws.com/1405ecbe3fcd5ef2f1004d29ae05329d518c6dd3dab.jpg" width="690" height="388"> 
+![]({{site.baseurl}}/img/community.jpg)
 
 ## What Does a Learning Community Look Like?
 [Dave Cormier](http://davecormier.com/), lead raconteur of [Rhizomatic Learning: the Community is the Curriculum](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/) ([#rhizo14](https://twitter.com/search?q=rhizo14&src=typd)) and reluctant stepfather of the MOOC movement, answers the following core questions:
