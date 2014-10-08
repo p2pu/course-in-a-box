@@ -3,7 +3,7 @@ title: Your own course
 layout: course_page
 ---
 
-# Start by creating your own course
+# Join by creating your own course
 
 During this course we will learn the theoretical and technical parts by creating our own onlie course! To get started you should fork this repository on GitHub. You can do this by clicking the link below. You may need to log in or create a GitHub account.
 
