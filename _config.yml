@@ -2,6 +2,7 @@ baseurl: /jekyll-course-experiment
 markdown: redcarpet
 permalink: /:categories/:title/
 disqus_shortname: p2pugithub
+exclude: [Gemfile, Gemfile.lock, README.md]
 prose:
   media: /img
   ignore:
