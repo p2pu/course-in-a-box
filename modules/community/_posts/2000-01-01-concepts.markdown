@@ -34,9 +34,7 @@ The way we see it, any online learning experience consists of three parts:
 
 The way those pieces work together looks like this:
 
-<img src="//discourse-uploads.s3.amazonaws.com/1384a351ba9573e7fb989063d8eb8cde521058e95df.jpg" width="560" height="478"> 
-
-Source: [Community of Inquiry Framework](http://www.uwb.edu/learningtech/elearning/hybrid-and-online-learning/hybrid-learning/faculty-hybrid/hybrid-intro)
+![Venn diagram showing the intersection of social presence, cognitive presence and teaching presence.]({{site.baseurl}}/img/community-diagram.jpg)
 
 In this part of the course, we’ll talk about “social presence” (or community), and how to build one around your learning goals. 
 
@@ -54,7 +52,7 @@ Often at P2PU learners and facilitators design the course together. We talked ab
 - Welcome new members to the community?
 We like to ask folks to introduce themselves on [thepeople.org](http://thepeople.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background. 
 
-<img src="//discourse-uploads.s3.amazonaws.com/139b1013f766915a79ca48f2837ea1808e67df308cc.png" width="690" height="328"> 
+![Image of discourse forum]({{site.baseurl}}/img/discourse.png)
 
 - Celebrate successes?
 
