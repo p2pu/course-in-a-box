@@ -24,12 +24,11 @@ In educational circles we often hear about building a “reflective practice”�
 ###Support a learner’s continued growth and evolution 
 E-portfolios and other similar mechanisms make space to showcase how we evolve, and tap the wealth of resources available on the web. As learners progress they gain visibility within a community, and they are expected to take on increasing responsibilities, e.g. to help others, provide feedback, or maintain the norms of the community.
 
-## A Toolkit for Better Feedback
+# A Toolkit for Better Feedback
 
 As sketched out above, our feedback model derives from educational model of “Critique.” As a group, instructors and peers deliver primed constructive feedback to the writer, artist or designer. 
 
 But undirected, messy feedback doesn’t do much to help the learner. Neither do value judgements, opinions or ad hominem attacks. In order to deliver more constructive feedback, organizations like the Stanford Design school use the “I Like, I Wish, What If” model to help prompt new ideas for the designer. Similarly choreographer Liz Lerman has developed a Critical Response Process as a method to deliver feedback openly and constructively. 
-
 
 How that shakes out on the web *looks* a little different, but has the same spirit. We’ll walk you through a few P2PU examples, and pop some more into the “Resources” section.
 
