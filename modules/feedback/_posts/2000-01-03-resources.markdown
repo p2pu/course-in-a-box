@@ -31,6 +31,7 @@ The Process engages participants in three roles:
 The Critical Response Process takes place after a presentation of artistic work. Work can be short or long, large or small, and at any stage in its development.
 
 The facilitator then leads the artist and responders through four steps:
+
 1. Statements of Meaning: Responders state what was meaningful, evocative, interesting, exciting, striking in the work they have just witnessed.
 2. Artist as Questioner: The artist asks questions about the work. After each question, the responders answer. Responders may express opinions if they are in direct response to the question asked and do not contain suggestions for changes.
 3. Neutral Questions: Responders ask neutral questions about the work. The artist responds. Questions are neutral when they do not have an opinion couched in them. For example, if you are discussing the lighting of a scene, “Why was it so dark?” is not a neutral question. “What ideas guided your choices about lighting?” is.
