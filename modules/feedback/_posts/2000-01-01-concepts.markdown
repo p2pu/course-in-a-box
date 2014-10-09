@@ -28,14 +28,15 @@ E-portfolios and other similar mechanisms make space to showcase how we evolve, 
 
 As sketched out above, our feedback model derives from educational model of “Critique.” As a group, instructors and peers deliver primed constructive feedback to the writer, artist or designer. 
 
-But undirected, messy feedback doesn’t do much to help the learner. Neither do value judgements, opinions or ad hominem attacks. In order to deliver more constructive feedback, organizations like the Stanford Design school use the “I Like, I Wish, What If” model to help prompt new ideas for the designer. Similarly choreographer Liz Lerman has developed a Critical Response Process as a method to deliver feedback openly and constructively. 
+But undirected, messy feedback doesn’t do much to help the learner. Neither do value judgements, opinions or ad hominem attacks. In order to deliver more constructive feedback, organizations like the Stanford Design school use the “[I Like, I Wish, What If](http://dschool.stanford.edu/wp-content/themes/dschool/method-cards/i-like-i-wish-what-if.pdf)” model to help prompt new ideas for the designer. Similarly choreographer Liz Lerman has developed a [Critical Response Process](http://www.lizlerman.com/crpLL.html) as a method to deliver feedback openly and constructively. 
 
-How that shakes out on the web *looks* a little different, but has the same spirit. We’ll walk you through a few P2PU examples, and pop some more into the “Resources” section.
+How the critique approach shakes out on the web*looks* a little different, but has the same spirit. We’ll walk you through a few P2PU examples, and pop some more into the “Resources” section.
 
 ### Badges
 Everyone is an Expert in something. Maybe you know how to make the perfect costume for your pet. Or you bring objects to life via 3D-drafting and printing. The point is that we’re a curious crew that’s down to learn how to make the next thing–whether it be digital, analog or abstract. Sound about right?
 At P2PU, Badges are a way to recognize and support your expertise as you evolve. If you see a Badge on badges.p2pu.org that’s in line with a Project you’re working on, you can submit it for feedback from an Expert.
 For Wikipedia’s School of Open Burba Badge, a learner needed to make over 200 edits to a Wikipedia article, and bring an article from a D grade to a B grade. 
+![badges.png](/img/badges.png)
 
 When leader C01 submits their project, an Expert delivers directed feedback in the model of “Kudos” “Questions” and “Concerns” and prompts the learner to resubmit.
 
