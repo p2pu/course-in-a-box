@@ -5,7 +5,7 @@ published: true
 ---
 
 # Feedback: the Good Stuff
-![getfeedback.png](/img/getfeedback.png)
+![getfeedback.png]({{site.baseurl}}/img/getfeedback.png)
 
 Now, the word “feedback” may fill some with dread, but at P2PU it makes us super stoked. We’re feedback addicts, always wanting to build with each other or see a project from another point of view. 
 
@@ -35,22 +35,22 @@ How the critique approach shakes out on the web *looks* a little different, but 
 ### Badges
 Everyone is an Expert in something. Maybe you know how to make the perfect costume for your pet. Or you bring objects to life via 3D-drafting and printing. The point is that we’re a curious crew that’s down to learn how to make the next thing–whether it be digital, analog or abstract. Sound about right?
 At P2PU, Badges are a way to recognize and support your expertise as you evolve. If you see a Badge on badges.p2pu.org that’s in line with a Project you’re working on, you can submit it for feedback from an Expert. And it usually looks something like this:
-![qualfeedback.png](/img/qualfeedback.png)
+![qualfeedback.png]({{site.baseurl}}/img/qualfeedback.png)
 
 
 For Wikipedia’s School of Open Burba Badge, a learner needed to make over 200 edits to a Wikipedia article, and bring an article from a D grade to a B grade. 
 
-![wikisooba.png](/img/wikisooba.png)
+![wikisooba.png]({{site.baseurl}}/img/wikisooba.png)
 
 When leader C01 submits their project, an Expert delivers directed feedback in the model of “Kudos” “Questions” and “Concerns” and prompts the learner to resubmit.
 
-![badges.png](/img/badges.png)
+![badges.png]({{site.baseurl}}/img/badges.png)
 
 Our platform is unique in that is supports peer-to-peer feedback and not just top-down badge issuing. As far we know it’s also the only full-service open source platform that anyone can host at the moment. Find out more at [badges.p2pu.org](badges.p2pu.org).
 
 ### Play With Your Music
 For our playful introduction to audio engineering, all the expert guests were sure to model a reflective process--to talk about the different steps they took to get to their final creative product. If they had outstanding questions or concerns they wanted to bring to the group, this “reflective practice” opened up the project for others to weigh in.
 
-![pwymfeedback.png](/img/pwymfeedback.png)
+![pwymfeedback.png]({{site.baseurl}}/img/pwymfeedback.png)
 
 Good feedback starts with reflecting on how far you’ve come (eduwonks call this “self-assessment” and then asking others into the project with you.
