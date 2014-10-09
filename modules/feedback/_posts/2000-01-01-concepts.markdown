@@ -37,6 +37,7 @@ Everyone is an Expert in something. Maybe you know how to make the perfect costu
 At P2PU, Badges are a way to recognize and support your expertise as you evolve. If you see a Badge on badges.p2pu.org that’s in line with a Project you’re working on, you can submit it for feedback from an Expert. And it usually looks something like this:
 ![qualfeedback.png](/img/qualfeedback.png)
 
+
 For Wikipedia’s School of Open Burba Badge, a learner needed to make over 200 edits to a Wikipedia article, and bring an article from a D grade to a B grade. 
 
 ![wikisooba.png](/img/wikisooba.png)
