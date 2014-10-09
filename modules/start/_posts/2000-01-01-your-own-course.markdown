@@ -5,6 +5,10 @@ layout: course_page
 
 # Join by creating your own course
 
+![Image of maze with starting point indicated]({{site.baseurl}}/img/start.jpg)
+
+Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](https://www.flickr.com/photos/mikecogh/11300349426) on Flickr.
+
 During this course we will learn the theoretical and technical parts by creating our own onlie course! To get started you should fork this repository on GitHub. You can do this by clicking the link below. You may need to log in or create a GitHub account.
 
 <a class="btn btn-primary" href="https://github.com/p2pu/jekyll-course-experiment/fork" target="_blank"><i class="fa fa-code-fork"></i> Fork</a>
@@ -17,13 +21,14 @@ Now that you have a space to work, lets put a draft framework in place for your 
 
 {% highlight yaml %}title: "Course Title"{% endhighlight %}
 
-**Who is the audience of your course and what will they learn?** Will they be building something during the course. Put this basic information on the front page of the course to give a short overview of what to expect. To update the info on the front page, go to `index.markdown` and replace the text currently there to reflect what your course will be about. Once again, you can update it at any time and we will come back to this at a later stage.
+**Who are you building the cours for and what will they learn?** Will they be building something during the course. Put this basic information on the front page of the course to give a short overview of what to expect. To update the info on the front page, go to `index.markdown` and replace the text currently there to reflect what your course will be about. Once again, you can update it at any time and we will come back to this at a later stage.
 
 So lets have a look at your course! you can view it by going to `https://yourgithubname.github.io/jekyll-course-experiment/`, just replace yourgithubname with your GitHub username.
 
 ## Resources and help
 
-See our <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">GitHub Cheatsheet</a> if you get stuck with any git related things. Failing that, you can always ask us a question on [our forum](http://community.p2pu.org).
+- See our <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">GitHub Cheatsheet</a> if you get stuck with any git related things. 
+- Ask a question on the [P2PU community forum](http://community.p2pu.org).
 
 You may have noticed that the `index.markdown` file contained a few funny caracters. This is called [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy way of writing files for the web. For some tips on how to get the most out of Markdown, see [our Markdown cheetsheet]({{site.baseurl}}/references/markdown-cheatsheet/).
  
