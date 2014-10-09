@@ -33,18 +33,17 @@ Let's re-think "length." Because ideally what you are building is an online comm
 
 When you look at your community longitudinally, it's natural that folks are going to participate in different ways. Our fellow community-builder [Alex Hillman](http://dangerouslyawesome.com/) subscribes to the 80/20 rule: your community will break down into gradiations of someone active to most active participants:
 
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Kickstarter%20Copy.001.jpg" width="690" height="388"> 
+![]({{site.baseurl}}/img/content-2.jpg)
 
 Participation is a continuum of activity, and our data at P2PU bears that out. When looking at our recent P2PU course, folks reported engaging on a pleathora of ways:
 
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Kickstarter%20Copy.002.jpg" width="690" height="388"> 
+![]({{site.baseurl}}/img/content-3.jpg)
 
 So instead of thinking about beginning and finishing, you might think about the course you are developing as *an onramp to your ongoing community* that lives on P2PU or somewhere else. Maybe you run Arduino 101 every 8 weeks, but the Arduino G+ group is always there to help. That way the expert folks can help newbies. 
 
 Some relevant data as your design your onborading: recent research by [Martin Weller](http://nogoodreason.typepad.co.uk/no_good_reason/2013/12/design-responses-to-mooc-completion-rates.html) and [Katy Jorda](http://www.katyjordan.com/MOOCproject.html) indicate that, no matter the discipline, there seems to be a 4-week long "sweet spot" in active participation. 
 
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Fig4_1.png
-" width="690" height="388"> 
+![]({{site.baseurl}}/img/content-4.png)
 
 So the first 30 days of your course make all the difference. We'd recommend a four-week onboarding course that runs regularly as an introduction to your learning community. 
 
