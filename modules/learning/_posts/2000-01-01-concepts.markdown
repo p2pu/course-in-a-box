@@ -35,7 +35,7 @@ We recommend  activities that can work for both beginner and advanced learners. 
 ## P2PU Example: Play With Your Music
 An example of a playful activity with low floors and wide walls is from our [Play With Your Music course](http://www.playwithyourmusic.org/). Learners were prompted to select their favorite song, and write down where they heard the various instruments in space. From there, they were asked to map on out a Googledoc graph where they perceived the instruments and sounds in the song. 
 
-<img src="https://raw.githubusercontent.com/p2pu/social-learning-course/gh-pages/img/Screen%20Shot%202014-07-06%20at%209.02.24%20PM.png" width="690" height="388"> 
+![Image of Play With Your Music project]({{site.baseurl}}/img/pwym.png)
 
 At the same time, we didn't want learners to feel constrained by the structure of the activity. If learners wanted to try another tool, we welcomed that creativity. 
 
