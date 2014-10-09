@@ -11,8 +11,8 @@ published: true
 Communities decide what’s acceptable. Voting an answer up-or-down, liking a post, or remixing a project–these are different levels of granularity, but anyone in the community can give feedback on any project. The community decides what’s good and what’s not, and folks who make stellar contributions are celebrated.
 
 >Feedback is key. It’s actually a core skill in a community of practice. Whether it’s leaving a comment on a post, suggestions on a project, or answering an open question, giving feedback is a way to apply the norms and values of a community. Giving feedback is also a kind of learning–in and of itself.
-P2PU, 
-[Assessment on the Web](http://reports.p2pu.org/assessment-on-the-web/part-1/)
+
+P2PU, [Assessment on the Web](http://reports.p2pu.org/assessment-on-the-web/part-1/)
 
 ## Liz Lerman: The Critical Response Process
 <iframe src="//player.vimeo.com/video/55022092" width="100%" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
