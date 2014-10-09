@@ -36,6 +36,6 @@ for children’s imaginations.
 
 ## Learning Styles and Accessibility
 
-<img src="//discourse-uploads.s3.amazonaws.com/132cf9b76ed895d43ed6c956d8535e85c2734e14397.png" width="690" height="426"> 
+![]({{site.baseurl}}/img/learning-styles.png)
 
 CAST, "[Post Secondary Triple Blended Courses](http://udloncourse.cast.org/page/planning_course#.U3-6AVhdVy9)"
