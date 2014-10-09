@@ -4,6 +4,8 @@ layout: course_page
 published: true
 ---
 
+# Feedback and assessment - Concepts
+
 Now, the word “feedback” may fill some with dread, but at P2PU it makes us super stoked. We’re feedback addicts, always wanting to build with each other or see a project from another point of view. 
 
 When a student gives feedback or support to another student, that process deepens their own understanding. In the case of learning to program, students with expertise actually learn more when they work with students who have less expertise. In writing courses, the research suggests that the act of critiquing another’s work measurably improves the quality of your own. We can associate peer feedback with dozens of other skills, including communication, conflict resolution, negotiation, and empathy. It’s a bit edu-speak, but bear with us: what we mean to suggest is that you can learn through assessing someone else. This has massive implications, good ones, for learning communities on the web. Not only will communities come up with their own notions of quality (the software development community GitHub has “core contributors” as an example) but communities can also scale to meet the needs of many learners in a personal way.
