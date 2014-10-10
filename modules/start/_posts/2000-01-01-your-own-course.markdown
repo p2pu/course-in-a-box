@@ -28,7 +28,7 @@ So lets have a look at your course! you can view it by going to [https://your-gi
 ## Resources and help
 
 - See our <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">GitHub Cheatsheet</a> if you get stuck with any git related things. 
-- Ask a question on the [P2PU community forum](http://community.p2pu.org).
+- Ask a question on the [P2PU community forum](http://community.p2pu.org/category/tech).
 
 You may have noticed that the `index.markdown` file contained a few funny caracters. This is called [Markdown](https://en.wikipedia.org/wiki/Markdown), an easy way of writing files for the web. For some tips on how to get the most out of Markdown, see [our Markdown cheetsheet]({{site.baseurl}}/references/markdown-cheatsheet/).
  
