@@ -1,4 +1,4 @@
-baseurl: /jekyll-course-experiment
+baseurl: 
 markdown: redcarpet
 permalink: /:categories/:title/
 disqus_shortname: p2pugithub
