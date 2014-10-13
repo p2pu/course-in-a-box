@@ -10,7 +10,7 @@ Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](
 
 During this course you will learn the theoretical and technical parts by creating your own online course! To get started make a copy of this course. This course is built using [GitHub Pages](https://pages.github.com/), to make a copy of this course, you need to fork the repository on GitHub. You can do this by clicking the link below. You may need to log in or create a GitHub account.
 
-<a class="btn btn-primary" href="https://github.com/p2pu/jekyll-course-experiment/fork" target="_blank"><i class="fa fa-code-fork"></i> Copy this course</a>
+<a class="btn btn-primary" href="https://github.com/p2pu/course-in-a-box/fork" target="_blank"><i class="fa fa-code-fork"></i> Copy this course</a>
 
 This copy is where you will be working during the rest course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
 
@@ -28,13 +28,13 @@ Next, delete the file called CNAME [https://github.com/your-github-username/cour
 
 Now that you have a space to work, lets put a draft framework in place for your course.
 
-**What will you call your course?** To update the title of your course, go to [https://github.com/your-github-username/jekyll-course-experiment/](https://github.com/your-github-username/jekyll-course-experiment/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
+**What will you call your course?** To update the title of your course, go to [https://github.com/your-github-username/course-in-a-box/](https://github.com/your-github-username/course-in-a-box/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
 
 {% highlight yaml %}title: "Course Title"{% endhighlight %}
 
 **Who are you building the cours for and what will they learn?** Will they be building something during the course. Put this basic information on the front page of the course to give a short overview of what to expect. To update the info on the front page, go to `index.markdown` and replace the text currently there to reflect what your course will be about. Once again, you can update it at any time and we will come back to this at a later stage.
 
-So lets have a look at your course! you can view it by going to [https://your-github-username.github.io/jekyll-course-experiment/](https://your-github-username.github.io/jekyll-course-experiment/), just replace your-github-username with your GitHub username.
+So lets have a look at your course! you can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/), just replace your-github-username with your GitHub username.
 
 ## Resources and help
 

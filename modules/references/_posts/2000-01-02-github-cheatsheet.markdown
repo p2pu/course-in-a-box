@@ -100,7 +100,7 @@ That's it!
 
 1. Add a new remote that points to the original repository.
 
-        git remote add upstream https://github.com/p2pu/jekyll-course-experiment.git
+        git remote add upstream https://github.com/p2pu/course-in-a-box.git
 
 1. Update your repository so it knows about all the stuff that has been going on since you forked.
 

@@ -6,7 +6,7 @@ title: Glossary
 
 [Github](https://github.com) - Git hosting service with other colaborative tools added. Hosting for open source software and open content is free! See our Github cheatsheet.
 
-[Git](http://git-scm.com) - Version control software. Basic rundown - it allows you to track changes to a set of documents. Not sure what I mean, have a look at [the history for this repostory](https://github.com/p2pu/jekyll-course-experiment/commits/gh-pages).
+[Git](http://git-scm.com) - Version control software. Basic rundown - it allows you to track changes to a set of documents. Not sure what I mean, have a look at [the history for this repostory](https://github.com/p2pu/course-in-a-box/commits/gh-pages).
 
 [Jekyll](http://jekyllrb.com) - Software that takes a directory with files as input and outputs a directory of files ready to host as a website on the internet.
 

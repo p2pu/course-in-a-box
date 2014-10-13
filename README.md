@@ -3,7 +3,7 @@
 
 ## How do I get started?
 
-Head on over to [p2pu.github.io/jekyll-course-experiment](http://p2pu.github.io/jekyll-course-experiment). Everything you need to know is over there and once you are done we'll be waiting for you here!
+Head on over to [p2pu.github.io/course-in-a-box](http://p2pu.github.io/course-in-a-box). Everything you need to know is over there and once you are done we'll be waiting for you here!
  
 ---
 
