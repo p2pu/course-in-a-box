@@ -14,6 +14,18 @@ During this course you will learn the theoretical and technical parts by creatin
 
 This copy is where you will be working during the rest course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
 
+There are two update that you need to make to your course to get started, the first to change
+
+{% highlight yaml %}baseurl:{% endhighlight %}
+
+to
+
+{% highlight yaml %}baseurl: /course-in-a-box{% endhighlight %}
+
+in the file [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml)
+
+Next, delete the file called CNAME [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME)
+
 Now that you have a space to work, lets put a draft framework in place for your course.
 
 **What will you call your course?** To update the title of your course, go to [https://github.com/your-github-username/jekyll-course-experiment/](https://github.com/your-github-username/jekyll-course-experiment/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
