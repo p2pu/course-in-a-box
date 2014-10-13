@@ -8,7 +8,7 @@ title: Projects
 (Note for review: can we drop this activity if we feel that this course is enough of a peer learning experience?)
 You can choose any P2PU course, but if you have no idea where to start, here's a short list:
 
-- Why Open 
+- [Why Open](https://p2pu.org/en/courses/2314/why-open/) 
 - [Write for Change](http://writing4change.p2pu.org)
 - [Play With Your Music](http://playwithyourmusic.org)
 
