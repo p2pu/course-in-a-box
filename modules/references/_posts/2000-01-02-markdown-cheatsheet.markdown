@@ -1,6 +1,5 @@
 ---
 title: Markdown Cheatsheet
-layout: course_page
 ---
 
 # Markdown Cheatsheet

@@ -1,6 +1,5 @@
 ---
 title: Glossary
-layout: course_page
 ---
 
 [DNS](http://www.wikipedia.org/wiki/Domain_Name_System) - Domain Name Service. The telephone directory of the internet. In short, when you enter p2pu.org, DNS is what sends you to the right computer on the internet that contains the website you are looking for. Why is this relevant? Well, maybe you want to use myawesomecourse.org for your course. In that case you will need to register a domain name.

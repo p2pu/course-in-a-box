@@ -1,6 +1,5 @@
 ---
 title: Course template explained
-layout: course_page
 ---
 
 # Github course template explained

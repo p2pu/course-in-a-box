@@ -1,6 +1,5 @@
 ---
 title: GitHub Cheatsheet
-layout: course_page
 ---
 
 # Github cheatsheet

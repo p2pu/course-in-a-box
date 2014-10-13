@@ -1,6 +1,5 @@
 ---
 title: Introduction
-layout: course_page
 ---
 
 This course is about building open online courses, not using tools. If you came this far and we only start building things now that would feel weird, right?
