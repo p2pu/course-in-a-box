@@ -1,7 +1,7 @@
 baseurl: 
 markdown: redcarpet
 permalink: /:categories/:title/
-disqus_shortname: p2pugithub
+ga_tracking_code: UA-5757664-19
 exclude: [Gemfile, Gemfile.lock, README.md]
 defaults:
   -
