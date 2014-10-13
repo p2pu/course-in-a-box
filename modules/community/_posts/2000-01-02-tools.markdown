@@ -1,6 +1,5 @@
 ---
 title: Tools for Community
-layout: course_page
 ---
 # Tools for building a community
 

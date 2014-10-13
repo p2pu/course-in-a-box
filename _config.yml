@@ -3,6 +3,12 @@ markdown: redcarpet
 permalink: /:categories/:title/
 disqus_shortname: p2pugithub
 exclude: [Gemfile, Gemfile.lock, README.md]
+defaults:
+  -
+    scope:
+      path: "modules" # an empty string here means all files in the project
+    values:
+      layout: "course_page"
 prose:
   media: img
   ignore:

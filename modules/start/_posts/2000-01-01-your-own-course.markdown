@@ -1,6 +1,5 @@
 ---
 title: Your own course
-layout: course_page
 ---
 
 # Join by creating your own course

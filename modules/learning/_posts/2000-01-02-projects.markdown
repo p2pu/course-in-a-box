@@ -1,6 +1,5 @@
 ---
 title: Projects
-layout: course_page
 ---
 # Projects
 

@@ -1,6 +1,5 @@
 ---
 title: Resources
-layout: course_page
 ---
 
 # Other peoples good ideas
