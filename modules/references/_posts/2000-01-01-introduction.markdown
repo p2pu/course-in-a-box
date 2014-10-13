@@ -2,8 +2,6 @@
 title: Introduction
 ---
 
-This course is about building open online courses, not using tools. If you came this far and we only start building things now that would feel weird, right?
+This module contains a lot of resources mostly related to the technical side of create an online course. If you have any questions about this reference or any questions that are not addressed here, please ask us on [community.p2pu.org](http://community.p2pu.org/category/tech).
 
-Chances are that you already know most of what is in this module and that you've been pointed here before. The purpose of this module is mainly to serve as a reference and a glossary.
-
-If there are important technical things that you feel needs to be part of this reference, please say so. 
+<a class="btn btn-primary" target="_blank" href="http://community.p2pu.org/category/tech"><i class="fa fa-weixin"></i> Ask us stuff!</a>
