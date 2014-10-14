@@ -2,6 +2,7 @@ baseurl:
 markdown: redcarpet
 permalink: /:categories/:title/
 ga_tracking_code: UA-5757664-19
+p2pu_ga_tracking_code: UA-55722824-1
 exclude: [Gemfile, Gemfile.lock, README.md]
 defaults:
   -
