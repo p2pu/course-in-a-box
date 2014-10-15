@@ -42,11 +42,21 @@ In this part of the course, we’ll talk about “social presence” (or communi
 
 Let's ask around:
 
-Community is a sense of *shared purpose and belonging*. Think about your local PTA, block party organization, church, book club or alumni association. There’s always a reason that you’re there, and a sense that you’re included. 
+Scholar and writer Clay Shirky, in describing [how the open source community Perl works](https://www.youtube.com/watch?v=Xe1TZaElTAs) described his litmus test: 
 
+![shirky community.png](/modules/community/_posts/shirky community.png)
+
+It's also a sense of interconnectedness. Community designer Alex Hillman shows how important it is to design for deep, trusting interactions, because they create *value* for the participants:
+
+![hillman community.png](/modules/community/_posts/hillman community.png)
+
+We describe it as feelings + value: community is a sense of *shared purpose and belonging*. 
+
+![P2PU community.png](/modules/community/_posts/P2PU community.png)
+
+Think about your local PTA, block party organization, church, book club or alumni association. There’s always a reason that you’re there, and a sense that you’re included. 
 
 As a course facilitator, you are designing a learning community. Peer-to-peer learning is a network of people helping each other. Once you have your learning goals established, the next series of ideas to think about is how to build a community around those goals. 
-
 
 ## How Do I Design a Community?
 Good question. In order to design a stellar learning community, you'll need to think through a few questions. In your course, how will you:
@@ -62,6 +72,7 @@ We like to ask folks to introduce themselves on [thepeople.org](http://thepeople
 ### Celebrate successes?
 Each community has their own rituals to recognize success (think work anniversaries, juried art shows, ribbon-cutting ceremonies, etc.). These activities build a sense of quality in a community--what is imporant, what should the individual members strive to produce, what good collaborations might look like. Thinking about what you prize and measure is important in community design. 
  
+## How Do I Know if My Community is Healthy?
  Community is a continuum. 
 
  Community is a sense of trust. Trust emerges when you share personal details.
