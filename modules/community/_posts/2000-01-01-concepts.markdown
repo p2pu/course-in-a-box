@@ -44,7 +44,7 @@ Let's ask around:
 
 Scholar and writer Clay Shirky, in describing [how the open source community Perl works](https://www.youtube.com/watch?v=Xe1TZaElTAs) described his litmus test: 
 
-![shirky community.png](/modules/community/_posts/shirky community.png)
+
 
 It's also a sense of interconnectedness. Community designer Alex Hillman shows how important it is to design for deep, trusting interactions, because they create *value* for the participants:
 
