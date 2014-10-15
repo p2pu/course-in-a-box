@@ -1,8 +1,13 @@
 ---
 title: Resources
+published: true
 ---
 
 # Other peoples good ideas
+
+## What's Creative Learning?
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/mDdg_fFH5XI" frameborder="0" allowfullscreen></iframe>
 
 ## Motivation & Mindset
 >In a fixed mindset, people believe their basic qualities, like their intelligence or talent, are simply fixed traits. They spend their time documenting their intelligence or talent instead of developing them. They also believe that talent alone creates success—without effort. They’re wrong.
