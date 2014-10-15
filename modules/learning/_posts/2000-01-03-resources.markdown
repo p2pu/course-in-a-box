@@ -27,7 +27,6 @@ tools that can be used in multiple ways, leaving more room
 for children’s imaginations. 
 [Mitch Resnick, All I Really Need to Know (About Creative Thinking)I Learned (By Studying How Children Learn) in Kindergarten*](http://web.media.mit.edu/~mres/papers/CC2007-handout.pdf)
 
-
 ## Learners Constructing Knowledge
 
 >I can identify examples (as an existence proof) that constructionism can work for adults as well as children.
