@@ -3,7 +3,7 @@ title: Your own course
 published: true
 ---
 
-# Let's Dig In: Ideas + Technical Bits
+# Your Very Own Course! Ideas + Technical Bits
 
 ![Image of maze with starting point indicated]({{site.baseurl}}/img/start.jpg)
 
