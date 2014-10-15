@@ -1,6 +1,7 @@
 ---
-title: "Concepts"
-excerpt: Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course. 
+title: Concepts
+excerpt: "Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course."
+published: true
 ---
 
 # Community: the Dynamics of Generating Awesome
@@ -39,22 +40,27 @@ In this part of the course, we’ll talk about “social presence” (or communi
 
 ## OK, But What’s Community?
 
+Let's ask around:
+
 Community is a sense of *shared purpose and belonging*. Think about your local PTA, block party organization, church, book club or alumni association. There’s always a reason that you’re there, and a sense that you’re included. 
+
 
 As a course facilitator, you are designing a learning community. Peer-to-peer learning is a network of people helping each other. Once you have your learning goals established, the next series of ideas to think about is how to build a community around those goals. 
 
-In your course, how will you:
 
-- Ask learners to participate?
+## How Do I Design a Community?
+Good question. In order to design a stellar learning community, you'll need to think through a few questions. In your course, how will you:
+
+### Ask learners to participate?
 Often at P2PU learners and facilitators design the course together. We talked about collaborative goal-setting in the last section, and asking for input or feedback on the course design is a great first step. 
 
-- Welcome new members to the community?
+### Welcome new members to the community?
 We like to ask folks to introduce themselves on [thepeople.org](http://thepeople.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background. 
 
 ![Image of discourse forum]({{site.baseurl}}/img/discourse.png)
 
-- Celebrate successes?
-
+### Celebrate successes?
+Each community has their own rituals to recognize success (think work anniversaries, juried art shows, ribbon-cutting ceremonies, etc.). These activities build a sense of quality in a community--what is imporant, what should the individual members strive to produce, what good collaborations might look like. Thinking about what you prize and measure is important in community design. 
  
  Community is a continuum. 
 
@@ -82,5 +88,3 @@ In 2013, P2PU and [Open Knowledge](http://us.okfn.org/) teamed up to offer [“D
 - *Summaries of Hangouts*: In a brilliant move, members sent a summary of the synchronous Hangout to the whole group, which kept the folks who couldn’t make it in the loop.
 
 See the full recap at [Data MOOC: Results, Findings and Recommendations](http://info.p2pu.org/2013/06/18/data-mooc-results-findings-and-recommendations/)
-
-## Rhizomatic Learning: The Community is the Curriculum
