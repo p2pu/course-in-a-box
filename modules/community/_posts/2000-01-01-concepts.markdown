@@ -15,8 +15,7 @@ published: true
 - How do you ask people to participate?
 - How did you build with your audience?
 
-[![Dave Cormier - How We Built Rhizomatic Learning](http://img.youtube.com/vi/c4KM9QgfOXA/0.jpg)](http://youtu.be/c4KM9QgfOXA?t=2s)
-
+<iframe width="560" height="315" src="//www.youtube.com/embed/c4KM9QgfOXA" frameborder="0" allowfullscreen></iframe>
 
 ## Why does Community Matter for Learning?
 
