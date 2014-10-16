@@ -1,5 +1,6 @@
 ---
 title: Concepts
+published: true
 ---
 
 # Developing Content
@@ -10,17 +11,17 @@ Traditionally, online courses followed this very top-down, regimented formula:
 
 But open online courses think about content a bit differently. Since learners will find their own resources and interact with others, knowledge emerges organically. Here are a few ways that you can think about developing content in your course: 
 
-- Peers co-create the content. 
+### Peers co-create the content. 
 
 In the video above, Jim Groom mentions that content is the "residue" of interactions in the course. What this means is that, when the activities are open-ended and creative, the social interactions around them build out much of what we think of as "content" for an open course. 
 
 In another P2PU course, [Rhizomatic Learning](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/), Dave Cormier asked learners to participate in the design of the course--the community was going to decide what to learn together. After Dave "officially" stopped running the course in week 6, the course continued to evolve without him--proof of success if there every was one. 
 
-- Use openly-licensed content that already exists.
+### Use openly-licensed content that already exists.
 
 Creative Commons licenses and the Open Education movement have given rise to a wealth of open educational resources. If you'd like to pull together a few foundational resources, [MIT OpenCourseWare](http://ocw.mit.edu/index.htm) and the [Saylor Foundation](http://www.saylor.org/) both are great sources for OER you can use in your course. Don't forget to attribute :)
 
-- Learners can create tutorials for other learners.
+### Learners can create tutorials for other learners.
 
 Seasoned educators know that when a student teaches another student, their understanding deepens. That's peer learning in a nutshell. You might want to prompt learners to create a ["Teaching Kit"](http://discourse.webmakerprototypes.org/t/activity-1-create-a-teaching-kit/332) to accompany their project. For our [Mozilla Webmaker course](https://training.webmakerprototypes.org/en/), learners created these tutorials to help someone else complete the project in the future. 
 
@@ -44,7 +45,4 @@ Some relevant data as your design your onborading: recent research by [Martin We
 
 ![]({{site.baseurl}}/img/content-4.png)
 
-So the first 30 days of your course make all the difference. We'd recommend a four-week onboarding course that runs regularly as an introduction to your learning community. 
-
-
-
+So the first 30 days of your course make all the difference. We'd recommend a four-week onboarding course that runs regularly as an introduction to your learning community.
