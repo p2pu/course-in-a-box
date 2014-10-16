@@ -25,3 +25,8 @@ This slide deck walks through how to design activities for learners to create th
 
 Jim Groom, [Is Content Infrastructure or the Residue of Social Learning?](http://bavatuesdays.com/is-content-infrastructure-or-the-residue-of-social-learning/)
 
+## Content as Infrastructure
+>And finally, we have to understand that content is infrastructure to see current “open educational resources” projects and initiatives from the proper perspective. The OpenCourseWares, the Connexions, the GLOBEs, and all the other repositories of open educational resources in the world are critical infrastructure. As such, they are necessary conditions for revolutionizing education. The revolution can not happen without them. However, open content itself is by no means a sufficient condition for the revolution to succeed. So much more is needed! The list above includes only a handful of what needs to be worked on (localization, translation, low-bandwidth delivery, accreditation, degrees, certificates, support, tutors, study group locators).
+
+David Wiley, [Content as Infrastructure](http://cnx.org/contents/f6846012-480e-4154-a7bb-30e836a955e9@7/David_Wiley_-_Content_Is_Infra)
+
