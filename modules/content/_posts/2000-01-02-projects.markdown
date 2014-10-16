@@ -1,13 +1,17 @@
 ---
 title: Projects
+published: true
 ---
 
 # Projects
 
-## What content will students need to complete projects?
+## How will you find and develop content for each module?
 
-Find resources to add to each module. It can be videos, infographics, audio or something else.
+- Find resources to add to each module. It can be videos, infographics, audio or something else.
+- Reach out to experts in the area of your course for suggestions on content that you can use. You can also ask them to contribute or customize content for your course. A good place to reach out for experts could be your personal networks (facebook, linked in, the people you work with) or online communities (stack exchange, quora, twitter, other people taking this course).
+- How will learners create content for other learners?
 
-Reach out to experts in the area of your course for suggestions on content that you can use. You can also ask them to contribute or customize content for your course. A good place to reach out for experts could be your personal networks (facebook, linked in, the people you work with) or online communities (stack exchange, quora, twitter, other people taking this course).
-
-This is also an opportunity for you to build your personal network. Consider searching for people online that you know will be able to contribute and invite them to help build your course.
+## What will the voice or vibe of your course be?
+- Will your course have a playful vibe? A theme?
+- Will you use a character or a mystery?
+- How will people remember your course?
