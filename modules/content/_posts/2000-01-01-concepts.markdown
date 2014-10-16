@@ -11,7 +11,7 @@ Traditionally, online courses followed this very top-down, regimented formula:
 
 But open online courses think about content a bit differently. Since learners will find their own resources and interact with others, knowledge emerges organically. Here are a few ways that you can think about developing content in your course: 
 
-
+![content slide.001.jpg](/img/content slide/content%20slide.001.jpg)
 
 ### Peers co-create the content. 
 
@@ -23,7 +23,7 @@ In another P2PU course, [Rhizomatic Learning](https://p2pu.org/en/courses/882/rh
 
 Creative Commons licenses and the Open Education movement have given rise to a wealth of open educational resources. If you'd like to pull together a few foundational resources, [MIT OpenCourseWare](http://ocw.mit.edu/index.htm) and the [Saylor Foundation](http://www.saylor.org/) both are great sources for OER you can use in your course. Don't forget to attribute :)
 
-We used open content 
+We used openly-licensed content for our "A Gentle Introduction to Python" course, and grouped learners together around the chapters and tutorials. The interaction happened around the content, and it was super-nifty. 
 
 ### Learners can create tutorials for other learners.
 
