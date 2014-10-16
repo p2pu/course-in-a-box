@@ -3,7 +3,7 @@ title: Concepts
 published: true
 ---
 
-# Developing Content
+# Content: OER, Learning Kits and Course Length
 
 Traditionally, online courses followed this very top-down, regimented formula:
 
