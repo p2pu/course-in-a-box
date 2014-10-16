@@ -23,7 +23,7 @@ In another P2PU course, [Rhizomatic Learning](https://p2pu.org/en/courses/882/rh
 
 Creative Commons licenses and the Open Education movement have given rise to a wealth of open educational resources. If you'd like to pull together a few foundational resources, [MIT OpenCourseWare](http://ocw.mit.edu/index.htm) and the [Saylor Foundation](http://www.saylor.org/) both are great sources for OER you can use in your course. Don't forget to attribute :)
 
-We used openly-licensed content for our "A Gentle Introduction to Python" course, and grouped learners together around the chapters and tutorials. The interaction happened around the content, and it was super-nifty. 
+We used openly-licensed content for our "[A Gentle Introduction to Python](http://reports.p2pu.org/mooc-maker/)" course, and grouped learners together around the chapters and tutorials. The interaction happened around the content, and it was super-nifty. 
 
 ### Learners can create tutorials for other learners.
 
@@ -39,7 +39,7 @@ When you look at your community longitudinally, it's natural that folks are goin
 
 ![]({{site.baseurl}}/img/content-2.jpg)
 
-Participation is a continuum of activity, and our data at P2PU bears that out. When looking at our recent P2PU course, folks reported engaging on a pleathora of ways:
+*Participation is a continuum of activity, and our data at P2PU bears that out.* When looking at our recent P2PU course, folks reported engaging on a pleathora of ways:
 
 ![]({{site.baseurl}}/img/content-3.jpg)
 
