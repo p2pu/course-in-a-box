@@ -29,6 +29,7 @@ How could someone make a project where they fiddle, tinker and lose themselves i
 
 ### Design for all senses.
 We recall information best when it engages several of our senses. Take, for example, the abstract concept of "[social stratification](http://en.wikipedia.org/wiki/Social_stratification)." How else could someone learn this concept, and even further, display that they understand the concept?
+
 - display census data on a map
 - interview 5 people in a certain radius and share on a website
 - create a video documentary about grocery stores in an area
