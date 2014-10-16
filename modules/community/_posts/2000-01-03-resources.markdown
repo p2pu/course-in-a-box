@@ -11,6 +11,7 @@ published: true
 <script async class="speakerdeck-embed" data-id="ee0c521029ab0132958f166834114127" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 For a presentation at the Interactive Telecommunications Program at NYU, we asked the students: 
+
 - How do you learn best? 
 - Describe a time you learned something new.
 
