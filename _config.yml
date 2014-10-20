@@ -1,15 +1,23 @@
+
+# basic configuration
 baseurl:
 markdown: redcarpet
 permalink: /:categories/:title/
+
+
 ga_tracking_code: UA-5757664-19
 p2pu_ga_tracking_code: UA-55722824-1
+
+# Some files we need to exclude, so Github can build the site
 exclude: [Gemfile, Gemfile.lock, README.md]
+
 defaults:
   -
     scope:
       path: "modules" # an empty string here means all files in the project
     values:
       layout: "course_page"
+
 prose:
   media: img
   ignore:
@@ -19,3 +27,9 @@ prose:
     - /fonts
     - /js
     - /css
+
+# Set some personal styles and title and logo for your course
+title: "Course in a box"
+# this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
+jumbotron-color: "#CCFF33"
+jumbotron-background-image: "banner.svg"
