@@ -1,8 +1,24 @@
 ---
 ---
+
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
 
 @import "p2pu-css-framework/p2pustrap";
+
+{% if site.jumbotron-color %}
+	$jumbotron-color: {{ site.jumbotron-color }};
+{% else %}
+ $jumbotron-color: $p2pu-blue;
+{% endif %}
+
+{% if site.jumbotron-background-image %}
+	$jumbotron-image: '{{ site.jumbotron-background-image }}';
+{% else %}
+	$jumbotron-image: 'banner.svg';
+{% endif %}
+
 @import "common";
 @import "nav";
 @import "landing";
+
+

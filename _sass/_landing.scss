@@ -5,9 +5,13 @@ section {
 }
 
 .jumbotron {
-	background: $p2pu-blue url('../img/banner.svg') bottom center no-repeat;
+	background: $jumbotron-color;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-image: url('../img/#{$jumbotron-image}');
 	background-size: auto;
 	color: $white;
+	position: relative;
 
 	a {
 		color: #fcfcfc;
@@ -19,16 +23,19 @@ section {
 		border-bottom: none;
 		text-decoration: none;
 	}
+
 }
 
 .jumbotron header h1 {
 	font-family: $font-family-sans-serif;
 	font-size: 4em;
 }
-.people{
+
+.people {
 	background-color: $white;
 	margin-bottom: 0;
 }
+
 .people li {
 	margin: 30px 10px;
 }
