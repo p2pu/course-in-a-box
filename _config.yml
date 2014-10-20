@@ -31,5 +31,5 @@ prose:
 # Set some personal styles and title and logo for your course
 title: "Course in a box"
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
-jumbotron-color: "#CCFF33"
+jumbotron-color: "#05C6B4"
 jumbotron-background-image: "banner.svg"
