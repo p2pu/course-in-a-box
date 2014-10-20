@@ -1,6 +1,5 @@
-
 # basic configuration
-baseurl: /course-in-a-box
+baseurl:
 markdown: redcarpet
 permalink: /:categories/:title/
 
@@ -30,6 +29,6 @@ prose:
 
 # Set some personal styles and logo for your course
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
-jumbotron-color: "#05C6B4"
-jumbotron-background-image: "header.svg"
-jumbotron-image: "box-icon.png"
+jumbotron_color: "#05C6B4"
+jumbotron_background_image: "header.svg"
+jumbotron_image: "box-icon.png"

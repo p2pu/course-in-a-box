@@ -5,14 +5,14 @@
 
 @import "p2pu-css-framework/p2pustrap";
 
-{% if site.jumbotron-color %}
-	$jumbotron-color: {{ site.jumbotron-color }};
+{% if site.jumbotron_color %}
+	$jumbotron-color: {{ site.jumbotron_color }};
 {% else %}
  $jumbotron-color: $p2pu-blue;
 {% endif %}
 
-{% if site.jumbotron-background-image %}
-	$jumbotron-image: '{{ site.jumbotron-background-image }}';
+{% if site.jumbotron_background_image %}
+	$jumbotron-image: '{{ site.jumbotron_background_image }}';
 {% else %}
 	$jumbotron-image: 'banner.svg';
 {% endif %}
