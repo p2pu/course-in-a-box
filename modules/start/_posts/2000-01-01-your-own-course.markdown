@@ -42,7 +42,9 @@ To update the title of your course, go to [https://github.com/your-github-userna
 ### Who is the course for & what will they learn?
 Will they be building something during the course. Put this basic information on the front page of the course to give a short overview of what to expect. To update the info on the front page, go to `index.markdown` and replace the text currently there to reflect what your course will be about. Once again, you can update it at any time and we will come back to this at a later stage.
 
-So lets have a look at your course! you can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/), just replace your-github-username with your GitHub username.
+### Lets have a look at your course!
+
+You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/), just replace your-github-username with your GitHub username.
 
 ## Resources and Help
 
