@@ -4,7 +4,16 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '{{include.ga_tracking_code}}', 'auto');
-  ga('send', 'pageview');
-
+  {% if site.ga_tracking_code %}
+    ga('create', '{{site.ga_tracking_code}}', 'auto');
+  {% endif %}
+  {% if site.p2pu_ga_tracking_code %}
+    ga('create', '{{site.p2pu_ga_tracking_code}}', 'auto', {'name': 'p2puTracker'} );
+  {% endif %}
+  {% if site.ga_tracking_code %}
+    ga('send', 'pageview');
+  {% endif %}
+  {% if site.p2pu_ga_tracking_code %}
+    ga('p2puTracker.send', 'pageview');
+  {% endif %}
 </script>
