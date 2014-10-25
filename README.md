@@ -1,4 +1,4 @@
-# An experiment in taking a course in and on Github using Jekyll
+# Everything you need to create an online course in a box
 
 
 ## How do I get started?
