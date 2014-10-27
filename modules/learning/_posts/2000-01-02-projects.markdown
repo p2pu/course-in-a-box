@@ -5,7 +5,6 @@ title: Projects
 
 
 ## Join another P2PU course and observe 
-(Note for review: can we drop this activity if we feel that this course is enough of a peer learning experience?)
 You can choose any P2PU course, but if you have no idea where to start, here's a short list:
 
 - [Why Open](https://p2pu.org/en/courses/2314/why-open/) 
