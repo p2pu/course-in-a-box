@@ -41,8 +41,7 @@ Will they be building something during the course. Put this basic information on
 
 You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/), just replace your-github-username with your GitHub username.
 
-
-
+### Add modules to your course
 
 Now create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module inside the modules folder. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
 
