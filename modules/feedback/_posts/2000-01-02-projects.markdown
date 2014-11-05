@@ -6,8 +6,6 @@ title: Projects
 
 ## Create badges for your course
 
-What type of feedback do you wish to facilitate in your courses. Design a badge that can be awarded for student projects.
-
 Design a badge for every project in your course. You can create a badge by registering on [badges.p2pu.org](https://badges.p2pu.org).
 
 For in depth details on creating badges, you should see our [course on creating a badge](https://p2pu.org/en/courses/653/content/1254/) for your course.
