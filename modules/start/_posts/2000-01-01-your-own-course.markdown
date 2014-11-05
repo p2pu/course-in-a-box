@@ -19,4 +19,4 @@ Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](
 
 During the next 4 weeks we will discuss the 4 different modules in this course - community, learning, content and feedback. Every week there will be some preparation for you to do, followed by a discussion about that content and then a hands on project to help you build your course!
 
-So head over to [the community module]({{site.baseurl}}/modules/community/hangout/) and prepare for our first discussion!
+So head over to [the community module]({{site.baseurl}}/modules/community/concepts/) and prepare for our first discussion!
