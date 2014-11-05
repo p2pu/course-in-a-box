@@ -1,0 +1,19 @@
+---
+title: "Discuss"
+---
+
+To prepare for this week, you should have a look at the concepts and optionally resources.
+
+# Community in other courses
+
+Have a look at PWYM, Writing for Change or ...
+
+- What does community look like in those courses
+- How do they interact
+- ...
+
+## Hangout
+
+We will have a hangout to discuss your answers to the questions about and talk how those wuestions applies to your course.
+
+If you can't join the hangout, don't worry, discussion will also take place on discourse under [this topic](http://community.p2pu.org/t/??).
