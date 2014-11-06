@@ -5,6 +5,18 @@ published: true
 
 # Projects
 
+## Look at how others do it
+
+- What types of resources do they use?
+- Is there a specific tone to the course?
+- Did the course creators create all the content?
+
+## How will you find and develop content for each module?
+
+- Find resources to add to each module. It can be videos, infographics, audio or something else.
+- Reach out to experts in the area of your course for suggestions on content that you can use. You can also ask them to contribute or customize content for your course. A good place to reach out for experts could be your personal networks (facebook, linked in, the people you work with) or online communities (stack exchange, quora, twitter, other people taking this course).
+
+
 ## Add content to your course!
 
 In the previous module you created modules for your course and defined projects for every module. Now it is time that you fill out the modules with the content. To create content within a module, you need to create a section in the module the same way you created the 'Projects' section. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts) and create a new file for every section that you want within the module.

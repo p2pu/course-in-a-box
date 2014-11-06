@@ -2,7 +2,13 @@
 title: "Projects"
 ---
 
-Now that we've talked about community, it is time to apply this to the course that you are building.
+## Community in other courses
+
+Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
+
+- What does community look like in those courses?
+- How do they interact?
+- How do they celebrate success?
 
 ## Find your 'first 10'
 

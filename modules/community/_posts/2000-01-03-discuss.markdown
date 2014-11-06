@@ -3,16 +3,10 @@ title: "Discuss"
 ---
 # Discuss
 
-## Community in other courses
-
-Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
-
-- What does community look like in those courses?
-- How do they interact?
-- How do they celebrate success?
-
 ## Hangout
 
 We will have a [hangout](https://unhangout.media.mit.edu/h/course-in-a-box) to share our answers to the questions about and talk how we can apply it to our course.
+
+## Discourse
 
 If you can't join the hangout, don't worry, discussion will also take place on [discourse](http://community.p2pu.org/).

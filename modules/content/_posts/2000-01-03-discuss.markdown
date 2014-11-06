@@ -2,19 +2,10 @@
 title: Discuss
 ---
 
-## Look at how others do it
-
-- What types of resources do they use?
-- Is there a specific tone to the course?
-- Did the course creators create all the content?
-
-## How will you find and develop content for each module?
-
-- Find resources to add to each module. It can be videos, infographics, audio or something else.
-- Reach out to experts in the area of your course for suggestions on content that you can use. You can also ask them to contribute or customize content for your course. A good place to reach out for experts could be your personal networks (facebook, linked in, the people you work with) or online communities (stack exchange, quora, twitter, other people taking this course).
-
 ## Hangout
 
 We will have a [hangout](https://unhangout.media.mit.edu/h/course-in-a-box) to share our answers to the questions about and talk how we can apply it to our course.
+
+## Discourse
 
 If you can't join the hangout, don't worry, discussion will also take place on [discourse](http://community.p2pu.org/).

@@ -4,6 +4,26 @@ title: Projects
 
 # Projects
 
+## How others do it
+
+[Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
+
+- How did people give feedback to each other on the work they did?
+- Did the course use badges?
+
+Have a look at the following badges: [WikiSOO Burba Badge](http://badges.p2pu.org/en/badge/view/22/), [Deeper Learning](http://badges.p2pu.org/en/badge/view/323/) or [I Walked with #WALKMYWORLD](http://badges.p2pu.org/en/badge/view/347/).
+
+- What courses were they part of?
+- Did the course they were part of include other badges?
+- Did learners give each other feedback on projects?
+
+
+## Feedback in your course
+
+What type of feedback do you wish to facilitate in your courses.
+
+
+
 ## Create badges for your course
 
 Design a badge for every project in your course. You can create a badge on [badges.p2pu.org](https://badges.p2pu.org). For in depth details on creating badges, you should see our [course on creating a badge](https://p2pu.org/en/courses/653/content/1254/) for your course.
