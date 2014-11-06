@@ -17,6 +17,8 @@ Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](
 
 ## How will this course work?
 
+![Image of course workflow]({{site.baseurl}}/img/process.png)
+
 During the next 4 weeks we will discuss the 4 different modules in this course - community, learning, content and feedback. Every week there will be some preparation for you to do, followed by a discussion and hands on projects to help you build your course!
 
 So head over to [the community module]({{site.baseurl}}/modules/community/concepts/) and prepare for our first discussion!
