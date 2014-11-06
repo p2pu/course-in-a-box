@@ -6,7 +6,7 @@ published: true
 
 # Community: the Dynamics of Generating Awesome
 
-![]({{site.baseurl}}/img/community.jpg)
+![Image of community]({{site.baseurl}}/img/community.jpg)
 
 ## What Does a Learning Community Look Like?
 [Dave Cormier](http://davecormier.com/), lead raconteur of [Rhizomatic Learning: the Community is the Curriculum](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/) ([#rhizo14](https://twitter.com/search?q=rhizo14&src=typd)) and reluctant stepfather of the MOOC movement, answers the following core questions:
@@ -21,7 +21,7 @@ published: true
 
 **Diversity of perspectives.** As Dave said, books are inert objects. Pushing "play" on a video is one passive experience. When you engage ideas with other people, the dialogue and exchanges challenge you to look at things several different ways. We won't tell you what to think--engaging others helps us think uniquely and engage collaboratively.
 
-**Support and stretch.** When you find your learning crew--the folks who share your vision and your values--they can buoy you up when you encounter setbacks and help you set the next goalpost. They can deliver feedback that helps you hone in on weaknesses or develop strengths. 
+**Support and stretch.** When you find your learning crew--the folks who share your vision and your values--they can buoy you up when you encounter setbacks and help you set the next goalpost. They can deliver feedback that helps you hone in on weaknesses or develop strengths.
 
 *Learners go farther when they learn together.*
 
@@ -43,15 +43,15 @@ Let's ask around:
 
 Scholar and writer Clay Shirky, in describing [how the open source community Perl works](https://www.youtube.com/watch?v=Xe1TZaElTAs) described his litmus test: 
 
-![shirky community.png](/img/shirky%20community.png)
+![shirky community.png]({{ site.baseurl }}/img/shirky%20community.png)
 
 It's also a sense of interconnectedness. Community designer Alex Hillman shows how important it is to design for deep, trusting interactions, because they create *value* for the participants:
 
-![hillman community.png](/img/hillman%20community.png)
+![hillman community.png]({{ site.baseurl }}/img/hillman%20community.png)
 
 We describe it as a combination of the above: community is a sense of *shared purpose and belonging*. 
 
-![P2PU community.png](/img/P2PU%20community.png)
+![P2PU community.png]({{ site.baseurl }}/img/P2PU%20community.png)
 
 Think about your local PTA, block party organization, church, book club or alumni association. There’s always a reason that you’re there, and a sense that you’re included. 
 
@@ -64,7 +64,7 @@ Good question. In order to design a stellar learning community, you'll need to t
 Often at P2PU learners and facilitators design the course together. We talked about collaborative goal-setting in the last section, and asking for input or feedback on the course design is a great first step. 
 
 ### Welcome new members to the community?
-We like to ask folks to introduce themselves on [thepeople.org](http://thepeople.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background. 
+We like to ask folks to introduce themselves on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background. 
 
 ![Image of discourse forum]({{site.baseurl}}/img/discourse.png)
 
@@ -72,7 +72,7 @@ We like to ask folks to introduce themselves on [thepeople.org](http://thepeople
 Each community has their own rituals to recognize success (think work anniversaries, juried art shows, ribbon-cutting ceremonies, etc.). These activities build a sense of quality in a community--what is imporant, what should the individual members strive to produce, what good collaborations might look like. Thinking about what you prize and measure is important in community design. 
 
 
-# P2PU Examples: 
+# Some examples: 
 
 ## P2PU School of Ed.
 In 2011, [Karen Fasimpaur](https://twitter.com/kfasimpaur) was looking to experiment with teacher professional development. She wanted to focus on  inquiry, self-direction, critical thinking, and collaboration with continuing education that was relevant to the lives of teachers. What came out of her curiosity was the P2PU School of Ed. 30 courses on the [p2pu.org](https://p2pu.org/en/) platform and two years later, she recommends the following design principles:
@@ -81,7 +81,7 @@ In 2011, [Karen Fasimpaur](https://twitter.com/kfasimpaur) was looking to experi
 
 >We have also learned that peer learning experiences work best when they are designed by the group, not instituted from the top down. This can be challenging to achieve, but the groups that have been co-planned and co-facilitated collaboratively have been most compelling.
 
-Check out the full report at [reports.p2pu.org](http://reports.p2pu.org/reports/school_of_ed/soe_index.html)
+Check out the full report at [reports.p2pu.org](http://reports.p2pu.org/school-of-ed/).
 
 ## Data Explorer Mission
 

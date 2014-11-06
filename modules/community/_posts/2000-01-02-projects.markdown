@@ -2,21 +2,19 @@
 title: "Projects"
 ---
 
-## Introduce yourself
+## Community in other courses
 
-Now that you have something to share it is time to introduce yourself to the other people taking this course with you. We are using [Discourse](http://www.discourse.org) as the forum for this course. Go to [this thread](http://community.p2pu.org/t/please-introduce-yourself/28) on our discourse forum share a link to your course and tell us why you are building it.
+Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
 
-<a class="btn btn-primary" target="_blank" href="http://community.p2pu.org/t/please-introduce-yourself/28"><i class="fa fa-weixin"></i> Introduce yourself</a>
+- What does community look like in those courses?
+- How do they interact?
+- How do they celebrate success?
 
-## Get to know this community
+## Find your 'first 10'
 
-This is also a good time to get to know the other people in the room:
-
-- choose one of two “buddies” who are working on an interesting course and follow their activity. 
-- consider following them on twitter.
+Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building. Invite people to share their thoughts on the topic in discourse. This is a good opportunity to grow your network and to get other people to work with.
 
 ## What will community look like for your course?
 
-The course you are creating will form a community of its own. How will people join your community? What type of community will you build for your course? Will it be a community of interest, practice or inquiry? Will you add a personality/theme to your community? Will the community keep going after the course is done? What tools will you use to build your community? Can you think of advantages and drawbacks these tools may have?
+The course you are creating will form a community of its own. How will people join your community? What type of community will you build for your course? Will it be a community of interest, practice or inquiry? Will you add a personality/theme to your community? Will the community keep going after the course is done?
 
-Share your thoughts with the rest of the group.

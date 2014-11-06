@@ -3,7 +3,6 @@ title: Projects
 ---
 # Projects
 
-
 ## Join another P2PU course and observe 
 You can choose any P2PU course, but if you have no idea where to start, here's a short list:
 
@@ -13,15 +12,20 @@ You can choose any P2PU course, but if you have no idea where to start, here's a
 
 Here are some things to think about while looking at the course:
 
+- How are the courses structured
 - What are the exercises like? What is the product, how do people share it?
-- How do people interact?
-- When do they give each other feedback?
 
 Complete one of the exercise from the course.
+
 
 ## Plan your Learning outcomes
 
 Write down what you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
+
+
+## Add modules to your course
+
+Now it's time to start building your course! ### Add modules to your course
 
 Now create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module inside the modules folder. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
 

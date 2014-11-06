@@ -33,11 +33,11 @@ How the critique approach shakes out on the web *looks* a little different, but 
 
 ### Badges
 Everyone is an Expert in something. Maybe you know how to make the perfect costume for your pet. Or you bring objects to life via 3D-drafting and printing. The point is that we’re a curious crew that’s down to learn how to make the next thing–whether it be digital, analog or abstract. Sound about right?
-At P2PU, Badges are a way to recognize and support your expertise as you evolve. If you see a Badge on badges.p2pu.org that’s in line with a Project you’re working on, you can submit it for feedback from an Expert. And it usually looks something like this:
+At P2PU, badges are a way to recognize and support your expertise as you evolve. If you see a badge on [badges.p2pu.org](https://badges.p2pu.org) that’s in line with a Project you’re working on, you can submit it for feedback from an Expert. And it usually looks something like this:
 ![qualfeedback.png]({{site.baseurl}}/img/qualfeedback.png)
 
 
-For Wikipedia’s School of Open Burba Badge, a learner needed to make over 200 edits to a Wikipedia article, and bring an article from a D grade to a B grade. 
+For Wikipedia’s School of Open [Burba Badge](http://badges.p2pu.org/en/badge/view/22/), a learner need to make over 200 edits to a Wikipedia article, and bring an article from a D grade to a B grade. 
 
 ![wikisooba.png]({{site.baseurl}}/img/wikisooba.png)
 
@@ -45,7 +45,7 @@ When leader C01 submits their project, an Expert delivers directed feedback in t
 
 ![badges.png]({{site.baseurl}}/img/badges.png)
 
-Our platform is unique in that is supports peer-to-peer feedback and not just top-down badge issuing. As far we know it’s also the only full-service open source platform that anyone can host at the moment. Find out more at [badges.p2pu.org](badges.p2pu.org).
+Our platform is unique in that is supports peer-to-peer feedback and not just top-down badge issuing. As far we know it’s also the only full-service open source platform that anyone can use at the moment. Find out more at [badges.p2pu.org](badges.p2pu.org).
 
 ### Play With Your Music
 For our playful introduction to audio engineering, all the expert guests were sure to model a reflective process--to talk about the different steps they took to get to their final creative product. If they had outstanding questions or concerns they wanted to bring to the group, this “reflective practice” opened up the project for others to weigh in.
