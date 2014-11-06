@@ -6,9 +6,9 @@ Now that we've talked about community, it is time to apply this to the course th
 
 ## Find your 'first 10'
 
-Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people what course you are building. Invite people who might be interested to share their thoughts on the topic in discourse.
+Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building. Invite people to share their thoughts on the topic in discourse. This is a good opportunity to grow your network and to get other people to work with.
 
-## What will community look like for your course? (should we remove this?)
+## What will community look like for your course?
 
-The course you are creating will form a community of its own. How will people join your community? What type of community will you build for your course? Will it be a community of interest, practice or inquiry? Will you add a personality/theme to your community? Will the community keep going after the course is done? What tools will you use to build your community? Can you think of advantages and drawbacks these tools may have?
+The course you are creating will form a community of its own. How will people join your community? What type of community will you build for your course? Will it be a community of interest, practice or inquiry? Will you add a personality/theme to your community? Will the community keep going after the course is done?
 

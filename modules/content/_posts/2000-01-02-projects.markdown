@@ -5,12 +5,10 @@ published: true
 
 # Projects
 
-## Adding content to your modules?
+## Add content to your course!
 
-In the previous module on learning you started to divide your course in modules and define projects for every module. Now it is time that you fill out the modules with the content. To create content within a module, you need to create a section in the module the same way you created the 'Projects' section for every module. Go to the folder for the module ex [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts) and create a new file for every section that you want within the module.
+In the previous module you created modules for your course and defined projects for every module. Now it is time that you fill out the modules with the content. To create content within a module, you need to create a section in the module the same way you created the 'Projects' section. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts) and create a new file for every section that you want within the module.
 
 Remember that the file name needs to start with a valid date in the format YYYY-MM-DD-your-section-name.md. The date determines the order of the sections in every module.
 
-## Embedding videos in your content
-
-To ..
+Content will show up automatically if you already added the module. You can go to [http://your-github-username.github.io/course-in-a-box/](http://your-github-username.github.io/course-in-a-box/) to look at the content.

@@ -1,19 +1,18 @@
 ---
 title: "Discuss"
 ---
+# Discuss
 
-To prepare for this week, you should have a look at the concepts and optionally resources.
+## Community in other courses
 
-# Community in other courses
+Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
 
-Have a look at PWYM, Writing for Change or ...
-
-- What does community look like in those courses
-- How do they interact
-- ...
+- What does community look like in those courses?
+- How do they interact?
+- How do they celebrate success?
 
 ## Hangout
 
-We will have a hangout to discuss your answers to the questions about and talk how those wuestions applies to your course.
+We will have a [hangout](https://unhangout.media.mit.edu/h/course-in-a-box) to share our answers to the questions about and talk how we can apply it to our course.
 
-If you can't join the hangout, don't worry, discussion will also take place on discourse under [this topic](http://community.p2pu.org/t/??).
+If you can't join the hangout, don't worry, discussion will also take place on [discourse](http://community.p2pu.org/).

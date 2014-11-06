@@ -2,21 +2,28 @@
 title: Discuss
 ---
 
-# Questions for discussion
+# Discuss
 
-## How other do it
+## How others do it
 
-Have a look at the following badges: 
+[Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
+
+- How did people give feedback to each other on the work they did?
+- Did the course use badges?
+
+Have a look at the following badges: [WikiSOO Burba Badge](http://badges.p2pu.org/en/badge/view/22/), [Deeper Learning](http://badges.p2pu.org/en/badge/view/323/) or [I Walked with #WALKMYWORLD](http://badges.p2pu.org/en/badge/view/347/).
 
 - What courses were they part of?
 - Did the course they were part of include other badges?
+- Did learners give each other feedback on projects?
 
-Look at these courses
-
-- Did they use badges
-- How did people give feedback to each other on the work 
 
 ## Feedback in your course
 
-What type of feedback do you wish to facilitate in your courses. Design a badge that can be awarded for student projects.
+What type of feedback do you wish to facilitate in your courses.
 
+## Hangout
+
+We will have a [hangout](https://unhangout.media.mit.edu/h/course-in-a-box) to share our answers to the questions about and talk how we can apply it to our course.
+
+If you can't join the hangout, don't worry, discussion will also take place on [discourse](http://community.p2pu.org/).

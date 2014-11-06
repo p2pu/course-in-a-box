@@ -11,7 +11,7 @@ Traditionally, online courses followed this very top-down, regimented formula:
 
 But open online courses think about content a bit differently. Since learners will find their own resources and interact with others, knowledge emerges organically. Here are a few ways that you can think about developing content in your course: 
 
-![content slide.001.jpg](/img/content slide/content%20slide.001.jpg)
+![content slide.001.jpg]({{site.baseurl}}/img/content slide/content%20slide.001.jpg)
 
 ### Peers co-create the content. 
 

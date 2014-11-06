@@ -44,10 +44,10 @@ Instead of encouraging learners to compete to solve a problem, select a thematic
 ###Inspire with Diverse Examples. 
 Showcasing a range of work inspires learners to imagine what’s possible (as opposed to what’s correct). At the same time, an array of different projects models inclusivity, builds a broad community of learners. For instance, the homepage for the 3-D printing community [Shapeways](http://www.shapeways.com/) features projects that range from an egg-cup to accessories to bling out your Google Glass.
 
-## P2PU Examples 
+## Examples 
 
 ### Play With Your Music
-An example of a playful activity with low floors and wide walls is from our [Play With Your Music course](http://www.playwithyourmusic.org/). Learners were prompted to select their favorite song, and write down where they heard the various instruments in space. From there, they were asked to map on out a Googledoc graph where they perceived the instruments and sounds in the song. 
+For [Play With Your Music](http://www.playwithyourmusic.org/) learners were prompted to select their favorite song and write down where they heard the various instruments in space. From there, they created a graph to visually show where they perceived the instruments and sounds in the song. 
 
 ![Image of Play With Your Music project]({{site.baseurl}}/img/pwym.png)
 
@@ -58,7 +58,7 @@ At the same time, we didn't want learners to feel constrained by the structure o
 >We want learners to feel comfortable and give them options for how to engage. Like the Play With Your Music course we mentioned above, we encourage folks to convey the information in different ways--visually (like mental maps), audially (like pronounciation clips), or via text (like readings or Wikipedia entries). We recommend that you offer content that appeals to different styles, and give learners options for what sorts of projects they might want to undertake.
 
 ### Story Hack Day
-With SoundCloud and MIT, P2PU hatched a plan to revamp the hackathon, peer-learning style. The event was [Story Hack Boston](http://storyhack.splashthat.com/), where 44 storytellers and hackers came together to tell stories. We offered 4 thematic tracks for the day-long event:
+For [Story Hack Boston](http://storyhack.splashthat.com/) SoundCloud, MIT and P2PU hatched a plan to revamp the hackathon, peer-learning style. 44 storytellers and hackers came together to tell stories. We offered 4 thematic tracks for the day-long event:
 
 - Heartbeat of MIT: Soundscapes
 - Arc of the API: How to Use APIs to Tell Stories
