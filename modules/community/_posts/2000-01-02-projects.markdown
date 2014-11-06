@@ -2,12 +2,11 @@
 title: "Projects"
 ---
 
-Now that we've talked about community a bit, it is time to thing how this will apply to the course that you are building.
+Now that we've talked about community, it is time to apply this to the course that you are building.
 
 ## Find your 'first 10'
 
-Building a course alone is a daunting task. Start a new topic on discourse and tell people what coures you would like to build. Invite people that you know that may be interested to share their thought on the topic in discourse.
-
+Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people what course you are building. Invite people who might be interested to share their thoughts on the topic in discourse.
 
 ## What will community look like for your course? (should we remove this?)
 
