@@ -2,7 +2,7 @@
 title: Your own Course
 ---
 
-Remember when we asked you to fork your course? Well, when you did that you actually copied this course and started building your own!
+When we asked you to fork this course you actually copied this course and started building your own!
 
 This copy is where you will be working during the rest course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
 
