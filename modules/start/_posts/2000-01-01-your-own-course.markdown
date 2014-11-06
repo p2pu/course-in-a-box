@@ -18,6 +18,6 @@ Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](
 
 ![Image of course workflow]({{site.baseurl}}/img/process.png)
 
-During the next 4 weeks we will discuss the 4 different modules in this course - **community**, **learning**, **content** and **feedback**. Every week there will be some preparation to do, followed by a discussion and hands-on projects to help you build your course!
+During the next 4 weeks we will discuss the 4 different modules in this course - **community**, **learning**, **content** and **feedback**. Every week there will be some preparation, hands-on projects and a discussion for feedback and sharing to help you build your course!
 
 Head over to [the community module]({{site.baseurl}}/modules/community/concepts/) and prepare for our first discussion!
