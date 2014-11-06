@@ -1,5 +1,5 @@
 ---
-title: Your own course
+title: How to get started
 ---
 
 ![Image of maze with starting point indicated]({{site.baseurl}}/img/start.jpg)
@@ -20,4 +20,6 @@ Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](
 
 During the next 4 weeks we will discuss the 4 different modules in this course - **community**, **learning**, **content** and **feedback**. Every week there will be some preparation, hands-on projects and a discussion for feedback and sharing to help you build your course!
 
-Head over to [the community module]({{site.baseurl}}/modules/community/concepts/) and prepare for our first discussion!
+## You promised me my own course! Where is it?
+
+It's all in the box, promise! But you need to unpack it first :) Move onto the instructions here [the-box]({{site.baseurl}}/modules/start/the-box/)

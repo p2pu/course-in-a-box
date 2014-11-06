@@ -23,40 +23,9 @@ Complete one of the exercise from the course.
 Write down what you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
 
 
-## Steps to Get Your Own Course
+## Add modules to your course
 
-Now it's time to start building your course! Remember when we asked you to fork your course? Well, when you did that you actually copied this course and started building your own!
-
-This copy is where you will be working during the rest course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
-
-### Tweak a few items. 
-There are two updates that you need to make to your course to get it working. First, change
-
-{% highlight yaml %}baseurl:{% endhighlight %}
-
-to
-
-{% highlight yaml %}baseurl: /course-in-a-box{% endhighlight %}
-
-in the file [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml)
-
-Next, delete the file called CNAME [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME)
-
-Now that you have a space to work, lets put a draft framework in place for your course.
-
-### Give your course a name. 
-To update the title of your course, go to [https://github.com/your-github-username/course-in-a-box/](https://github.com/your-github-username/course-in-a-box/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
-
-{% highlight yaml %}title: "Course Title"{% endhighlight %}
-
-### Who is the course for & what will they learn?
-Will they be building something during the course. Put this basic information on the front page of the course to give a short overview of what to expect. To update the info on the front page, go to the file [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/index.markdown](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/index.markdown) and replace the text currently there to reflect what your course will be about. Once again, you can update it at any time and we will come back to this at a later stage.
-
-### Lets have a look at your course!
-
-You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/), just replace your-github-username with your GitHub username.
-
-### Add modules to your course
+Now it's time to start building your course! ### Add modules to your course
 
 Now create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module inside the modules folder. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
 
