@@ -20,7 +20,10 @@ var ghLinkHelper = (function ($) {
         // update all links
         links.replaceWith(function(){
 	        var linkClass = '',
-		        linkClear = '',
+		        linkClear = 'This is not taking me to the right place ' +
+			        '<a href="#" class="clear-ghUserName">' +
+					'Set the Github name again.' +
+					'</a>',
 		        linkText = '',
 		        linkReplace = /your-github-username/;
 
@@ -36,16 +39,16 @@ var ghLinkHelper = (function ($) {
 					'<a href="#" class="clear-ghUserName">' +
 					'Clear this username.' +
 					'</a>' +
-					'</div>' +
-					'</i>' +
-					'</small>';
+					'</div>';
 
 	        }
             return '<div id="ghUsername-box">' + linkText +
 	            '<a class="'+ linkClass +'" href="' + this.href.replace(linkReplace, ghUserName) +
 	            '" target="_blank"><i class="fa fa-lg fa-github-square"></i> ' +
-                this.text.replace(/your-github-username/, ghUserName)+ '</a>' + linkClear +
-	            '<span class="label label-default">Link</span></div>';
+                this.text.replace(/your-github-username/, ghUserName)+
+	            '</a><div><small><i>' +linkClear + '</i></small></div>' +
+	            '<span class="label label-default">Link</span>' +
+	            '</div>';
         });
 
         $('.clear-ghUserName').click(function(){
