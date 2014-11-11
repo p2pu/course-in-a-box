@@ -4,7 +4,16 @@ title: Your own Course
 
 When we asked you to fork this course you actually copied this course and started building your own!
 
-This copy is where you will be working during the rest course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
+This copy is where you will be working during the rest of the course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
+
+<div id="ghUsername-intro">
+Below we will be doing some proper work on Github. Now that you have an account, I hope you wouldn't mind telling us your username, so we can prepare some links and make things much easier for you. Don't worry we are not storing any information about you on our servers.
+
+When you will set you username, we can generate direct link to the files in for your Course-in-a-box.
+
+Be sure you give us the right username, as we aren't storing this info on our servers and we have no way of proof checking it for you. 
+</div>
+[your-github-username](https://github.com/your-github-username-set/course-in-a-box/)
 
 ### Tweak a few items. 
 There are two updates that you need to make to your course to get it working. First, change

@@ -133,11 +133,45 @@ body {
 .sidebar .pagination-section {
 	padding-left: 60px;
 }
-.content{
+
+.content {
 	line-height: 2;
 }
+
 blockquote {
 	font-size: initial;
 	font-style: italic;
 	line-height: 1.9;
+}
+
+#ghUsername-box {
+	position: relative;
+	background: $gray-lighter;
+	padding: 10px 20px;
+
+	.ghUsername-set {
+		@extend .h2;
+		padding: 7px 15px;
+		display: block;
+		margin: 0;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+	.label {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+.gh-username-set {
+	input {
+		padding: 4px;
+	}
+	button {
+		margin-top: -5px;
+	}
 }
