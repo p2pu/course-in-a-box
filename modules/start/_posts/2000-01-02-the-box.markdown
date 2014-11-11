@@ -4,15 +4,12 @@ title: Your own Course
 
 When we asked you to fork this course you actually copied this course and started building your own!
 
-This copy is where you will be working during the rest of the course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
+This copy is where you will be working during the course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
 
 <div id="ghUsername-intro">
-Below we will be doing some proper work on Github. Now that you have an account, I hope you wouldn't mind telling us your username, so we can prepare some links and make things much easier for you. Don't worry we are not storing any information about you on our servers.
-
-When you will set you username, we can generate direct link to the files in for your Course-in-a-box.
-
-Be sure you give us the right username, as we aren't storing this info on our servers and we have no way of proof checking it for you. 
+Below we will be doing some proper work on GitHub. We hope you won't mind telling us your username, so we can prepare some links and make things much easier for you. Don't worry, we are not storing any information about you on our servers. If you have JavaScript disabled for some reason, you will need to replace 'your-github-username' with your GitHub username where you see links containing 'your-github-username'
 </div>
+
 [your-github-username](https://github.com/your-github-username-set/course-in-a-box/)
 
 ### Tweak a few items. 
@@ -31,7 +28,7 @@ Next, delete the file called CNAME [https://github.com/your-github-username/cour
 Now that you have a space to work, lets put a draft framework in place for your course.
 
 ### Give your course a name. 
-To update the title of your course, go to [https://github.com/your-github-username/course-in-a-box/](https://github.com/your-github-username/course-in-a-box/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
+To update the title of your course, go to [https://github.com/your-github-username/course-in-a-box/blog/gh-pages/_data/course.yml](https://github.com/your-github-username/course-in-a-box/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
 
 {% highlight yaml %}title: "Course Title"{% endhighlight %}
 
@@ -40,7 +37,7 @@ Will they be building something during the course. Put this basic information on
 
 ### Lets have a look at your course!
 
-You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/), just replace your-github-username with your GitHub username.
+You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/).
 
 <video id="creating your course" width="640" height="360" preload controls>
     <source src="{{site.baseurl}}/img/steps.webm" />
