@@ -1,33 +1,84 @@
-var ghLinkHelper = (function($){
-    /// Replace the placeholder text your-github-username with the name stored in sessionStorage or create a text input if it is not in sessionStorage
-    var ghUserName = window.sessionStorage.getItem('ghUserName');
-    var links = $("a[href*='your-github-username']");
+
+//Predefined optons for JSLint
+/*jslint browser: true*/
+
+var ghLinkHelper = (function ($) {
+	"use strict";
+    /// Replace the placeholder text your-github-username with the
+    // name stored in sessionStorage or create a text input if it is
+    // not in sessionStorage
+
+    var ghUserName = window.sessionStorage.getItem('ghUserName'),
+        links = $("a[href*='your-github-username']"),
+		setLink = $("a[href*='your-github-username-set']"),
+	    introText = $('#ghUsername-intro'),
+	    i;
+
     if (ghUserName) {
-        // update all linksa
-        links.replaceWith(function(){ 
-            return '<a href="' + this.href.replace(/your-github-username/, ghUserName) + '">' + this.text.replace(/your-github-username/, ghUserName) + ' <a href="#" class="clear-ghUserName">(<i class="fa fa-times"></i> clear username)</a>';
+	    introText.hide();
+
+        // update all links
+        links.replaceWith(function(){
+	        var linkClass = '',
+		        linkClear = '',
+		        linkText = '',
+		        linkReplace = /your-github-username/;
+
+
+	        if($(this).attr('href') === setLink.attr('href')){
+		        linkReplace = /your-github-username-set/;
+		        linkText = 'Your Github username: ';
+		        linkClass = "ghUsername-set";
+				linkClear = '<small>' +
+					'<i>' +
+					'<div id="clear-ghUserName-wrap">' +
+					'This is not my Github username. ' +
+					'<a href="#" class="clear-ghUserName">' +
+					'Clear this username.' +
+					'</a>' +
+					'</div>' +
+					'</i>' +
+					'</small>';
+
+	        }
+            return '<div id="ghUsername-box">' + linkText +
+	            '<a class="'+ linkClass +'" href="' + this.href.replace(linkReplace, ghUserName) +
+	            '" target="_blank"><i class="fa fa-lg fa-github-square"></i> ' +
+                this.text.replace(/your-github-username/, ghUserName)+ '</a>' + linkClear +
+	            '<span class="label label-default">Link</span></div>';
         });
+
         $('.clear-ghUserName').click(function(){
+	        introText.show();
             window.sessionStorage.removeItem('ghUserName');
             window.location = window.location;
         });
     } else {
         // update all links with ghLinkHelper input
-        for (var i = 0; i < links.length; ++i){
+        for (i = 0; i < links.length; i = i+1){
             (function(i){
-            var div = document.createElement('div');
-            div.id = 'ghLink-' + i;
-            div.style.display='inline-block';
-            var linkStart = links[i].text.substr(0, links[i].text.indexOf('your-github-username'));
-            var linkEnd = links[i].text.substr(links[i].text.indexOf('your-github-username') + 'your-github-username'.length);
-            div.innerHTML = linkStart + '<input type="text" placeholder="your-github-username"></input>' + linkEnd + ' <button>set</button>';
-            links[i].parentElement.replaceChild(div, links[i]);
-            $('button', div).click(function(){
-                var ghUserName = $('input', div).val();
-                window.sessionStorage.setItem('ghUserName', ghUserName);
-                window.open(links[i].href.replace(/your-github-username/, ghUserName));
-                window.location = window.location;
-            });
+	            var div = document.createElement('div'),
+		            ghUsernameLink = 'your-github-username',
+		            linkStart,
+		            linkEnd;
+
+	            if($(links[i]).attr('href') === setLink.attr('href')) {
+		            div.className ='gh-username-set';
+		            ghUsernameLink = 'your-github-username-set';
+	            }
+	            div.id = 'ghLink-' + i;
+	            div.style.display='inline-block';
+	            linkStart = links[i].text.substr(0, links[i].text.indexOf(ghUsernameLink));
+	            linkEnd = links[i].text.substr(links[i].text.indexOf(ghUsernameLink) + ghUsernameLink.length);
+	            div.innerHTML = linkStart + '<input type="text" placeholder="your-github-username"></input>' + linkEnd + ' <button class="btn btn-success">set</button>';
+	            links[i].parentElement.replaceChild(div, links[i]);
+	            $('button', div).click(function(){
+	                ghUserName = $('input', div).val();
+	                window.sessionStorage.setItem('ghUserName', ghUserName);
+		            introText.hide();
+	                //window.open(links[i].href.replace(/ghUsername/, ghUserName));
+	                window.location = window.location;
+	            });
             }(i));
         }
     }
