@@ -2,6 +2,10 @@
 title: "Projects"
 ---
 
+## Find your 'first 10'
+
+Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building. Invite people to share their thoughts on the topic in discourse. This is a good opportunity to grow your network and to get other people to work with.
+
 ## Community in other courses
 
 Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
@@ -9,12 +13,3 @@ Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses
 - What does community look like in those courses?
 - How do they interact?
 - How do they celebrate success?
-
-## Find your 'first 10'
-
-Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building. Invite people to share their thoughts on the topic in discourse. This is a good opportunity to grow your network and to get other people to work with.
-
-## What will community look like for your course?
-
-The course you are creating will form a community of its own. How will people join your community? What type of community will you build for your course? Will it be a community of interest, practice or inquiry? Will you add a personality/theme to your community? Will the community keep going after the course is done?
-
