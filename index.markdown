@@ -9,7 +9,7 @@ Online courses often feel large, intimidating and anonymous. It's hard to feel i
 in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
 don't know anyone.
 
-In a stellar learning experiece, you'd know who was in the room and feel super-comfy.
+In a stellar learning experience, you'd know who was in the room and feel super-comfy.
 You'd make projects together and find help when you get stuck. You'd want to send people
 thank-you cards and chicken soup.
 
