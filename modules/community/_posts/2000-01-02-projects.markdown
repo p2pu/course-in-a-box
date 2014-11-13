@@ -30,3 +30,7 @@ Observe how..
 
 Post your observations to Discourse under [Course in a Box: Community Safari](http://community.p2pu.org/t/course-in-a-box-community-safari/1153).
 
+Images of how to get there:
+
+![Discourse1.png](/img/Discourse1.png)
+![Discourse2.png](/img/Discourse2.png)
