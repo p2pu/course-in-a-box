@@ -1,15 +1,26 @@
 ---
-title: "Projects"
+title: Projects
+published: true
 ---
 
-## Find your 'first 10'
+## Find and Invite Folks to be Your 'First 10'
 
-Building a course alone is a daunting task. Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building. Invite people to share their thoughts on the topic in discourse. This is a good opportunity to grow your network and to get other people to work with.
+Building a course alone is a daunting task. We guarantee that co-designing with a crew makes for a [more successful online community](http://jolt.merlot.org/vol9no2/ahn_0613.htm). To wit, we invite you to:
+- Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building.
+- Poke through the forums to find folks who might be interested in the topic or could give you some tasty feedback. Mention them in your post by attaching @ to their username. (Dirk is @dirk).
+- If you have pals with interest or expertise in this area, send them the link to Discourse and ask for their feedback and ideas.
 
-## Community in other courses
+This is a good opportunity to grow your network and to get other people to work with.
 
-Take a look at how other courses does it. [Why Open](https://p2pu.org/en/courses/2314/why-open/), [Writing for Change](http://writing4change.p2pu.org) or [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
+## Observe and Participate in Other Communities
 
-- What does community look like in those courses?
-- How do they interact?
-- How do they celebrate success?
+The best way to build a quality community is to participate in other communities. Take a look at how other courses do it: 
+- [Why Open](https://p2pu.org/en/courses/2314/why-open/)
+- [Writing for Change](http://writing4change.p2pu.org) 
+- [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
+
+Observe how..
+- folks welcome new people to the community
+- how community members interact with each other
+- how they celebrate success
+- how they give feedback to each other
