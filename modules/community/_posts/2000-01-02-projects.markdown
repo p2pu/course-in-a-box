@@ -7,7 +7,7 @@ published: true
 
 Building a course alone is a daunting task. We guarantee that co-designing with a crew makes for a [more successful online community](http://jolt.merlot.org/vol9no2/ahn_0613.htm). To wit, we invite you to:
 - Start a new topic on discourse under the [new courses](http://community.p2pu.org/c/new-courses) category to tell people about the course you are building.
-- Poke through the forums to find folks who might be interested in the topic or could give you some tasty feedback. Mention them in your post by attaching @ to their username. (Dirk is @dirk).
+- Poke through the forums to find folks who might be interested in the topic or could give you some tasty feedback. Mention them in your post by attaching @ to their username. (For example, Dirk is @dirk).
 - If you have pals with interest or expertise in this area, send them the link to Discourse and ask for their feedback and ideas.
 
 This is a good opportunity to grow your network and to get other people to work with.
