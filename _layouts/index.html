@@ -6,7 +6,8 @@ layout: base
 <div class="jumbotron">
 	<div class="container text-center">
 		{% if site.jumbotron_image %}
-		<img src="{{ site.baseurl }}/img/{{ site.jumbotron_image }}" alt="{{ site.title }} Icon" />
+			<img src="{{ site.baseurl }}/img/{{ site.jumbotron_image }}"
+			     alt="{{ site.title }} Icon" />
 		{% endif %}
 		<header>
 			<h1>{{ site.data.course.description }}</h1>
@@ -14,13 +15,11 @@ layout: base
 
 		<p>
 			<a class="btn btn-danger btn-lg"
-			   href="{{site.baseurl}}/modules/start/about-this-course/">
-				Start Your Own Course
-			</a>
+			   href="{{ site.baseurl }}/modules/start/about-this-course/">
+				Start Your Own Course </a>
 		</p>
 
 		<h3>In collaboration with <a href="http://p2pu.org">P2PU</a>.</h3>
-
 	</div>
 
 </div>
@@ -33,15 +32,80 @@ layout: base
 		</div>
 	</div>
 </div>
-<section class="people clearfix">
+<section class="calendar light-section">
+	<div class="container">
+		<h2>Calendar</h2>
+
+		<hr />
+
+		<div id="calendar-data" class="clearfix">
+			<h1 class="text-center"><i class="fa fa-cog fa-2x fa-spin"></i></h1>
+		</div>
+		<script type="text/mustache" id="app-template">
+			{% raw %}
+    {{#each reports}}
+    	<div class="event-wrap col-md-2 relative">
+				<div class="clearfix">
+					<div class="year">{{ year }}</div>
+					<div class="date-wrap">
+						<div class="month">{{ month }}</div>
+						<div class="date">{{ date }}</div>
+						<div class="day">{{ day }}</div>
+					</div>
+					<div class="status {{#passed}}passed{{/passed}}">
+						{{#passed}}
+						    <i class="fa fa-times fa-3x"></i>
+						{{/passed}}
+						{{#not_passed}}
+						    <i class="fa fa-check fa-3x"></i>
+						{{/not_passed}}
+					</div>
+				</div>
+				<div class="time">{{ start_hour }}:{{ start_minutes }} -
+				{{ end_hour }}:{{ end_minutes }}</div>
+				<div class="description">
+					{{ title }}
+				</div>
+				<div class="where clearfix">
+					<div class="add-calendar">
+						<a href="{{ location }}" title="Add to Calendar" class="addthisevent">
+						    <span class="fa-stack fa-lg">
+								  <i class="fa fa-calendar fa-stack-2x"></i>
+								  <i class="fa fa-plus-circle fa-stack-1x stacked-icon"></i>
+								</span>
+						    <span class="_start">{{ date }}-{{ monthnumber }}-{{ year }} {{ start_hour }}:{{ start_minutes }}:00</span>
+						    <span class="_end">{{ date }}-{{ monthnumber }}-{{ year }} {{ end_hour }}:{{ end_minutes }}:00</span>
+						    <span class="_summary">{{ title }}</span>
+						    <span class="_description">{{ description }}</span>
+						    <span class="_location">{{ location }}</span>
+						    <span class="_organizer">P2PU</span>
+						    <span class="_organizer_email">Organizer e-mail</span>
+						    <span class="_date_format">DD/MM/YYYY</span>
+						</a>
+					</div>
+					{{#location_set}}
+					<div class="location">
+						<a href="{{ location }}"><img src="{{ site.baseurl }}/img/unhangout-logo.svg"> Join now </a>
+					</div>
+					{{/location_set}}
+				</div>
+			</div>
+		{{/each}}
+			{% endraw %}
+		</script>
+	</div>
+</section>
+<section class="people clearfix dark-section">
 	<div class="container">
 		<h2>Who else is here?</h2>
 		<hr />
 		<ul class="list-inline">
 			{% for user in site.data.course.signups %}
 				<li class="col-md-1">
-					<a href="https://twitter.com/{{ user.twitter }}" target="_blank"> <img
-							class="img-circle profile-picture" src="{{ user.image }}"
+					<a href="https://twitter.com/{{ user.twitter }}"
+					   target="_blank"> <img
+							class="img-circle profile-picture"
+							src="{{ user.image }}"
 							alt="{{ user.name }}"> </a>
 				</li>
 			{% endfor %}

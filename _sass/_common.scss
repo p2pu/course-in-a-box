@@ -2,6 +2,10 @@ body {
 	background-color: $gray-lighter;
 }
 
+.relative {
+	position: relative;
+}
+
 .background-white {
 	padding: 60px 0;
 	background-color: $white;

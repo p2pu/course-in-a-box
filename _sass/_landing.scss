@@ -4,6 +4,20 @@ section {
 	line-height: 1.8;
 }
 
+.light-section{
+	background-color: $white;
+
+	hr{
+		border-color: $gray-lighter;
+	}
+}
+.dark-section{
+	background-color: $gray-lighter;
+
+	hr{
+		border-color: $white;
+	}
+}
 .jumbotron {
 	background: $jumbotron-color;
 	background-position: bottom center;
@@ -31,8 +45,12 @@ section {
 	font-size: 4em;
 }
 
-.people {
+.calendar{
 	background-color: $white;
+	padding: 50px 0 70px 0;
+}
+
+.people {
 	margin-bottom: 0;
 }
 
