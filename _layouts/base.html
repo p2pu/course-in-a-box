@@ -42,17 +42,22 @@
 <script>
   window.jQuery || document.write('<script src="{{ site.baseurl }}/js/jquery.min.js"><\/script>')
 </script>
+
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
 <script type="text/javascript"
         src="//s3.amazonaws.com/p2pu-navigation-widget/p2pu_menu_slider.js"></script>
-<script type="text/javascript">
-	$(".p2pu-tab").p2puSlider({
-		navbarContainer: '.navbar',
-		icon: '.p2pu-tab-icon',
-		iconUp: 'fa fa-chevron-down',
-		iconDown: 'fa fa-chevron-up'
-	});
+<script src="{{site.baseurl}}/js/init.js"></script>
+<script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
+
+<script>
+	P2PU.ciab.init();
+</script>
+
+<script src="{{site.baseurl}}/js/can.js"></script>
+<script src="{{site.baseurl}}/js/calendar.js"></script>
+<script type="text/javascript" src="https://addthisevent.com/libs/1.5.8/ate.min.js"></script>
+<script>
+	P2PU.ciab.calendar();
 </script>
 <!-- Google Analytics -->
 {% if site.ga_tracking_code or site.p2pu_ga_tracking_code %}
