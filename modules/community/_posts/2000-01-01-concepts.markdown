@@ -8,21 +8,6 @@ published: true
 
 ![Image of community]({{site.baseurl}}/img/community.jpg)
 
-## What Does a Learning Community Look Like?
-[Dave Cormier](http://davecormier.com/), lead raconteur of [Rhizomatic Learning: the Community is the Curriculum](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/) ([#rhizo14](https://twitter.com/search?q=rhizo14&src=typd)) and reluctant stepfather of the MOOC movement, answers the following core questions:
-
-- Why is learning in community important?
-- How do you ask people to participate?
-- How did you build with your audience?
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/c4KM9QgfOXA" frameborder="0" allowfullscreen></iframe>
-
-## Why does Community Matter for Learning?
-
-**Diversity of perspectives.** As Dave said, books are inert objects. Pushing "play" on a video is one passive experience. When you engage ideas with other people, the dialogue and exchanges challenge you to look at things several different ways. We won't tell you what to think--engaging others helps us think uniquely and engage collaboratively.
-
-**Support and stretch.** When you find your learning crew--the folks who share your vision and your values--they can buoy you up when you encounter setbacks and help you set the next goalpost. They can deliver feedback that helps you hone in on weaknesses or develop strengths.
-
 *Learners go farther when they learn together.*
 
 The way we see it, any online learning experience consists of three parts:
@@ -35,7 +20,23 @@ The way those pieces work together looks like this:
 
 ![Venn diagram showing the intersection of social presence, cognitive presence and teaching presence.]({{site.baseurl}}/img/community-diagram.jpg)
 
-In this part of the course, we’ll talk about “social presence” (or community), and how to build one around your learning goals. 
+In this part of the course, we’ll talk about “social presence” (or community), and how to build one around your learning goals.
+
+## What Does a Learning Community Look Like?
+[Dave Cormier](http://davecormier.com/), lead raconteur for the online course [Rhizomatic Learning: the Community is the Curriculum](https://p2pu.org/en/courses/882/rhizomatic-learning-the-community-is-the-curriculum/) ([#rhizo14](https://twitter.com/search?q=rhizo14&src=typd)) and reluctant stepfather of the MOOC movement, answers the following core questions:
+
+- Why is learning in community important?
+- How do you ask people to participate?
+- How did you build with your audience?
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/c4KM9QgfOXA" frameborder="0" allowfullscreen></iframe>
+
+## Why does Community Matter for Learning?
+
+**Diversity of perspectives.** As Dave said, books are inert objects. Pushing "play" on a video is one passive experience. When you engage ideas with other people, the dialogue and exchanges challenge you to look at things several different ways. We won't tell you what to think--engaging others helps us think uniquely and engage collaboratively.
+
+**Support and stretching.** When you find your learning crew--the folks who share your vision and your values--they can buoy you up when you encounter setbacks and help you set the next goalpost. They can deliver feedback that helps you hone in on weaknesses or develop strengths.
+
 
 ## OK, But What’s Community?
 
