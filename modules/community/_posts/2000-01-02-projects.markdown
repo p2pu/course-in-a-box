@@ -32,5 +32,5 @@ Post your observations to Discourse under [Course in a Box: Community Safari](ht
 
 Images of how to get there:
 
-![Discourse1.png](/img/Discourse1.png)
-![Discourse2.png](/img/Discourse2.png)
+![Discourse1.png]({{site.baseurl}}/img/Discourse1.png)
+![Discourse2.png]({{site.baseurl}}/img/Discourse2.png)
