@@ -51,7 +51,7 @@ var P2PU = window.P2PU || {};
 
 						});
 
-						$("#calendar-data").html(can.view("app-template", {reports: new can.List(events)}));
+						$("#calendar-data").html(can.view("app-template", {events: new can.List(events)}));
 					}else{
 						section.html('')
 							.removeClass('calendar')
