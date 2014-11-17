@@ -4,7 +4,7 @@ title: Markdown Cheatsheet
 
 # Markdown Cheatsheet
 
-A quick guide to get you going.
+Markdown is a plain text formatting language which has been designed to be easily converted to HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. This cheatsheet will help you to get going using Markdown.
 
 **Some bold text**
 
