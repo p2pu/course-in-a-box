@@ -6,7 +6,7 @@ title: Your own course!
 
 You're going to be building your course in GitHub. GitHub is web-based repository hosting service, which allows you to manage your code, and see revisions you've made via a good-looking, easy-to-use web interface. It's newbie-friendly, and a great collaboration tool, which is why we're using it for Course-in-a-Box.
 
-The flagship functionality of GitHub is “forking” – copying a repository from one user’s account to another. This is what we will do with this repository of content. By forking repository you will copy the Course-in-a-box content from our repository, and modify it under your own account and then publish with your own link to it.
+The flagship functionality of GitHub is “forking” – copying a repository from one users account to another. This is what we will do with this repository of content. By forking repository you will copy the Course-in-a-box content from our repository, and modify it under your own account and then publish with your own link to it.
 
 Your course will live on GitHub (so you don't need to worry about hosting) and you'll do all the building work there, but you'll be able to view it as a web page.
 
