@@ -4,6 +4,8 @@ title: GitHub Cheatsheet
 
 # Github cheatsheet
 
+This cheatsheet explains how to do various things in GitHub. If you're looking for explanations of what some of the terms we use mean, have a look at the [GitHub Glossary](https://help.github.com/articles/github-glossary) 
+
 ## How to fork a repository
 To fork a repository, go to the repository you would like to fork.  Ex. "https://github.com/yourusername/repositoryname/"
 

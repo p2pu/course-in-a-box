@@ -47,8 +47,6 @@ var P2PU = window.P2PU || {};
 							e.location = e.gd$where[0].valueString;
 							e.description = e.content.$t;
 
-							console.log(e.monthnumber);
-
 						});
 
 						$("#calendar-data").html(can.view("app-template", {events: new can.List(events)}));
