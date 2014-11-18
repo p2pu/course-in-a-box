@@ -54,7 +54,3 @@ Will they be building something during the course. Put this basic information on
 ### Lets have a look at your course!
 
 You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/).
-
-<video id="creating your course" width="640" height="360" preload controls>
-    <source src="{{site.baseurl}}/img/steps.webm" />
-</video>
