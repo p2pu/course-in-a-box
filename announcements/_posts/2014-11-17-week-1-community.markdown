@@ -3,6 +3,8 @@ title: Week 1 - Kicking off with community
 layout: course_page
 ---
 
+# Week 1 - Kicking off with community
+
 Hey!
 
 Welcome to Course in a Box! This is week 1 and we are talking, thinking and reading about community: [http://howto.p2pu.org/modules/community/concepts/](http://howto.p2pu.org/modules/community/concepts/).
