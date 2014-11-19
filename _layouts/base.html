@@ -53,12 +53,18 @@
 	P2PU.ciab.init();
 </script>
 
+{% if page.url == '/index.html' %}
 <script src="{{site.baseurl}}/js/can.js"></script>
 <script src="{{site.baseurl}}/js/calendar.js"></script>
 <script type="text/javascript" src="https://addthisevent.com/libs/1.5.8/ate.min.js"></script>
-<script>
-	P2PU.ciab.calendar();
+<script type="text/javascript">
+  var get_calendar = function () {
+    P2PU.ciab.calendar();
+  }
 </script>
+<script src="https://apis.google.com/js/client.js?onload=get_calendar"></script>
+{% endif %}
+
 <!-- Google Analytics -->
 {% if site.ga_tracking_code or site.p2pu_ga_tracking_code %}
 	{% include ga.html %}
