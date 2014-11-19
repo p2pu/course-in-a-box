@@ -1,4 +1,4 @@
-title: Music Works
+title: Course in a
 description: Build Your Very Own Open Course
 modules: [start, community, learning, content, feedback, references]
 signups:
@@ -81,3 +81,7 @@ signups:
    image: https://pbs.twimg.com/profile_images/356114067/elliotwater.jpg
    twitter: elliotharmon
    github_username: elliotharmon
+   name: Matt McLean
+   image: http://www.yciw.net/knights/wp-content/uploads/sites/69/2014/11/IMG_1448.jpg
+   twitter: yciw
+   github_username: matt5834
