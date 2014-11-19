@@ -6,41 +6,30 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-	<script
-			type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+	<script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
 	<meta charset="utf-8">
-	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' />
-	<![endif]-->
+	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>{{ site.data.course.title }}{% if page.title %} |
-		{{ page.title }}{% endif %}</title>
-	{% if site.data.course.description %}
-		<meta name="description"
-		      content="{{ site.data.course.description }}">{% endif %}
-	<meta name="author" content="{{ site.github.owner_name }}">
+	<title>{{ site.data.course.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+  {% if site.data.course.description %}<meta name="description" content="{{ site.data.course.description}}">{% endif %}
+  <meta name="author" content="{{ site.github.owner_name }}">
 
-	<meta property="og:title" content="{{ site.data.course.title }}" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="{{ site.github.url }}" />
+  <meta property="og:title" content="{{ site.data.course.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.github.url }}" />
 
-	<meta name="viewport"
-	      content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!--change this to serve from gh pages -->
-	<link rel="shortcut icon"
-	      href="https://p2pu.org/static/images/favicon.ico">
-	<link rel="apple-touch-icon"
-	      href="https://p2pu.org/static/images/apple-touch-icon.png">
+	<link rel="shortcut icon" href="https://p2pu.org/static/images/favicon.ico">
+	<link rel="apple-touch-icon" href="https://p2pu.org/static/images/apple-touch-icon.png">
 
-	<link rel="stylesheet"
-	      href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
 	<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
-	<script type="text/javascript"
-	        src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
+	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
 </head>
-<body {% if page.itemtype %}itemscope
-      itemtype="{{ page.itemtype }}"{% endif %}
+<body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %}
       class="{{ page.body-class }}">
 
 {% include navigation.html %}
@@ -49,34 +38,33 @@
 
 {% include footer.html %}
 
-<script
-		src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
-	window.jQuery || document.write('<script src="{{ site.baseurl }}/js/jquery.min.js"><\/script>')
+  window.jQuery || document.write('<script src="{{ site.baseurl }}/js/jquery.min.js"><\/script>')
 </script>
 
-<script
-		src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript"
         src="//s3.amazonaws.com/p2pu-navigation-widget/p2pu_menu_slider.js"></script>
-<script src="{{ site.baseurl }}/js/init.js"></script>
-<script src="{{ site.baseurl }}/js/gh_link_helper.js"></script>
+<script src="{{site.baseurl}}/js/init.js"></script>
+<script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
 
 <script>
 	P2PU.ciab.init();
 </script>
 
 {% if page.url == '/index.html' %}
-<script src="{{ site.baseurl }}/js/can.js"></script>
-<script src="{{ site.baseurl }}/js/calendar.js"></script>
+<script src="{{site.baseurl}}/js/can.js"></script>
+<script src="{{site.baseurl}}/js/calendar.js"></script>
+<script type="text/javascript" src="https://addthisevent.com/libs/1.5.8/ate.min.js"></script>
 <script type="text/javascript">
-	var get_calendar = function () {
-		P2PU.ciab.calendar();
-	}
+  var get_calendar = function () {
+    P2PU.ciab.calendar();
+  }
 </script>
-<script
-		src="https://apis.google.com/js/client.js?onload=get_calendar"></script>
+<script src="https://apis.google.com/js/client.js?onload=get_calendar"></script>
 {% endif %}
+
 <!-- Google Analytics -->
 {% if site.ga_tracking_code or site.p2pu_ga_tracking_code %}
 	{% include ga.html %}
