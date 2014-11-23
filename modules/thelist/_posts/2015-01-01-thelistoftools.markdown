@@ -7,7 +7,7 @@ This is not meant to be an exhaustive list but of ones that I have used in class
 
 ###Just the word
 
-###Corpus BYU
+###WordandPhrase.info
 
 ###WordNeighbors
 
