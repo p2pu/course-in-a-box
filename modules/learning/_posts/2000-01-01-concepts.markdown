@@ -36,12 +36,12 @@ We recall information best when it engages several of our senses. Take, for exam
 - create a time lapse photography about the gentrification of a neighborhood
 
 ### Low floors, wide walls. 
-We recommend activities that can work for both beginner and advanced learners. Activities of this type have few barriers to entry ( and make use of easy-to-use tools like Googledocs or Twitter) but are flexible enough to allow advanced folks to add layers of more complex elements. That way beginners can learn from the projects of advanced learners, and more advanced students are still challenged by the project. For example, say an assignment is [to create a manifesto](https://speakerdeck.com/mozzadrella/learning-community-design-adult-learner-manifesto). Both novice and experienced writers can articulate their beliefs and share core values. Experienced writers could take it further with persuasive techniques or speechwriting.
+We recommend activities that can work for both beginner and advanced learners. Activities of this type have few barriers to entry ( and make use of easy-to-use tools like Googledocs or Twitter) but are flexible enough to allow advanced folks to add layers of more complex elements. That way beginners can learn from the projects of advanced learners, and more advanced students are still challenged by the project. For example, say an assignment is [to create a manifesto](https://speakerdeck.com/mozzadrella/learning-community-design-adult-learner-manifesto). Both novice and experienced writers can articulate their beliefs and share core values. Experienced writers could take it further with persuasive techniques or speech writing.
 
 ### Focus on themes.
 Instead of encouraging learners to compete to solve a problem, select a thematic focus for a project. Instead of working deductively towards a “correct” solution, learners are free to follow their personal passions. The Science Leadership Academy in Philadelphia is a formal learning setting which anchors each year with a theme: identity, systems, change and creation. The assignments learners undertake map onto those themes and prompt learners to create their own understanding of the concepts.
 
-###Inspire with diverse xamples. 
+###Inspire with diverse examples. 
 Showcasing a range of work inspires learners to imagine what’s possible (as opposed to what’s correct). At the same time, an array of different projects models inclusivity, builds a broad community of learners. For instance, the homepage for the 3-D printing community [Shapeways](http://www.shapeways.com/) features projects that range from an egg-cup to accessories to bling out your Google Glass.
 
 ## Examples 
@@ -55,7 +55,7 @@ At the same time, we didn't want learners to feel constrained by the structure o
 
 >As you might have guessed, we encourage you to be creative in this course. If you find our Perceived Space Graph Template limiting, feel free to use your imagination and develop a different template than the one shared in Step 2, above. Some people prefer to work with pens, markers, and paper. For others, Google Charts is fine. If you decide to create multiple >space graphs for your song, we encourage you to edit them into a video using iMovie or the free web-based Mozilla Popcorn Maker11 synchronizing your graphs to the recording. Whatever method you use, be sure to either share a link or take a photograph of it and post a photo of it to your learning ensemble.
  
-We want learners to feel comfortable and give them options for how to engage. Like the Play With Your Music course we mentioned above, we encourage folks to convey the information in different ways--visually (like mental maps), audially (like pronounciation clips), or via text (like readings or Wikipedia entries). We recommend that you offer content that appeals to different styles, and give learners options for what sorts of projects they might want to undertake.
+We want learners to feel comfortable and give them options for how to engage. Like the Play With Your Music course we mentioned above, we encourage folks to convey the information in different ways--visually (like mental maps), audially (like pronunciation clips), or via text (like readings or Wikipedia entries). We recommend that you offer content that appeals to different styles, and give learners options for what sorts of projects they might want to undertake.
 
 ### Story Hack Day
 For [Story Hack Boston](http://storyhack.splashthat.com/) SoundCloud, MIT and P2PU hatched a plan to revamp the hackathon, peer-learning style. 44 storytellers and hackers came together to tell stories. We offered 4 thematic tracks for the day-long event:
