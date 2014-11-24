@@ -20,14 +20,14 @@ Complete one of the exercise from the course.
 
 ## Plan your Learning outcomes
 
-Write down what you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
+What do you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
+
+Write down the learning outcomes for your course and post it to the topic you've created before on discourse.
 
 
 ## Add modules to your course
 
-Now it's time to start building your course! ### Add modules to your course
-
-Now create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module inside the modules folder. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
+Now it's time to start building your course! Create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module inside the modules folder. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
 
 Inside the folder you just created you also need to create another folder called `_posts`. This is the folder that will hold the actual content for your course. Every module can have multiple sections. One of these sections should be `projects`. Create a new file called `2000-01-01-projects.md` inside the `_posts` folder for the module you just created. The date part is used to determine the order of the sections in the module. For instance, you can see all the sections for the learning module [here](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/_posts)
 
