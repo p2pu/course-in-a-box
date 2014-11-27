@@ -1,5 +1,5 @@
 # basic configuration
-baseurl:/rhizo15
+baseurl:/course-in-a-box
 markdown: redcarpet
 permalink: /:categories/:title/
 
