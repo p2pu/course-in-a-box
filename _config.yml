@@ -1,5 +1,5 @@
 # basic configuration
-baseurl:rhizo15
+baseurl:/rhizo15
 markdown: redcarpet
 permalink: /:categories/:title/
 
