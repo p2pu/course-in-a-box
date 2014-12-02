@@ -10,7 +10,8 @@ Everyone has their favorite readings, ideas and activities that they might want 
 
 *Start with what you want folks to know.* Work backwards from there. 
 
-![3stages.gif](/img/3stages.gif)
+![3stages.gif]({{site.baseurl}}/img/3stages.gif)
+
 *credit: http://techknowtools.files.wordpress.com/2012/04/3stages.gif*
 
 
@@ -18,7 +19,7 @@ Everyone has their favorite readings, ideas and activities that they might want 
 2. Think about what kinds of projects students might complete to show mastery of those ideas or skills. Jot down 1-2 ideas.
 3. You now have the learning outcomes for your course. Post your learning outcomes and project ideas to Discourse under [Course in a Box: Backwards Learning Design](http://community.p2pu.org/t/course-in-a-box-backwards-learning-design/1224).
 
-![learning.safari.png](/img/learning.safari.png)
+![learning.safari.png]({{site.baseurl}}/img/learning.safari.png)
 
 Now you are ready to create (and play with) your modules!
 
