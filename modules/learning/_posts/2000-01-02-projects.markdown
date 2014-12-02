@@ -10,19 +10,23 @@ Everyone has their favorite readings, ideas and activities that they might want 
 
 *Start with what you want folks to know.* Work backwards from there. 
 
+![3stages.gif](/img/3stages.gif)
+*credit: http://techknowtools.files.wordpress.com/2012/04/3stages.gif*
 1. What ideas or skills do you want students to master in your course? Make a list of 3-5. 
 2. Think about what kinds of projects students might complete to show mastery of those ideas or skills. Jot down 1-2 ideas.
 3. You now have the learning outcomes for your course. Post your learning outcomes and project ideas to Discourse under [Course in a Box: Backwards Learning Design](http://community.p2pu.org/t/course-in-a-box-backwards-learning-design/1224)
 
+![learning.safari.png](/img/learning.safari.png)
+
 Now you are ready to create (and play with) your modules!
 
+## Let's Make Some Modules!
 
+Now it's time to start building your course! 
 
-
-## Add modules to your course
-
-Now it's time to start building your course! Create a module in your course for every learning outcome above. In your GitHub repository, create a folder for every module inside the modules folder. The name of the folder will be reflected in the URLs of your course. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
-
+1. In your GitHub repository, create a folder for every module inside the "modules" folder. The name of the folder will be reflected in the URLs of your course. 
+2. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
+3. Create a module in your course for each learning outcome you drafted. 
 Inside the folder you just created you also need to create another folder called `_posts`. This is the folder that will hold the actual content for your course. Every module can have multiple sections. One of these sections should be `projects`. Create a new file called `2000-01-01-projects.md` inside the `_posts` folder for the module you just created. The date part is used to determine the order of the sections in the module. For instance, you can see all the sections for the learning module [here](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/_posts)
 
 If you don't want to create all the folders yourself, rename or copy one of the folders that are already there (start, community, learning, content) and update the sections appropriately.
