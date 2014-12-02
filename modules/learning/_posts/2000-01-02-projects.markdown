@@ -1,28 +1,22 @@
 ---
 title: Projects
+published: true
 ---
+
 # Projects
 
-## Join another P2PU course and observe 
-You can choose any P2PU course, but if you have no idea where to start, here's a short list:
+## Backwards Design: What Will People *Learn* in Your Course?
+Everyone has their favorite readings, ideas and activities that they might want to pull into their courses. But designing a course is about selecting the right elements that will bring about transformation. 
 
-- [Why Open](https://p2pu.org/en/courses/2314/why-open/) 
-- [Writing for Change](http://writing4change.p2pu.org)
-- [Play With Your Music](http://playwithyourmusic.org)
+*Start with what you want folks to know.* Work backwards from there. 
 
-Here are some things to think about while looking at the course:
+1. What ideas or skills do you want students to master in your course? Make a list of 3-5. 
+2. Think about what kinds of projects students might complete to show mastery of those ideas or skills. Jot down 1-2 ideas.
+3. You now have the learning outcomes for your course. Post your learning outcomes and project ideas to Discourse under [Course in a Box: Backwards Learning Design](http://community.p2pu.org/t/course-in-a-box-backwards-learning-design/1224)
 
-- How are the courses structured
-- What are the exercises like? What is the product, how do people share it?
-
-Complete one of the exercise from the course.
+Now you are ready to create (and play with) your modules!
 
 
-## Plan your Learning outcomes
-
-What do you want people to learn when taking your course - your learning outcomes. Try to think of possible projects learners can do that will require them to learn those things. Some things to keep in mind - will students need to do all the projects? Will all the projects require mastery of all the learning outcomes? Does completing a project imply mastering all the learning outcomes?
-
-Write down the learning outcomes for your course and post it to the topic you've created before on discourse.
 
 
 ## Add modules to your course
