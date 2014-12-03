@@ -15,7 +15,7 @@ Decide what "content" in a learning experience means to you. In a peer learning 
 
 And it can also be a blend of the 3 :)
 
-For your course, decide which approaches to developing content are most appropriate (especially in light of the activities you designed). Go ahead and post your activity ideas for critique and feedback on Discourse. 
+For your course, decide which approaches to developing content are most appropriate (especially in light of the activities you designed). Go ahead and post your activity ideas for critique and feedback [on Discourse](http://community.p2pu.org/t/course-in-a-box-what-on-earth-is-content/1226). 
 
 ## Tech: How to Add Stuff to Your Course
 To add tasty content to your modules, you need to create a section in the module the same way you created the 'Projects' section. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts) and create a new file for every section that you want within the module.
