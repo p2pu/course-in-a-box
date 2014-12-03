@@ -41,3 +41,20 @@ Update the list of modules to reflect the modules for your course:
 {% highlight yaml %}
 modules: [start, community, learning, content, feedback, references]
 {% endhighlight %}
+
+## From Learning Goals to Activities
+As we mentioned earlier, we recall information best when we:
+
+- design for all senses
+- build a real-life project that is applicable to our lives
+- present that project to others for feedback
+- share our ideas with the wider world
+
+For each learning goal / module, design an assignment prompt that's open-ended and empowers learners to personalize the project. As mentioned earlier, for "social stratification" you might:
+
+- display census data on a map
+- interview 5 people in a certain radius and share the interviews on a website
+- create a video documentary about grocery stores in an area
+- create a time lapse photography about the gentrification of a neighborhood
+
+For each learning module, describe your activity, and post it to [Course in a Box: Activity Design](http://community.p2pu.org/t/course-in-a-box-activity-design/1225) on Discourse. 
