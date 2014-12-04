@@ -27,7 +27,7 @@ Now you are ready to create (and play with) your modules!
 
 Now it's time to start building your course! 
 
-1. In your GitHub repository, create a folder for every module inside the "modules" folder. The name of the folder will be reflected in the URLs of your course. 
+1. In your GitHub repository, create a folder for every module inside the `modules` folder. The name of the folder will be reflected in the URLs of your course. 
 2. If you look at the URL for this page, you will notice the first part of the URL is 'modules/learning' and that is also the name of the [folder in the GitHub repository](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/).
 3. Create a module in your course for each learning outcome you drafted. 
 Inside the folder you just created you also need to create another folder called `_posts`. This is the folder that will hold the actual content for your course. Every module can have multiple sections. One of these sections should be `projects`. Create a new file called `2000-01-01-projects.md` inside the `_posts` folder for the module you just created. The date part is used to determine the order of the sections in the module. For instance, you can see all the sections for the learning module [here](https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/_posts)
