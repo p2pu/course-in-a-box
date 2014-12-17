@@ -25,9 +25,14 @@ Badges are a good way to facilitate feedback on projects in a course. Design a b
 
 Some good example badges to look at are: 
 
-- [WikiSOO Burba Badge](http://badges.p2pu.org/en/badge/view/22/)
-- [Deeper Learning](http://badges.p2pu.org/en/badge/view/323/)
-- [I Walked with #WALKMYWORLD](http://badges.p2pu.org/en/badge/view/347/).
+### WikiSOO Burba Badge
+<iframe id="badge_embed" type="text/html" frameborder="0" height="310" width="210" src="//badges.p2pu.org/en/badge/view/22/embedded/?rendering=normal"></iframe>
+
+### Deeper Learning
+<iframe id="badge_embed" type="text/html" frameborder="0" height="310" width="210" src="//badges.p2pu.org/en/badge/view/323/embedded/?rendering=normal"></iframe>
+
+### I Walked with #WALKMYWORLD
+<iframe id="badge_embed" type="text/html" frameborder="0" height="310" width="210" src="//badges.p2pu.org/en/badge/view/347/embedded/?rendering=normal"></iframe>
 
 To add your badges to your course, you should grab the embed code from the badges page by clicking on the embed button and paste the code into a seperate section in your module called "badges." [Here's some detailed directions to help you embed your badge anywhere on the web](http://info.p2pu.org/2013/07/16/announcing-new-ways-to-use-badges-p2pu/).
 
