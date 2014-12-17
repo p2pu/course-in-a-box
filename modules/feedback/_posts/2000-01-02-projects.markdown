@@ -1,24 +1,27 @@
 ---
 title: Projects
+published: true
 ---
 
 # Projects
 
-## What is good feedback?
+## Feedback on the Web: What is "Good"?
 
-Think back to a time when you received feedback, both good and bad. How did it feel? Did the feedback help you achieve your goal? Share your experiences on the [forum](http://community.p2pu.org/t/what-is-good-feedback/1292) and lets figure out what good feedback looks like from experience.
+We encounter feedback mechanisms on the web, wherver we go. On Twitter, we know a Tweet is "good" if people Favorite it, or Retweet it. On Stack Overflow, people "upvote" good answers. 
 
-## Give feedback.
+Think about the last time you received feedback on the web. Did the feedback help you achieve your goal? Share your experiences on the [forum](http://community.p2pu.org/t/what-is-good-feedback/1292) and lets figure out what good feedback looks like from experience.
 
-How about practicing giving some good feedback. Go to the ['New Course'](http://community.p2pu.org/c/new-courses) category and pick a course to give feedback on. Structure your feedback as follows: 
+## Help Others with Your Sharp Feedback Skills
+
+Go to the ['New Course'](http://community.p2pu.org/c/new-courses) category and pick a course to give feedback on. Structure your feedback as follows: 
 
 1. Say specifically what you like about the course.
-1. Ask for clarification on things that you don't understand or don't agree with.
-1. Make suggestions after hearing the answers to your clarification questions.
+2. Ask for clarification on things that you don't understand or don't agree with.
+3. Make suggestions after hearing the answers to your clarification questions.
 
-## Create badges for your course.
+## Create a P2PU Badge to Prompt Feedback and Recognize Mastery
 
-Badges are a good way to facilitate feedback on projects in a course. Design a badge for every project in your course. You can create a badge on [badges.p2pu.org](https://badges.p2pu.org). For in depth details on creating badges, you should see our [course on creating a badge](https://p2pu.org/en/courses/653/content/1254/) for your course.
+Badges are a good way to facilitate feedback on projects in a course. Design a badge for every project in your course. You can create a badge on [badges.p2pu.org](https://badges.p2pu.org), and get a feel for how they work with our [Badge Maker](https://p2pu.org/en/courses/653/p2pu-badge-maker/) course.
 
 Some good example badges to look at are: 
 
@@ -26,7 +29,7 @@ Some good example badges to look at are:
 - [Deeper Learning](http://badges.p2pu.org/en/badge/view/323/)
 - [I Walked with #WALKMYWORLD](http://badges.p2pu.org/en/badge/view/347/).
 
-To add your badges to your course, you should grab the embed code from the badges page by clicking on the embed button and paste the code into a seperate section in your module called badges.
+To add your badges to your course, you should grab the embed code from the badges page by clicking on the embed button and paste the code into a seperate section in your module called "badges." [Here's some detailed directions to help you embed your badge anywhere on the web](http://info.p2pu.org/2013/07/16/announcing-new-ways-to-use-badges-p2pu/).
 
 This is an example of what the embed code looks like:
 
