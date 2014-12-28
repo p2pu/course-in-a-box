@@ -108,3 +108,7 @@ signups:
    image: http://www.gravatar.com/avatar/79b02b7ce879385b62a5e8e6745b16d1
    twitter: cpjobling
    github: cpjobling
+ - name: Chiara Ciociola
+   image: https://pbs.twimg.com/profile_images/378800000854009340/a25a8294f0c0ff748e92d5a412dc5ebf_bigger.jpeg
+   twitter: chiaracio
+   github: chiaracio
