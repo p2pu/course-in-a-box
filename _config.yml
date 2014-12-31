@@ -1,5 +1,5 @@
 # basic configuration
-baseurl:
+baseurl: /course-in-a-box
 markdown: redcarpet
 permalink: /:categories/:title/
 
