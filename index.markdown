@@ -3,11 +3,12 @@ layout: index
 published: true
 ---
 ## TIO Course Experiment
-Here we will tinker around with this fork of Course in a Box to see what can be done and how.
+Here I am going to tinker around with this fork of Course in a Box to see what can be done and how.
 
-More to come here.
+The idea is this - as far as I can glean it so far: That students literally *take* the course by forking it, then working with the forked materias to become familiar with the ideas and practices. It's bootstrapping. This fork - TIO - now sits on my github and I can work with it as I neeed to. Others can grab from this fork what they want, and I can push my changes to the p2pu repository: I did this when I added my name to the participant list.
 
-Below is the p2pu info.
+
+Below is the p2pu info that comes with the fork.
 
 ### Create a Learning Community that Lasts
 
