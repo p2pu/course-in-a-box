@@ -7,6 +7,12 @@ Here I am going to tinker around with this fork of Course in a Box to see what c
 
 The idea is this - as far as I can glean it so far: That students literally *take* the course by forking it, then working with the forked materias to become familiar with the ideas and practices. It's bootstrapping. This fork - TIO - now sits on my github and I can work with it as I neeed to. Others can grab from this fork what they want, and I can push my changes to the p2pu repository: I did this when I added my name to the participant list.
 
+## Working Through and Playing With
+There's the move of working through the modules, which appear as a memu at the top of the page. 
+
+Then there's the move of playing with the content on github. Exploring the directories there illustrates and explains how the course-in-a-box design works and provides some samples - the ones that I'm working through. That's bootstrapping again.
+
+
 
 Below is the p2pu info that comes with the fork.
 --------------
