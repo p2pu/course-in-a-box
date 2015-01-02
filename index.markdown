@@ -9,6 +9,7 @@ The idea is this - as far as I can glean it so far: That students literally *tak
 
 
 Below is the p2pu info that comes with the fork.
+----
 
 ### Create a Learning Community that Lasts
 
