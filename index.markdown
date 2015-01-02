@@ -2,8 +2,14 @@
 layout: index
 published: true
 ---
+## TIO Course Experiment
+Here we will tinker around with this fork of Course in a Box to see what can be done and how.
 
-## Create a Learning Community that Lasts
+More to come here.
+
+Below is the p2pu info.
+
+### Create a Learning Community that Lasts
 
 Online courses often feel large, intimidating and anonymous. It's hard to feel invested
 in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
@@ -18,7 +24,7 @@ you craft assignments that rule, build an audience and support you along the way
 even learn a few technical skills in the process. Don't worry, 1s and 0s wash off
 pretty easily.
 		
-## OK, but who are you guys?
+### OK, but who are you guys?
 
 We're [Peer 2 Peer University](http://p2pu.org)--we build learning communities
 on the web. In the last 5 years, we put together courses like 
@@ -29,5 +35,5 @@ on the web. In the last 5 years, we put together courses like
 Also, we're a non-profit and a distributed team (so we use the tools we recommend).
 
 			
-## I'm in--how do I get started?
+### I'm in--how do I get started?
 Head over [here]({{site.baseurl}}/modules/start/about-this-course/) to create your own course!
