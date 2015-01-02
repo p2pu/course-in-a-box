@@ -1,5 +1,5 @@
-title: Course in a Box
-description: Build Your Very Own Open Course
+title: TIO Course Experiment
+description: Getting comfortable with Course in a Box
 modules: [start, community, learning, content, feedback, references]
 signups:
  - name: Dave Cormier
@@ -108,3 +108,7 @@ signups:
    image: http://www.gravatar.com/avatar/79b02b7ce879385b62a5e8e6745b16d1
    twitter: cpjobling
    github: cpjobling
+ - name: M C Morgan
+   image: http://www.gravatar.com/avatar/55f1d1ffbca0d409d46c48ffe5b08fb5.png
+   twitter: mcmorgan
+   github: mcmorgan53

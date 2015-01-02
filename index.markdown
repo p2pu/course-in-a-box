@@ -2,8 +2,22 @@
 layout: index
 published: true
 ---
+## TIO Course Experiment
+Here I am going to tinker around with this fork of Course in a Box to see what can be done and how.
 
-## Create a Learning Community that Lasts
+The idea is this - as far as I can glean it so far: That students literally *take* the course by forking it, then working with the forked materias to become familiar with the ideas and practices. It's bootstrapping. This fork - TIO - now sits on my github and I can work with it as I neeed to. Others can grab from this fork what they want, and I can push my changes to the p2pu repository: I did this when I added my name to the participant list.
+
+## Working Through and Playing With
+There's the move of working through the modules, which appear as a memu at the top of the page. 
+
+Then there's the move of playing with the content on github. Exploring the directories there illustrates and explains how the course-in-a-box design works and provides some samples - the ones that I'm working through. That's bootstrapping again.
+
+
+
+Below is the p2pu info that comes with the fork.
+--------------
+
+#### Create a Learning Community that Lasts
 
 Online courses often feel large, intimidating and anonymous. It's hard to feel invested
 in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
@@ -18,7 +32,7 @@ you craft assignments that rule, build an audience and support you along the way
 even learn a few technical skills in the process. Don't worry, 1s and 0s wash off
 pretty easily.
 		
-## OK, but who are you guys?
+#### OK, but who are you guys?
 
 We're [Peer 2 Peer University](http://p2pu.org)--we build learning communities
 on the web. In the last 5 years, we put together courses like 
@@ -29,5 +43,5 @@ on the web. In the last 5 years, we put together courses like
 Also, we're a non-profit and a distributed team (so we use the tools we recommend).
 
 			
-## I'm in--how do I get started?
+#### I'm in--how do I get started?
 Head over [here]({{site.baseurl}}/modules/start/about-this-course/) to create your own course!
