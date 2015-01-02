@@ -1,5 +1,5 @@
-title: Course in a Box
-description: Build Your Very Own Open Course
+title: TIO Course Experiment
+description: Getting comfortable with Course in a Box
 modules: [start, community, learning, content, feedback, references]
 signups:
  - name: Dave Cormier
