@@ -5,6 +5,8 @@ published: true
 
 ## Create a Learning Community that Lasts
 
+Hi, I'm Jose and I'll be your server. 
+
 Online courses often feel large, intimidating and anonymous. It's hard to feel invested
 in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
 don't know anyone.
