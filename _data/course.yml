@@ -115,3 +115,7 @@ signups:
  - name: iCreo
    image: https://pbs.twimg.com/profile_images/539592895645233152/WHweURS4_400x400.jpeg
    twitter: projectcreo
+ - name: Chiara Ciociola
+   image: https://pbs.twimg.com/profile_images/378800000854009340/a25a8294f0c0ff748e92d5a412dc5ebf_bigger.jpeg
+   twitter: chiaracio
+   github: chiaracio
