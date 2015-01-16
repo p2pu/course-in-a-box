@@ -1,5 +1,5 @@
 # basic configuration
-baseurl:
+baseurl: remo-edu
 markdown: redcarpet
 permalink: /:categories/:title/
 
