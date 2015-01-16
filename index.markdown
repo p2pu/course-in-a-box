@@ -3,31 +3,12 @@ layout: index
 published: true
 ---
 
-## Create a Learning Community that Lasts
+## Mozilla Rep, Mentor Training
 
-Online courses often feel large, intimidating and anonymous. It's hard to feel invested
-in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
-don't know anyone.
+Mozilla Reps recognizes that our primary goals are best reached through the support, encouragement, and empowerment of community through mentorship. Mentoring is a process for the informal transmission of knowledge, made possible through regular and supportive interaction.
 
-In a stellar learning experience, you'd know who was in the room and feel super-comfy.
-You'd make projects together and find help when you get stuck. You'd want to send people
-thank-you cards and chicken soup.
+We encourage mentors to be as open to learning from their mentees, as they are to teaching, for the benefit and growth of both individuals and the program as a whole.
 
-We know designing a creative, participatory community can be tricky. We're here to help
-you craft assignments that rule, build an audience and support you along the way. You'll
-even learn a few technical skills in the process. Don't worry, 1s and 0s wash off
-pretty easily.
+Being a Mozilla Reps mentor also requires a familiarity with different tools and processes that the Council has put in place to better streamline the way Mozilla Reps can document their activities, request budgets for projects, order swag and interact with other Reps. 
 		
-## OK, but who are you guys?
-
-We're [Peer 2 Peer University](http://p2pu.org)--we build learning communities
-on the web. In the last 5 years, we put together courses like 
-[Play With Your Music](http://www.playwithyourmusic.org/),
-[Learning Creative Learning](http://learn.media.mit.edu/lcl/), the
-[Deeper Learning MOOC](http://dlmooc.deeper-learning.org/), and
-[A Gentle Intro to Python](http://mechanicalmooc.org/). 
-Also, we're a non-profit and a distributed team (so we use the tools we recommend).
-
-			
-## I'm in--how do I get started?
-Head over [here]({{site.baseurl}}/modules/start/about-this-course/) to create your own course!
+This course will serve as training for new mentors, with updates to modules as the program itself updates  - providing opportunity for existing, and longer-term mentors oppotunity to learn as well.
