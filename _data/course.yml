@@ -2,6 +2,9 @@ title: Course in a Box
 description: Build Your Very Own Open Course
 modules: [start, community, learning, content, feedback, references]
 signups:
+ - name: Geert Hofman
+   image: https://media.licdn.com/media/p/3/000/1b0/2c9/2daad0c.jpg
+   twitter: GeertHa
  - name: Dave Cormier
    image: https://pbs.twimg.com/profile_images/465974023558418434/NYQWX2pm_400x400.jpeg
    twitter: davecormier
