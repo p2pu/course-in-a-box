@@ -26,6 +26,12 @@
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/p2pustrap-custom.css" />
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/site.css" />
+  {% if page.extra_css %}
+    {% for css in page.extra_css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ css }}" />
+    {% endfor %}
+  {% endif %}
+
 	<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
 	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
 </head>
@@ -48,6 +54,12 @@
         src="//s3.amazonaws.com/p2pu-navigation-widget/p2pu_menu_slider.js"></script>
 <script src="{{site.baseurl}}/js/init.js"></script>
 <script src="{{site.baseurl}}/js/gh_link_helper.js"></script>
+
+{% if page.extra_js %}
+  {% for js in page.extra_js %}
+    <script src="{{site.baseurl}}{{js}}"></script>
+  {% endfor %}
+{% endif %}
 
 <script>
 	P2PU.ciab.init();
