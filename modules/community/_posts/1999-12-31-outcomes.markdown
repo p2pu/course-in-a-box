@@ -1,0 +1,15 @@
+---
+title: Outcomes
+excerpt: "Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course."
+---
+
+# Why care about community when building a course?
+
+We believe that community forms an essential part of learning. Think back to some moments when you felt like you've learned the most, were you alone or were there other people in the room with you?
+
+The aim of this module is to
+
+- understand more about why community is important for online learning.
+- have a community to build your course with.
+- decide what the community in your course will look like.
+- build onramps for learners to join your community.

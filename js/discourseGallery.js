@@ -42,13 +42,20 @@ window.discourseGallery = (function($){
 
     
     function loadCategoryGallery(config){
+        /* config = {
+         *     forumUrl: 'http://example.net',
+         *     category: 'category-slug'
+         *     containerId: 'id-of-html-element-with-template
+         * }
+         * */
         var container = $('#' + config.containerId);
         var template = $(container.children()[0]).clone();
         container.children().remove();
 
         getCategory(config.forumUrl, config.category, function(category){
             // TODO add button and callback to load more
-            category.topic_list.topics.forEach(function(topic){
+            var topics = category.topic_list.topics.slice(0,5);
+            topics.forEach(function(topic){
                 var url = config.forumUrl + '/t/' + topic.id + '/1.json'
                 $.getJSON(url, function(topic){
                     //console.log(post_id);

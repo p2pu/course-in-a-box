@@ -22,4 +22,12 @@
 @import "landing";
 @import "calendar";
 
-
+.post-container {
+    max-height: 15em;
+    overflow: hidden;
+    background-color: #F3F4F8;
+    
+    h3 {
+        margin-top: 0;
+    }
+}

@@ -13,6 +13,17 @@ Building a course alone is a daunting task. We guarantee that co-designing with 
 
 This is a good opportunity to grow your network and to get other people to work with.
 
+
+## How will people join your community
+
+Designing a good onboarding experience will help new people find their feet in your course community. Communities have different identities and different ways of introducing yourself will work in different communities. In Play With Your Music, a course about music production, we asked people to list 5 of their favorite artists when they sign up. Without prompting them, people started sharing this information when they introduced themselves to the community.
+
+Other ideas are asking people to make something, share a GIF that reflects something about them or tell why they wish to join the course.
+
+ - How will people join your community?
+ - How will you ask people joining your course to introduce themselves?
+
+
 ## Observe and Participate in Other Communities
 
 The best way to build a quality community is to participate in other communities. Take a look at how other courses do it: 
@@ -21,7 +32,7 @@ The best way to build a quality community is to participate in other communities
 - [Writing for Change](http://writing4change.p2pu.org) 
 - [Play With Your Music](http://playwithyourmusic.org) are good examples to look at.
 
-Observe how..
+Observe how
 
 - folks welcome new people to the community
 - how community members interact with each other
@@ -34,3 +45,4 @@ Images of how to get there:
 
 ![Discourse1.png]({{site.baseurl}}/img/Discourse1.png)
 ![Discourse2.png]({{site.baseurl}}/img/Discourse2.png)
+
