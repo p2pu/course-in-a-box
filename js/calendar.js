@@ -4,8 +4,12 @@
 var P2PU = window.P2PU || {};
 
 (function ($, P2PU) {
-
 	'use strict';
+
+	P2PU.ciab = {
+        config: {}
+    };
+
 	function parseData(data) {
 		var section = $('.calendar'),
 			days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
@@ -50,7 +54,7 @@ var P2PU = window.P2PU || {};
 
 	function makeRequest() {
 		var request = gapi.client.calendar.events.list({
-			'calendarId': 'p2pu.org_bdbg1p5olhp0eo83mnqi7fvpfs@group.calendar.google.com',
+			'calendarId': P2PU.ciab.config.calendar_id,
 			'singleEvents': true,
 			'orderBy': 'startTime'
 		});
@@ -62,16 +66,12 @@ var P2PU = window.P2PU || {};
 		});
 	}
 
-
-	var init = function () {
+	P2PU.ciab.calendar = function (config) {
 		$(function () {
-			gapi.client.setApiKey('AIzaSyAs69MGQu7Bp8LCpeGZlhsoUwkFoD3sUro');
+            P2PU.ciab.config = config;
+			gapi.client.setApiKey(config.api_key);
 			gapi.client.load('calendar', 'v3').then(makeRequest);
-
 		});
 	};
-
-	P2PU.ciab = {};
-	P2PU.ciab.calendar = init;
 
 }(jQuery, P2PU));
