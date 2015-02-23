@@ -40,6 +40,7 @@ var P2PU = window.P2PU || {};
 				e.where = e.location;
 				e.description = e.summary;
 			});
+            events = events.filter(function(e){ return !e.passed; });
 
 			$("#calendar-data").html(can.view("app-template", {events: new can.List(events)}));
 			$.getScript("/js/addThisEvent.js");
