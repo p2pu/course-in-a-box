@@ -10,13 +10,15 @@ The flagship functionality of GitHub is “forking” – copying a repository f
 
 Your course will live on GitHub (so you don't need to worry about hosting) and you'll do all the building work there, but you'll be able to view it as a web page.
 
-So let's get started:
+### Let's get started:
 
 1. <a class="btn btn-primary" href="https://github.com/p2pu/course-in-a-box/fork" target="_blank"><i class="fa fa-code-fork"></i> Fork this repository on GitHub.</a></li> The first step in getting your course going is to fork the repository. Still not sure what a repository is, or how to fork it?  Have a look at the <a href="https://help.github.com/articles/github-glossary" >GitHib Glossary</a> for explanations of all of these terms. 
 2. Then, in the repository interface, find the file called <a class="btn btn-primary" href="https://github.com/p2pu/course-in-a-box/edit/gh-pages/_data/course.yml" target="_blank"><i class="fa fa-edit"></i> Edit _data/course.yml</a> and add your name, profile image and Twitter handle.
 3. Submit a pull request to get your changes merged into the main version of the course and have your mug show up in the gallery on the front page! Not sure how to submit a pull request? See the <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">GitHub Cheatsheet</a>.
-4. <a class="btn btn-primary" target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fhowto.p2pu.org&text=Create%20engaged%20learning%20communities%20that%20lasts&hashtags=courseinabox&via=p2pu&related=p2pu"><i class="fa fa-twitter"></i> Send a tweet</a> and spread the word about Course in a Box! (Not actually a required step, promise).
+4. <a class="btn btn-primary" target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fhowto.p2pu.org&text=Im%20building a course on ...&hashtags=courseinabox&via=p2pu&related=p2pu"><i class="fa fa-twitter"></i> Send a tweet</a> and tell the world about your course! Not actually a required step :)
+{% comment %}
 5. <a class="btn btn-primary" target="_blank" href="http://community.p2pu.org/t/please-introduce-yourself/28"><i class="fa fa-weixin"></i> Introduce yourself</a> to the P2PU community. Tell us something about yourself and what you want to use Course in a Box for.
+{% endcomment %}
 
 When we asked you to fork this course you actually copied this course and started building your own!
 
