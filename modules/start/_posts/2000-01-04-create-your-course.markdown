@@ -1,5 +1,5 @@
 ---
-title: Your own course!
+title: Create your course
 ---
 
 ## Taking your course out of the box
