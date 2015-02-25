@@ -9,6 +9,9 @@ Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](
 
 The course is split in 4 modules: **community**, **learning on the web**, **content** and **feedback and assessment**.
 
+![Image of lego people]({{site.baseurl}}/img/modules.jpg)
+Leftmost image, [CC-BY-SA](https://creativecommons.org/licenses/by/2.0/) [Peter Dutton](https://www.flickr.com/photos/joeshlabotnik/) 
+
 Each module has an outcome or two directly related to building your course. Every module also have projects, reading and other resources to help you.
 
 Once a week we have a community hangout where we discuss the work we are busy with. You can wait for us to organize one or go ahead and organize your own course.
