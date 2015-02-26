@@ -4,11 +4,11 @@ extra_js:
  - '/js/discourseGallery.js'
  - '/js/category-gallery.js'
 ---
-# Discuss
+# Discussion on community.p2pu.org
 
-Join this weeks discussion on [discourse](http://community.p2pu.org/).
+Join discussion about community on [discourse](http://community.p2pu.org/c/course-in-a-box/community).
 
-{% include category_gallery.html forum_url='http://community.p2pu.org' category='learning' %}
+{% include category_gallery.html forum_url='http://community.p2pu.org' category='course-in-a-box/community' %}
 
 ## Hangout
 
@@ -16,4 +16,4 @@ TODO - Embed calendar here.
 
 Have a look at the calender on the front page to see when the hangout about community is happening.
 
-But don't let that stop you if the next scheduled hangout is to far out. You can organize your very own hangout! Have a look at [this script](http://todo.com) for some ideas on how to structure your hangout. Post the date and time that you want to hold the hangout on discourse and you can use [this link](https://unhangout.media.mit.edu/h/course-in-a-box) to hang out.
+But don't let that stop you if the next scheduled hangout is to far out. You can organize your very own hangout! Look at [this script](http://todo.com) for some ideas on how to structure your hangout. Post the date and time that you want to hold the hangout on discourse and you can use [this link](https://unhangout.media.mit.edu/h/course-in-a-box) to hang out.
