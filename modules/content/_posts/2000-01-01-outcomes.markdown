@@ -4,6 +4,8 @@ title: Outcomes
 
 # Does your course need content
 
+![]({{site.baseurl}}/img/content-banner.jpg)
+
 The aim of this module is to
 
 - design good assignments for your course that engage learners

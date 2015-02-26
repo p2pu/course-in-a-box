@@ -4,6 +4,8 @@ title: Outcomes
 
 # Is learning on the web any different
 
+![]({{site.baseurl}}/img/learning-banner.jpg)
+
 Web + content = free education for all, almost. The popular argument of how technology will disrupt education is typically based on the idea that low cost distribution of hight quality content will result in free (almost) education for everyone. While high quality content doesn't hurt, it's not the whole story.
 
 Lots of research in learning (even when you are sitting in a brick and mortar institution) show that learners are more engaged when working on projects about topics they are interested in. 

@@ -5,6 +5,9 @@ excerpt: "Find out why community is important in learning something new, what ma
 
 # Why care about community when building a course?
 
+![]({{site.baseurl}}/img/community-banner.jpg)
+Image [CC-BY-SA](https://creativecommons.org/licenses/by/2.0/) [Peter Dutton](https://www.flickr.com/photos/joeshlabotnik/) 
+
 We believe that community forms an essential part of learning. Think back to some moments when you felt like you've learned the most, were you alone or were there other people in the room with you?
 
 The aim of this module is to

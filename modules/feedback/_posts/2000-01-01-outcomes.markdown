@@ -1,9 +1,11 @@
 ---
 title: Outcomes
-excerpt: "Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course."
 ---
 
 # Feedback as a form of assessment
+
+![]({{site.baseurl}}/img/feedback-banner.jpg)
+Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) [Brandon Schauer](https://www.flickr.com/photos/brandonschauer/)
 
 Getting feedback on projects and assignments is an important part of learning.
 
