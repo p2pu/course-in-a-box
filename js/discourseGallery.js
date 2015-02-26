@@ -33,7 +33,9 @@ window.discourseGallery = (function($){
                     clone.find('.author').text(post.name);
                     clone.find('.post-link').attr('href', config.forumUrl + '/t/' + post.topic_id + '/' + post.post_number);
                     clone.find('.profile-image').attr('src', config.forumUrl + post.avatar_template.replace('{size}', '45'));
-                    clone.find('.post-text').html(post.cooked);
+                    // replace relative links in cooked text
+                    var cooked = post.cooked.replace(/(src=['"])(\/)/, '$1' + config.forumUrl + '/')
+                    clone.find('.post-text').html(cooked);
                     container.append(clone);
                 });
             });
@@ -65,7 +67,9 @@ window.discourseGallery = (function($){
                     clone.find('.author').text(post.name);
                     clone.find('.post-link').attr('href', config.forumUrl + '/t/' + post.topic_id + '/' + post.post_number);
                     clone.find('.profile-image').attr('src', config.forumUrl + post.avatar_template.replace('{size}', '45'));
-                    clone.find('.post-text').html(post.cooked);
+
+                    var cooked = post.cooked.replace(/(src=['"])(\/)/, '$1' + config.forumUrl + '/')
+                    clone.find('.post-text').html(cooked);
                     container.append(clone);
                 });
             });
