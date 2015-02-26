@@ -12,13 +12,13 @@ The course is split in 4 modules: **community**, **learning on the web**, **cont
 ![Image of lego people]({{site.baseurl}}/img/modules.jpg)
 Leftmost image, [CC-BY-SA](https://creativecommons.org/licenses/by/2.0/) [Peter Dutton](https://www.flickr.com/photos/joeshlabotnik/) 
 
-Each module has an outcome or two directly related to building your course. Every module also have projects, reading and other resources to help you.
+Each module has outcomes directly related to building your course. Every module also have projects, reading and other resources to help you.
 
 Once a week we have a community hangout where we discuss the work we are busy with. You can wait for us to organize one or go ahead and organize your own course.
 
-Throughout the course you are encourage to use the discourse forum to share your work, get feedback, ask for support and any other discussion really.
+## Join a cohort or work at your own pace
 
-## Join a cohort or work self-paced
+![]({{site.baseurl}}/img/cohort.png)
 
 You can choose to do this course as part of a cohort or you can do the course at your own pace.
 
@@ -28,7 +28,9 @@ If you choose to do the course on your own pace, that is no problem. The emails 
 
 ## The course forum (community.p2pu.org)
 
-Whether you are doing this course on you own pace or with a cohort, [community.p2pu.org](http://community.p2pu.org) is the center of the community for this course. Here you can ask any question, share your work or other interesting readings and meet people who are also building online courses to collaborate with.
+Whether you are going at your own pace or doing it with a cohort, [community.p2pu.org](http://community.p2pu.org) is the center of the community for this course. Here you can ask any question, share your work or other interesting readings and meet people who are also building online courses to collaborate with.
+
+[![]({{site.baseurl}}/img/community-forum.png)](http://community.p2pu.org)
 
 **Doing the course at your own pace does not mean that you have to do the course on your own.**
 
