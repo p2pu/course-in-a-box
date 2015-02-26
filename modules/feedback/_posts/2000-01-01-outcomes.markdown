@@ -1,0 +1,15 @@
+---
+title: Outcomes
+excerpt: "Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course."
+---
+
+# Feedback as a form of assessment
+
+Getting feedback on projects and assignments is an important part of learning.
+
+The aim of this module is to
+
+- understand the importance of good feedback and how that relates to assessment
+- design and facilitate good feedback in the course you are creating
+- get good feedback on the course you are building
+
