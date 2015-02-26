@@ -14,7 +14,7 @@ You'd make projects together and find help when you get stuck. You'd want to sen
 thank-you cards and chicken soup.
 
 We know designing a creative, participatory community can be tricky. We're here to help
-you craft assignments that rule, build an audience and support you along the way. You'll
+you **craft assignments** that rule, **build an audience** and support you along the way. You'll
 even learn a few technical skills in the process. Don't worry, 1s and 0s wash off
 pretty easily.
 		
