@@ -1,6 +1,9 @@
 ---
 title: Projects
 published: true
+extra_js:
+ - '/js/discourseGallery.js'
+ - '/js/category-gallery.js'
 ---
 
 # Projects
@@ -9,7 +12,9 @@ published: true
 
 We encounter feedback mechanisms on the web, wherver we go. On Twitter, we know a Tweet is "good" if people Favorite it, or Retweet it. On Stack Overflow, people "upvote" good answers. 
 
-Think about the last time you received feedback on the web. Did the feedback help you achieve your goal? Share your experiences on the [forum](http://community.p2pu.org/t/what-is-good-feedback/1292) and lets figure out what good feedback looks like from experience.
+Think about the last time you received feedback on the web. Did the feedback help you achieve your goal? Share your experiences on the forum and lets figure out what good feedback looks like together.
+
+<a href="http://community.p2pu.org/t/what-is-good-feedback/1292" class="btn btn-primary"><i class="fa fa-comments"></i> Share your experiences</a>
 
 ## Help Others with Your Sharp Feedback Skills
 
@@ -20,6 +25,8 @@ Go to the ['New Course'](http://community.p2pu.org/c/new-courses) category and p
 3. Make suggestions after hearing the answers to your clarification questions.
 
 We call this "red - yellow - green" feedback, which you'll soon see in action in badges.
+
+{% include category_gallery.html forum_url='http://community.p2pu.org' category='new-courses' %}
 
 ## Create a P2PU Badge to Prompt Feedback and Recognize Mastery
 

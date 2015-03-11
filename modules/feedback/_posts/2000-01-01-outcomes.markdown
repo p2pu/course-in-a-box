@@ -11,7 +11,7 @@ Getting feedback on projects and assignments is an important part of learning.
 
 The aim of this module is to
 
-- understand the importance of good feedback and how that relates to assessment
-- design and facilitate good feedback in the course you are creating
-- get good feedback on the course you are building
-
+- understand the importance of good feedback and how that relates to assessment.
+- design and facilitate good feedback in the course you are creating.
+- get good feedback on the course you are building.
+- use badges as a way to facilitate feedback in your course.

@@ -8,5 +8,6 @@ title: Outcomes
 
 The aim of this module is to
 
-- design good assignments for your course that engage learners
-- find the relevant content that students will need for your course
+- figure out what time of content you will use for your course
+- find the relevant resources that students will need for your course
+- ask other people to help you curate your content
