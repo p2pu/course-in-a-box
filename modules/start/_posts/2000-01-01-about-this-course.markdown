@@ -4,8 +4,10 @@ title: How will this course work?
 
 # How will this course work?
 
+{% comment %}
 ![Image of maze with starting point indicated]({{site.baseurl}}/img/start.jpg)
 Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](https://www.flickr.com/photos/mikecogh/11300349426) on Flickr.
+{% endcomment %}
 
 The course is split in 4 modules: **community**, **learning on the web**, **content** and **feedback and assessment**.
 

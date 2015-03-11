@@ -25,7 +25,7 @@ Other ideas are asking people to make something, share a GIF that reflects somet
  - How will you ask people joining your course to introduce themselves?
  - Will your community have an unique identity? What will it be?
 
-<a class="btn btn-primary" href="http://community.p2pu.org/t/how-will-people-join-your-community/1550"><i class="fa fa-comments"></i> Tell us about your community onboarding experience</a>
+<a class="btn btn-primary" href="http://community.p2pu.org/t/how-will-people-join-your-community/1550"><i class="fa fa-comments"></i> Share your ideas for a community on-boarding experience</a>
 
 ## Observe and Participate in Other Communities
 
@@ -45,9 +45,3 @@ Observe how
 Post your observations to Discourse under [Community Safari](http://community.p2pu.org/t/course-in-a-box-community-safari/1153).
 
 <a class="btn btn-primary" href="http://community.p2pu.org/t/course-in-a-box-community-safari/1153"><i class="fa fa-comments"></i> Post your observations</a>
-
-Images of how to get there:
-
-![Discourse1.png]({{site.baseurl}}/img/Discourse1.png)
-![Discourse2.png]({{site.baseurl}}/img/Discourse2.png)
-
