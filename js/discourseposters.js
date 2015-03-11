@@ -3,7 +3,7 @@
 
     discourseGallery.loadTopicUserGallery({
         forumUrl: 'http://community.p2pu.org',
-        topicId: 28,
+        topicId: 1549,
         containerId: 'topic-users',
         loadMoreId: 'load-more-users'
     });

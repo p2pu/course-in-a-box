@@ -18,4 +18,4 @@ extra_js:
 
 <br/>
 
-<p><a class="btn btn-primary" href="http://community.p2pu.org/t/please-introduce-yourself/28/last" target="_blank"><i class="fa fa-comments"></i> Tell your classmates about yourself</a></p>
+<p><a class="btn btn-primary" href="http://community.p2pu.org/t/introduce-yourself/1549" target="_blank"><i class="fa fa-comments"></i> Tell your classmates about yourself</a></p>
