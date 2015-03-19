@@ -140,3 +140,7 @@ signups:
  - name: Alvar Maciel
    image: https://pbs.twimg.com/profile_images/378800000119378128/9487f620fd1e8a5a459f34cb39ab946a_400x400.jpeg
    twitter: amaciel
+ - name: Robert Konsdorf
+   image:  http://www.gravatar.com/avatar/7a402bf770629b108763bc8482c18ff3.png
+   twitter: robrig0
+   github: robrigo
