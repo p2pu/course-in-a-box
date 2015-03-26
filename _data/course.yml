@@ -1,5 +1,5 @@
-title: Course in a Box
-description: Build Your Very Own Open Course
+title: Safe Together with O2
+description: Safe Social Networking
 modules: [start, community, learning, content, feedback, references]
 signups:
  - name: Geert Hofman
@@ -147,3 +147,6 @@ signups:
  - name: Lisa Schnellinger
    image: http://www.nearmediallc.com/wp-content/uploads/2011/01/IGP7933-screen-res.jpg
    twitter: j_trainer
+- name: Matt Rogers
+   image: 
+   twitter: mattdigitalme
