@@ -3,15 +3,15 @@ layout: index
 published: true
 ---
 
-## Learn about Open Badges and how you can use them!
+## Get started with Open Badges!
 
-*(coming soon!)*
+In this short course you'll get a chance to:
+
+* Learn what Open Badges are and how they work
+* Earn badges to show your increasing knowledge and skills
+* Discover how to get started issuing your own badges
 		
-## Who's behind this?
 
-The [Think Out Loud Club](http://thinkoutloudclub.com/) is an active community of learning technology evangelists who share successes and pain to support each other on the Further Education sector’s journey to becoming more digital. Are you prepared to think out loud?
-
-			
 ## How do I get started?
 
-*(coming soon!)*
+We're still building out this course, so click the **Keep me updated!** button towards the top of the page if you want to know when everything's ready.
