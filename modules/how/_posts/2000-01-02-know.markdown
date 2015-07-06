@@ -1,0 +1,7 @@
+---
+title: Know
+---
+
+# How does the Open Badges Infrastructure work?
+
+*(coming soon!)*
