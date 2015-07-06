@@ -6,4 +6,4 @@ title: Discuss
 
 The [Open Badges discussion forum](https://groups.google.com/forum/#!forum/openbadges), started by the [Badge Alliance](http://badgealliance.org) is a great place to discuss this course and connect with the worlwide badges community!
 
-<p><a href="https://groups.google.com/forum/#!forum/openbadges"><img style="border:1px grey solid; width:100%;" src="img/open-badges-discussion.png" alt="Open Badges discussion forum"></a></p>
+<p><a href="https://groups.google.com/forum/#!forum/openbadges"><img style="border:1px grey solid; width:100%;" src="{{ site.baseurl }}/img/open-badges-discussion.png" alt="Open Badges discussion forum"></a></p>

@@ -6,7 +6,7 @@ title: Start here
 
 Coming soon, this course will be split into a number of modules that will help you learn more about Open Badges and how you can get started using them! Each module will be practical and use a **Know** / **Do** / **Reflect** flow.
 
-![Image of lego people](http://i.imgur.com/vRSCKBz.jpg)
+![Hexagons](http://i.imgur.com/vRSCKBz.jpg)
 Image CC-BY-NC-SA [Ming Xia](https://www.flickr.com/photos/xiaming/484443810) 
 
 ## Where do I get updates?
