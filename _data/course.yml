@@ -1,10 +1,10 @@
-title: Think Out Loud Open Badges course
-description: Build Your Very Own Open Course
-modules: [start, community, learning, content, feedback, references]
+title: Open Badges 101
+description: An introduction to the Open Badges Infrastructure.
+modules: [start, what, who, why, feedback, references]
 signups:
  - name: Bryan Mathers
-   image: https://pbs.twimg.com/profile_images/552089427694997506/tdGDOw4__400x400.jpeg
+   image: img/bryan.jpeg
    twitter: BryanMMathers
  - name: Doug Belshaw
-   image: https://pbs.twimg.com/profile_images/596578671835684864/F4jBfz4Y_400x400.jpg
+   image: img/doug.jpeg
    twitter: dajbelshaw
