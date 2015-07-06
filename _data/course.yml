@@ -1,6 +1,6 @@
 title: Open Badges 101
 description: An introduction to the Open Badges Infrastructure.
-modules: [start, who, what, why, references]
+modules: [start, what, how, why, references]
 signups:
  - name: Bryan Mathers
    image: img/bryan.jpeg
