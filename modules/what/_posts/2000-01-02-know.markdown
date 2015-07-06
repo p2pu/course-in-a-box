@@ -3,6 +3,6 @@ title: Know
 published: true
 ---
 
-## What are Open Badges?
+# What are Open Badges?
 
 *(coming soon!)*
