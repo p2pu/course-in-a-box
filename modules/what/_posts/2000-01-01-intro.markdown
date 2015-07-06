@@ -3,6 +3,6 @@ title: Introduction
 published: true
 ---
 
-## Introduction
+# What are Open Badges?
 
 *(coming soon!)*
