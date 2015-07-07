@@ -6,7 +6,7 @@ title: Start here
 
 Coming soon, this course will be split into a number of modules that will help you learn more about Open Badges and how you can get started using them! Each module will be practical and use a **Know** / **Do** / **Reflect** flow.
 
-<img src="{{ site.baseurl }}/img/open-badges-discussion.png" alt="Hexagon structure">
+<img src="{{ site.baseurl }}/img/hexagon-structure.jpg" alt="Hexagon structure">
 
 Image CC-BY-NC-SA [Ming Xia](https://www.flickr.com/photos/xiaming/484443810) 
 
