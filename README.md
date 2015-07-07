@@ -7,3 +7,5 @@ You can help out by submitting issues or pull requests [here](https://github.com
 ---
 
 This course was created using the [Jekyll Course template from P2PU](http://github.com/p2pu/jekyll-course-template).
+
+Hi Matt
