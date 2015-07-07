@@ -4,4 +4,6 @@ title: Reflect
 
 # What can I do with badges?
 
+This module **gives a high-level overview of how the Open Badges Infrastructure works** and shows some ways it can be used in practice.
+
 *(coming soon!)*

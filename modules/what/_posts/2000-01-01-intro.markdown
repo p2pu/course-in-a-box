@@ -5,4 +5,10 @@ published: true
 
 # What are Open Badges?
 
-*(coming soon!)*
+This module explains what Open Badges are, who's behind them, and where they came from. 
+
+By the end of this module you should:
+
+* **Know:** compare and contrast Open Badges and digital badges
+* **Do:** earn your first Open Badge and 'push' it to a badge backpack
+* **Reflect:** give a high-level overview of how the Open Badges Infrastructure works

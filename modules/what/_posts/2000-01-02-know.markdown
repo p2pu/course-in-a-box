@@ -5,4 +5,6 @@ published: true
 
 # What are Open Badges?
 
+By the end of this section, you should be able to **compare and contrast Open Badges and digital badges**.
+
 *(coming soon!)*

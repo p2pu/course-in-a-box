@@ -5,4 +5,6 @@ published: true
 
 # What's possible?
 
+In this section you'll **earn your first Open Badge and 'push' it to a badge backpack**.
+
 *(coming soon!)*
