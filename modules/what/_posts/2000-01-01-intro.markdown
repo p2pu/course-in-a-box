@@ -7,6 +7,8 @@ published: true
 
 This module explains what Open Badges are, who's behind them, and where they came from. 
 
+<img src="{{ site.baseurl }}/img/visual-thinkery/bluffers-guide.png" alt="A Bluffer's Guide to Open Badges">
+
 By the end of this module you should:
 
 * **Know:** compare and contrast Open Badges and digital badges
