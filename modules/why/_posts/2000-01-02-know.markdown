@@ -1,7 +1,10 @@
 ---
 title: Know
+published: true
 ---
 
 # Why use Open Badges?
+
+After completing this section you be able to **identify various ways in which Open Badges can be used**.
 
 *(coming soon!)*

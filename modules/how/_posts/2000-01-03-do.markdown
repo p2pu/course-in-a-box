@@ -5,5 +5,7 @@ published: true
 
 # How can I get started issuing Open Badges?
 
+In this section you will **compare and contrast issuing Open Badges using at least two different systems**.
+
 *(coming soon!)*
 

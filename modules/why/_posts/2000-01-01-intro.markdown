@@ -5,4 +5,13 @@ published: true
 
 # Why use Open Badges?
 
+This module introduces ways in which Open Badges can be used, from micro-credentialing to learning pathways.
+
+By the end of this module you should:
+
+* **Know:** identify various ways in which Open Badges can be used
+* **Do:** demonstrate ways in which Open Badges could work in your context
+* **Reflect:** formulate an Open Badges proposal
+
+
 *(coming soon!)*

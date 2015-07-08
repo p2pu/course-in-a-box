@@ -1,7 +1,17 @@
 ---
 title: Introduction
+published: true
 ---
 
-# How do I get started issuing Open Badges?
+# How do I issue badges?
+
+This module will help you take practical steps in issuing your first Open Badges.
+
+By the end of this module you should:
+
+* **Know:** recognize the difference between different badge issuing platforms.
+* **Do:** compare and contrast issuing Open Badges using at least two different systems.
+* **Reflect:** select a badge issuing platform and justify your decision.
+
 
 *(coming soon!)*
