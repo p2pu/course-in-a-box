@@ -7,6 +7,8 @@ published: true
 
 This module will help you take practical steps in issuing your first Open Badges.
 
+<img src="{{ site.baseurl }}/img/visual-thinkery/silver-bullet.png" alt="No Silver Bullet">
+
 By the end of this module you should:
 
 * **Know:** recognize the difference between different badge issuing platforms.

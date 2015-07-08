@@ -7,6 +7,8 @@ published: true
 
 This module introduces ways in which Open Badges can be used, from micro-credentialing to learning pathways.
 
+<img src="{{ site.baseurl }}/img/visual-thinkery/more-than-grades.png" alt="I Am More Than Just My Grades">
+
 By the end of this module you should:
 
 * **Know:** identify various ways in which Open Badges can be used
