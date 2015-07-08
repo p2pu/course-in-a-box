@@ -7,7 +7,7 @@ published: true
 
 In this short course you'll get a chance to:
 
-* Learn what Open Badges are and how they work
+* Learn what [Open Badges](http://www.openbadges.org) are and how they work
 * Earn badges to show your increasing knowledge and skills
 * Discover how to get started issuing your own badges
 
