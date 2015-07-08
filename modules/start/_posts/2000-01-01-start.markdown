@@ -6,9 +6,9 @@ title: Start here
 
 Coming soon, this course will be split into a number of modules that will help you learn more about Open Badges and how you can get started using them! Each module will be practical and use a **Know** / **Do** / **Reflect** flow.
 
-<img src="{{ site.baseurl }}/img/hexagon-structure.jpg" alt="Hexagon structure">
+<img src="{{ site.baseurl }}/img/visual-thinkery/learning-landscape.png" alt="Open Badges: because recognition of a small step opens a learning landscape">
 
-Image CC-BY-NC-SA [Ming Xia](https://www.flickr.com/photos/xiaming/484443810) 
+Image CC-BY-ND [Bryan Mathers](http://bryanmmathers.com/recognition-of-a-small-step) 
 
 ## Where do I get updates?
 
