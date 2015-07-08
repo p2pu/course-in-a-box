@@ -12,6 +12,3 @@ By the end of this module you should:
 * **Know:** recognize the difference between different badge issuing platforms.
 * **Do:** compare and contrast issuing Open Badges using at least two different systems.
 * **Reflect:** select a badge issuing platform and justify your decision.
-
-
-*(coming soon!)*
