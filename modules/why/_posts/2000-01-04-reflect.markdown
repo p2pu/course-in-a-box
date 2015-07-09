@@ -1,0 +1,13 @@
+---
+title: Reflect
+published: true
+---
+
+# Why are Open Badges important?
+
+This section will help you **formulate an Open Badges proposal**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/constellation-pathways.png" alt="A constellation of pathways"></a></p>
+
+
+*(coming soon!)*
