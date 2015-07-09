@@ -2,8 +2,10 @@
 title: Know
 ---
 
-# How does the Open Badges Infrastructure work?
+# How do I get started issuing Open Badges?
 
 In this section you'll learn to **recognize the difference between different badge issuing platforms**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/workforce-pipeline.png" alt="The badge cycle">
 
 *(coming soon!)*

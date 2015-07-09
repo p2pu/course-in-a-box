@@ -3,7 +3,7 @@ title: Know
 published: true
 ---
 
-# What are Open Badges?
+# What's the difference between Open Badges and digital badges?
 
 By the end of this section, you should be able to **compare and contrast Open Badges and digital badges**.
 

@@ -3,14 +3,14 @@ title: Introduction
 published: true
 ---
 
-# How do I issue badges?
+# How do I issue Open Badges?
 
 This module will help you take practical steps in issuing your first Open Badges.
 
-<img src="{{ site.baseurl }}/img/visual-thinkery/silver-bullet.png" alt="No Silver Bullet">
+<img src="{{ site.baseurl }}/img/visual-thinkery/badge-taxonomy.png" alt="Badge taxonomy">
 
 By the end of this module you should:
 
 * **Know:** recognize the difference between different badge issuing platforms.
-* **Do:** compare and contrast issuing Open Badges using at least two different systems.
-* **Reflect:** select a badge issuing platform and justify your decision.
+* **Do:** write good badge criteria.
+* **Reflect:** consider what you have learned so far and plan next steps.

@@ -5,7 +5,9 @@ published: true
 
 # What have I learned so far?
 
-This section involves **selecting a badge issuing platform and justifying your decision**.
+This section involves **considering what you have learned so far and plan next steps**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/silver-bullet.png" alt="No Silver Bullet">
 
 *(coming soon!)*
 
