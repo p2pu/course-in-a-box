@@ -3,9 +3,12 @@ title: Do
 published: true
 ---
 
-# How can I get started issuing Open Badges?
+# How can I create effective Open Badges?
 
-In this section you will **compare and contrast issuing Open Badges using at least two different systems**.
+In this section you will learn to **write good badge criteria**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/celebrate-milestones.png" alt="Celebrate your milestones">
+
 
 *(coming soon!)*
 

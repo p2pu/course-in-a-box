@@ -3,8 +3,10 @@ title: Know
 published: true
 ---
 
-# Why use Open Badges?
+# Why are Open Badges useful?
 
 After completing this section you be able to **identify various ways in which Open Badges can be used**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/experiences-value.png" alt="Your experiences have value"></a></p>
 
 *(coming soon!)*

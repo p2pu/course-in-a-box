@@ -3,8 +3,10 @@ title: Do
 published: true
 ---
 
-# How could I use Open Badges?
+# Why would I use Open Badges in my situation?
 
 This section will enable you to **demonstrate ways in which Open Badges could work in your context**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/education-changing.png" alt="Education is changing..."></a></p>
 
 *(coming soon!)*
