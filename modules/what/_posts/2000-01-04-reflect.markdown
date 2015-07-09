@@ -6,4 +6,6 @@ title: Reflect
 
 This module **gives a high-level overview of how the Open Badges Infrastructure works** and shows some ways it can be used in practice.
 
+<img src="{{ site.baseurl }}/img/visual-thinkery/assessment-designed.png" alt="What if assessment was designed around me?"></a></p>
+
 *(coming soon!)*

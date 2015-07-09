@@ -7,4 +7,6 @@ published: true
 
 In this section you'll **earn your first Open Badge and 'push' it to a badge backpack**.
 
+<img src="{{ site.baseurl }}/img/visual-thinkery/certificate-offline-badge.png" alt="A certificate is just an offline badge"></a></p>
+
 *(coming soon!)*
