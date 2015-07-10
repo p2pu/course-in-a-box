@@ -1,5 +1,5 @@
 # basic configuration
-baseurl: /badge-course
+baseurl: 
 markdown: redcarpet
 permalink: /:categories/:title/
 
