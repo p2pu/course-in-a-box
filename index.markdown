@@ -11,5 +11,6 @@ In this short course you'll get a chance to:
 * Earn badges to show your increasing knowledge and skills
 * Discover how to get started issuing your own badges
 
+- - - -
 
-*Coming soon!*
+**Note:** we're still building this course and you can help! [Click here](https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course) to find out more.
