@@ -1,0 +1,11 @@
+---
+title: Reflect
+---
+
+# How does the Open Badges Infrastructure (OBI) work?
+
+This module **gives a high-level overview of how the Open Badges Infrastructure works** and shows some ways it can be used in practice.
+
+<img src="{{ site.baseurl }}/img/napkin-sketch.png" alt="Open Badges napkin sketch"></a></p>
+
+*(coming soon!)*

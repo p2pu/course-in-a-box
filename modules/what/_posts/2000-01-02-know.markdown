@@ -1,0 +1,22 @@
+---
+title: Know
+published: true
+---
+
+# What's the difference between Open Badges and digital badges?
+
+By the end of this section, you should be able to **compare and contrast Open Badges and digital badges**.
+
+<img src="{{ site.baseurl }}/img/badge-anatomy.png" alt="Badge anatomy">
+
+*Image CC BY-SA <a href="http://classhack.com/post/45364649211/open-badge-anatomy-updated">Kyle Bowen</a>*
+
+## Introducing Open Badges
+
+The [Open Badges Infrastucture](http://openbadges.org) is a new online standard to recognize and verify learning. It's backed by [Mozilla](http://mozilla.org), the global non-profit best known for the Firefox web browser. Open Badges are information-rich, containing built-in data that links back to the issuer, criteria and verifying evidence.
+
+From the [Badge Alliance](https://www.badgealliance.org/why-badges/) website:
+
+> A digital badge is an online representation of a skill you’ve earned. Open Badges take that concept one step further, and allows you to verify your skills, interests and achievements through credible organizations and attaches that information to the badge image file, hard-coding the metadata for future access and review. Because the system is based on an open standard, earners can combine multiple badges from different issuers to tell the complete story of their achievements — both online and off. Badges can be displayed wherever earners want them on the web, and share them for employment, education or lifelong learning.
+
+*(more coming soon!)*

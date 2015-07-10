@@ -1,12 +1,12 @@
 # basic configuration
-baseurl:
+baseurl: 
 markdown: redcarpet
 permalink: /:categories/:title/
 
 # Change this tracking code with your own tracking code
-ga_tracking_code: UA-5757664-19
+ga_tracking_code: UA-
 # Please leave this code here for us to see how Course in a Box get used
-p2pu_ga_tracking_code: UA-55722824-1
+p2pu_ga_tracking_code: UA-
 
 # Some files we need to exclude, so Github can build the site
 exclude: [Gemfile, Gemfile.lock, README.md]
@@ -30,6 +30,6 @@ prose:
 
 # Set some personal styles and logo for your course
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
-jumbotron_color: "#05C6B4"
+jumbotron_color: "#E5712C"
 jumbotron_background_image: "header.svg"
 jumbotron_image: "box-icon.png"
