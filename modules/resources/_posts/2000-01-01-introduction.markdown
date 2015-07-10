@@ -1,13 +1,10 @@
 ---
-title: Know
-published: true
+title: Introduction
 ---
 
-# Why are Open Badges useful?
+# Resources
 
-After completing this section you be able to **identify various ways in which Open Badges can be used**.
-
-<img src="{{ site.baseurl }}/img/visual-thinkery/experiences-value.png" alt="Your experiences have value"></a></p>
+This section lists resources you may find helpful to continue your Open Badges journey!
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
 <h3>This page is unfinished!</h3>
