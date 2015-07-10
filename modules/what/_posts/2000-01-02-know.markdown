@@ -19,4 +19,7 @@ From the [Badge Alliance](https://www.badgealliance.org/why-badges/) website:
 
 > A digital badge is an online representation of a skill you’ve earned. Open Badges take that concept one step further, and allows you to verify your skills, interests and achievements through credible organizations and attaches that information to the badge image file, hard-coding the metadata for future access and review. Because the system is based on an open standard, earners can combine multiple badges from different issuers to tell the complete story of their achievements — both online and off. Badges can be displayed wherever earners want them on the web, and share them for employment, education or lifelong learning.
 
-*(more coming soon!)*
+<div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
+<h3>This page is unfinished!</h3>
+<p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
+</div>
