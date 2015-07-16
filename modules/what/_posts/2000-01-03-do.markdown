@@ -1,0 +1,15 @@
+---
+title: Do
+published: true
+---
+
+# What's possible with Open Badges?
+
+In this section you'll **earn your first Open Badge and 'push' it to a badge backpack**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/value-badge.png" alt="What's the value of a badge?"></a></p>
+
+<div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
+<h3>This page is unfinished!</h3>
+<p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
+</div>
