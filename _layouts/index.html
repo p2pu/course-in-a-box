@@ -16,7 +16,7 @@ layout: base
 		<a class="btn btn-primary btn-lg"
 			   href="{{ site.baseurl }}/modules/start/intro/">Keep me Updated</a>
 
-		
+
 	</div>
 
 </div>
@@ -91,3 +91,20 @@ layout: base
 		</script>
 	</div>
 </section-->
+<section class="people clearfix light-section">
+	<div class="container">
+		<h2>Who else is here?</h2>
+		<hr />
+		<ul class="list-inline">
+			{% for user in site.data.course.signups %}
+				<li class="col-md-2"> <!--original was col-md-1-->
+					<a href="https://twitter.com/{{ user.twitter }}"
+					   target="_blank"> <img
+							class="img-circle profile-picture"
+							src="{{ user.image }}"
+							alt="{{ user.name }}"> </a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
