@@ -1,16 +1,20 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
 
-	<!-- Brand and toggle get grouped for better mobile display -->
+	<!-- Brand and toggle get grouped for better mobile display
 	<div class="navbar-header">
 		<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
 			<i class="fa fa-bars"></i>
 		</a>
 	</div>
+-->
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="container">
 		<div class="collapse navbar-collapse" id="p2pu-menu">
+			<ul class="p2pu-logo">
+				<li><a class="p2pu-tab" href="#"><img src="{{ site.baseurl }}/img/OB101-logo.png" alt="{{ site.title }}" /></a></li>
+			</ul>
 			<ul class="nav navbar-nav">
 				<li>
 					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
@@ -24,13 +28,12 @@
 						</a>
 					</li>
 				{% endfor %}
+				<!--
 				<li>
-					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
-				</li>
+					<a href="https://groups.google.com/forum/#!forum/openbadges" target="_blank">Discussion</a>
+				</li> -->
 			</ul>
-			<ul class="p2pu-logo">
-				<li><a class="p2pu-tab" href="#"><img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" /></a></li>
-			</ul>
+			
 		</div>
 		<!-- /.navbar-collapse -->
 	</div>

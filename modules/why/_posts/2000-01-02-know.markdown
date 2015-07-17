@@ -1,0 +1,15 @@
+---
+title: Know
+published: true
+---
+
+# Why are Open Badges useful?
+
+After completing this section you be able to **identify various ways in which Open Badges can be used**.
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/experiences-value.png" alt="Your experiences have value"></a></p>
+
+<div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
+<h3>This page is unfinished!</h3>
+<p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
+</div>

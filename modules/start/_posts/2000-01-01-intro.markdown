@@ -1,0 +1,11 @@
+---
+title: Start here
+---
+
+# Introduction
+
+<img src="{{ site.baseurl }}/img/visual-thinkery/OB101-recruits-needed.png" alt="#OB101 recruits needed!">
+
+This course will help you learn more about Open Badges and how you can get started using them! Each module will be practical and use a **Know** / **Do** / **Reflect** flow.
+
+Use the menu on the left to get started!

@@ -1,0 +1,9 @@
+---
+title: Discuss
+---
+
+# Discuss Open Badges!
+
+The [Open Badges discussion forum](https://groups.google.com/forum/#!forum/openbadges), started by the [Badge Alliance](http://badgealliance.org) is a great place to discuss this course and connect with the worlwide badges community!
+
+<p><a href="https://groups.google.com/forum/#!forum/openbadges"><img src="{{ site.baseurl }}/img/visual-thinkery/articulation-of-an-idea.png" alt="Open Badges discussion forum"></a></p>

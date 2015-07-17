@@ -1,9 +1,8 @@
-# Everything you need to create an online course in a box
+# Think Out Loud Club's Open Badges 101 course
 
+This will be an introductory course to Open Badges to help people get started issuing.
 
-## How do I get started?
-
-Head on over to [howto.p2pu.org](http://howto.p2pu.org). Everything you need to know is over there and once you are done we'll be waiting for you here!
+You can help out by submitting issues or pull requests [here](https://github.com/thinkoutloudclub/badge-course/issues)!
  
 ---
 
