@@ -1,19 +1,12 @@
 ---
-title: Start here
+title: Get updates
 ---
 
-# Getting started
+# How do I get updates?
 
-This course will help you learn more about Open Badges and how you can get started using them! Each module will be practical and use a **Know** / **Do** / **Reflect** flow.
-
-<img src="{{ site.baseurl }}/img/visual-thinkery/learning-landscape.png" alt="Open Badges: because recognition of a small step opens a learning landscape">
-
-Image CC-BY-ND [Bryan Mathers](http://bryanmmathers.com/recognition-of-a-small-step)
-
-## Where do I get updates?
+<img src="{{ site.baseurl }}/img/visual-thinkery/learning-landscape.png" alt="Opening up a learning landscape">
 
 Enter your email address below to get emails about this course - including when it launches! You can unsubscribe at any time.
-
 
 <div id="mc_embed_signup">
 <form action="//thinkoutloudclub.us11.list-manage.com/subscribe/post?u=1da4339ca4393a90ffd95ba98&amp;id=67e1b34c5a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -32,13 +25,11 @@ Enter your email address below to get emails about this course - including when 
 </form>
 </div>
 
+<br>
+
 ## What can I do while I'm waiting?
 
 1. [Introduce yourself](https://groups.google.com/forum/#!forum/openbadges) on the Open Badges forum.
 2. Follow the [#openbadges hashtag](https://twitter.com/search?q=%23openbadges&src=typd) on Twitter.
 3. [Twiddle](http://giphy.com/gifs/twiddle-twiddling-thumb-98mkyZhTwO2ru) your thumbs.
 
-
-## Who's building this?
-
-The main drivers are [Doug Belshaw](http://twitter.com/dajbelshaw) and [Bryan Mathers](http://twitter.com/BryanMMathers) and you're very much encouraged to get involved, too! [Click here](https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course) to find out more.
