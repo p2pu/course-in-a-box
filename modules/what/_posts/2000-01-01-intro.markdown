@@ -5,6 +5,7 @@ published: true
 
 # What are Open Badges?
 
+<div class="bubble edu-voice">Well, I sorta get it... </br>There's data baked inside the badge image, right?</div>
 This module explains what Open Badges are, who's behind them, and where they came from. 
 
 <img src="{{ site.baseurl }}/img/visual-thinkery/bluffers-guide.png" alt="A Bluffer's Guide to Open Badges">
@@ -14,4 +15,5 @@ By the end of this module you should:
 * **Know:** compare and contrast Open Badges and digital badges
 * **Do:** earn your first Open Badge and 'push' it to a badge backpack
 * **Reflect:** give a high-level overview of how the Open Badges Infrastructure works
+
 

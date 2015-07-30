@@ -1,3 +1,41 @@
 .content img {
     max-width: 100%;
 }
+
+div.bubble
+ {
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	float:right;
+	position:relative; 
+	width: 336px;
+	height: 300px;
+	line-height: normal;
+    font-size: larger;
+    margin:0px 20px 0px 20px;
+}
+
+div.bubble b{color:#DE4400}
+
+.bubble.hr-voice{
+	background-image:url(/img/HR-person-bubble.png); 
+	text-align: right;
+	padding: 5% 3% 5% 21%; 
+}
+.bubble.edu-voice{
+	background-image:url(/img/Education-person-bubble.png); 
+	text-align: right;
+	padding: 5% 3% 5% 20%; 
+}
+.bubble.thirdc-voice{
+	background-image:url(/img/3rdSector-person-bubble.png); 
+	text-align: left;
+	padding: 5% 20% 5% 3%; 
+}
+.bubble.com-voice{
+	background-image:url(/img/Commercial-person-bubble.png); 
+	text-align: left;
+	padding: 8% 20% 5% 3%; 
+}
+
