@@ -4,8 +4,10 @@ published: true
 ---
 
 # What are Open Badges?
-
-<div class="bubble edu-voice">Well, I sorta get it... </br>There's data baked inside the badge image, right?</div>
+<div class="bubble" style="text-align:left;">
+	<img class="person" src="{{ site.baseurl }}/img/edu-person.png">
+	Well, I sorta get it... </br>There's data baked inside the badge image, right?
+</div>
 This module explains what Open Badges are, who's behind them, and where they came from. 
 
 <img src="{{ site.baseurl }}/img/visual-thinkery/bluffers-guide.png" alt="A Bluffer's Guide to Open Badges">

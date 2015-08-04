@@ -4,7 +4,11 @@ published: true
 ---
 
 # What's the difference between Open Badges and digital badges?
-<div class="bubble com-voice">In our business, we're not that <b>open</b>...</br>Does that matter?</div>
+<!--<div class="bubble com-voice">In our business, we're not that <b>open</b>...</br>Does that matter?</div>-->
+<div class="bubble" style="text-align:left;">
+	<img class="person" src="{{ site.baseurl }}/img/business-person.png">
+	In our business, we're not that <b>open</b>...</br>Does that matter?
+</div>
 By the end of this section, you should be able to **compare and contrast Open Badges and digital badges**.
 
 <img src="{{ site.baseurl }}/img/badge-anatomy.png" alt="Badge anatomy">

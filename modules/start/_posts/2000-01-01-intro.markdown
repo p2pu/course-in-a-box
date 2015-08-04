@@ -2,17 +2,13 @@
 title: Start here
 ---
 
-<!--
-Copy and paste these for quick voice quotes...
-<div class="bubble hr-voice"><b>Modern HR?</b><br/> Great! Now - what actually <i>are</i> Open Badges?</div>
-<div class="bubble edu-voice">Open Badges are <b>Education</b> dynamite! How do I get started?</div>
-<div class="bubble com-voice">I run a <b>Charity</b>.</br> How can we issue Open Badges on a shoestring?</div>
-<div class="bubble thirdc-voice">I've got a great idea for using Open Badges in our <b>business</b>!</div>
--->
-
 # Introduction
 
-<div class="bubble hr-voice" style="text-align:left;"></br></br>Er...</br>So why am I here?</div>
+<div class="bubble" style="text-align:left;">
+	<img class="person" src="{{ site.baseurl }}/img/hr-person.png">
+	Er...</br>So why am I here?
+</div>
+
 This course will help you learn more about Open Badges and how you can get started using them! Each module will be practical and use a **Know** / **Do** / **Reflect** flow.
 
 Use the menu on the left to get started!
