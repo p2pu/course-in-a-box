@@ -4,11 +4,7 @@ published: true
 ---
 
 # What's the difference between Open Badges and digital badges?
-<!--<div class="bubble com-voice">In our business, we're not that <b>open</b>...</br>Does that matter?</div>-->
-<div class="bubble" style="text-align:left;">
-	<img class="person" src="{{ site.baseurl }}/img/business-person.png">
-	In our business, we're not that <b>open</b>...</br>Does that matter?
-</div>
+
 By the end of this section, you should be able to **compare and contrast Open Badges and digital badges**.
 
 <img src="{{ site.baseurl }}/img/badge-anatomy.png" alt="Badge anatomy">
@@ -17,7 +13,7 @@ By the end of this section, you should be able to **compare and contrast Open Ba
 
 ## Introducing Open Badges
 
-The [Open Badges Infrastucture](http://openbadges.org) is a new online standard to recognize and verify learning. It's backed by [Mozilla](http://mozilla.org), the global non-profit best known for the Firefox web browser. Open Badges are information-rich, containing built-in data that links back to the issuer, criteria and verifying evidence.
+The [Open Badges Infrastucture](http://openbadges.org) is a new online standard to recognize and verify learning. It's backed by [Mozilla](http://mozilla.org), the global non-profit best known for the [Firefox](https://www.mozilla.org/firefox/) web browser. Open Badges are information-rich, containing built-in data that links back to the issuer, criteria and verifying evidence.
 
 From the [Badge Alliance](https://www.badgealliance.org/why-badges/) website:
 
@@ -27,8 +23,40 @@ Metadata is something we use every day, whether it's tagging someone in a photo 
 
 > Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource. Metadata is often called data about data or information about information. (Niso)
 
+
+## Digital badges
+<div style="float:right;padding-left:20px;"><img width="200px" src="{{ site.baseurl }}/img/foursquare-badges.png" alt="Foursquare badges"></div>
+Society has used physical badges for years to display various achievements &mdash; whether it's for sporting achievement or via an organisation such as the Scouting movement. Digital badges are as old as the web, showing status within online communities. Anyone who's used an online forum has seen this in action through the various privileges unlocked through the number of posts members make (or upvotes they receive).
+
+Digital badges are often synonymous with gamification. Companies such as [Foursquare](http://foursquare.com) encouraged users to map locations in various cities by 'checking in' and rating everything from restaurants to parks. Users unlocked digital badges which allowed them to compete against friends and others who were in a similar location. More recently, [Treehouse](https://teamtreehouse.com/features/badges) has implemented a digital badging system to scaffold user progress. [Khan Academy](https://www.khanacademy.org/exercisedashboard) does something similar with their Knowledge Map.
+
+While digital badges can be an extremely effective way to 'gamify' user experience, they lack **transferability**. Users wanting to display their Treehouse, Khan Academy, and Foursquare badges together in one place would have to copy and paste the images. Given that *anyone* could do this, without an audit trail, there is an issue around **trust** and **verifiability**.
+
+
+## Open Badges
+<!--<div class="bubble com-voice">In our business, we're not that <b>open</b>...</br>Does that matter?</div>-->
+<div class="bubble" style="text-align:left;">
+	<img class="person" src="{{ site.baseurl }}/img/business-person.png">
+	In our business, we're not that <b>open</b>...</br>Does that matter?
+</div>
+As indicated in the quote taken from the Badge Alliance website above, Open Badges take digital badges one step further. They are more suitable to be used as credentials as they have information about the learning experience baked in. Open Badges can be validated by anyone wanting to check up on an individual's claim to knowledge or skills.
+
+<img width="100%" src="{{ site.baseurl }}/img/open-badges-thinkerer.png" alt="Metadata in Open Badge">
+
+Unlike digital badges, users can take their Open Badges can display them anywhere across the web. This works in a similar way to videos from YouTube being embedded on blogs, wikis, and other websites. Collections of badges &mdash; which may feature some from two or more different organisations &mdash; can be displayed in a way that makes sense to the user.
+
+There are several important differences between digital badges and Open Badges:
+
+* **Open Badges are not controlled by any one organisation.** The technology that underpins the whole system (the Open Badges Infrastructure, or OBI) is a free, open-source and run for the world wide community.
+* **Open Badges are evidence-based.** The information about who, why, and for what the badge was issued is hard-coded into it as metadata.
+* **Open Badges are stackable.** Badges from one organisation's system can build upon ones from another system. This creates a rich ecosystem that individuals can use to build the story of their skills, knowledge, and experience.
+* **Open Badges are transferable.** The place that badges are collected is known as a 'backpack'. Although [Mozilla's reference badge backpack](http://backpack.openbadges.org) is often used as the default place to send badges, they can be stored anywhere &mdash; including on your own computer, if you prefer.
+* **Open Badges put the user in control.** Badges are private until they are published by the user. They provide an easy way to show a portfolio of skills without third parties having to wade through a mountain of data.
+
+The OBI allows any organisation to build upon a secure yet open foundation. Potential **badge issuers** can be assured that the credentials they issue will be displayable anywhere on the web. **Badge earners** gain the advantage of being able to collect and curate their knowledge, skills, and experience from across the web in one place. And **badge 'consumers'** can trust that the badges shown to them can be verified and trusted.
+
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
-<h3>This page is unfinished!</h3>
+<h3>Is this page finished?</h3>
 <p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
 </div>
 
