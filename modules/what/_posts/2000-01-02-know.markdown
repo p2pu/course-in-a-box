@@ -55,9 +55,16 @@ There are several important differences between digital badges and Open Badges:
 
 The OBI allows any organisation to build upon a secure yet open foundation. Potential **badge issuers** can be assured that the credentials they issue will be displayable anywhere on the web. **Badge earners** gain the advantage of being able to collect and curate their knowledge, skills, and experience from across the web in one place. And **badge 'consumers'** can trust that the badges shown to them can be verified and trusted.
 
+<div style="background:#E5712C; padding:10px; padding-left:20px; color:white;">
+<h3>Going further</h3>
+<p>Check out the <a style="background:#eee; padding:2px;" href="https://github.com/mozilla/openbadges-backpack/wiki/Open-Badges-FAQs"><strong>Open Badges Frequently Asked Questions (FAQs)</strong></a></p>
+</div>
+
+<br />
+
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
 <h3>Is this page finished?</h3>
-<p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
+<p>Why not help improve the course? <strong><a style="background:#eee; padding:3px;" href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
 </div>
 
 
