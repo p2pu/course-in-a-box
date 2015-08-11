@@ -9,6 +9,9 @@ In this section you'll **earn your first Open Badge and 'push' it to a badge bac
 
 <img src="{{ site.baseurl }}/img/visual-thinkery/value-badge.png" alt="What's the value of a badge?"></a></p>
 
+
+## Earn your first badge
+
 <div style="float:right; padding-left:20px;"><a href="http://badges.p2pu.org/en/badge/view/765/"><img src="{{ site.baseurl }}/img/badge-awareness.png" width="125px" alt="Open Badge awareness badge"></a></div>
 
 One of the best ways to learn how Open Badges work is to earn your first badge! In this section you'll apply for, and hopefully earn, the [Open Badge Awareness badge](http://badges.p2pu.org/en/badge/view/765/). 
@@ -20,6 +23,41 @@ To earn this badge, you'll need to write 250+ words on the following:
 * Some ways Open Badges can be used
 
 You can write these words anywhere on the web - so a blog, a wiki, a Facebook page, anywhere with a public URL. It goes without saying you should use your own words, unless you're quoting (which doesn't count towards your 250 words!)
+
+
+## Send your badge to the Mozilla backpack
+
+What's a 'backpack'?
+
+<blockquote>The Mozilla Backpack is a tool for earners to collect, share and display the badges they have been awarded. Earners can import badges into the Mozilla Backpack and issuers can offer to push the badges they award to the Backpack. Once a badge is in the earner’s Mozilla Backpack, they can organize it into groups and control visibility. Public badges are discoverable by badge displayers. (<a href="https://www.badgealliance.org/glossary/#Mozilla_Backpack">Badge Alliance glossary</a>)</blockquote>
+
+There are generic instructions for how to push badges you earn around the web [here](https://github.com/mozilla/openbadges-backpack/wiki/Share-your-Badges-with-the-Mozilla-Backpack), but it's effectively a three stage process once you've been issued the badge via P2PU:
+
+1. Click on the 'Add to backpack' button on the [Open Badge Awareness page](http://badges.p2pu.org/en/badge/view/765/) at P2PU.
+2. Login to your Mozilla Persona account *(you'll be prompted to create one if you don't already have one)*
+3. Accept the badge! 
+
+**Note:** your badge will be private to you until you choose to share it.
+
+## Share your badge on social networks
+
+Want to share your badge with the world? Follow these steps:
+
+1. Go to your [Mozilla backpack](http://backpack.openbadges.org)
+2. Click on the **Collections** tab at the top.
+3. Drag your Open Badge Awareness badge to a new collection (where it says **Drag a badge here**)
+4. Click the option to make the badge public.
+5. Click the share symbol at the bottom right-hand side
+6. On the next page, click **Share this on Twitter, Google+ and Facebook**
+7. Choose your social network, and off you go!
+
+If you'd like to share your badge on LinkedIn, you'll need the video below:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jo4Wdj5sRa4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Pay it forward!
+
+Now that you've been awarded the Open Badge Awareness badge, you have the authority to issue the badge yourself!  You'll receive the occasional email to ask if you can help with this. If you'd rather not, simply unsubscribe from those emails.
 
 <br />
 
