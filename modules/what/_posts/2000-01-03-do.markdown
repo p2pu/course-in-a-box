@@ -9,7 +9,21 @@ In this section you'll **earn your first Open Badge and 'push' it to a badge bac
 
 <img src="{{ site.baseurl }}/img/visual-thinkery/value-badge.png" alt="What's the value of a badge?"></a></p>
 
+<div style="float:right; padding-left:20px;"><a href="http://badges.p2pu.org/en/badge/view/765/"><img src="{{ site.baseurl }}/img/badge-awareness.png" width="125px" alt="Open Badge awareness badge"></a></div>
+
+One of the best ways to learn how Open Badges work is to earn your first badge! In this section you'll apply for, and hopefully earn, the [Open Badge Awareness badge](http://badges.p2pu.org/en/badge/view/765/). 
+
+To earn this badge, you'll need to write 250+ words on the following:
+
+* What Open Badges are
+* How Open Badges are different from digital badges
+* Some ways Open Badges can be used
+
+You can write these words anywhere on the web - so a blog, a wiki, a Facebook page, anywhere with a public URL. It goes without saying you should use your own words, unless you're quoting (which doesn't count towards your 250 words!)
+
+<br />
+
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
-<h3>This page is unfinished!</h3>
+<h3>Is this page finished?</h3>
 <p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
 </div>
