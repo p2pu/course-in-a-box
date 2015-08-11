@@ -6,9 +6,74 @@ title: Reflect
 
 This module **gives a high-level overview of how the Open Badges Infrastructure works** and shows some ways it can be used in practice.
 
-<img src="{{ site.baseurl }}/img/napkin-sketch.png" alt="Open Badges napkin sketch"></a></p>
+<img src="{{ site.baseurl }}/img/napkin-sketch.png" alt="Open Badges napkin sketch">
+<p align="center"><em>('napkin sketch' from the <a href="http://openbadges.org/about/">Open Badges website</a>)</em></p>
 
-<div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
-<h3>This page is unfinished!</h3>
-<p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
+## Simple overview
+
+This course isn't meant to be a deep dive into technical specifics but more of a general overview of how Open Badges work. The system underpinning the issuing and display of metadata-enabled credentials is known as the Open Badges Infastructure, or 'OBI'. 
+
+### Step 1
+As you can see in the above diagram, *anyone* can issued trusted credentials to anyone else. Mozilla looks after what's known as the 'badge baking', which is when the metadata is hard-coded into the image file. This includes information such as: 
+
+* Issuer
+* Earner
+* Date
+* Criteria
+* Evidence
+
+In the same way that you can't separate out the ingredients once you've baked a cake, so there's no way to 'unbake' a badge. The metadata stays with the image file, meaning it can be stored anywhere.
+
+### Step 2
+The issuer informs the individual (usually by email) that they've been awarded an Open Badge. That individual can choose whether to reject that badge or accept it. 
+
+### Step 3
+If the individual accepts the badge, then they have the option to 'push' it to a badge backpack. The default, reference badge back is hosted by Mozilla at [backpack.openbadges.org](http://backpack.openbadges.org). Users of this service require a free Mozilla Persona account. They will be prompted to create one if they don't already have one.
+
+### Step 4
+Once the badge is in an individual's badge backpack, it is entirely private to them. No-one else can see it unless they choose to share it. They can do so by adding it to a collection and then displaying it anywhere on the web and/or social networks.
+
+### Step 5
+As Open Badges are based on an open standard, they be issued from any site and put into collections that the user controls. The idea is that this will then paint a more holistic picture of the learner, unlocking new possibilities, job opportunities, and enabling true lifelong learning. 
+
+<br />
+
+## Getting (slightly) more technical
+
+The OBI is a collection of technologies that enable to trusted digital credentials to be issued and displayed via the web. 
+
+<a href="{{ site.baseurl }}/img/obi-diagram.jpg"><img src="{{ site.baseurl }}/img/obi-diagram.jpg" alt="OBI diagram"></a>
+<p align="center"><a href="{{ site.baseurl }}/img/obi-diagram.jpg">Click to enlarge</a></p>
+
+Valid Open Badges contain metadata in the form of three core Badge Objects: **Issuers**, **Badge Classes** and **Assertions**.
+
+### Issuers
+This is a collection of information about the person or organisation issuing the badge. Mandatory information includes the **name** of the person or organisation, along with a valid **URL**. Optional information can be included such as a **description** and/or **image** of the person or organisation issuing the badge, a contact **email address**, and a **revocation list** of badges that have since been revoked.
+
+### Badge Classes
+The Badge Class includes mandatory information such as the **name** of the badge, a **description** of the badge, and the **image** representing the achievement. The **criteria** to met is also required, as is the name of the **issuer**. Optional information such as **alignment** to standards may be included, as can any **tags** that help discoverability.
+
+### Assertion
+This collection of information is what gives the OBI its rigour and verifiability. It gets very technical very quickly *(see the 'Going further' box below)* so the easiest way to explain this part is as follows. 
+
+Every badge assertion needs to have a unique **ID** - not globally, but on a per-issuer basis. It should also list the **recipient**, the **URL** where the badge is described, instructions for third-parties to **verify** the badge, and the **date** when the badge was issued. Optional information to be included in the assertion includes **evidence** and whether the badge **expires**.
+
+## Next steps
+
+The OBI is a tricky thing to get your head around as it based on a [federated architecture](https://en.wikipedia.org/wiki/Federated_Architecture). Perhaps the easiest thing to compare it with is email: we send this regularly without any thought about various email providers, the location of the individual, or what system they're running. The whole ecosystem works because it is based upon interoperable, open standards. Gmail users can send emails to businesses who have their own email server, and vice versa. 
+
+Try re-reading the above and/or explore the links below. Sometimes it helps if you try and explain what you've just learned to someone else. You might want to do this by trying to explain it verbally, recording a video, or writing something down?
+
+<div style="background:#E5712C; padding:10px; padding-left:20px; color:white;">
+<h3>Going further</h3>
+<p>Check out the official <a style="background:#eee; padding:3px;" href="http://openbadgespec.org/"><strong>Open Badges specification</strong></a> that contains important information for would-be issuers. <em>(warning: technical!)</em></p>
+<p>You may also be interested in the relatively new standards-based <a style="background:#eee; padding:3px;" href="http://dmlcentral.net/blog/doug-belshaw/extending-badges"><strong>Extensions</strong></a> to the Open Badges Infrastructure.</p>
+
+</div>
+
+<br />
+
+<div style="background:#FFBC1A; padding:10px; padding-left:20px; color:#eee;">
+<h3>Is this page finished?</h3>
+<p>Why not help improve the course? <strong><a style="background:white; padding:3px;" href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
 </div>

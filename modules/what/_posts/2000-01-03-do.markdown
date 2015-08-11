@@ -25,5 +25,5 @@ You can write these words anywhere on the web - so a blog, a wiki, a Facebook pa
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
 <h3>Is this page finished?</h3>
-<p>Why not help improve the course? <strong><a href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
+<p>Why not help improve the course? <strong><a style="background: #eee; padding:3px;" href="https://github.com/thinkoutloudclub/badge-course/wiki/Help-improve-the-Open-Badges-101-course">Click here</a></strong></p>
 </div>
