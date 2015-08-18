@@ -20,18 +20,22 @@ Although Open Badges can be issued for literally *anything*, they've gained some
 
 Instead of working towards a single, large credential at the end of a multi-year course, learners could work towards a series of smaller, more immediately-relevant micro-credentials as part of a learning pathway. This might begin with a badge issued for simply signing up to the course, but scaffold towards a series of badges that have exchange value in the jobs market.
 
-<div style="float:right; padding-left:20px; padding-bottom:20px;"><img src="{{ site.baseurl }}/img/trivial-pursuit.jpg" alt="Trivial Pursuit wedges" width="200px"></div>As Open Badges is a standards-based system, badges from different providers can stack together to unlock a 'larger' badge. One way this can work is familiar to anyone who has played the board game <em>Trivial Pursuit</em> and collected the small coloured wedges before racing to the centre of the board.
+<div style="float:right; padding-left:20px; padding-bottom:20px;"><img src="{{ site.baseurl }}/img/trivial-pursuit.jpg" alt="Trivial Pursuit wedges" width="200px" /></div>As Open Badges is a standards-based system, badges from different providers can stack together to unlock a 'larger' badge. One way this can work is familiar to anyone who has played the board game <em>Trivial Pursuit</em> and collected the small coloured wedges before racing to the centre of the board.
 
-## Other ways to use badges
+<h2>Other ways to use badges</h2>
 
-As the Open Badges Infrasrtucture is an open system that people can use for *any* purpose, we're beginning to see new and interesting use cases emerging. For example, [Médecins Sans Frontières (MSF)](http://www.slideshare.net/dpresant/personal-learning-environments-powered-by-open-badge-enabledpl-ev21epicforupload) and [Disaster Ready](http://www.disasterready.org/blog/introducing-open-badges) are using badges as part of a 'humanitarian personal learning environment'. Badges are used for knowledge and skills, but also to signify someone as the 'go-to' person for a region, having done disaster relief in that area. This may be thought of as similar to a 'tour of duty' in a milatary context.
+<p>As the Open Badges Infrasrtucture is an open system that people can use for <em>any</em> purpose, we're beginning to see new and interesting use cases emerging. For example, <a href="http://www.slideshare.net/dpresant/personal-learning-environments-powered-by-open-badge-enabledpl-ev21epicforupload">Médecins Sans Frontières (MSF)</a> and <a href="http://www.disasterready.org/blog/introducing-open-badges">Disaster Ready</a> are using badges as part of a 'humanitarian personal learning environment'. Badges are used for knowledge and skills, but also to signify someone as the 'go-to' person for a region, having done disaster relief in that area. This may be thought of as similar to a 'tour of duty' in a milatary context.</p>
 
-Don Presant, who is involved in the above MSF project and a well-known name in the Open Badges community, has [suggested some additional ways](http://www.savvyfolio.net/user/don/overview-open-badges) that Open Badges might work in some contexts:
+<p>Don Presant, who is involved in the above MSF project and a well-known name in the Open Badges community, has <a href="http://www.savvyfolio.net/user/don/overview-open-badges">suggested some additional ways</a> that Open Badges might work in some contexts:</p>
+<br />
+<ul>
+<li>A high school student may be able to demonstrate citizenship or leadership skills using Open Badges from an after school program curated in an eportfolio that they are using to challenge for university entrance or a scholarship</li>
+<li>A PSE student making the transition to graduate school may use Open Badges from Co-Curricular activities to demonstrate skills such as exemplary communication or an aptitude for helping others</li>
+<li>A job candidate may use Open Badges from a workplace readiness program to demonstrate that they exceed the minimum level of functional skills needed for a particular job</li>
+<li>A professional may use Open badges from a wide variety of activities to demonstrate Continuing Professional Development (CPD)</li>
+</ul>
 
-* A high school student may be able to demonstrate citizenship or leadership skills using Open Badges from an after school program curated in an eportfolio that they are using to challenge for university entrance or a scholarship
-* A PSE student making the transition to graduate school may use Open Badges from Co-Curricular activities to demonstrate skills such as exemplary communication or an aptitude for helping others
-* A job candidate may use Open Badges from a workplace readiness program to demonstrate that they exceed the minimum level of functional skills needed for a particular job
-* A professional may use Open badges from a wide variety of activities to demonstrate Continuing Professional Development (CPD)
+<p>There are a multitude of ways Open Badges can be used in almost any context. The next module features a <a href="../how/">taxonomy</a> of different types of badges that City & Guilds is using, but the only limit is your (collective) imagination!</p>
 
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
