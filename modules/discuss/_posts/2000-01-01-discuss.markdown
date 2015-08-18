@@ -7,3 +7,5 @@ title: Discuss
 The [Open Badges discussion forum](https://groups.google.com/forum/#!forum/openbadges), started by the [Badge Alliance](http://badgealliance.org) is a great place to discuss this course and connect with the worlwide badges community!
 
 <p><a href="https://groups.google.com/forum/#!forum/openbadges"><img src="{{ site.baseurl }}/img/visual-thinkery/articulation-of-an-idea.png" alt="Open Badges discussion forum"></a></p>
+
+If you're interested in ways to improve this #OB101 course, then please have a look at the guidance on the [Get Involved](http://badges.thinkoutloudclub.com/modules/start/get-involved/) page. 

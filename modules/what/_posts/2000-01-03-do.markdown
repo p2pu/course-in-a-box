@@ -12,9 +12,9 @@ In this section you'll **earn your first Open Badge and 'push' it to a badge bac
 
 ## Earn your first badge
 
-<div style="float:right; padding-left:20px;"><a href="http://badges.p2pu.org/en/badge/view/765/"><img src="{{ site.baseurl }}/img/badge-awareness.png" width="125px" alt="Open Badge awareness badge"></a></div>
+<div style="float:right; padding-left:20px;"><a target="_blank" href="http://badges.p2pu.org/en/badge/view/765/"><img src="{{ site.baseurl }}/img/badge-awareness.png" width="125px" alt="Open Badge awareness badge"></a></div>
 
-One of the best ways to learn how Open Badges work is to earn your first badge! In this section you'll apply for, and hopefully earn, the [Open Badge Awareness badge](http://badges.p2pu.org/en/badge/view/765/). 
+One of the best ways to learn how Open Badges work is to earn your first badge! In this section you'll apply for, and hopefully earn, the <a target="_blank" href="http://badges.p2pu.org/en/badge/view/765/">Open Badge Awareness badge</a>.
 
 To earn this badge, you'll need to write 250+ words on the following:
 
@@ -29,13 +29,13 @@ You can write these words anywhere on the web - so a blog, a wiki, a Facebook pa
 
 What's a 'backpack'?
 
-<blockquote>The Mozilla Backpack is a tool for earners to collect, share and display the badges they have been awarded. Earners can import badges into the Mozilla Backpack and issuers can offer to push the badges they award to the Backpack. Once a badge is in the earner’s Mozilla Backpack, they can organize it into groups and control visibility. Public badges are discoverable by badge displayers. (<a href="https://www.badgealliance.org/glossary/#Mozilla_Backpack">Badge Alliance glossary</a>)</blockquote>
+<blockquote>The Mozilla Backpack is a tool for earners to collect, share and display the badges they have been awarded. Earners can import badges into the Mozilla Backpack and issuers can offer to push the badges they award to the Backpack. Once a badge is in the earner’s Mozilla Backpack, they can organize it into groups and control visibility. Public badges are discoverable by badge displayers. (<a target="_blank" href="https://www.badgealliance.org/glossary/#Mozilla_Backpack">Badge Alliance glossary</a>)</blockquote>
 
-There are generic instructions for how to push badges you earn around the web [here](https://github.com/mozilla/openbadges-backpack/wiki/Share-your-Badges-with-the-Mozilla-Backpack), but it's effectively a three stage process once you've been issued the badge via P2PU:
+There are generic instructions for how to push badges you earn around the web <a target="_blank" href="https://github.com/mozilla/openbadges-backpack/wiki/Share-your-Badges-with-the-Mozilla-Backpack">here</a>, but it's effectively a three stage process once you've been issued the badge via P2PU:
 
 1. Click on the 'Add to backpack' button on the [Open Badge Awareness page](http://badges.p2pu.org/en/badge/view/765/) at P2PU.
 2. Login to your Mozilla Persona account *(you'll be prompted to create one if you don't already have one)*
-3. Accept the badge! 
+3. Accept the badge!
 
 **Note:** your badge will be private to you until you choose to share it.
 
