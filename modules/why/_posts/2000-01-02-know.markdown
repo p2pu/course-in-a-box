@@ -20,7 +20,7 @@ Although Open Badges can be issued for literally *anything*, they've gained some
 
 Instead of working towards a single, large credential at the end of a multi-year course, learners could work towards a series of smaller, more immediately-relevant micro-credentials as part of a learning pathway. This might begin with a badge issued for simply signing up to the course, but scaffold towards a series of badges that have exchange value in the jobs market.
 
-<div style="float:right; padding-left:20px; padding-bottom:20px;"><img src="{{ site.baseurl }}/img/trivial-pursuit.jpg" alt="Trivial Pursuit wedges" width="200px" /></div>As Open Badges is a standards-based system, badges from different providers can stack together to unlock a 'larger' badge. One way this can work is familiar to anyone who has played the board game <em>Trivial Pursuit</em> and collected the small coloured wedges before racing to the centre of the board.
+<div style="float:right; padding-left:20px; padding-bottom:20px;"><img src="{{ site.baseurl }}/img/trivial-pursuit.jpg" alt="Trivial Pursuit wedges" width="200px" /></div>As Open Badges is a standards-based system, badges from different providers can stack together to unlock a 'larger' badge. One way this can work is familiar to anyone who has played the board game <em>Trivial Pursuit</em> and collected the small coloured wedges before racing to the centre of the board. We'll explore types of badge pathway in the [next section](http://badges.thinkoutloudclub.com/modules/why/do/).
 
 <h2>Other ways to use badges</h2>
 
@@ -35,7 +35,7 @@ Instead of working towards a single, large credential at the end of a multi-year
 <li>A professional may use Open badges from a wide variety of activities to demonstrate Continuing Professional Development (CPD)</li>
 </ul>
 
-<p>There are a multitude of ways Open Badges can be used in almost any context. The next module features a <a href="../how/">taxonomy</a> of different types of badges that City & Guilds is using, but the only limit is your (collective) imagination!</p>
+<p>There are a multitude of ways Open Badges can be used in almost any context. The next module features a <a href="http://badges.thinkoutloudclub.com/modules/how/">taxonomy</a> of different types of badges that City & Guilds is using, but the only limit is your (collective) imagination!</p>
 
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">

@@ -3,11 +3,85 @@ title: Do
 published: true
 ---
 
-# Why would I use Open Badges in my situation?
+# Why would I use badge pathways?
 
 This section will enable you to **demonstrate ways in which Open Badges could work in your context**.
 
-<img src="{{ site.baseurl }}/img/visual-thinkery/education-changing.png" alt="Education is changing..."></a></p>
+<img src="{{ site.baseurl }}/img/visual-thinkery/badge-pathways.png" alt="Types of badge pathways"></a></p>
+
+## The basics
+It's entirely possible to use Open Badges in an entirely 'flat' taxonomy. For example, your organisation could issue separate badges for:
+
+* Turning up for an event
+* Completing a compliance module
+* Receiving an award for excellent work
+
+These are discrete and do not depend upon one another. They're in a 'flat' taxonomy.
+
+Some theories hold that learning happens better when it's scaffolded through credentials. Creating a badge-based pathway can be as simple or as complex as you wish to make it. This section focuses on reasons why using Open Badges to scaffold learning in your situation could be powerful. 
+
+## Types of badge pathways
+The image at the top of this section shows three broad ways in which Open Badges can be used to scaffold learning. The only real limit to ways you can do this is your imagination! For example, take this 'skill tree' from the online action role-playing game [Path of Exile](https://en.wikipedia.org/wiki/Path_of_Exile):
+
+<img src="{{ site.baseurl }}/img/path-of-exile.jpg" alt="Path of Exile skill tree"></a></p>
+
+In these kinds of games, part of the attraction is that the player can see the path ahead of them. The level of complexity is seen as a feature. For your learners, however, you may want to hide this. The 'skill map' (or badge pathway) may be partly hidden until the learner unlocks the next section.
+
+
+### Stepping stones
+
+<div style="float:right; padding-left:3%;"><img src="{{ site.baseurl }}/img/visual-thinkery/stepping-stones.png" alt="Stepping stones" width="250px"></a></p></div>
+
+The most straight forward badge pathway to create is one that looks like **stepping stones**. These pathways are *sequential* and *prescriptive*. That is to say they guide the learner in a fixed, linear order from which it is impossible to deviate. 
+
+This kind of pathway may be useful for:
+
+* **Compliance training** *(e.g. health & safety)*
+* **Induction** *(e.g. onboarding at a sports club)*
+* **Process-driven environments** *(e.g. assisting with surgical operations)*
+
+
+### Collection
+
+<div style="float:right; padding-left:3%;"><img src="{{ site.baseurl }}/img/visual-thinkery/collection.png" alt="Collection" width="250px"></a></p></div>
+
+A popular way to create a badge pathway that allows some amount of user choice is to create a **collection**. A useful metaphor for collection-based badge pathways is the game *Trivial Pursuit*. In this game, players race to collect different coloured wedges before racing to the centre. Similarly, learners on a collection-based badge pathway collect module badges (in any order) and are issued a meta-level badge once completed.
+
+A more advanced version would be to offer more modules than are required to achieve the meta-level badge. For example, if ten modules were on offer, but only six were required to achieve the meta-level badge, then learners would have an even greater degree of choice. In fact, different configurations of badges could trigger different *types* of meta-level badge. 
+
+This kind of pathway may be useful for:
+
+* **Academic options** *(e.g. university modules)*
+* **Early specialisation** *(e.g. car mechanics focusing on performance turning)*
+* **Gamifying content** *(e.g. encouraging users to pay for all modules on offer)*
+
+### Constellation
+
+<div style="float:right; padding-left:3%;"><img src="{{ site.baseurl }}/img/visual-thinkery/constellation.png" alt="Constellation" width="250px"></a></p></div>
+
+The most complex of the three ways to create badge pathways that we discuss here is to create a **constellation**. These types of pathway are *non-linear* and *descriptive*. In other words, they can be completed in any order, and make sense when the learner looks back at what they have done. 
+
+The specific pathways followed by learners are not defined in advance when coming up with a constellation model. Instead, like the *Path of Exile* example above, learners forge their own path through an array of badged activities.
+
+Creating this kind of pathway can take a great deal of time, effort, and planning for one organisation. However, because Open Badges are based on a standard, one organisation can reference another organisation's badges to create an ecosysytem. This can be done in a formal way, perhaps through endorsement, or informally by recognising badges issued by other organisations.
+
+This kind of pathway may be useful for:
+
+* **City-wide, nation-wide, or sector-wide badge systems** *(e.g. employability)*
+* **Interest-based learning** *(e.g. coding)*
+* **Lifelong learning** *(e.g. telling the story of evolving interests)*
+
+## How to get started
+The quickest and easiest way to get started with a badge-based pathway is to start with the kinds of behaviours you want to encourage. So, for example, you might start with a single badge for turning up to an event. If this is one of a series of events, you might create a meta-level badge for turning up to, for example, three events.
+
+Planning a badge pathway can get very complex very quickly. If this happens, it can be disconcerting and make it hard to even get started. That's why the idea of a [Minimum Viable Badge](http://dougbelshaw.com/blog/2013/10/27/minimum-viable-badge/) is such an important one:
+
+<blockquote>So a Minimum Viable Badge would be the first badge in an emergent ecosystem of value. A stake in the ground, as it were; line in the sand. It’s the opposite of trying to satisfy upfront all of the requirements and concerns of ‘stakeholders’. It’s a recognition that the first thing you produce is something to talk about, iterate and (probably) jettison. It’s a conversation-starter. <br>(Doug Belshaw)</blockquote>
+
+[DigitalMe](http://digitalme.co.uk), a UK non-profit that has been part of the Open Badges ecosystem from the start, has created a 'badge canvas' that allows individuals and organisations to think through all of the various angles when creating a badge. It can be downloaded from their website via the link below:
+
+**[Download Digital Me's badge canvas](http://digitalme.co.uk/badgecanvas)**
+
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
 <h3>Is this page finished?</h3>
