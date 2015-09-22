@@ -12,5 +12,5 @@ This module introduces ways in which Open Badges can be used, from micro-credent
 By the end of this module you should:
 
 * **Know:** identify various ways in which Open Badges can be used
-* **Do:** demonstrate ways in which Open Badges could work in your context
-* **Reflect:** formulate an Open Badges proposal
+* **Do:** choose between different types of badge pathway
+* **Reflect:** demonstrate ways in which Open Badges could work in your context

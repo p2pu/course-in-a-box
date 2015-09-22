@@ -7,6 +7,8 @@ published: true
 
 In this section you will learn to **write good badge criteria**.
 
+
+
 <img src="{{ site.baseurl }}/img/visual-thinkery/prescriptive-descriptive.png" alt="Descriptive vs. Prescriptive pathways">
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">

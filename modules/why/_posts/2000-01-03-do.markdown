@@ -3,9 +3,9 @@ title: Do
 published: true
 ---
 
-# Why would I use badge pathways?
+# Why use badge pathways?
 
-This section will enable you to **demonstrate ways in which Open Badges could work in your context**.
+This section will enable you to **choose between different types of badge pathway**.
 
 <img src="{{ site.baseurl }}/img/visual-thinkery/badge-pathways.png" alt="Types of badge pathways"></a></p>
 
@@ -82,6 +82,7 @@ Planning a badge pathway can get very complex very quickly. If this happens, it 
 
 **[Download Digital Me's badge canvas](http://digitalme.co.uk/badgecanvas)**
 
+For more detail on this, check out the [next module](http://badges.thinkoutloudclub.com/modules/how/intro/).
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
 <h3>Is this page finished?</h3>

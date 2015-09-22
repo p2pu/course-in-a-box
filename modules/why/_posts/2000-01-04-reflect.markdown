@@ -3,11 +3,50 @@ title: Reflect
 published: true
 ---
 
-# Why are Open Badges important?
+# Why should my organisation use Open Badges?
 
-This section will help you **formulate an Open Badges proposal**.
+This section will help you **demonstrate ways in which Open Badges could work in your context**.
 
 <img src="{{ site.baseurl }}/img/visual-thinkery/constellation-pathways.png" alt="A constellation of pathways"></a></p>
+
+## The importance of context
+One of the most salient features of the Open Badges ecosystem is that it's extremely *contextual*. That is to say, because anyone can issue a badge for anything, both existing structures and emerging ones can be represented equally.
+
+For example, an educational establishment such as a university may decide to issue Open Badges for each module an undergraduate completes. This, in effect, is maintaining the status quo: the university simply recognises what is already happening. There are many advantages in this approach:
+
+* Graduates going to interview have a richer picture of their degress to show potential employers.
+* Students who drop out of university have something to show for their studies.
+* Universities can potentially see not only which degrees but which *modules* are most likely to lead to various outcomes (including employability)
+* Potential applicants to the university have a clearer line of sight to what they can achieve during their time there
+
+Continuing with the university example, there are *new* things that can be done with badges that were previously not possible. Societies, clubs, and organisations employing students can issue Open Badges that can be displayed alongside an individual's academic credentials. This paints a much more holistic picture of the learner. For example:
+
+* An employer could issue a 'punctuality' badge for being on time for every shift over the course of a year.
+* A society could issue a badge showing an individual got to the final round to be voted President.
+* Clubs could issue badges demonstrating proficiency in marketing via social media.
+
+Open Badges are not all about job opportunities, but it is easy to see that in the above example that issuing badges can be useful in both existing and new contexts.
+
+
+## Reasons your organisation should issue Open Badges
+
+As the [Badge Alliance](http://www.badgealliance.org/why-badges/) states, use of the Open Badges ecosystem leads a number of real, tangible benefits for both your organisation and your users/learners:
+
+* **Free and open:** Open Badges is free software and an open technical standard. Any organization can use this standard to create, issue and verify open digital badges.
+* **Transferable:** Collect badges from multiple sources, online and off, into a single backpack. Then display your skills and achievements on social networking profiles, job sites, websites and more.
+* **Stackable:** Whether they’re issued by one organization or many, badges can build upon each other and be stacked to tell the full story of your skills and achievements.
+* **Evidence-based:** Open Badges are information-rich. Each badge has important metadata which is hard-coded into the badge image file itself that links back to the issuer, criteria and verifying evidence.
+ 
+In addition to this, and as mentioned above, there are specific examples where Open Badges would be extremely useful to organisations. Here are just a few examples:
+
+1. Encouraging deeper engagement with online learning content
+2. Recognising 'soft' skills that would usually not be credentialed within an organisation
+3. Identifying those who have done a 'tour of duty' and have expertise in a particular area/context
+4. Providing a way to find a very particular skillset for an upcoming project
+5. Helping define the *actual* skills required for a particular position (beyond the job description)
+
+
+
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
 <h3>Is this page finished?</h3>

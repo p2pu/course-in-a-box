@@ -13,4 +13,6 @@ By the end of this module you should:
 
 * **Know:** recognize the difference between different badge issuing platforms.
 * **Do:** write good badge criteria.
-* **Reflect:** consider what you have learned so far and plan next steps.
+* **Reflect:** formulate an Open Badges proposal
+
+
