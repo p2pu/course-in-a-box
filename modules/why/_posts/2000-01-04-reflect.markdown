@@ -45,7 +45,10 @@ In addition to this, and as mentioned above, there are specific examples where O
 4. Providing a way to find a very particular skillset for an upcoming project
 5. Helping define the *actual* skills required for a particular position (beyond the job description)
 
+## An open ecosystem
+The opposite of an open ecosystem is a series of closed silos. Ultimately, issuing credentials that can be used elsewhere on the web is a competitive advantage. In the same way that YouTube grew because it allowed videos to be embedded anywhere on the web, so Open Badges issued by your organisation point back to you no matter where an individual chooses to display them.
 
+As adopters of [Open Source software](https://en.wikipedia.org/wiki/Open-source_software) have discovered, working openly comes with a number of advantages. These include being able to focus on users and learners rather than the technical side of implementation. Development can be inspired by, or even carried out by, other members of the community. Also, using technology being used by many organisations means that you stand 'on the shoulder of giants' to gain deeper brand awareness than you otherwise may have gathered.
 
 
 <div style="background:#FFBC1A; padding:10px; padding-left:20px; color:white;">
