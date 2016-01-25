@@ -143,3 +143,16 @@ signups:
  - name : Mark Williams
    image : https://pbs.twimg.com/profile_images/686913009021681665/zUefm9PB.png
    twitter: the_markness
+ - name: Robert Konsdorf
+   image:  http://www.gravatar.com/avatar/7a402bf770629b108763bc8482c18ff3.png
+   twitter: robrig0
+   github: robrigo
+ - name: Lisa Schnellinger
+   image: http://www.nearmediallc.com/wp-content/uploads/2011/01/IGP7933-screen-res.jpg
+   twitter: j_trainer
+ - name : Santiago Ferreira Litowtschenko
+   image : https://mozillians.org/media/uploads/sorl-cache/0b/8a/0b8a9bfe4d80c75e388160787fdbc1ce.jpg
+   twitter: cosmikspin
+ - name : Jeanette Popken
+   image : http://i61.tinypic.com/14nz9lw.jpg
+   twitter: Jeanette_Lena
