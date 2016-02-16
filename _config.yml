@@ -1,6 +1,6 @@
 # basic configuration
 baseurl:
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title/
 
 # Change this tracking code with your own tracking code
