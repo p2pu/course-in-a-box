@@ -3,7 +3,7 @@ layout: index
 published: true
 ---
 
-## Isauro Arancibia.un colectivo que no  es un bondi
+## Isauro Arancibia. Un colectivo que no  es un bondi
 
 Este sitio contiene el plan de clases de los ciclos [Centro Educativo Isauro Arancibia](http://isauroarancibia.edu.ar)
 
