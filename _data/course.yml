@@ -140,8 +140,9 @@ signups:
  - name: Alvar Maciel
    image: https://pbs.twimg.com/profile_images/673664621975363587/j6GfgM-q.jpg
    twitter: amaciel
- - name : Mark Williams
-   image : https://s.gravatar.com/avatar/7c81b3f1f9fd6d5e0040ab0904037102?s=80
+   github: alvarmaciel
+ - name: Mark Williams
+   image: https://s.gravatar.com/avatar/7c81b3f1f9fd6d5e0040ab0904037102?s=80
    twitter: the_markness
  - name: Robert Konsdorf
    image:  http://www.gravatar.com/avatar/7a402bf770629b108763bc8482c18ff3.png
