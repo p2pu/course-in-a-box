@@ -21,5 +21,5 @@ Este es un texto en proceso, por lo tanto, si bien la organización y los cronog
 * Also, we're a non-profit and a distributed team (so we use the tools we recommend).
 
 			
-## Ahora están en ¿Cómo comenzar?
+## Se encuentran en ¿Cómo comenzar?
 Vayan [acá]({{site.baseurl}}/modules/start/about-this-course/) si quieren hacer su propio sitio con planificaciones y proyectos!
