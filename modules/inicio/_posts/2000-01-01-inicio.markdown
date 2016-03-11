@@ -11,7 +11,7 @@ Este es un sitio destinado a compartir las planificaciones, proyectos, y locuras
 
 Dista de estar acabado, es solo un borrador para contar y contagiar, para que lean, usen y modifiquen a su antojo lo que en nuestro día a día es una realidad colectiva
 
-![](/img/aquiSeRespiraLucha.jpg)
+![]({{site.baseurl}}/img/aquiSeRespiraLucha.jpg)
 
 ## Otros lugares importantes donde estamos
 
