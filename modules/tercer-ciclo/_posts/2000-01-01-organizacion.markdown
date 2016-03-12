@@ -13,8 +13,8 @@ Ehe! bueno. Todavía no le pusimos nombre, pero esta buenisimooo
 ### Horarios
 
 ¦bloque¦lunes¦martes|miércoles¦jueves¦viernes¦
-¦----- ¦ --- ¦ ---- ¦ ------- ¦ ---- ¦ ----- ¦
-¦primero¦matemáticas¦practicas del lenguaje¦ciencias sociales¦ciencias naturales¦educació física¦
+¦:----- ¦: --- ¦: ---- ¦: ------- ¦: ---- ¦: ----- ¦
+¦primer o¦matemáticas¦practicas del lenguaje¦ciencias sociales¦ciencias naturales¦educació física¦
 
 ### Áreas
 
