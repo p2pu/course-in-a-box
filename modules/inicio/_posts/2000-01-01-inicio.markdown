@@ -2,14 +2,14 @@
 title: Inicios
 ---
 
-## El Isauro Arancibia. Un colectivo que no es un bondi
+## El Isauro Arancibia
 
-Hace 16 años que comenzó esta historia, una historia que se trenza en las memorias colectivas de los educadores de latinoamerica.
-16 años de escuela, de estudiantes, de maestros, talleristas, trabajadorxs de todo tipo con los que se fue construyendo una opción pedagógica inclusiva.
+Hace 18 años que comenzó esta historia, una historia que se trenza en las memorias colectivas de los educadores de latinoamerica.
+18 años de escuela, de estudiantes, de maestros, talleristas, trabajadorxs de todo tipo con los que se fue construyendo una opción pedagógica inclusiva.
 
 Este es un sitio destinado a compartir las planificaciones, proyectos, y locuras en las que nos embarcamos día a día con los estudiantes.
 
-Dista de estar acabado, es solo un borrador para contar y contagiar, para que lean, usen y modifiquen a su antojo lo que en nuestro día a día es una realidad colectiva
+Dista de estar acabado, es solo un borrador para contar y contagiar, para que lean, usen y modifiquen a su antojo lo que en nuestro día a día es una realidad colectiva.
 
 ![]({{site.baseurl}}/img/aquiSeRespiraLucha.jpg)
 
