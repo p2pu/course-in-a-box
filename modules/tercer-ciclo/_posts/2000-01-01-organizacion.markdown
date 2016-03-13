@@ -13,8 +13,9 @@ Ehe! bueno. Todavía no le pusimos nombre, pero esta buenisimooo
 ### Horarios
 
 |bloque|lunes|martes|miércoles|jueves|viernes|
-|:----- |:---:|:----: |: ------- |: ---- |: ----- |
-|primero|matemáticas|practicas del lenguaje|ciencias sociales|ciencias naturales|educació física|
+|:----- |---:|:----: |: ------- |: ---- |: ----- |
+|9:30 a 11:30|matemáticas|practicas del lenguaje|ciencias sociales|ciencias naturales|educació física|
+|11:30 a 12:15|música/ensamble|Inglés|Biblioteca|Revista|Educación física|
 
 ### Áreas
 
