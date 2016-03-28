@@ -1,5 +1,5 @@
 ---
-title: organización
+title: Organización
 ---
 
 ## Como pensamos el año
@@ -8,14 +8,15 @@ title: organización
 
 ### Eje del año
 
-Ehe! bueno. Todavía no le pusimos nombre, pero esta buenisimooo
+Eeh! bueno. Todavía no le pusimos nombre, pero está buenisimooo.
 
 ### Horarios
 
 |bloque|lunes|martes|miércoles|jueves|viernes|
 |:----- |---:|:----: |: ------- |: ---- |: ----- |
-|9:30 a 11:30|matemáticas|practicas del lenguaje|ciencias sociales|ciencias naturales|educació física|
-|11:30 a 12:15|música/ensamble|Inglés|Biblioteca|Revista|Educación física|
+|9:30 a 11:30|Matemáticas|Practicas del Lenguaje|Ciencias Sociales|Ciencias Naturales|educación Física|
+|11:30 a 12:15|Música/Ensamble|Inglés|Biblioteca|Revista|Educación Física|
+
 
 ### Áreas
 
