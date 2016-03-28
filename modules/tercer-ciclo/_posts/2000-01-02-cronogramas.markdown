@@ -17,6 +17,7 @@ En tercer ciclo nos juntamos los miércoles a planificar los proyectos y las sem
 |Tarde|[Secuencia Matemática](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing) <br/> 4to/1|Lectura Diario <br>Por Capítulos|Cartografía del Barrio|Lectura diario por cap.<br/>¿Cartografía del barrio?|Educación Física|
 
 **Diarios posibles:**
+
 - "De Buenos Aires a Tijuana"
 - "Diario del Che en Bolivia"
 - "Alguno de Orsai"
