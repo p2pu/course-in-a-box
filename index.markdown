@@ -9,8 +9,8 @@ Este sitio contiene el plan de clases de los ciclos del [Centro Educativo Isauro
 
 La estructura del sitio es simple, la organización de los ciclo, el cronograma (tentativo) y las secuencias y proyectos.
 
-Este es un texto en proceso, por lo tanto, si bien la organización y los cronogramas son secciones mas fijas, las secuencias son escritas y reescritas periodicamente.
-		
+Este es un texto en proceso, por lo tanto, si bien la organización y los cronogramas son secciones mas bien fijas, las secuencias son escritas y reescritas periódicamente.
+
 ## Quienes colaboraron para que este sitio exista
 
 * [Peer 2 Peer University](http://p2pu.org)--Construyen comunidades de aprendizaje en la red. En los últimos 5 años esto son lgunos de los curos que pusieron en línea.
