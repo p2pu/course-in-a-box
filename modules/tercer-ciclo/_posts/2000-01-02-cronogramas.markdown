@@ -2,6 +2,9 @@
 title: Cronográmas
 ---
 
+* Índice
+{:toc}
+
 ## Cronogramas semanales
 En tercer ciclo nos juntamos los miércoles a planificar los proyectos y las semanas venideras. En esta sección pueden ver nuestra organización semanal con los contenidos que trabajamos día a día en ambos turnos
 
