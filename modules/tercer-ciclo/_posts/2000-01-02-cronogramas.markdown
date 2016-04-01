@@ -14,7 +14,7 @@ En tercer ciclo nos juntamos los miércoles a planificar los proyectos y las sem
 
 |Turnos|lunes|martes|miércoles|jueves|viernes|
 |:-----|:---|:----|:-------|:----|:-----|
-|Mañana|~~[Secuencia Matemática](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing)~~ |[Secuencia Matemática Act 2](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing) <br/> <hr> De Buenos Aires a Tijuana/Esdrújula|Línea de tiempo virtual / Diarios de Motocilcetas|Lectura diario por cap.<br/>Preparación Entrevista Victor Hugo|Educación Física|
+|Mañana|~~[Secuencia Matemática](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing)~~ |[Secuencia Matemática Act 2](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing) <br/> De Buenos Aires a Tijuana/Esdrújula|Línea de tiempo virtual / Diarios de Motocilcetas|Lectura diario por cap.<br/>Preparación Entrevista Victor Hugo|Educación Física|
 |Tarde|~~[Secuencia Matemática](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing)~~ |[Secuencia Matemática Act 2](https://drive.google.com/file/d/0B4I3zmAwvYg_bk1UWGRNVlNjWW8/view?usp=sharing) <br/> De Buenos Aires a Tijuana/Esdrújula|Diario de Motocicletas|Continuación Mate<br/>Preparación Entrevista Victor Hugo|Educación Física|
 
 
