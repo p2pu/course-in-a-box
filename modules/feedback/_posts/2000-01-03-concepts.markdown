@@ -1,0 +1,56 @@
+---
+title: Concepts
+published: true
+---
+
+# Feedback: the Good Stuff
+![getfeedback.png]({{site.baseurl}}/img/getfeedback.png)
+
+The word “feedback” may fill some with dread, but at P2PU it fills us with joy. We’re feedback addicts, always wanting to build with each other or see a project from another point of view. 
+
+When a student gives feedback or support to another student, that process deepens their own understanding of the subject being discussed. In the case of learning to program, students with some expertise actually learn more when they work with students who have less expertise. In writing courses, the research suggests that the act of critiquing another’s work measurably improves the quality of your own. We can associate peer feedback with dozens of other skills, including communication, conflict resolution, negotiation, and empathy. **It’s a bit edu-speak, but bear with us: what we're suggesting is that you can learn through assessing someone else.** This has massive implications (and they're good ones) for learning communities on the web. Not only does this mean that communities come up with their own notions of quality (the software development community GitHub has “core contributors” as an example) but communities can also scale to meet the needs of many learners in a personal way.
+
+In the social learning universe, feedback is another form of “assessment” of someone else’s work, so we tend to use the terms interchangeably. From where we sit, solid feedback on the Web embraces the following principles:
+
+###Recognize different paths to the answer
+Traditional assessment structures often resemble binary code: they are either on (right) or off (wrong). There’s a mismatch between this kind of black-and-white approach and working on complex projects: solutions are often iterative, and understanding grows over time. 
+Say you’re an urban planner tasked with building a new park. There are countless ways to approach the problem--you could optimize for greenery, for social interaction, for ecological impact--and all of the answers would be relevant. Real world problems often have several solutions. The way we learn and recognize learning should not be “one size fits all.”
+###Model concepts of quality and community norms 
+Learning communities determine what is “in” or acceptable, and what isn’t. Community moderators or experienced members often shine a light on what they consider to be of quality, for instance with “Featured Projects” or “Projects We Love” gallery. Imparting exemplary work with some sense of status models behavior for the wider community.
+###Foster deep conversations amongst community members
+Participating in a learning community is a way to master both a subject and the norms and values of a community. For example, if you post your latest crochet mittens to the knitting community site Ravelry. The feedback from the community will: a.) make your future crochet projects more stitch-perfect and, b.) model for you how to participate in the larger Ravelry community. If you’re stuck on a certain pattern, consulting experts on Ravelry can buoy you up, help you overcome obstacles and give you the gumption to take risks.
+###Build in reflection and self-assessment 
+In educational circles we often hear about building a “reflective practice”--asking learners to look back on their own work, diagnose their understanding, and imagine how they might use these skills in the future. In edu-speak we call this “metacognition”: thinking about your thinking. Metacognition is positively correlated with lifelong learning and self-directed exploration, which we can all agree is a good thing.
+###Support a learner’s continued growth and evolution 
+E-portfolios and other similar mechanisms make space where we can showcase how we evolve, and tap into the wealth of resources available on the web. As learners progress they gain visibility within a community, and they are expected to take on increasing responsibilities, e.g. to help others, provide feedback, or maintain the norms of the community.
+
+# A Toolkit for Better Feedback
+
+As sketched out above, our feedback model derives from the educational model of “Critique”. In this model, the group of instructors and peers deliver primed, constructive feedback to the writer, artist or designer. 
+
+But undirected, messy feedback doesn’t do much to help the learner. Neither do value judgements, opinions or ad hominem attacks. In order to deliver more constructive feedback, organizations like the Stanford Design school use the “[I Like, I Wish, What If](http://dschool.stanford.edu/wp-content/themes/dschool/method-cards/i-like-i-wish-what-if.pdf)” model to help prompt new ideas for the designer. Similarly choreographer Liz Lerman has developed a [Critical Response Process](http://www.lizlerman.com/crpLL.html) as a method to deliver feedback openly and constructively. 
+
+How the critique approach shakes out on the web *looks* a little different, but has the same spirit. We’ll walk you through a few P2PU examples, and pop some more into the [Resources](http://howto.p2pu.org/modules/feedback/resources) section.
+
+### Badges
+Everyone is an expert in something. Maybe you know how to make the perfect costume for your pet. Or you bring objects to life via 3D-drafting and printing. Most people are curious and want learn how to make the next thing--whether it be digital, analogue or abstract. Sound about right?
+At P2PU, we use badges as a way to recognize and support the development of your expertise as you evolve. If you see a badge on [badges.p2pu.org](https://badges.p2pu.org) that’s in line with a project you’re working on, you can submit it for feedback from an expert. It usually looks something like this:
+![qualfeedback.png]({{site.baseurl}}/img/qualfeedback.png)
+
+
+For Wikipedia’s School of Open [Burba Badge](http://badges.p2pu.org/en/badge/view/22/), a learner need to make over 200 edits to a Wikipedia article, and bring an article from a D grade to a B grade. 
+
+![wikisooba.png]({{site.baseurl}}/img/wikisooba.png)
+
+When learner C01 submits their project, an expert delivers directed feedback in the model of “Kudos” “Questions” and “Concerns” and prompts the learner to resubmit.
+
+![badges.png]({{site.baseurl}}/img/badges.png)
+
+Our platform is unique in that is supports peer-to-peer feedback and not just top-down badge issuing. As far we know it’s also the only full-service open source platform that anyone can use at the moment. Find out more at [badges.p2pu.org](badges.p2pu.org).
+
+### Play With Your Music
+For our playful introduction to audio engineering, all the expert guests were encouraged to model a reflective process--to talk about the different steps they took to get to their final creative product. If they had outstanding questions or concerns they wanted to bring to the group, this “reflective practice” opened up the project for others to weigh in.
+
+![pwymfeedback.png]({{site.baseurl}}/img/pwymfeedback.png)
+
+Good feedback starts with reflecting on how far you’ve come (eduwonks call this “self-assessment”) and then asking others into the project with you.

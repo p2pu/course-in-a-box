@@ -1,0 +1,11 @@
+---
+title: New things
+excerpt: "There are many new and important things going on"
+---
+
+# Why new?
+
+![]({{site.baseurl}}/img/community-banner.jpg)
+Image [CC-BY-SA](https://creativecommons.org/licenses/by/2.0/) [Peter Dutton](https://www.flickr.com/photos/joeshlabotnik/) 
+
+We believe in new! 

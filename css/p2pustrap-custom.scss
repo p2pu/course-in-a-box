@@ -1,0 +1,44 @@
+---
+---
+
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+
+@import "p2pu-css-framework/p2pustrap";
+
+{% if site.jumbotron_color %}
+	$jumbotron-color: {{ site.jumbotron_color }};
+{% else %}
+ $jumbotron-color: $p2pu-blue;
+{% endif %}
+
+{% if site.jumbotron_background_image %}
+	$jumbotron-image: '{{ site.jumbotron_background_image }}';
+{% else %}
+	$jumbotron-image: 'banner.svg';
+{% endif %}
+
+@import "common";
+@import "nav";
+@import "landing";
+@import "calendar";
+
+.post-container {
+    max-height: 15em;
+    overflow: hidden;
+    background-color: #F3F4F8;
+    padding: 1em;
+    
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.post-container:after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 15em;
+    top:0; left: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,0) 70%, rgba(255, 255, 255, 1));
+}

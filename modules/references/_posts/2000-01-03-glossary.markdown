@@ -1,0 +1,31 @@
+---
+title: Glossary
+---
+##We refer to quite a lot of terms and resources in this course - here is where they're all explained, because we like to avoid jargon!
+
+
+[DNS](http://www.wikipedia.org/wiki/Domain_Name_System) - Domain Name Service. The telephone directory of the internet. In short, when you enter p2pu.org, DNS is what sends you to the right computer on the internet that contains the website you are looking for. Why is this relevant? Well, maybe you want to use myawesomecourse.org for your course. In that case you will need to register a domain name.
+
+[Github](https://github.com) - Git hosting service with other colaborative tools added. Hosting for open source software and open content is free! See our [Github cheatsheet](http://howto.p2pu.org/modules/references/github-cheatsheet/).
+
+[Git](http://git-scm.com) - Version control software. Git allows you to track changes to a set of documents. Not sure what I mean, have a look at [the history for this repostory](https://github.com/p2pu/course-in-a-box/commits/gh-pages).
+
+[Jekyll](http://jekyllrb.com) - Software that 'ingests' a directory with files as input and outputs a directory of files ready to host as a website on the internet.
+
+[GitHub Pages](https://pages.github.com) - A hosted version of Github + Jekyll. Important part -> if you use GitHub Pages you don't need to install and run Jekyll and you don't need to pay for hosting!
+
+[Google Analytics](http://www.google.com/analytics/) - Service offered by Google to track page views and other metrics on a web page.
+
+[Discourse](http://www.discourse.org) - Takes the idea of online forums to a whole new level.  Conversations can be viewed as a continuous flow within categories that keep you up to date on what you are interested in.  Join in on our conversations at [http://community.p2pu.org/](http://community.p2pu.org/).
+
+[Disqus](https://disqus.com) - You have probably used Disqus already without even realizing it, it's everywhere.  Disqus makes it simple to add comment sections to any page and is supported on many popular blogging and content management platforms.
+
+[MailChimp](http://mailchimp.com) - Online service for automating emails that also provides analytics on how your community is interacting with your email communications.
+
+[IFTTT](https://ifttt.com) - If This Then That. Online service that allows you to string together different web services with a single recipe.
+
+[Etherpads](http://etherpad.org) - Collaborative online documents which can be written and edited in real time. Open source, but you need to host it. [Hackpad](https://hackpad.com) is similar and hosted for you, but is not open source.
+
+[Google Docs](http://www.google.com/docs/about/) - Collaborative online document, spreadsheet, and presentation editing services provided by Google.
+
+[Google Forms](https://www.google.co.uk/forms/about/) - A component of Google Docs but worth mentioning on its own.  Google Forms allow for the easy creation, sending, and collection of responses for online surveys.

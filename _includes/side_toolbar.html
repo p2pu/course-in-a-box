@@ -1,0 +1,34 @@
+<div class="sidebar col-md-3">
+	{% include next_module.html %}
+
+	{% if prev %}
+		<div class="pagination-section">
+			<div class="title">
+				Previous module:
+			</div>
+			<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev_post.url }}">
+				{{ prev }} </a>
+		</div>
+		<hr />
+	{% endif %}
+	<ul>
+		{% for post in site.categories[module] reversed %}
+			<li class="{% if post.url == page.url %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
+				<a
+						href="{{ site.baseurl }}{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+	{% if next %}
+		<hr />
+		<div class="pagination-section">
+			<div class="title">
+				Next module:
+			</div>
+			<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post.url }}"> {{ next }}
+			</a>
+		</div>
+	{% endif %}
+</div>

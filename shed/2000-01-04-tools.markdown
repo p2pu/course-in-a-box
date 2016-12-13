@@ -1,0 +1,26 @@
+---
+title: Tools for Community
+---
+# Tools for building a community
+
+There are many tools that you can use to build community!
+
+## Discourse
+
+Discourse is our discussion forum of choice. It's focussed on building sustainable communities, it works on mobile devices and overall it looks pretty sleek! At P2PU we are using two discourse forum: [community.p2pu.org](http://community.p2pu.org/) which is for people like you interested in building courses and [discourse.p2pu.org](http://discourse.p2pu.org) which is for course specific discussion.
+
+On [discourse.p2pu.org](http://discourse.p2pu.org) we create a category for a course where discussion about that course can happen. We recommend that you create a topic where people can introduce themselves under your course category. See [this topic](http://discourse.p2pu.org/t/writing-for-change-say-hello-and-find-your-crew/156/43) from the Writing for Change course for instance.
+
+Once your course is ready, you can get a category on [discourse.p2pu.org](http://discourse.p2pu.org) by asking [here](http://discourse.p2pu.org/t/please-create-a-category-for-my-course/41/3).
+
+## Twitter
+
+Twitter is a massively popular social network and people use it for all kinds of things in many different ways. One way that we use twitter for courses is by choosing a hashtag for a course and tagging all tweets about the course with that hashtag.
+
+## Disqus
+
+Disqus is a good tool to use for adding comments in a web page. This is great if you want people to directly comment on content. An advantage of disqus is that you don't need to host your own forum, you can just register an account on their website and the rest is all taken care off!
+
+## Google Hangouts and Unhangouts
+
+Google hangouts is a good tool for video calls. You can either have a one on one call with someone, or you can have a video conference between up to 10 people. You can also talk with someone immediately (like phoning them now) or you can schedule an event for a certain time and invite people.

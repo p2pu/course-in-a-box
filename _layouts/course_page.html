@@ -1,0 +1,38 @@
+---
+layout: base
+---
+{% assign module=page.categories[1] %}
+<div class="clearfix">
+	{% include side_toolbar.html %}
+	<div class="col-md-9 background-white">
+		<div class="col-md-8 col-md-offset-1">
+			<div class="row">
+				<div class="content col-lg-12">
+					{{ content }}
+					{% include next_in_module.html %}
+					{% if prev or next %}
+						<hr />
+					{% endif %}
+					{% if prev %}
+						<div class="pagination-section pull-left">
+							<div class="title">
+								Previous section:
+							</div>
+							<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev.url }}">
+								{{ prev.title }} </a>
+						</div>
+					{% endif %}
+					{% if next %}
+						<div class="pagination-section pull-right">
+							<div class="title">
+								Next section:
+							</div>
+							<a rel="next" class="next" href="{{ site.baseurl }}{{ next.url }}"> {{ next.title }}
+							</a>
+						</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

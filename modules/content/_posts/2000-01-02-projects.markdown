@@ -1,0 +1,34 @@
+---
+title: Projects
+published: true
+---
+
+# Projects
+
+## What is Content?
+
+Decide what "content" in a learning experience means to you. In a peer learning context, that can mean:
+
+- learners create tutorials for others
+- learners make the content together
+- a facilitator curates open resources out on the web
+
+And it can also be a blend of the 3 :)
+
+For your course, decide which approaches to developing content are most appropriate, especially in light of the activities you designed.
+
+<a class="btn btn-primary" href="http://community.p2pu.org/t/course-in-a-box-what-on-earth-is-content/1226"><i class="fa fa-comments"></i> Post your ideas on discourse</a>
+
+## Add Content to Your Course
+To add tasty content to your modules, you need to create a section in the module the same way you created the 'Projects' section. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/module-1/_posts) and create a new file for every section that you want within the module.
+
+Remember that the file name needs to start with a valid date in the format YYYY-MM-DD-your-section-name.md. The date determines the order of the sections in every module (so it's kinda important). 
+
+Content will show up automatically as soon as you commit and save (booyah!). To check how your spiffy content looks, you can go to [http://your-github-username.github.io/course-in-a-box/](http://your-github-username.github.io/course-in-a-box/) to look at it.
+
+## Recruit Your Crew to Curate Content
+
+After you have added 2-3 resources (links, articles, videos, songs) to each module, reach out to your design team for other potential resources. You can work together on the [P2PU hackpad](https://p2pu.hackpad.com/) if you like. 
+
+Our advice: consider making a resource together with your design team. You may have noticed that the videos and articles in this course come from our colleagues and edupunk pals on the internet, and that's no accident. Sometimes our crew will explain things in a different way, or some folks are better in videos than in slides. Each member of [our extended family](https://p2pu.org/en/about/people/) has something to offer--so we ask them to join forces with us to make the whole stronger.
+
