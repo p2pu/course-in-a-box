@@ -1,19 +1,22 @@
 ---
-layout: post
+# layout: post
 title:  "Search Strategically"
 date:   2010-01-04
 description: Rather than trying to construct one perfect search, plan on trying several experimental searches.
 # image: featuredimagehere
 ---
 
-<p class="intro"><span class="dropcap">R</span>ather than trying to construct one perfect search, plan on trying several experimental searches. As you search, seek out diverse  perspectives by using a variety of keywords. Seek out interdisciplinary perspectives on your topic by trying out your searches in more than one database.</p>
+# Rather than trying to construct one perfect search, plan on trying several experimental searches.
 
+> As you search, seek out diverse  perspectives by using a variety of keywords. Seek out interdisciplinary perspectives on your topic by trying out your searches in more than one database.
 
 ### Strategy:
 
 Find one or more <a href="http://guides.library.ucla.edu" target="_blank">research guides</a> related to your project. Choose a few databases and search tools and start exploring.
 
 Turn your notes, ideas, and questions about your topic into keywords for search. If the database you are using has an "advanced search" use it! Advanced search will allow you to experiment with using a variety of keyword synomyms to explore your topic. 
+
+#### Example Search from Web of Science:
 
 <figure>
 	<img src="{{ '/img/content/from-keywords-to-search-2.jpg' | prepend: site.baseurl }}" alt="Turn your notes and ideas on your topic into keywords for search"> 

@@ -1,17 +1,19 @@
 ---
-layout: post
-title:  "Start with Driving Questions"
+# layout: post
+title:  "Start with your Questions"
 date:   2010-01-01
 description: Before you search, start by brainstorming a list questions.
 tags: [example, another example, a third example]
 # image: content/music-antelope-valley.jpg
 ---
 
-<p class="intro"><span class="dropcap">Q</span>uestions drive research. The most rewarding  research projects start with questions you care about and want to explore.</p>
+# Questions drive research.
+
+> The most rewarding research projects start when topics you are passionate about turn into questions you want to explore.
 
 <!--
 <figure>
-	<img src="{{ '/assets/img/content/climate-change-psychology-480.jpg' | prepend: site.baseurl }}" alt="Question map examples"> 
+	<img src="{{ '/img/content/climate-change-psychology-480.jpg' | prepend: site.baseurl }}" alt="Question map examples"> 
 	<figcaption>What are you curious about? What questions do you hope to answer in your project?</figcaption>
 </figure>
 -->

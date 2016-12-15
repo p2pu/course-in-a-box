@@ -1,12 +1,14 @@
 ---
-layout: post
-title:  "Turn Questions into Keywords"
+# layout: post
+title:  "Turn your Questions into Keywords"
 date:   2010-01-02
 description: Improve the effectiveness of your searches by generating a variety of keywords.
 # image: featuredimagehere
 ---
 
-<p class="intro"><span class="dropcap">D</span>evelop your questions into keywords before you search. Try thinking about your topic from a variety of perspectives to generate a big list of keywords for each core concept.</p>
+# Turn your questions into keywords before you search.
+
+> Try thinking about your topic from a variety of perspectives to generate a big list of keywords for each core concept.
 
 <!--
 <figure>
@@ -28,3 +30,7 @@ First, identify the core concepts in one of your research questions. Then, gener
 <li>Watch this quick video on crafting a savvy search strategy for more ideas on generating keywords for search:
 
 <iframe width="100%" height="420" src="https://www.youtube.com/embed/bgnGGK_21sE?list=PLV8eqWoGXke5D5bmwscUhow1RJKWZmMRZ" frameborder="0" allowfullscreen></iframe></li>
+
+<li><a href="http://library.ucla.edu/questions" target="_blank">Chat with a librarian or set up a research consultation</a> to learn more about effective search skills and strategies.</li>
+
+</ol>

@@ -1,12 +1,14 @@
 ---
-layout: post
-title:  "Find the Right Research Guides for your Project"
+# layout: post
+title:  "Find the Guides"
 date:   2010-01-03
 description: Find the guide that's right for you! UCLA Library staff have put together hundreds of guides for hundreds of subjects, courses, and special topics.
 # image: featuredimagehere
 ---
 
-<p class="intro"><span class="dropcap">G</span>oogle is great, but for your research project, you're likely going to need more than even Google can provide. UCLA Library's <a href="http://guides.library.ucla.edu" target="_blank">research guides</a> can help you find the best databases and search tools for your topic, and help you more quickly find the information you need.</p>
+# Find a Research Guide
+
+> Google is great for many things, but for your research project, you will probably need to use more specialized research tools. UCLA Library's <a href="http://guides.library.ucla.edu" target="_blank">research guides</a> can help you find the best databases and search tools for your topic, and help you more quickly find the information you need.
 
 
 ### Strategy:
