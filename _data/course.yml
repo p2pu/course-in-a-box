@@ -2,6 +2,9 @@ title: Course in a Box
 description: Build Your Very Own Open Course
 modules: [start, community, learning, content, feedback, references]
 signups:
+ - name: Ding ding
+   image: https://cdn.pixabay.com/photo/2015/11/10/07/41/eagle-owl-1036426_960_720.jpg
+   twitter: BohemianPasteli
  - name: Geert Hofman
    image: https://media.licdn.com/media/p/3/000/1b0/2c9/2daad0c.jpg
    twitter: GeertHa
