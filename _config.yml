@@ -33,3 +33,5 @@ prose:
 jumbotron_color: "#05C6B4"
 jumbotron_background_image: "header.svg"
 jumbotron_image: "box-icon.png"
+
+theme: jekyll-theme-slate
