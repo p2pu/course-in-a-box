@@ -11,10 +11,10 @@ Let’s watch some videos to better understand what the “Internet” is. Part 
 
 ## How the Internet Works in 5 Minutes
 Its a “wire”!
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allowfullscreen></iframe></div>\_
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7_LPdttKXPc" frameborder="0" allowfullscreen></iframe></div>
 
 ## Andrew Blum: What is the Internet, really?
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4" frameborder="0" allowfullscreen></iframe></div>\_
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4" frameborder="0" allowfullscreen></iframe></div>
 
 ## The Internet: Wires, Cables, & Wifi
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZhEf7e4kopM?list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7" frameborder="0" allowfullscreen></iframe></div>
