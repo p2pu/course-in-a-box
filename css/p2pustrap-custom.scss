@@ -21,13 +21,14 @@
 @import "nav";
 @import "landing";
 @import "calendar";
+@import "syntax-highlight";
 
 .post-container {
     max-height: 15em;
     overflow: hidden;
     background-color: #F3F4F8;
     padding: 1em;
-    
+
     h3 {
         margin-top: 0;
     }

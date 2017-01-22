@@ -71,7 +71,8 @@ $line-height-base:        1.428571429; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    "Arvo", Helvetica, Arial, sans-serif;
+//** Heading Font
+$headings-font-family:    Helvetica, Arial, sans-serif;
 $headings-font-weight:    400;
 $headings-line-height:    1.1;
 $headings-color:          inherit;
@@ -852,5 +853,3 @@ $page-header-border-color:    transparent;
 $dl-horizontal-offset:        $component-offset-horizontal;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter;
-
-

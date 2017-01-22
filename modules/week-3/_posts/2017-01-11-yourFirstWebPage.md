@@ -26,7 +26,7 @@ Add the HTML5 doctype declaration on line 1.
 ### ii.  Fill in the Basic Structure
 Add the basic structure elements (`<html>`, `<head>`, & `<body>`), starting in line 2. Also include the uff-8 charset declaration and title elements in the head.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +42,7 @@ Add the basic structure elements (`<html>`, `<head>`, & `<body>`), starting in l
 ### iii. Add a Page Title
 Now you can start adding information to your page. First, you should add a title for the page. For the time being, make that “My First Web Page” and add that between the title element tags on line 5.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -58,7 +58,7 @@ Now you can start adding information to your page. First, you should add a title
 ### iv. Add Some Content!
 Finally, add a h1 element and 2 p elements. Populate these elements with your name, and the statement “Hello World!”, respectively.
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -86,14 +86,14 @@ You should now see your file open in a web browser, looking something like this.
 ### vi. Make Some Changes
 Back in your index.html document, add a new line at 10. There you should add a new paragraph element that includes the following text;
 
-```html
+``` html
 <p>This is my <em>first</em> web page!!!</p>
 ```
 
 
 Your code should look like the following;
 
-```html
+``` html
 <!DOCTYPE html>
 <html>
     <head>
