@@ -9,7 +9,7 @@ We are going to need to acquire server space, this is where we will store our fi
 ## Creating a website with GitHub-pages
 GitHub.com provides free web hosting for static websites (a static site is one that does not involve server-side computational work beyond serving or delivering files to a requesting host-computer). For this course, this means we can utilize them as a our server, and they will also provide us with URLs.
 
-<iframe src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allowfullscreen></iframe> 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allowfullscreen></iframe></div> 
 
 GitHub assigns each user the following URL:
 _username_`.github.io`

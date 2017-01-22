@@ -40,7 +40,7 @@ If you are unfamiliar with using PowerShell on Windows, please work through the 
 
 and watch the following video:
 
-<iframe src="https://channel9.msdn.com/Series/GetStartedPowerShell3/01/player" allowFullScreen frameBorder="0"></iframe><br />
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://channel9.msdn.com/Series/GetStartedPowerShell3/01/player" allowFullScreen frameBorder="0"></iframe></div><br />
 
 
 ## { TODO: }

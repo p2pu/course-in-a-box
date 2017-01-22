@@ -14,7 +14,7 @@ Communities decide what’s acceptable. Voting an answer up-or-down, liking a po
 P2PU, [Assessment on the Web](http://reports.p2pu.org/assessment-on-the-web/part-1/)
 
 ## Liz Lerman: The Critical Response Process
-<iframe src="//player.vimeo.com/video/55022092" width="100%" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="//player.vimeo.com/video/55022092" width="100%" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## I Like, I Wish, What If
 >Designers rely on personal communication and, particularly, feedback, during design work. You request feedback from users about your solution concepts, and you seek feedback from colleagues about design frameworks you are developing. Outside the project itself, fellow designers need to communicate how they are working together as a team. Feedback is best given with I-statements. For example, “I sometimes feel you don’t listen to me” instead of “You don’t listen to a word I say.” Specifically, “I like, I wish, What if” (IL/IW/WI) is a simple tool to encourage open feedback.

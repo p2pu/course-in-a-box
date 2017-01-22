@@ -11,7 +11,7 @@ One great thing about working with text files is that their simplicity makes it 
 - Version control also allows for a developer/writer to make changes that may or may not work. If they find that the change they made was inappropriate, or did not work, they can simply go back to a previous version. There is no need for directories full of “save as” files.
 - Version control makes collaboration and sharing easier. Then all associated parties can see all changes made by each other, and manage any conflicts that may occur within a file.
 
-<iframe src="https://player.vimeo.com/video/41027679" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41027679" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 
 ## More about GIT
@@ -226,8 +226,8 @@ Date:   Wed Jan 11 13:44:49 2017 -0700
 Practice adding and changing files within your new Git repo. If you are having problems, return to the [Pro-Git book](https://git-scm.com/book/en/v2).
 
 Please watch the following videos to learn more about Git. 
-<iframe src="https://player.vimeo.com/video/41381741" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41381741" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-<iframe src="https://player.vimeo.com/video/41493906" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41493906" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 For additional resources check out the [Git curated “External Links” page](https://git-scm.com/documentation/external-links). 
