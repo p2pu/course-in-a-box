@@ -16,7 +16,7 @@ _username_`.github.io`
 
 This is your _baseurl_, as was discussed on the previous page. 
 
-### Let GitHub know we want our repo to be a webpage
+### { TODO: } Let GitHub know we want our repo to be a webpage
 In order for our repo to be served, we need to tell GitHub that this is a “GitHub pages project site”. 
 
 1. Navigate to your GitHub.com account.
