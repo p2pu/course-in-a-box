@@ -26,9 +26,9 @@ First, visit [GitHub.com](https://github.com/) and create a new user account.
 - From here feel free to fill in as much or little of the public profile information as you want. (Filling in your name and Profile Pic is encouraged)
 
 ## Create a new “Issue”
-Go to the course repo [Add Link Michael!!!!]()
+Go to the [course repo](https://github.com/Montana-Media-Arts/341-work)
 
-TODO: Add a comment to the “XXXX-Issue” discussing an element of the Internet, Web Development, or the command line that was new information to you.
+TODO: Add a comment to the [“HW 1 Issue Response”](https://github.com/Montana-Media-Arts/341-work/issues/1) discussing an element of the Internet, Web Development, or the command line that was new information to you.
 
 NOTE: You should not repeat a comment that has already been added by anyone from your class or the other class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 
