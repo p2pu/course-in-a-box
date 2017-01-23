@@ -4,7 +4,7 @@ Date modified: 2017-01-21
 
 #### MART 341; Web Development
 
-# COURSE OVERVIEW
+## COURSE OVERVIEW
 This course is intended to make you comfortable with presenting yourself through the web. In addition, you will learn skills that should allow you to build, manage, and develop websites.
 
 This course will start with an overview of technologies used for web development. This will be followed by an in depth presentation HTML and CSS. The course will conclude by exploring responsive web design, site frameworks, advanced CSS, and site management solutions.
@@ -89,7 +89,7 @@ We will be exploring and utilizing the following tools and technologies this sem
 ## Server Hosting
 You are expected to use an appropriate hosting solution for your work this semester. In most cases, you are expected, and encouraged to use the free github.io solution. However, in some instances, you may be expected to purchase hosting space for your work between October and the end of the semester. In such a case, we recommend [`BlueHost.org`](https://www.bluehost.com)\.
 
----- 
+----
 # Course Outline
 The course will cover the 5 major topic areas.
 

@@ -20,6 +20,8 @@ For this class, we need a text editor that is optimized for web development and 
 
 I have used both Atom and Sublime Text extensively. Currently, I am teaching with Atom, and as such, will describe the creation of a development environment through Atom.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gbq9ZWXtyK4" frameborder="0" allowfullscreen></iframe></div>
+
 ### { TODO: }
 1. Explore various text editors through your browser.
 2. After identifying one that you believe will fit your needs, download and install the application to your computer.
@@ -52,4 +54,4 @@ More can be found on the [scotch websites discussion of Atom](https://scotch.io/
 - Save the file.
 ![Text document example](../imgs/textDocExam.jpg)
 
-Also, do a Google search on the text editor you picked in order to query how others use it. You might look for something like “Atom best packages”, “optimize Atom for web development”. This is not to suggest you follow these results, but rather to inform you of the possibilities of your chosen text editor. 
+Also, do a Google search on the text editor you picked in order to query how others use it. You might look for something like “Atom best packages”, “optimize Atom for web development”. This is not to suggest you follow these results, but rather to inform you of the possibilities of your chosen text editor.

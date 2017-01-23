@@ -16,6 +16,8 @@ Although such programs can appear intimidating to a beginner user, these command
 ## Directory
 One advantage of a CLI over a GUI-based file browser is quicker manipulation of files and directories. The manipulation of files and directories will be a very common activity for you in this course. As such, please take a moment to read the following [Wikipedia page describing ‘directories’](https://en.wikipedia.org/wiki/Directory_(computing)) and make sure you understand what a directory is, as well as its related terminology.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CuyD_n3XzbE" frameborder="0" allowfullscreen></iframe></div>
+
 ## Learning your CLI
 
 ### - Unix
