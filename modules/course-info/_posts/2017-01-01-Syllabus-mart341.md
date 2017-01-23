@@ -87,9 +87,10 @@ We will be exploring and utilizing the following tools and technologies this sem
 
 
 ## Server Hosting
-You are expected to use an appropriate hosting solution for your work this semester. In most cases, you are expected, and encouraged to use the free github.io solution. However, in some instances, you may be expected to purchase hosting space for your work between October and the end of the semester. In such a case, we recommend [`BlueHost.org`](https://www.bluehost.com)\.
+You are expected to use an appropriate hosting solution for your work this semester. In most cases, you are expected, and encouraged to use the free github.io solution. However, in some instances, you may be expected to purchase hosting space for your work in the last third of the semester. In such a case, we recommend [BlueHost.org](https://www.bluehost.com).
 
 ----
+
 # Course Outline
 The course will cover the 5 major topic areas.
 

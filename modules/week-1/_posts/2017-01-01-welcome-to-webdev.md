@@ -21,7 +21,7 @@ Just as the content focus will shift, so to will the work amount. Some weeks, es
 ## Homework
 You should consider anything within the course lecture content under a *{ TODO: }* section to be part of your "homework".
 
-You will recieve additional directives and notes on the homework page for each assignment in the ["homework wiki"](https://github.com/Montana-Media-Arts/341-work/wiki). Instructions will be provided how to do this over the next two weeks. 
+You will recieve additional directives and notes on the homework page for each assignment in the ["homework wiki"](https://github.com/Montana-Media-Arts/341-work/wiki). Instructions will be provided how to do this over the next two weeks.
 
 
 
@@ -32,6 +32,13 @@ The final project will be a site of your making. (i.e. this could be a personal 
 
 ## The Syllabus
 Please look at the [Syllabus](https://montana-media-arts.github.io/mart341-webDev/modules/course-info/Syllabus-mart341/) for the course. The version on the website, as well as the one in your moodle shell are identical.
+
+NOTE: As stated in the sylabbus, you are required to purchase one, rather inexpensive, book.
+
+- John Duckett <cite>HTML & CSS; Design and Build Websites</cite>
+	- This book is available from the [books own website](http://www.htmlandcssbook.com/), which also contains code examples.
+	- This book is also available from [Amazon](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=mt_paperback)
+	- I have also found digital/PDF versions via google searches (FYI).
 
 
 # Overview the Rest of This Week

@@ -11,7 +11,7 @@ In order for the Graduate Instructors to know that you have successfully complet
 
 First, visit [GitHub.com](https://github.com/) and create a new user account.
 
-**NOTE:** Please choose a username that you are comfortable with being part of your publicly visible URL. Ideally, this should be your name or something similar. Your username will be publicly available and used often for many things throughout this course (ie. All homework and projects) and your entire time on GitHub.
+**NOTE:** Please choose a username that you are comfortable with being part of your publicly visible URL. For grading purposes, this should be a derivate of your name (make it easy on us please). Your username will be publicly available and used often for many things throughout this course (ie. All homework and projects) and your entire time on GitHub.
 ![GitHub.com signup page](../imgs/gh_signup.jpg)
 
 - Fix any problems the signup engine informs you about.
