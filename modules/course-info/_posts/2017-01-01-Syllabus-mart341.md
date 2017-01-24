@@ -139,9 +139,10 @@ The course will cover the 5 major topic areas.
 
 
 # Policies
+
 ## Course Evaluation
 
-We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you will need total about them in your technical reports. It is expected that everyone in the class will create and maintain a github repository for their assignments.
+We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you will need to talk about them in your technical reports. It is expected that everyone in the class will create and maintain a github repository for their assignments.
 
 This class will be participatory, you are expected to participate in discussions and give feedback to other students through on-line participation with their projects.
 
@@ -182,7 +183,7 @@ Letters are assigned according to the following final course percentages:
 
 ### Academic Misconduct and the Student Conduct Code
 
-All students must practice academic honesty. Academic misconduct is subject to an academic penalty by the course instructor and/or disciplinary sanction by the University. All students need to be familiar with the Student Conduct Code. The Code is available online at http://www.umt.edu/vpsa/policies/student\_conduct.php
+All students must practice academic honesty. Academic misconduct is subject to an academic penalty by the course instructor and/or disciplinary sanction by the University. All students need to be familiar with the Student Conduct Code. The Code is available online at [http://www.umt.edu/vpsa/policies/student_conduct.php](http://www.umt.edu/vpsa/policies/student\_conduct.php)
 
 ## Changes to the Course
 I reserve the right to change the intended content of this course throughout the semester. This may be done to adjust for the speed of the class, to better meet educational goals, or to account for changes in technology.
