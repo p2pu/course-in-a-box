@@ -32,7 +32,9 @@ This course is being administered and officially taught by university instructor
 - Professor Michael Musick
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
 - Office: McGill Hall, 224.
-- Office Hours: Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+- Office Hours:
+    - Wed, 12:30PM - 2:00PM (please e-mail to confirm)
+    - Thu, 12:30PM - 2:00PM (please e-mail to confirm)
 
 
 ## Course Websites
