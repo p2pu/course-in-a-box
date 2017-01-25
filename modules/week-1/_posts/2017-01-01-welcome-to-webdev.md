@@ -11,6 +11,8 @@ This course will start with an overview of technologies used for web development
 
 This is exclusively on-line course. As such, you will be expected to engage with all content through the main site. You will be assessed through regular project-based assignments, writings, and community engagement. The course will conclude with a final site build.
 
+
+
 ## What to Expect
 
 This course will force you to learn and adapt to new technologies, while also thinking about design, and content creation. Some weeks will lean more technical in nature, while others (albeit fewer) will lean more design-based.
@@ -39,6 +41,19 @@ NOTE: As stated in the sylabbus, you are required to purchase one, rather inexpe
 	- This book is available from the [books own website](http://www.htmlandcssbook.com/), which also contains code examples.
 	- This book is also available from [Amazon](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=mt_paperback)
 	- I have also found digital/PDF versions via google searches (FYI).
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/6Wc0Xu4htVE" frameborder="0" allowfullscreen></iframe></div>
+
+# Instructor Introduction Videos
+
+## Nick Moles | Section 51
+
+
+## Matthew Dolan | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/20fVP4A0Qmo" frameborder="0" allowfullscreen></iframe></div>
+
+<br />
+<br />
 
 
 # Overview the Rest of This Week
