@@ -45,6 +45,8 @@ If you did not have git installed, want the latest version, or are on Windows th
 ## Setup
 After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vGRM2O5PgI8" frameborder="0" allowfullscreen></iframe></div>
+
 The main thing to do is to set your username and email address. This is done with the following two lines of code in terminal or Command Line. (note: do not copy the '$'. This is a convention to show a new line in terminal/Command Prompt. Instead copy the rest of the line starting at the first character after the dollar sign. If a line does not start with a ‘`$`’, it is text output from the computer. Do not copy these lines.)
 
 ```bash
@@ -56,6 +58,11 @@ $ git config --global user.email johndoe@example.com
 This section will refer to [Chapter 2 in the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). You need to read this chapter.
 
 OK, lets learn some Git. Open `terminal.app` if you are on macOS/Linux or `cmd.exe` on Windows.
+
+<br />
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3fZ-QCl7HC8" frameborder="0" allowfullscreen></iframe></div>
+<br />
+<br />
 
 ### Step 1 - Create an Empty Directory
 Navigate to a location on your system hard drive where you want to store all of your work for this course from this semester. I would suggest somewhere like your `/Documents` directory.
@@ -225,9 +232,9 @@ Date:   Wed Jan 11 13:44:49 2017 -0700
 ## { TODO: }
 Practice adding and changing files within your new Git repo. If you are having problems, return to the [Pro-Git book](https://git-scm.com/book/en/v2).
 
-Please watch the following videos to learn more about Git. 
+Please watch the following videos to learn more about Git.
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41381741" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41493906" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-For additional resources check out the [Git curated “External Links” page](https://git-scm.com/documentation/external-links). 
+For additional resources check out the [Git curated “External Links” page](https://git-scm.com/documentation/external-links).
