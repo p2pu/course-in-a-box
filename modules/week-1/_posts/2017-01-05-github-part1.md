@@ -37,3 +37,5 @@ As the semester goes on you will be expected to open issues here when you are ha
 # { TODO: }
 
 You should have added your response/comment to the open issue on the class repo.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9ntYOblbccA" frameborder="0" allowfullscreen></iframe></div>
