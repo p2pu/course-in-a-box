@@ -44,13 +44,16 @@ NOTE: As stated in the sylabbus, you are required to purchase one, rather inexpe
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HKLz95UU9Aw" frameborder="0" allowfullscreen></iframe></div>
 
+<br />
+<br />
+
 # Instructor Introduction Videos
 
 ## Nick Moles | Section 51
 
 
 ## Matthew Dolan | Section 51
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/20fVP4A0Qmo" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/20fVP4A0Qmo" frameborder="0" allowfullscreen></iframe></div>
 
 <br />
 <br />
