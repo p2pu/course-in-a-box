@@ -12,7 +12,7 @@ The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) conta
 <br />
 <br />
 <br />
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>
 
 <br />
 <br />
