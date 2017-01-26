@@ -14,10 +14,17 @@ The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) conta
 <br />
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>
 
-<br />
-<br />
+# Instructor Introduction Videos
+
+## Nick Moles | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZajeJki0OY" frameborder="0" allowfullscreen></iframe></div>
+
+
+## Matthew Dolan | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/20fVP4A0Qmo" frameborder="0" allowfullscreen></iframe></div>
+
 <br />
 
-## Additional Information
+# Additional Information
 
 ### [University of Montana, School of Media Arts](http://www.umt.edu/mediaarts/)

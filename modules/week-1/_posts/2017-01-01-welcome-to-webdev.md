@@ -50,6 +50,7 @@ NOTE: As stated in the sylabbus, you are required to purchase one, rather inexpe
 # Instructor Introduction Videos
 
 ## Nick Moles | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZajeJki0OY" frameborder="0" allowfullscreen></iframe></div>
 
 
 ## Matthew Dolan | Section 51
