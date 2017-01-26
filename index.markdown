@@ -10,10 +10,11 @@ The goals of this course are to introduce and teach technologies, techniques, an
 The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) contains more information about the course, as well as student expectations.
 
 <br />
-<br />
-<br />
+
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>
 
+<br />
+<br />
 # Instructor Introduction Videos
 
 ## Nick Moles | Section 51
