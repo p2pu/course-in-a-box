@@ -158,6 +158,8 @@ Use `git diff`
 
 Using the `git diff` command we can see how all files have changed since their last commit.
 
+NOTE: this may not return any information on Windows. 
+
 ```bash
 $ git diff
 diff --git a/test1.txt b/test1.txt
