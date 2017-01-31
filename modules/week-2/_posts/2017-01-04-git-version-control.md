@@ -48,7 +48,7 @@ NOTE: Windows users, please make sure you check the box electing to use Git from
 
 Once Git is installed, open PowerShell / Terminal and run the above command (`git --version`). Everyone should now have git installed on their computer. If this did not work, shut down all command line applications (PowerShell, Command Line, Git Bash, Terminal, etc). Then reopen and try again.
 
-NOTE: Windows users, if `Git --version` does not work in PowerShell, then open and use the "Git Bash" application for the rest of this section. 
+NOTE: Windows users, if `Git --version` does not work in PowerShell, then open and use the "Git Bash" application for the rest of this section.
 
 ## Setup
 After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
@@ -65,7 +65,7 @@ $ git config --global user.email johndoe@example.com
 # Git Basics
 This section will refer to [Chapter 2 in the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). You need to read this chapter.
 
-OK, lets learn some Git. Open `terminal.app` if you are on macOS/Linux or `cmd.exe` on Windows.
+OK, lets learn some Git. Open `terminal.app` if you are on macOS/Linux or `PowerShell.exe` on Windows.
 
 <br />
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3fZ-QCl7HC8" frameborder="0" allowfullscreen></iframe></div>

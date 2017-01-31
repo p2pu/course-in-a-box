@@ -32,7 +32,7 @@ Well, as you might guess, most computer languages are saved as plain text or ASC
 
 ### { TODO: }
 
-- Create a new file via the command prompt called `test1.txt`. You can place this file anywhere you want on your computer for the moment. 
+- Create a new file via the command prompt called `test1.txt`. You can place this file anywhere you want on your computer for the moment. (macOS: `touch test1.txt`  windows: `new-item test1.txt`)
 
 - Open the default text editor for your operating system (OS). (For macOS this is textEdit.app and for Window this is Notepad.exe)
 
