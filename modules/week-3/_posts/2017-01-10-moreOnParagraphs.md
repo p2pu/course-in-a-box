@@ -124,3 +124,7 @@ Look at how the four different approaches vary when rendered in Safari.
 </html>
 ```
 ![Example how text is rendered differently](../imgs/renderDiff.png)
+
+
+### { TODO: }
+Read pages 40-44 in chapter 2 of the Duckett. 
