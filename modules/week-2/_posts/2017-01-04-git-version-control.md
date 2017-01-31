@@ -17,6 +17,8 @@ One great thing about working with text files is that their simplicity makes it 
 ## More about GIT
 Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - TOC](https://git-scm.com/book/en/v2)
 
+
+
 ## Why are we using GIT
 
 - I want you to use GIT so that you can track incremental changes to your work throughout your weekly assignments.
@@ -41,6 +43,12 @@ git --version
 If you saw something like the above returned then you have git.
 
 If you did not have git installed, want the latest version, or are on Windows then follow the install instructions from [chapter 1.5 of the “Pro Git” book](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or the [Atlassian Tutorial Site](https://www.atlassian.com/git/tutorials/install-git).
+
+NOTE: Windows users, please make sure you check the box electing to use Git from the Windows Command Prompt / PowerShell.
+
+Once Git is installed, open PowerShell / Terminal and run the above command (`git --version`). Everyone should now have git installed on their computer. If this did not work, shut down all command line applications (PowerShell, Command Line, Git Bash, Terminal, etc). Then reopen and try again.
+
+NOTE: Windows users, if `Git --version` does not work in PowerShell, then open and use the "Git Bash" application for the rest of this section. 
 
 ## Setup
 After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
