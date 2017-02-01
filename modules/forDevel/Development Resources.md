@@ -1,0 +1,2 @@
+[Information Architecture - planning out a web site](https://www.w3.org/wiki/Information_Architecture_-_planning_out_a_web_site "Information Architecture - planning out a web site")
+W3C.org web standards course
