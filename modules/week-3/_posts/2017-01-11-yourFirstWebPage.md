@@ -5,7 +5,7 @@ title: Your First Web Page
 Now that you know the basics of HTML it is time to write an HTML document and get it up on the web!
 
 ## 1: Create an HTML document
-In your `/341-work` directory, create a new child directory labeled `/HW-Examples/week-03-hw`.
+In your `/341-work` directory, create a new child directory labeled `/week-03-hw`.
 
 Within that directory create a new html document labeled `index.html`.
 ![Showing the creation of index.html in the terminal.app](../imgs/addIndexHTML.png)
