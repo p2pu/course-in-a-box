@@ -15,4 +15,7 @@ Clicking on such a link in a webpage will cause the webpage to try and open the 
 Try it for your self:
 <a href="mailto:michael.musick@umontana.edu">Email Michael!</a>
 
-For this reason, it is also good practice to write the full e-mail address out.
+For this reason, it is also good practice to write the full e-mail address out. That way a user can easily copy the address from the browser into the e-mail client of their choice.   
+
+# { TODO: }
+Read chapter 4 from the Duckett on Links.

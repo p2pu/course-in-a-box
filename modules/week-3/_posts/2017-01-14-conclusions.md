@@ -29,5 +29,5 @@ Your final submission line in the homework wiki will look something like:
 
 ```markdown
 # Moles Submissions
-- Michael Musick: [webpage](https://montana-media-arts.github.io/341-work/week-03-hw/) - [Week 3 Directory](https://github.com/Montana-Media-Arts/341-work/tree/master/week-03-hw)
+- Michael Musick: [webpage](https://montana-media-arts.github.io/341-work/HW-Examples/week-03-hw/) - [Week 3 Directory](https://github.com/Montana-Media-Arts/341-work/tree/master/HW-Examples/week-03-hw)
 ```
