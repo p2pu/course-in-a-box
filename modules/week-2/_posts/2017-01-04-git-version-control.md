@@ -34,6 +34,7 @@ Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - 
 
 ## Installation
 Mac and Linux users likely have Git already installed on their machines. To checkout open terminal.app and execute the following command
+
 ```bash
 git --version
 ```
@@ -158,7 +159,7 @@ Use `git diff`
 
 Using the `git diff` command we can see how all files have changed since their last commit.
 
-NOTE: this may not return any information on Windows. 
+NOTE: this may not return any information on Windows.
 
 ```bash
 $ git diff
