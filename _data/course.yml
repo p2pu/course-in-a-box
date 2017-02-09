@@ -1,7 +1,10 @@
-title: Course in a Box
-description: Build Your Very Own Open Course
+title: Découvrir les badges numériques ouverts
+description: Cours en ligne destiné à découvrir et expérimenter les badges numériques ouverts
 modules: [start, community, learning, content, feedback, references]
 signups:
+ - name:Philippe Petitqueux
+ image:https://pbs.twimg.com/profile_images/792208712182226944/hK5F_sdp_400x400.jpg
+ twitter:misterppqx
  - name: Geert Hofman
    image: https://media.licdn.com/media/p/3/000/1b0/2c9/2daad0c.jpg
    twitter: GeertHa
