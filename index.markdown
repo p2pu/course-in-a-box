@@ -15,4 +15,4 @@ Nous sommes les chefs de projet de Badgeons la Normandie, un projet de territoir
 
 			
 ## Je suis incrit - comment commencer?
-Cliquez ci-dessus [here]({{site.baseurl}}/modules/start/about-this-course/) pour créer votre propre cours en ligne!
+Cliquez ci-dessus [ici]({{site.baseurl}}/modules/start/about-this-course/) pour commencer le cours!
