@@ -22,6 +22,20 @@ I have used both Atom and Sublime Text extensively. Currently, I am teaching wit
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gbq9ZWXtyK4" frameborder="0" allowfullscreen></iframe></div>
 
+###### Install on macOS
+
+To install atom on macOS, simply download the software. Then drag the application that was downloaded from the Downloads folder to the Applications folder. See this is in the video above.
+
+
+###### Install on Windows
+
+To install atom on windows, download the windows installer from the main [atom.io](https://atom.io) site.
+
+**IMPORTANT:** when the download finished, do not simply double-click from the bottom of the browser window. Instead, you first need to open the file in explorer. To do this you can either open explorer and navigate to the folder where it downloaded (likely "Downloads") _OR_, right-click or two-finger-click the file from the browser and select "Show in Folder". ![Pic demo-ing "show in folder" command](../imgs/showINFinder.png "Demo of show in folder.")
+
+From the explorer you then need to right-click the file and select "Run as Administrator". This is especially important if you are not sure whether you are signed in as an admin. ![Image demo-ing how to "Run as Admin"](../imgs/runAsAdmin.png "Image demo-ing how to 'Run as Admin'")
+
+
 ### { TODO: }
 1. Explore various text editors through your browser.
 2. After identifying one that you believe will fit your needs, download and install the application to your computer.

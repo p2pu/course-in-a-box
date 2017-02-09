@@ -45,11 +45,13 @@ If you saw something like the above returned then you have git.
 
 If you did not have git installed, want the latest version, or are on Windows then follow the install instructions from [chapter 1.5 of the “Pro Git” book](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or the [Atlassian Tutorial Site](https://www.atlassian.com/git/tutorials/install-git).
 
-NOTE: Windows users, please make sure you check the box electing to use Git from the Windows Command Prompt / PowerShell.
+NOTE: Windows users:
+
+1. Just as with Atom, please open the file in file explorer, then right-click the installer and select "Run as Administrator".
+2. please make sure you check the box electing to use Git from the Windows Command Prompt / PowerShell.
 
 Once Git is installed, open PowerShell / Terminal and run the above command (`git --version`). Everyone should now have git installed on their computer. If this did not work, shut down all command line applications (PowerShell, Command Line, Git Bash, Terminal, etc). Then reopen and try again.
 
-NOTE: Windows users, if `Git --version` does not work in PowerShell, then open and use the "Git Bash" application for the rest of this section.
 
 ## Setup
 After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
@@ -88,7 +90,13 @@ $ mkdir 341-work
 $ cd 341-work
 ```
 
-![Example image of creating the 341-work directory](../imgs/341-work-example.jpg)
+#### Example of creating directory on mac
+
+![Example image of creating the 341-work directory on macOS](../imgs/341-work-example.jpg)
+
+#### Example of creating directory on PC
+
+![Example image of creating the 341-work directory on windows](../imgs/341-work-example-pc.png)
 
 ### Step 2 - Initialize the Directory as a Git Repository
 Make the new directory a Git repository.
@@ -159,7 +167,7 @@ Use `git diff`
 
 Using the `git diff` command we can see how all files have changed since their last commit.
 
-NOTE: this may not return any information on Windows.
+NOTE: this will not return any information on Windows.
 
 ```bash
 $ git diff
