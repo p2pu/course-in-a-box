@@ -23,8 +23,8 @@ This course is being administered and officially taught by university instructor
 
 #### Section 51
 
-- Instructor: Matthew Dolan
-- E-Mail: [matthew.dolan@umconnect.umt.edu](mailto:matthew.dolan@umconnect.umt.edu)
+- Instructor: Justine Evans
+- E-Mail: [justine.evans@umconnect.umt.edu](mailto:justine.evans@umconnect.umt.edu)
 
 
 #### Designed By
