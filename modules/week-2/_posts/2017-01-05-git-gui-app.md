@@ -1,5 +1,6 @@
 ---
 title: Git GUI Applications
+module: 2
 ---
 # Git GUI Applications
 

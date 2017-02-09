@@ -1,5 +1,6 @@
 ---
 title: Course Overview
+module: 1
 ---
 
 # Welcome to Web Development (MART 341)

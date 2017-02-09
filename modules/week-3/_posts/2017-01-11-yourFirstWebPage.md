@@ -1,5 +1,6 @@
 ---
 title: Your First Web Page
+module: 3
 ---
 # Your First Web Page
 Now that you know the basics of HTML it is time to write an HTML document and get it up on the web!

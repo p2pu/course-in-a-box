@@ -1,5 +1,6 @@
 ---
 title: Basic Structure
+module: 3
 ---
 # Basic Structure
 The most basic of structured documents should include tags identifying headings and paragraphs. These two markup elements are used in almost every document editing application and are crucial in authoring web content.

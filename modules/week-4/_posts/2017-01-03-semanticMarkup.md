@@ -1,5 +1,6 @@
 ---
 title: Semantic Markup
+module: 4
 ---
 # Semantic Markup
 As discussed earlier, semantic markup changes the meaning and emphasis of written text. Just as with the structural markup elements just presented, semantic elements are included directly in the text document and are signified by tags that surround the text they apply to.
@@ -53,4 +54,4 @@ Read chapter 2 from the Duckett. Please pay particular attention to the remainin
 - <ins>Insert</ins> & <del>Delete</del> ( `<del>...</del> <ins>...</ins>` )
 - <s>Strike-through</s> ( `<s>...</s>` )
 
-You are responsible for all of these. 
+You are responsible for all of these.

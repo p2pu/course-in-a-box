@@ -1,5 +1,6 @@
 ---
 title: Text Editors
+module: 2
 ---
 # Text Editors
 

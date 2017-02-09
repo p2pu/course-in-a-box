@@ -1,5 +1,6 @@
 ---
 title: Hyperlinks
+module: 4
 ---
 # Linking
 One of the primary reasons for the Internet was to be able to easily reference research when citing others, with an ability to directly “link” to their work.
@@ -90,12 +91,12 @@ Then you might have a navigation bar with the following code:
 </ul>
 ```
 
-- _Home_ links to `index.html` in the root directory, which should be the sites main homepage. 
+- _Home_ links to `index.html` in the root directory, which should be the sites main homepage.
 - _About_ links to the index file in the sub-directory of root.
-- _Movies_ will link to the `movies.html` file two sub-directories down. 
-- _Contact_ links to the `contact.html` document in the top-level of the directory. 
+- _Movies_ will link to the `movies.html` file two sub-directories down.
+- _Contact_ links to the `contact.html` document in the top-level of the directory.
 
-Please visit [https://montana-media-arts.github.io/341-work/lectureCode/week4/03\_linkSameSite/](https://montana-media-arts.github.io/341-work/lectureCode/week4/03_linkSameSite/) for a live example. 
+Please visit [https://montana-media-arts.github.io/341-work/lectureCode/week4/03\_linkSameSite/](https://montana-media-arts.github.io/341-work/lectureCode/week4/03_linkSameSite/) for a live example.
 
 You can see the code in the 341-work repo under lectureExamples. [https://github.com/Montana-Media-Arts/341-work/tree/master/lectureCode/week4/03\_linkSameSite](https://github.com/Montana-Media-Arts/341-work/tree/master/lectureCode/week4/03_linkSameSite)
 
@@ -104,29 +105,29 @@ NOTE: Relative URL's help with building a site locally before pushing it to the 
 ## Linking to a Specific Part of the Same Page
 We can use the id attribute in HTML to create links to specific portions of a page.
 
-One attribute that can be assigned to almost any HTML element is `id`. This attribute is used to assign unique identifiers to each element, so that those specific elements can be referenced through HTML, CSS, or JavaScript. When assigning an element an id, you should ensure that no other element is given the same. 
+One attribute that can be assigned to almost any HTML element is `id`. This attribute is used to assign unique identifiers to each element, so that those specific elements can be referenced through HTML, CSS, or JavaScript. When assigning an element an id, you should ensure that no other element is given the same.
 
-To assign an element an unique identifier, you should include the following code in the opening tag. 
+To assign an element an unique identifier, you should include the following code in the opening tag.
 
 ```html
 <h1 id="first_heading">
 ```
 
-**NOTE: **ID’s should be treated like variables in other languages, with regards to the naming conventions. If you would like a refresher on [HTML Attributes, please read w3schools page about the subject](http://www.w3schools.com/html/html_attributes.asp). 
+**NOTE: **ID’s should be treated like variables in other languages, with regards to the naming conventions. If you would like a refresher on [HTML Attributes, please read w3schools page about the subject](http://www.w3schools.com/html/html_attributes.asp).
 
 With regard to naming conventions, please consider the following:
 
-1. The value (i.e. `name=“value”`) should be surrounded by double quotes. 
+1. The value (i.e. `name=“value”`) should be surrounded by double quotes.
 2. For ID’s, the value should start with a lowercase letter (i.e. a-z).
 3. ID’s can contain lowercase letters, uppercase letters, numbers, and some special characters (although the latter should typically be avoided).
 4. ID’s should be explicit and clear with regard to what they are referencing. (i.e. “firstSection”, “aside-paragraph”, “hero\_image”. )
 5. Try to avoid abbreviations for words in ID’s. (i.e. “first-paragraph” vs. “firPara”)
-6. When creating ID’s that are multiple words, you should follow one of three conventions. Additionally, you should follow this convention in all of your code, so that there is consistency to your work and style.  
+6. When creating ID’s that are multiple words, you should follow one of three conventions. Additionally, you should follow this convention in all of your code, so that there is consistency to your work and style.
 	-  _camelCase_; [Camel Case](https://en.wikipedia.org/wiki/Camel_case) pushes multiple words together into a single word, capitalizing the first letter of every word (except for the first word).
 	- _hyphen-separated_; Each word is separated by a hyphen (`-`) character.
-	- _underscore\_separated_; Each word is separated with an underscore ( \_ ) character. 
+	- _underscore\_separated_; Each word is separated with an underscore ( \_ ) character.
 
-To link to an HTML element with an assigned id, simply use the id in the hyper-reference (`href`), prepended with a hashtag character (`#`).  In the following code, the link in line 1, would connect to the `h2` element in line 2. 
+To link to an HTML element with an assigned id, simply use the id in the hyper-reference (`href`), prepended with a hashtag character (`#`).  In the following code, the link in line 1, would connect to the `h2` element in line 2.
 
 ```html
 <a href="#conclusions">Conclusions</a><br />

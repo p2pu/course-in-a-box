@@ -1,5 +1,6 @@
 ---
 title: E-Mail Links
+module: 4
 ---
 
 # E-Mail Links
@@ -10,12 +11,12 @@ A very common type of hyperlinking, is to create an e-mail link within a page. T
 <a href="mailto:michael.musick@umontana.edu">Email Michael!</a>
 ```
 
-Clicking on such a link in a webpage will cause the webpage to try and open the users default e-mail application. 
+Clicking on such a link in a webpage will cause the webpage to try and open the users default e-mail application.
 
 Try it for your self:
 <a href="mailto:michael.musick@umontana.edu">Email Michael!</a>
 
-For this reason, it is also good practice to write the full e-mail address out. That way a user can easily copy the address from the browser into the e-mail client of their choice.   
+For this reason, it is also good practice to write the full e-mail address out. That way a user can easily copy the address from the browser into the e-mail client of their choice.
 
 # { TODO: }
 Read chapter 4 from the Duckett on Links.

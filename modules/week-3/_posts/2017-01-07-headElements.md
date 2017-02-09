@@ -1,5 +1,6 @@
 ---
 title: Head Elements
+module: 3
 ---
 # Elements in the Head
 
@@ -99,4 +100,4 @@ The width=device-width part sets the width of the page to follow the screen-widt
 
 The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
 
-We will discuss this property more when Responsive Web Design is introduced. In the mean time, include this in your head elements so that your pages display more appropriately on mobile browsers. 
+We will discuss this property more when Responsive Web Design is introduced. In the mean time, include this in your head elements so that your pages display more appropriately on mobile browsers.

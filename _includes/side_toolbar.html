@@ -1,6 +1,14 @@
 <div class="sidebar col-md-3">
 	{% include next_module.html %}
 
+	{% if page.module %}
+		<div class="pagination-section title due-date" >
+				{{ site.data.dates[page.module][0] }}<br>
+				Homework Due: {{ site.data.dates[page.module][1] }}
+		</div>
+	{% endif %}
+
+
 	{% if prev %}
 		<div class="pagination-section">
 			<div class="title">

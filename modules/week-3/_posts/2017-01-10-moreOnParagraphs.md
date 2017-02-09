@@ -1,5 +1,6 @@
 ---
 title: More on Paragraphs
+module: 3
 ---
 # More About Paragraphs
 
@@ -127,4 +128,4 @@ Look at how the four different approaches vary when rendered in Safari.
 
 
 ### { TODO: }
-Read pages 40-44 in chapter 2 of the Duckett. 
+Read pages 40-44 in chapter 2 of the Duckett.

@@ -1,5 +1,6 @@
 ---
 title: Elements & Tags
+module: 3
 ---
 # Elements & Tags in HTML
 

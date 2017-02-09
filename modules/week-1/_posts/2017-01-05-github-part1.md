@@ -1,5 +1,6 @@
 ---
 title: GitHub Part 1
+module: 1
 ---
 
 # GitHub.com

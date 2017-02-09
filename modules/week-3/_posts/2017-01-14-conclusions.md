@@ -1,5 +1,6 @@
 ---
 title: Weekly Conclusions
+module: 3
 ---
 # Conclusions
 We covered a lot of ground this week, introducing a a brand new language, as well as discussing how to take an `index.html` page and make it live on the Internet.

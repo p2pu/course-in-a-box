@@ -109,6 +109,7 @@ body {
 
 }
 
+
 .pagination-section {
 	margin: 1em 0;
 }
@@ -136,6 +137,12 @@ body {
 
 .sidebar .pagination-section {
 	padding-left: 60px;
+}
+
+.due-date {
+	margin-bottom: 2em;
+	color: rgb(200, 10, 10);
+	// line-height: 2;
 }
 
 .content {

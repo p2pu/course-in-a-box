@@ -1,5 +1,6 @@
 ---
 title: Body Elements
+module: 3
 ---
 # The Body Element
 
@@ -21,4 +22,4 @@ Structural markup embeds information about the structure of a document. Structur
 These elements will help guide a user visually and provide information about the type of content through a document. These elements are also used by the browser and DOM to understand the content of a document. A browser will use this structural markup to assist [screen readers](http://www.afb.org/prodBrowseCatResults.aspx?CatID=49) and other accessibility-based software.
 
 ## Semantic Markup
-Semantic markup us used to reinforce the [semantics](https://en.wikipedia.org/wiki/Semantics), or meaning, of the information in a document. Semantic markup might be used to place _emphasis_ on a word or phrase, identify a word as being **strong**, provide <cite>citations</cite> or <q>quotations</q>, link to <dfn>definitions</dfn>, or distinguish <del>editorial changes</del>. 
+Semantic markup us used to reinforce the [semantics](https://en.wikipedia.org/wiki/Semantics), or meaning, of the information in a document. Semantic markup might be used to place _emphasis_ on a word or phrase, identify a word as being **strong**, provide <cite>citations</cite> or <q>quotations</q>, link to <dfn>definitions</dfn>, or distinguish <del>editorial changes</del>.
