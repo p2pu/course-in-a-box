@@ -1,5 +1,5 @@
 # basic configuration
-baseurl:
+baseurl: badgeonslanormandie
 markdown: kramdown
 permalink: /:categories/:title/
 
