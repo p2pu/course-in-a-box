@@ -1,6 +1,6 @@
 ---
 layout: index
-published: false
+published: true
 ---
 
 ## Espace ouvert de formation et de collaboration autour des badges numériques ouverts
