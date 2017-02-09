@@ -54,8 +54,8 @@ NOTE: As stated in the sylabbus, you are required to purchase one, rather inexpe
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZajeJki0OY" frameborder="0" allowfullscreen></iframe></div>
 
 
-## Matthew Dolan | Section 51
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/20fVP4A0Qmo" frameborder="0" allowfullscreen></iframe></div>
+## Justine Evans | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/203341647" frameborder="0" allowfullscreen></iframe></div>
 
 <br />
 <br />
