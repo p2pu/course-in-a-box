@@ -17,12 +17,12 @@ The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) conta
 <br />
 # Instructor Introduction Videos
 
-## Nick Moles | Section 51
+## Nick Moles | Section 50
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZajeJki0OY" frameborder="0" allowfullscreen></iframe></div>
 
 
-## Matthew Dolan | Section 51
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/20fVP4A0Qmo" frameborder="0" allowfullscreen></iframe></div>
+## Justine Evans | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/203341647" frameborder="0" allowfullscreen></iframe></div>
 
 <br />
 
