@@ -419,7 +419,7 @@ $navbar-light: $gray-snow;
 	height: 60px;
 	color: $white;
 	&:hover, &:focus {
-		background-color: $brand-primary !important;
+		// background-color: $brand-primary !important;
 		color: $navbar-light;
 		i {
 			@include animation(bounce 1s ease infinite);
