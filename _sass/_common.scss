@@ -20,6 +20,7 @@ body {
 }
 
 .sidebar {
+	z-index: 10;
 	padding: 60px 0;
 }
 
@@ -142,7 +143,12 @@ body {
 .due-date {
 	margin-bottom: 2em;
 	color: rgb(200, 10, 10);
+	padding-right: $padding-large-horizontal;
 	// line-height: 2;
+}
+
+.active-date-range {
+	margin-bottom: 0.5em;
 }
 
 .content {

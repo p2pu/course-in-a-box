@@ -3,8 +3,12 @@
 
 	{% if page.module %}
 		<div class="pagination-section title due-date" >
-				{{ site.data.dates[page.module][0] }}<br>
+			<div class="active-date-range">
+				{{ site.data.dates[page.module][0] }}
+			</div>
+			<div class="active-due-date">
 				Homework Due: {{ site.data.dates[page.module][1] }}
+			</div>
 		</div>
 	{% endif %}
 
