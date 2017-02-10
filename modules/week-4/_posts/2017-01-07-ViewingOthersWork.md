@@ -11,20 +11,12 @@ If you have been using the issues tab on the GitHub repo for this course, you wi
 
 There are a number of additional resources that you should start to take advantage of, in addition to your classmates and instructors.
 
-#### stackoverflow.com
 
-[stackoverflow.com](http://stackoverflow.com) is a community forum for developers to search for solutions to problems. With where you are as students, almost any problem you  are having has likely already been had by someone else. There is a search bar in the top right of their site, use this to look for similar problems and the answers the community came up with.
-
-This is a great place to start when looking for solutions to problems.
-
-If you decide to post a question, make sure it is one that has not been asked before. This is a courtesy  to the community, and not following this simple rule will result in negative responses.
-
-Also, if you do decide to post, known that you will get some mean/negative responses. Not everyone is a great person.
 
 
 # Snooping on Others Source Code
 
-Another invaluable resource for web developers is the ability to look at the code for websites you visit. Browsers get code from servers, which means you can look at this code to try and inspect how someone else might have solved a problem.
+One invaluable resource for web developers is the ability to look at the code for websites you visit. Browsers get code from servers, which means you can look at this code to try and inspect how someone else might have solved a problem.
 
 ### Inspecting code in Safari
 
@@ -74,10 +66,21 @@ Some other great examples include;
 - [The New York Times from Nov. 21, 1996](http://web.archive.org/web/19961121230155/http://www.nytimes.com/)
 - [mtv.com](http://web.archive.org/web/19961222031059/http://www.mtv.com/)
 
-### { TODO: }
+## { TODO: }
 
 Explore two sites and how they have evolved over their history on the web. One of these sites needs to have a pre-2000 presence, while the other one should be an contemporary artist you admire today.
 
 You will be expected to write about this experience in your weekly report.
 
 Also, please read pg.’s 35-36 from the Duckett.
+
+
+# stackoverflow.com
+
+[stackoverflow.com](http://stackoverflow.com) is a community forum for developers to search for solutions to problems. With where you are as students, almost any problem you  are having has likely already been had by someone else. There is a search bar in the top right of their site, use this to look for similar problems and the answers the community came up with.
+
+This is a great place to start when looking for solutions to problems.
+
+If you decide to post a question, make sure it is one that has not been asked before. This is a courtesy  to the community, and not following this simple rule will result in negative responses.
+
+Also, if you do decide to post, known that you will get some mean/negative responses. Not everyone is a great person.

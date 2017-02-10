@@ -62,7 +62,7 @@ This is the relative file path to additional pages in the top level directory or
 
 For example, if your directory structure looked like the following:
 
-```
+```bash
 .
 ├── about
 │   └── index.html
