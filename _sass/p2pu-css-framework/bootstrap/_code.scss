@@ -66,6 +66,11 @@ pre {
   }
 }
 
+// adjust spacng between line-nos and code
+td.code > pre {
+     padding-left: (($line-height-computed - 1) * 1);
+}
+
 // line number styling
 .lineno {
   // color: #ccc;
