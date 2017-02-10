@@ -5,16 +5,20 @@
 .p2pu-logo {
 
 	position: absolute;
+	background-color: $gray-darker;
+	height: 100px;
+	width: 100px;
 	right: 0;
 	top: 0;
 
 	img {
 		// width: 75px;
-		min-height: 100%;
-		max-height: 350%;
-		margin: auto;
-		margin-top: 0;
-		margin-bottom: 0;
+		// min-height: 100%;
+		// max-height: 200%;
+		height: 80px;
+		margin: 0;
+		margin-top: -15px;
+		margin-left: -35px;
 		border-style: none;
 		padding: 0;
 	}
