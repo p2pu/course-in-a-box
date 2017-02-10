@@ -9,16 +9,21 @@ Now that you know the basics of HTML it is time to write an HTML document and ge
 In your `/341-work` directory, create a new child directory labeled `/week-03-hw`.
 
 Within that directory create a new html document labeled `index.html`.
-![Showing the creation of index.html in the terminal.app](../imgs/addIndexHTML.png)
+![Showing the creation of index.html in the terminal.app](../imgs/addIndexHTML.png "Showing the creation of index.html in the terminal.app (macOS)")
+![Showing the creation of index.html in the poweshell](../imgs/addIndexHTML_PC.png "Showing the creation of index.html in the PowerShell (windows)")
 
 ## 2: Open the file
-Open the new file in your text editor. If you simply double-click the file, it will likely open in your default browser. Instead, you may need to drag it to the icon of your text editor app, or select “open file”
+Open the new file in your text editor. If you simply double-click the file, it will likely open in your default browser. Instead, you should do one of the following to open this file and its parent directory;
+
+1. Drag the file to the icon of your text editor app from finder (macOS only).
+2. Type `atom .` in terminal or powershell. (This assumes you have installed the "command line tools on mac" or installed atom as an admin for windows.)
+3. Right-click the file in finder or explorer and select "open with". Then select your text editor (atom).
 
 ## 3: Create a Basic Document
-Now that this blank index.html document is in front if you, we need to fill it.
+If the file itself did not open it, click it from the side bar of the atom window. Now that this blank `index.html` document is in front if you, we need to fill it in.
 
 ### i. doctype declaration
-Add the HTML5 doctype declaration on line 1.
+Add the HTML5 doctype declaration on line 1. (Remember this must go in line 1. Nothing should be placed above the doctype declaration.)
 
 ```html
 <!DOCTYPE html>
@@ -41,7 +46,7 @@ Add the basic structure elements (`<html>`, `<head>`, & `<body>`), starting in l
 ```
 
 ### iii. Add a Page Title
-Now you can start adding information to your page. First, you should add a title for the page. For the time being, make that “My First Web Page” and add that between the title element tags on line 5.
+Now you can start adding information to your page. First, you should add a title for the page. For the time being, let's make that “My First Web Page” by typing that between the title element tags on line 5.
 
 ``` html
 <!DOCTYPE html>
