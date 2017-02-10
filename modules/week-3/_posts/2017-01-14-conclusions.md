@@ -22,13 +22,14 @@ Just like last week, you are expected to write a well-formed readme.md file that
 This file is to be placed inside your `/week-3-hw` directory.
 
 ### Homework submission
-To submit your homework you will add your name and two links to the [class repo wiki week-3-hw page](#). Under your sections “Submissions” heading you should add a new line with your name. Then a link whose text reads, “webpage”, this will link to your `index.html` page. Simply copy the URL from the browser and paste it here. Finally, you should include one more link with the text “Week 3 Directory”. This should provide a direct link to your /week-3-hw repo directory. To get this link, open up your repo in a browser, and navigate to the /week-3-hw directory. Assuming you have uploaded everything correctly, you should see your readme.md being rendered below the directory file list, which should include the `index.html` and `readme.md`. If so, simply copy the URL from the browser window.
+To submit your homework you will add your name and two links to the [class repo wiki week-3-hw page](https://github.com/Montana-Media-Arts/341-work/wiki/Week-3-HW). Under your sections “Submissions” heading you should add a new line with your name. Then a link whose text reads, “webpage”, this will link to your `index.html` page. Simply copy the URL from the browser and paste it here. Finally, you should include one more link with the text “Week 3 Directory”. This should provide a direct link to your /week-3-hw repo directory. To get this link, open up your repo in a browser, and navigate to the /week-3-hw directory. Assuming you have uploaded everything correctly, you should see your readme.md being rendered below the directory file list, which should include the `index.html` and `readme.md`. If so, simply copy the URL from the browser window.
 
-![Example of week 3 hw submission](../imgs/week_3_sub_ex.png)
+![Example of week 3 hw submission](../imgs/week_3_sub_ex.png "Example of week 3 hw submission")
 
 Your final submission line in the homework wiki will look something like:
 
 ```markdown
-# Moles Submissions
+# SUBMISSIONS
+## Section 50 (Moles)
 - Michael Musick: [webpage](https://montana-media-arts.github.io/341-work/HW-Examples/week-03-hw/) - [Week 3 Directory](https://github.com/Montana-Media-Arts/341-work/tree/master/HW-Examples/week-03-hw)
 ```

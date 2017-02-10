@@ -17,6 +17,7 @@ The simplest and most common text document is a "text file", which will bare the
 What other files do you work with on a daily basis that are text documents?
 
 You might be tempted to say Microsoft Word Document files (`.doc` or `.docx`). However, these are actually containers of many smaller files that are ZIP-compressed together into the `.docx` file. This complex file that Microsoft uses allows them to store images, objects, text, and complex formatting instructions all in a single file, which can then be easy saved, shared, or sent between users of the Microsoft productivity applications. The downside to this format though is that you cannot open this file in a basic text editor to change it. This below image shows a Microsoft Word Document (`.docx`) opened in the Atom text editor. As you can see, this file does not present itself in a way that offers you much understanding of its contents.
+
 ![A docx file loaded into a simple text editor](../imgs/docx_in_atom.jpg)
 
 So what are other types of plain text based file types?

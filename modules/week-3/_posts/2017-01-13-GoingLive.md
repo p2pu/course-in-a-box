@@ -10,14 +10,16 @@ We are going to need to acquire server space, this is where we will store our fi
 ## Creating a website with GitHub-pages
 GitHub.com provides free web hosting for static websites (a static site is one that does not involve server-side computational work beyond serving or delivering files to a requesting host-computer). For this course, this means we can utilize them as a our server, and they will also provide us with URLs.
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allowfullscreen></iframe></div>
-
 GitHub assigns each user the following URL:
 _username_`.github.io`
 
 This is your _baseurl_, as was discussed on the previous page.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allowfullscreen></iframe></div>
+
+
 ### { TODO: } Let GitHub know we want our repo to be a webpage
+
 In order for our repo to be served, we need to tell GitHub that this is a “GitHub pages project site”.
 
 1. Navigate to your GitHub.com account.
@@ -29,4 +31,4 @@ In order for our repo to be served, we need to tell GitHub that this is a “Git
 7. Click on the link there. It of course will not work since we have not placed an `index.html` file in the root directory of the repo. Instead you should see a GitHub “404 error page”.
 8. We simply need to add the directory where our new `index.html` file lives in our repo. Select the URL in the address bar, and add `week-3-hw/` to the end of the address. This should open up your `index.html` page at an address that looks like `https://yourusername.github.io/341-work/week-3-hw/`. ![Live WebPage](../imgs/gh_liveWebPage.png)
 
-For all most of the future pages you will write for homework, the URL will be `https://yourusername.github.io/341-work/` + the directory where you are placing that weeks homework assignments.
+For all most of the future pages you will write for homework, the URL will be `https://yourusername.github.io/341-work/` + `the-directory` where you are placing that weeks homework assignments.

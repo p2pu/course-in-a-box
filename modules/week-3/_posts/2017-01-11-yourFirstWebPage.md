@@ -20,19 +20,20 @@ Open the new file in your text editor. If you simply double-click the file, it w
 3. Right-click the file in finder or explorer and select "open with". Then select your text editor (atom).
 
 ## 3: Create a Basic Document
-If the file itself did not open it, click it from the side bar of the atom window. Now that this blank `index.html` document is in front if you, we need to fill it in.
+If the file itself did not open it, click it from the side bar of the atom window. Now that this blank `index.html` document is in front of you, we need to fill it in.
 
 ### i. doctype declaration
 Add the HTML5 doctype declaration on line 1. (Remember this must go in line 1. Nothing should be placed above the doctype declaration.)
 
-```html
+{% highlight html linenos %}
 <!DOCTYPE html>
-```
+{% endhighlight %}
 
 ### ii.  Fill in the Basic Structure
-Add the basic structure elements (`<html>`, `<head>`, & `<body>`), starting in line 2. Also include the uff-8 charset declaration and title elements in the head.
+Add the basic structure elements (`<html>`, `<head>`, & `<body>`), starting in line 2. Also include the `utf-8` charset declaration and `title` elements in the head.
 
-``` html
+
+{% highlight html linenos %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -43,12 +44,14 @@ Add the basic structure elements (`<html>`, `<head>`, & `<body>`), starting in l
 
     </body>
 </html>
-```
+{% endhighlight %}
+
 
 ### iii. Add a Page Title
 Now you can start adding information to your page. First, you should add a title for the page. For the time being, let's make that “My First Web Page” by typing that between the title element tags on line 5.
 
-``` html
+
+{% highlight html linenos %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -59,38 +62,41 @@ Now you can start adding information to your page. First, you should add a title
 
     </body>
 </html>
-```
+{% endhighlight %}
+
 
 ### iv. Add Some Content!
-Finally, add a h1 element and 2 p elements. Populate these elements with your name, and the statement “Hello World!”, respectively.
+Finally, add a `h1` element and two `p` elements. Populate these elements with your name, and the statement “Hello World!”, respectively.
 
-``` html
+
+{% highlight html linenos %}
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>My First Web Page</title>
     </head>
     <body>
         <h1>Michael Musick</h1>
         <p>Hello World!</p>
     </body>
 </html>
-```
+{% endhighlight %}
+
 
 ### v. Open the File in a Browser
-OK, time to view your first webpage! You have a view options to open this file;
+OK, time to view your first webpage! You have a few options to open this file;
 
-1. Double click the `index.html` file, as it should open in your default web-browser.
-2. From terminal type `open index.html` (This should accomplish the same as above).
+1. Double click the `index.html` file, as this should open the file in your default web-browser.
+2. From terminal/powershell type `open index.html` (This should accomplish the same as above).
 3. Drag the file to the browser you want it to open in.
-4. Install the "open-in-browser" package for Atom and then either press cntrl + opt + q (mac) or from the command palate type "Open in Browser".
+4. Install the "open-in-browser" package for Atom and then either press `cntrl` + `opt` + `q` (macOS), `cntrl` + `alt` + `q` (PC), or from the command palate type "Open in Browser".
 
 You should now see your file open in a web browser, looking something like this.
 ![Example of the first web page](../imgs/firstWebPage.png)
 
 ### vi. Make Some Changes
-Back in your index.html document, add a new line at 10. There you should add a new paragraph element that includes the following text;
+Back in your index.html document, add a new line before 10. There you should add a new paragraph element that includes the following text;
 
 ``` html
 <p>This is my <em>first</em> web page!!!</p>
@@ -99,7 +105,8 @@ Back in your index.html document, add a new line at 10. There you should add a n
 
 Your code should look like the following;
 
-``` html
+
+{% highlight html linenos %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -112,8 +119,9 @@ Your code should look like the following;
         <p>This is my <em>first</em> web page!!!</p>
     </body>
 </html>
-```
+{% endhighlight %}
+
 
 ### vii. Refresh the Page
-Next, navigate back to your browser and refresh your web page (cmd + r [macOS], cntrl + r [windows]). You should see the updated in your code reflected in the browser.
+Next, navigate back to your browser and refresh your web page (`cmd` + `r` [macOS], `cntrl` + `r` [windows]). You should see the update in your code reflected in the browser.
 ![Example of updating a web page](../imgs/firstWebPage2.png)

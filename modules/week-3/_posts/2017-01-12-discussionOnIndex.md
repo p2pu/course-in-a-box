@@ -3,10 +3,10 @@ title: About index.html
 module: 3
 ---
 # About the `index.html` File
-You are going to create a lot of files labeled `index.html`. When a URL is passed to a browser that does not specify a file, the browser automatically requests `index.html` from the host server. Essentially, this means something like https://michaelmusick.com and https://michaelmusick.com/index.html are the same. (This is not true for all websites, but for many.)
+You are going to create a lot of files labeled `index.html`. When a URL is passed to a browser that does not specify a file, the browser automatically requests `index.html` from the host server. Essentially, this means something like `http://baseurl.com` and `http://baseurl.com/index.html` are the same. (This is not true for all websites, but for many.)
 
-## file vs directory based URLs
-This assumption allows for the publication of cleaner URL’s, as we do not need to explicitly include the `index.html` appended at the end. This is not to say that we could not have additional pages that we explicitly address. For example we could have additional html pages at the same directory level, such as an `about.html`. In which case the URL would look like `baseurl.com/about.html`. Our directory would look like the following in this case.
+## File vs Directory based URLs
+This assumption allows for the publication of "clean URL’s", as we do not need to explicitly include the `index.html` at the end of the URL. This is not to say that we could not have additional pages that we explicitly address. For example we could have additional html pages at the same directory level, such as an `about.html`. In which case the URL would look like `baseurl.com/about.html`. Our directory would look like the following in this case.
 
 ![using explicit labeled documents](../imgs/abouthtml.png)
 

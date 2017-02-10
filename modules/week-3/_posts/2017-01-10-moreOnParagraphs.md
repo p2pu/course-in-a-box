@@ -11,7 +11,8 @@ By default, browsers will remove empty spaces from paragraph element blocks. Thi
 
 The following will both display as single line paragraphs after being rendered.
 
-```html
+
+{% highlight html linenos %}
 <p>
 This paragraph
 contains a lot of lines
@@ -27,14 +28,15 @@ in the source         code,
 but the        browser
 ignores it.
 </p>
-```
+{% endhighlight %}
+
 
 ![Example of extra spaces in a paragraph element being removed](../imgs/extraSpaceParagraphs.png)
 
 ## Line Breaks
-If you want to force a line break inside a paragraph, you can use the break tag. `<br>`
+If you want to force a line break inside a paragraph, you can use the break tag. `<br />`
 
-```html
+{% highlight html linenos %}
 <html>
     <body>
         <p>
@@ -54,7 +56,8 @@ If you want to force a line break inside a paragraph, you can use the break tag.
         </p>
     </body>
 </html>
-```
+{% endhighlight %}
+
 ![Paragraph Line Break Example](../imgs/paragraphLineBreaks.png)
 
 ## Horizontal Rules
@@ -78,7 +81,8 @@ This is one method that could be used to present a poem in a browser while maint
 
 Look at how the four different approaches vary when rendered in Safari.
 
-```html
+
+{% highlight html linenos %}
 <html>
     <body>
         <h2>Single Paragraph</h2>
@@ -123,7 +127,9 @@ Look at how the four different approaches vary when rendered in Safari.
         </pre>
     </body>
 </html>
-```
+
+{% endhighlight %}
+
 ![Example how text is rendered differently](../imgs/renderDiff.png)
 
 
