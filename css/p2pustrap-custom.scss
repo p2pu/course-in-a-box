@@ -22,6 +22,7 @@
 @import "landing";
 @import "calendar";
 @import "syntax-highlight";
+@import "displayCodeExample";
 
 .post-container {
     max-height: 15em;
@@ -50,4 +51,16 @@ img {
 	margin-top: $padding-large-vertical;
 	margin-bottom: $padding-large-vertical;
 	border: 1px solid $gray-dark;
+}
+
+// .page-container {
+// 	display: flex;
+// }
+//
+.sidebar {
+	order: 2;
+}
+
+.main-section {
+	order: 1;
 }
