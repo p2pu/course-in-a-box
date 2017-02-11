@@ -11,7 +11,7 @@ This creates a "text box" where users can type in information that is available 
 
 NOTE: Technically, you can omit the "type" from the input element if you want a text box. But good style dictates that you should be explicit in your code so as to prevent errors.
 
-## Code Example
+## Example
 
 This following code demonstrates how to create an input element of `type="text"`. Please notice the use of the `<p></p>` element to display information text in front of the text box.
 

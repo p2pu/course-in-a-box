@@ -69,6 +69,7 @@ With the '`post`' method, values are sent in what are known as 'HTTP headers'. A
 As with many other elements in HTML, you should assign a unique element `id` and `class` that can be used by other languages to refer to the specific form.
 
 ## Form Code Example
+
 ```html
 <form action="http://www.example.com/subscribe.php" method="get" id="basicForm">
     <!-- This is where the related form elements and controls will appear. -->

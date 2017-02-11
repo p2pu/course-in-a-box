@@ -21,7 +21,6 @@ You can use the `size` attribute to set the display (in character widths) for th
 
 Just like with the plain text input element, you can use the `maxlength` attribute to limit the number of characters that a user can input.
 
-## Code Example
 
 ```html
 <form action="http://www.example.com/login.php">
