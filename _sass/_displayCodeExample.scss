@@ -8,7 +8,7 @@
     background-color: #fff;
 }
 
-@media (max-width: $screen-md) {
+@media (max-width: $screen-md - 1) {
     .displayed_code_example {
         border:2px solid #f92672;
         // padding-top: 0;

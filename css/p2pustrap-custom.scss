@@ -53,14 +53,31 @@ img {
 	border: 1px solid $gray-dark;
 }
 
-// .page-container {
-// 	display: flex;
-// }
-//
+.page-container {
+	display: flex;
+}
+
 .sidebar {
-	order: 2;
+	order: 1;
+	min-width: $screen-md * 0.25;
 }
 
 .main-section {
-	order: 1;
+	order: 2;
+}
+
+@media (max-width: $screen-md - 1) {
+	.page-container {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.sidebar {
+		order: 2;
+	}
+
+	.main-section {
+		order: 1;
+	}
+
 }

@@ -280,7 +280,7 @@ $screen-phone:               $screen-xs-min;
 
 // Small screen / tablet
 //** Deprecated `$screen-sm` as of v3.0.1
-$screen-sm:                  768px;
+$screen-sm:                  628px;
 $screen-sm-min:              $screen-sm;
 //** Deprecated `$screen-tablet` as of v3.0.1
 $screen-tablet:              $screen-sm-min;
@@ -315,7 +315,7 @@ $grid-columns:              12;
 $grid-gutter-width:         30px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
-$grid-float-breakpoint:     $screen-md-min;
+$grid-float-breakpoint:     $screen-sm-min;
 //** Point at which the navbar begins collapsing.
 $grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
 
