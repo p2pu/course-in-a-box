@@ -15,7 +15,7 @@ However, if you wished to have a “cleaner” looking URL, you could create an 
 ![using labeled directory labels for URLs](../imgs/aboutdirectory.png)
 
 ## Why is this important?
-This discussion was had so that you could understand why I had you label your file as `index.html`. Eventually, this means your file will live at a URL that looks something like `baseurl.github.io/341-work/week-3-hw/`.
+This discussion was had so that you could understand why I had you label your file as `index.html`. Eventually, this means your file will live at a URL that looks something like `baseurl.github.io/341-work/week-03-hw/`.
 
 ## { TODO: }
 Please read the following from the Mozilla Developer Network on [Dealing with Files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files) to understand more about this topic.

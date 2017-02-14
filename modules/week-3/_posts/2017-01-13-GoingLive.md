@@ -29,6 +29,6 @@ In order for our repo to be served, we need to tell GitHub that this is a “Git
 5. You should then see this section change and say that your site is “ready to be published as …”. This means GitHub is processing your site and publishing it, assuming no errors popup. ![GitHub, ready to publish](../imgs/gh_ready.png)
 6. Wait a few minutes and reload that page. Eventually this section should turn green, meaning it is Live! ![GitHub says the page is live](../imgs/gh_live.png)
 7. Click on the link there. It of course will not work since we have not placed an `index.html` file in the root directory of the repo. Instead you should see a GitHub “404 error page”.
-8. We simply need to add the directory where our new `index.html` file lives in our repo. Select the URL in the address bar, and add `week-3-hw/` to the end of the address. This should open up your `index.html` page at an address that looks like `https://yourusername.github.io/341-work/week-3-hw/`. ![Live WebPage](../imgs/gh_liveWebPage.png)
+8. We simply need to add the directory where our new `index.html` file lives in our repo. Select the URL in the address bar, and add `week-03-hw/` to the end of the address. This should open up your `index.html` page at an address that looks like `https://yourusername.github.io/341-work/week-03-hw/`. ![Live WebPage](../imgs/gh_liveWebPage.png)
 
 For all most of the future pages you will write for homework, the URL will be `https://yourusername.github.io/341-work/` + `the-directory` where you are placing that weeks homework assignments.
