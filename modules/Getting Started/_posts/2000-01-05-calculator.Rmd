@@ -239,6 +239,25 @@ log10(1000)</code></pre>
 
 
 
+<div id="your-own-practice" class="section level1">
+<h1>Your own Practice</h1>
+<p>In order to learn R you must do R. Follow the steps below in your RStudio console:</p>
+<ol style="list-style-type: decimal">
+<li>Install the <code>swirl</code> package: <code>install.packages(&quot;swirl&quot;)</code></li>
+<li>Now install a <code>swirl</code> course: <code>library(swirl)   install_course(&quot;R Programming&quot;)</code></li>
+</ol>
+<p>Swirl is a tool that will walk you through a series of problems in R. As we move through this course we will install more courses. To run the current course enter this command:</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Run this command to pick the course:</li>
+</ol>
+<pre><code>swirl()</code></pre>
+<p>You will be promted to choose a course. Type whatever number is in front of <strong>R Programming</strong>. This will then take you to a menu of lessons. For now we will just use lesson 1. Type 1 to choose <strong>Basic Building Blocks</strong> then follow all the instructions until you are finished.</p>
+<p>Once you are finished continue on to the next lesson.</p>
+</div>
+
+
+
+
 </div>
 
 <script>
