@@ -137,10 +137,37 @@ log10(1000)</code></pre>
 </div>
 <div id="on-your-own" class="section level3">
 <h3>On Your Own</h3>
-<p>Take some time to try out some mathematical calculations and logic statements. Use the console window in RStudio.</p>
+
+
+<div id="your-own-practice" class="section level1">
+<h1>Your own Practice</h1>
+<p>In order to learn R you must do R. Follow the steps below in your RStudio console:</p>
+<ol style="list-style-type: decimal">
+<li>Install the <code>swirl</code> package: <code>install.packages(&quot;swirl&quot;)</code></li>
+<li>Now install a <code>swirl</code> course: <code>library(swirl)   install_course(&quot;R Programming&quot;)</code></li>
+</ol>
+<p>Swirl is a tool that will walk you through a series of problems in R. As we move through this course we will install more courses. To run the current course enter this command:</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Run this command to pick the course:</li>
+</ol>
+<pre><code>swirl()</code></pre>
+<p>You will be promted to choose a course. Type whatever number is in front of <strong>R Programming</strong>. This will then take you to a menu of lessons. For now we will just use lesson 1. Type 1 to choose <strong>Basic Building Blocks</strong> then follow all the instructions until you are finished.</p>
+<p>Once you are finished continue on to the next lesson.</p>
+</div>
+
+
+
+
+</div>
+
 <hr />
 </div>
 </div>
+
+
+
+
+
 <div id="further-operators" class="section level2">
 <h2>Further Operators</h2>
 <p>There are other operators that we will use that are not necesssarily mathematical in nature. Each one of them is crucial for the use of R.</p>
