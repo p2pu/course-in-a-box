@@ -6,8 +6,8 @@
 .jumbotron {
   padding: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
-  color: #87cefa;
-  background-color: #87CEFA;
+  color: $jumbotron-color;
+  background-color: $jumbotron-bg;
 
   h1,
   .h1 {
