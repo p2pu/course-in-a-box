@@ -1,6 +1,7 @@
 ---
   title: Vectors in R!
 ---
+
 <div id="vectors-in-r" class="section level1">
 <h1>Vectors in R</h1>
 <p>The fundamental data type in R is the vector. A vector is a sequence of data elements all of the same type.</p>

@@ -1,0 +1,118 @@
+---
+  title: Arrays in R!
+---
+
+<div id="arrays-in-r" class="section level1">
+<h1>Arrays in R</h1>
+<p>Arrays are still a vector in R but they have added extra options to them. We can essentially call them “vector structure”. With a vector we have a list of objects in one dimension. With an array we can have any number of dimensions to our data. <em>In the Future 2-dimensional array called a matrix.</em></p>
+<p>We can consider a simple vector to start with</p>
+<pre class="r"><code>x &lt;- c(1,2,3,4)</code></pre>
+<p>This means that <strong><em>x</em></strong> is a vector with 4 elements. This simple vector can be turned into an array by specifying some dimensions on it.</p>
+<pre class="r"><code>x.array &lt;- array(x, dim=c(2,2))
+x.array</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4</code></pre>
+<div id="big-arrays" class="section level2">
+<h2>Big Arrays</h2>
+<p>With arrays we have a vector that can then have a vector of dimensional constraints on it.</p>
+<ul>
+<li>A regular vector has a single dimension.</li>
+<li>A matrix has 2 dimensions</li>
+<li>An array can have up to <strong><em>n</em></strong> dimensions.</li>
+</ul>
+<p>We can learn about arrays with the following functions:</p>
+<pre class="r"><code>dim(x.array)</code></pre>
+<pre><code>## [1] 2 2</code></pre>
+<p>We can see that our array is a 2x2 matrix.</p>
+<pre class="r"><code>is.vector(x.array)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.array(x.array)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>We can also see that R does view these are different objects. There is an array and a vector class.</p>
+</div>
+<div id="properties-of-arrays" class="section level2">
+<h2>Properties of Arrays</h2>
+<p>We can also have R tell us:</p>
+<ul>
+<li>Type of elements does our array contain with the <strong><em>typeof()</em></strong> function.</li>
+<li>The structure of the array with the <strong><em>str()</em></strong> function.</li>
+<li>Other attributes with the <strong><em>attributes()</em></strong> function.</li>
+</ul>
+<pre class="r"><code>typeof(x.array)</code></pre>
+<pre><code>## [1] &quot;double&quot;</code></pre>
+<p>Notice that <code>typeof()</code> actually tells you what type of data is stored inside the array.</p>
+<pre class="r"><code>str(x.array)</code></pre>
+<pre><code>##  num [1:2, 1:2] 1 2 3 4</code></pre>
+<pre class="r"><code>attributes(x.array)</code></pre>
+<pre><code>## $dim
+## [1] 2 2</code></pre>
+<p>The structure gives a lot of detail about the array and the attributes lets you know that a given attribute is the number of dimensions which is 2x2.</p>
+</div>
+<div id="working-with-arrays" class="section level2">
+<h2>Working with Arrays</h2>
+<p>As statisticians it is important to know how to work with arrays. Much of our data will be represented by vectors and arrays.</p>
+<div id="indexing-arrays" class="section level3">
+<h3>Indexing Arrays</h3>
+<p>Previously we learned how to extract or remove information from vectors. We can also index arrays but our index takes into account all the dimensions of our array</p>
+<p>For example if we wish to take the element out of the first row and first column we can do that by:</p>
+<pre class="r"><code>x.array[1,1]</code></pre>
+<pre><code>## [1] 1</code></pre>
+<p>Just like in vectors, we can replace values in an array but using indexing and assigning of values.</p>
+<pre class="r"><code>x.array[1,1] &lt;- 5
+x.array</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    5    3
+## [2,]    2    4</code></pre>
+<p>Many times we just wish to index a row or a column. An array is of the format:</p>
+<center>
+`array[r,c]
+</center>
+<p>= 4)</p>
+<pre><code></code></pre>
+</div>
+</div>
+<div id="section" class="section level2">
+<h2>[1] 1 4</h2>
+<p>```</p>
+<p>Other functions are designed to work with arrays and preserve the structure of it</p>
+<pre class="r"><code>y.array &lt;- -x.array
+x.array + y.array</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    0    0
+## [2,]    0    0</code></pre>
+<p>Many times we wish to have functions act on either just the row or the column and there are many functions built into R for this. For example:</p>
+<pre class="r"><code>rowSums(x.array)</code></pre>
+<pre><code>## [1] 8 6</code></pre>
+<pre class="r"><code>colSums(x.array)</code></pre>
+<pre><code>## [1] 7 7</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
