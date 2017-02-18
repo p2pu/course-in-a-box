@@ -1,5 +1,5 @@
 title: R Basics
 description: Introduction to R and RStudio
-modules: [start, Data Workflow, Data Import, Data Structures, Data Cleaning]
+modules: [Getting Started, Data Workflow, Data Import, Data Structures, Data Cleaning]
 signups:
  
