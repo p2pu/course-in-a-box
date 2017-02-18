@@ -19,7 +19,7 @@ This course is designed to cover the very basics of using and working with R. It
 - **Modeling Data in R**
 - **Communicating and Publishing Data in R**
 
-
+```
     summary(cars)
 
     ##      speed           dist       
@@ -29,13 +29,14 @@ This course is designed to cover the very basics of using and working with R. It
     ##  Mean   :15.4   Mean   : 42.98  
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
+```
 
 Including Plots
 ---------------
 
 You can also embed plots, for example:
 
-![](./img/2000-01-02-test_files/figure-markdown_strict/pressure-1.png)
+![]({{site.baseurl}}/img/2000-01-02-test_files/figure-markdown_strict/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
