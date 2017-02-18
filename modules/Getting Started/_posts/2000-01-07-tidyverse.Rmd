@@ -6,6 +6,7 @@
 
 <div id="the-tidyverse" class="section level1">
 <h1>The Tidyverse</h1>
+
 <center>
 <img src="{{site.baseurl}}/img/tidy.png" style="height:100px">
 </center>
