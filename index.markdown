@@ -35,8 +35,3 @@ The course will be a self-paced walkthrough of using R in Statistics. Currently 
 Head over [here]({{site.baseurl}}/modules/getting%started/about-this-course/) to create your own course!
 
 
-
-```{r}
-x <-5
-5
-```
