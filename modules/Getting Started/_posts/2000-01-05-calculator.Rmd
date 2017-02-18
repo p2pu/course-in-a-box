@@ -1,0 +1,295 @@
+---
+  title: Using R as a Calculator!
+---
+
+
+Using R as a Calculator
+=======================
+
+One of the most basic ways to use R is as a calculator. We can enter
+many math functions directly into the R Console. We will start to look
+at the various ways in which we can use R.
+
+Arithmetic Operators
+--------------------
+
+R can handle most simple types of math operators.
+
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>+</code></td>
+<td>Addition</td>
+</tr>
+<tr class="even">
+<td><code>-</code></td>
+<td>Subtraction</td>
+</tr>
+<tr class="odd">
+<td><code>*</code></td>
+<td>Multiplication</td>
+</tr>
+<tr class="even">
+<td><code>/</code></td>
+<td>Division</td>
+</tr>
+<tr class="odd">
+<td>^ or <code>**</code></td>
+<td>Exponentiation</td>
+</tr>
+</tbody>
+</table>
+
+For example:
+
+    # Addition
+    5+4
+
+    ## [1] 9
+
+    # Subtraction
+    124 - 26.82 
+
+    ## [1] 97.18
+
+    # Multiplication
+    5*4
+
+    ## [1] 20
+
+    # Division
+    35/8
+
+    ## [1] 4.375
+
+More Math functions.
+--------------------
+
+We can also use many other math functions. All of these are included in
+base R without any extra packages.
+
+    # Exponentials
+    3^(1/2)
+
+    ## [1] 1.732051
+
+    # Exponential Function
+    exp(1.5)
+
+    ## [1] 4.481689
+
+    # Log base e
+    log(4.481689)
+
+    ## [1] 1.5
+
+    # Log base 10
+    log10(1000)
+
+    ## [1] 3
+
+Logical Operators
+-----------------
+
+Another important feature of R is the ability to use logic. This is not
+unique to R as all programming languages can do this, but it will be
+extremely useful when working with data.
+
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>&lt;</code></td>
+<td>Less Than</td>
+</tr>
+<tr class="even">
+<td><code>&gt;</code></td>
+<td>Greater Than</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;=</code></td>
+<td>Less Than or Equal To</td>
+</tr>
+<tr class="even">
+<td><code>&gt;=</code></td>
+<td>Greater Than or Equal To</td>
+</tr>
+<tr class="odd">
+<td><code>==</code></td>
+<td>Exactly Equal To</td>
+</tr>
+<tr class="even">
+<td><code>!=</code></td>
+<td>Not Equal To</td>
+</tr>
+<tr class="odd">
+<td><code>!a</code></td>
+<td>Not <code>a</code></td>
+</tr>
+<tr class="even">
+<td><code>a&amp;b</code></td>
+<td><code>a</code> <strong>AND</strong> <code>b</code></td>
+</tr>
+</tbody>
+</table>
+
+We can then see an example of this:
+
+    a <- c(1:12)
+
+If we wanted to know where *a* &gt; 9 or where *a* &lt; 4 we would
+expect to see the values: 1 2 3 10 11 12.
+
+### Having R do this
+
+    a
+
+    ##  [1]  1  2  3  4  5  6  7  8  9 10 11 12
+
+    a>9
+
+    ##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE
+    ## [12]  TRUE
+
+We can see that what R gives is are Boolean values as to whether or not
+each element of `a` is greater than 9. Similarly:
+
+    a<4
+
+    ##  [1]  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+    ## [12] FALSE
+
+One simple thing we might try is to just combine these 2 values into a
+conditional
+
+    a>9 | a<4
+
+    ##  [1]  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE
+    ## [12]  TRUE
+
+This again just gives us Booleans and not necessarily the values that we
+were hoping to see. We use this to `index a` in the following manner
+
+    a[a>9 | a<4]
+
+    ## [1]  1  2  3 10 11 12
+
+We will look at indexing with much further detail as we move through
+this course.
+
+### On Your Own
+
+Take some time to try out some mathematical calculations and logic
+statements. Use the console window in RStudio.
+
+------------------------------------------------------------------------
+
+Further Operators
+-----------------
+
+There are other operators that we will use that are not necesssarily
+mathematical in nature. Each one of them is crucial for the use of R.
+
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>R Symbol</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Comment</td>
+<td>#</td>
+<td># This is a comment</td>
+</tr>
+<tr class="even">
+<td>Assignment</td>
+<td><code>&lt;-</code></td>
+<td>x <code>&lt;-</code> 5</td>
+</tr>
+<tr class="odd">
+<td>Assignment</td>
+<td><code>-&gt;</code></td>
+<td>5 <code>-&gt;</code> x</td>
+</tr>
+<tr class="even">
+<td>Assigment</td>
+<td><code>=</code></td>
+<td>x <code>=</code> 5</td>
+</tr>
+<tr class="odd">
+<td>Concatenation operator</td>
+<td>c</td>
+<td>c(1,2,4)</td>
+</tr>
+<tr class="even">
+<td>Modular</td>
+<td>%%</td>
+<td>25 %% 6</td>
+</tr>
+<tr class="odd">
+<td>Sequence from a to b by h</td>
+<td>seq</td>
+<td>seq(a,b,h)</td>
+</tr>
+<tr class="even">
+<td>Sequence Operator</td>
+<td>:</td>
+<td>0:3</td>
+</tr>
+</tbody>
+</table>
+
+Math Functions in R
+-------------------
+
+We also have access to a wide variety of mathematical functions that are
+already built into R.
+
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>R Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Square Root</td>
+<td><code>sqrt</code></td>
+</tr>
+<tr class="even">
+<td><code>floor(x)</code></td>
+<td><code>floor</code></td>
+</tr>
+<tr class="odd">
+<td><code>\ceil(x)</code></td>
+<td><code>ceiling</code></td>
+</tr>
+<tr class="even">
+<td>Logarithm</td>
+<td><code>log</code></td>
+</tr>
+<tr class="odd">
+<td>Exponential function, <code>e^x</code></td>
+<td><code>exp</code></td>
+</tr>
+<tr class="even">
+<td>Factorial, <code>!</code></td>
+<td><code>factorial</code></td>
+</tr>
+</tbody>
+</table>
