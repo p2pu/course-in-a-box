@@ -1,0 +1,296 @@
+---
+  title: Lists in R!
+---
+
+
+<div id="lists" class="section level1">
+<h1>Lists</h1>
+<p>Within R a list is a structure that can combine objects of different types. We will learn how to create and work with lists in this section.</p>
+<div id="creating-lists" class="section level2">
+<h2>Creating Lists</h2>
+<p>A list is actually a vector but it does differ in comparison to the other types of vectors which we have been using in this class.</p>
+<ul>
+<li>Other vectors are <em>atomic vectors</em></li>
+<li>A list is a type of vector called a <em>recursive vector</em>.</li>
+</ul>
+<div id="an-example-database" class="section level3">
+<h3>An Example Database</h3>
+<p>We first consider a patient database where we want to store their</p>
+<ul>
+<li>Name</li>
+<li>Amount of bill due</li>
+<li>A Boolean indicator of whether or not they have insurance.</li>
+</ul>
+<p>We then have 3 types of information here:</p>
+<ul>
+<li>character</li>
+<li>numerical</li>
+<li>logical.</li>
+</ul>
+<p>To create a list of one patient we say</p>
+<pre class="r"><code>a &lt;- list(name=&quot;Angela&quot;, owed=&quot;75&quot;, insurance=TRUE)
+a</code></pre>
+<pre><code>## $name
+## [1] &quot;Angela&quot;
+## 
+## $owed
+## [1] &quot;75&quot;
+## 
+## $insurance
+## [1] TRUE</code></pre>
+</div>
+</div>
+<div id="indexing-lists" class="section level2">
+<h2>Indexing Lists</h2>
+<p>With vectors, arrays and matrices we saw that indexing them was very similar with the exception of dimensions. However a list is very different. Notice that unlike a typical vector this prints out in multiple parts. This also allows us to help with indexing as we will see below. There is another easy way to create this same list</p>
+<p>Note that below we us double brackets and a character in order to index:</p>
+<pre class="r"><code> a.alt &lt;- vector(mode=&quot;list&quot;)
+ a.alt[[&quot;name&quot;]] &lt;- &quot;Angela&quot;
+ a.alt[[&quot;owed&quot;]] &lt;- 75
+ a.alt[[&quot;insurance&quot;]] &lt;- TRUE
+ 
+ a.alt</code></pre>
+<pre><code>## $name
+## [1] &quot;Angela&quot;
+## 
+## $owed
+## [1] 75
+## 
+## $insurance
+## [1] TRUE</code></pre>
+<p>We could then create a list like this for all of our patients. Our database would then be a list of all of these individual lists.</p>
+</div>
+<div id="operations-on-lists" class="section level2">
+<h2>Operations on Lists</h2>
+<p>With vectors, arrays and matrices, there was really only one way to index them. However with lists there are multiple ways:</p>
+<p>Below are three different ways in which we can index a list:</p>
+<pre class="r"><code>a[[&quot;name&quot;]]</code></pre>
+<pre><code>## [1] &quot;Angela&quot;</code></pre>
+<pre class="r"><code>a[[1]]</code></pre>
+<pre><code>## [1] &quot;Angela&quot;</code></pre>
+<pre class="r"><code>a$name</code></pre>
+<pre><code>## [1] &quot;Angela&quot;</code></pre>
+</div>
+<div id="double-vs-single-brackets" class="section level2">
+<h2>Double vs Single Brackets</h2>
+<p>All of the previous are ways to index data in a list. Notice that in two of the above we used double brackets. Next we see the difference between double and single brackets.</p>
+<pre class="r"><code>a[1]</code></pre>
+<pre><code>## $name
+## [1] &quot;Angela&quot;</code></pre>
+<pre class="r"><code>class(a[1])</code></pre>
+<pre><code>## [1] &quot;list&quot;</code></pre>
+<p>With the single bracket we have a list with the name element only.</p>
+<pre class="r"><code>a[[1]]</code></pre>
+<pre><code>## [1] &quot;Angela&quot;</code></pre>
+<pre class="r"><code>class(a[[1]])</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<p>Now with double brackets we actually extract our value out and have a character. So the single bracket returns a list with your indexed object(s) contained in it and the double bracket returns the element with the particular class that represents that element. Depending on your goals you may want to use single or double brackets.</p>
+</div>
+<div id="adding-and-subtracting-elements" class="section level2">
+<h2>Adding and Subtracting Elements</h2>
+<p>With a list we can always add more information to it.</p>
+<pre class="r"><code>a$age &lt;- 27 
+a</code></pre>
+<pre><code>## $name
+## [1] &quot;Angela&quot;
+## 
+## $owed
+## [1] &quot;75&quot;
+## 
+## $insurance
+## [1] TRUE
+## 
+## $age
+## [1] 27</code></pre>
+<p>In order to delete an element from a list we set it to NULL.</p>
+<pre class="r"><code>a$owed &lt;- NULL
+a</code></pre>
+<pre><code>## $name
+## [1] &quot;Angela&quot;
+## 
+## $insurance
+## [1] TRUE
+## 
+## $age
+## [1] 27</code></pre>
+</div>
+<div id="list-components-and-values" class="section level2">
+<h2>List Components and Values</h2>
+<p>In order to know what kind of information is included in a list we can look at the <strong><em>names()</em></strong> function</p>
+<pre class="r"><code>names(a)</code></pre>
+<pre><code>## [1] &quot;name&quot;      &quot;insurance&quot; &quot;age&quot;</code></pre>
+</div>
+<div id="unlisting" class="section level2">
+<h2>Unlisting</h2>
+<p>To find the values of things we could go ahead and unlist them</p>
+<pre class="r"><code>a.un &lt;- unlist(a)
+
+a.un</code></pre>
+<pre><code>##      name insurance       age 
+##  &quot;Angela&quot;    &quot;TRUE&quot;      &quot;27&quot;</code></pre>
+<pre class="r"><code>class(a.un)</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<p>If There is Character data in the original list that unlisted everything will be in character format. If your list contained all numerical elements than the class would be numerical.</p>
+</div>
+<div id="applying-functions-to-lists" class="section level2">
+<h2>Applying Functions to Lists</h2>
+<p>Just like arrays and matrices we can use an <strong><em>apply()</em></strong> function. Specifically we have <strong><em>lapply()</em></strong> and <strong><em>sapply()</em></strong> functions for lists. With the original <strong><em>apply()</em></strong> function we could specify whether the function was applied to either the rows or the columns. With the case of lists both functions are applied to elements of the list.</p>
+<p>We will create the list <code>n</code> below:</p>
+<pre class="r"><code>#Number list
+n &lt;- list(1:5, 6:37)
+n</code></pre>
+<pre><code>## [[1]]
+## [1] 1 2 3 4 5
+## 
+## [[2]]
+##  [1]  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+## [24] 29 30 31 32 33 34 35 36 37</code></pre>
+<ul>
+<li>With this list we see that we have two separate vectors of numbers included.</li>
+<li>Then let us see the results of either using <strong><em>lapply()</em></strong> and <strong><em>sapply()</em></strong></li>
+</ul>
+<pre class="r"><code>lapply(n, median)</code></pre>
+<pre><code>## [[1]]
+## [1] 3
+## 
+## [[2]]
+## [1] 21.5</code></pre>
+<p>The <strong><em>lapply()</em></strong> function returns a list with the median of each of the original lists.</p>
+<pre class="r"><code>sapply(n, median)</code></pre>
+<pre><code>## [1]  3.0 21.5</code></pre>
+<p>While the <strong><em>sapply()</em></strong> function returns a vector of the medians.</p>
+</div>
+<div id="recursive-lists" class="section level2">
+<h2>Recursive Lists</h2>
+<p>Earlier it was mentioned that a list is a recursive vector. This is because we can actually have lists within lists. For example let us go back to our patient data.</p>
+<pre class="r"><code>s &lt;- list(name=&quot;Chandra&quot;, insurance=&quot;TRUE&quot;, age=36)
+
+patients &lt;- list(a,s)
+patients</code></pre>
+<pre><code>## [[1]]
+## [[1]]$name
+## [1] &quot;Angela&quot;
+## 
+## [[1]]$insurance
+## [1] TRUE
+## 
+## [[1]]$age
+## [1] 27
+## 
+## 
+## [[2]]
+## [[2]]$name
+## [1] &quot;Chandra&quot;
+## 
+## [[2]]$insurance
+## [1] &quot;TRUE&quot;
+## 
+## [[2]]$age
+## [1] 36</code></pre>
+</div>
+<div id="final-notes-on-lists" class="section level2">
+<h2>Final Notes on Lists</h2>
+<p>It is important to remember how we can call these features of lists. Many of you will want to use R for model building and regressions. You almost never want to use the generated output from R.</p>
+<p>For example R does not automatically return the confidence intervals with a regression. The output from most regression functions in R is actually a list. What this means is I can extract the elements from the list that I want in order to build tables that display the exact information that I want it to. This is why we take the time to discuss how to search what is in a list and how to access it.</p>
+</div>
+<div id="example-with-output-of-a-list" class="section level2">
+<h2>Example with Output of a List</h2>
+<pre class="r"><code>x &lt;- rnorm(500,10, 3)
+y &lt;- 3*x + rnorm(500, 0, 2)</code></pre>
+</div>
+<div id="example-with-output-of-a-list-1" class="section level2">
+<h2>Example with Output of a List</h2>
+<pre class="r"><code>fit &lt;- lm(y~x)
+fit</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ x)
+## 
+## Coefficients:
+## (Intercept)            x  
+##     -0.3911       3.0224</code></pre>
+</div>
+<div id="example-with-output-of-a-list-2" class="section level2">
+<h2>Example with Output of a List</h2>
+<ul>
+<li>So R just gave me the coefficients back but no other information.</li>
+<li>This means my knowledge of accessing lists is key.</li>
+</ul>
+<pre class="r"><code>names(fit)</code></pre>
+<pre><code>##  [1] &quot;coefficients&quot;  &quot;residuals&quot;     &quot;effects&quot;       &quot;rank&quot;         
+##  [5] &quot;fitted.values&quot; &quot;assign&quot;        &quot;qr&quot;            &quot;df.residual&quot;  
+##  [9] &quot;xlevels&quot;       &quot;call&quot;          &quot;terms&quot;         &quot;model&quot;</code></pre>
+</div>
+<div id="example-with-output-of-a-list-3" class="section level2">
+<h2>Example with Output of a List</h2>
+<ul>
+<li>I can see that R actually has a lot more information that they did not display for me.</li>
+<li>Next I consider a function where it summarizes the information from this model</li>
+</ul>
+</div>
+<div id="example-with-output-of-a-list-4" class="section level2">
+<h2>Example with Output of a List</h2>
+<pre class="r"><code>summary &lt;- summary(fit)
+summary</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ x)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -9.0785 -1.3921  0.0552  1.4027  6.3620 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  -0.3911     0.3169  -1.234    0.218    
+## x             3.0224     0.0305  99.082   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.072 on 498 degrees of freedom
+## Multiple R-squared:  0.9517, Adjusted R-squared:  0.9516 
+## F-statistic:  9817 on 1 and 498 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="example-with-output-of-a-list-5" class="section level2">
+<h2>Example with Output of a List</h2>
+<pre class="r"><code>names(summary)</code></pre>
+<pre><code>##  [1] &quot;call&quot;          &quot;terms&quot;         &quot;residuals&quot;     &quot;coefficients&quot; 
+##  [5] &quot;aliased&quot;       &quot;sigma&quot;         &quot;df&quot;            &quot;r.squared&quot;    
+##  [9] &quot;adj.r.squared&quot; &quot;fstatistic&quot;    &quot;cov.unscaled&quot;</code></pre>
+</div>
+<div id="conclusion-of-lists" class="section level2">
+<h2>Conclusion of Lists</h2>
+<ul>
+<li>R has so much information about regression that is never even displayed unless I dig deeper.</li>
+<li>Understanding lists and accessing information means you can output custom tables that look much more professional than what R gives you.</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
