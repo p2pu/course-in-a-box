@@ -285,8 +285,6 @@ log10(1000)</code></pre>
 
 
 
-</div>
-
 <script>
 
 // add bootstrap table styles to pandoc tables
