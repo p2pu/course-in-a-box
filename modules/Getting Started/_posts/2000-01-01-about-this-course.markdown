@@ -35,7 +35,7 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](2000-01-02-test_files/figure-markdown_strict/pressure-1.png)
+![](./img/2000-01-02-test_files/figure-markdown_strict/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
