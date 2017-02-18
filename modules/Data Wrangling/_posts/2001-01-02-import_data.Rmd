@@ -1,0 +1,187 @@
+---
+  title: Importing Data!
+---
+
+
+<div id="getting-data-into-r" class="section level1">
+<h1>Getting Data into R</h1>
+<p>Up until this point in the course we have been just working with toy data that was in the window only or that we made up. It now comes the time where we need to work on getting data into R from many different sources.</p>
+<div id="where-do-we-get-data-from" class="section level2">
+<h2>Where do we get data from?</h2>
+<p>We get data from many different sources. Some of these sources are:</p>
+<ul>
+<li>Built in Data</li>
+<li>.csv, .txt. .xls, ….</li>
+<li>SPSS, SAS, Stata</li>
+<li>Web Scraping</li>
+<li>Databases</li>
+</ul>
+<div id="getting-started-with-built-in-data" class="section level3">
+<h3>Getting Started with Built in Data</h3>
+<p>Many packages in R have built in data. They use this data in order to display what the functions they have built can do. It ends up being a great resource for us to use while we learn how to work with data.</p>
+<p>If you would like to see what data you have in R right now, run the following command:</p>
+<pre><code>data()</code></pre>
+<p>In RStudio a window will pop up and display the data as well as what packages that data is in.</p>
+<pre class="r"><code>data(package=&quot;tidyr&quot;)</code></pre>
+<p>We can also call data from a specific package. When you begin to have many packages installed in R you will want to make sure you call from specific packages.</p>
+<div class="content-box-green">
+<h1 id="on-your-own">On Your own:</h1>
+<ul>
+<li>Using the <code>install.packages()</code> function.</li>
+<li>Install the <code>datasets</code> package.</li>
+<li>Explore the different datasets in this package</li>
+</ul>
+</div>
+</div>
+<div id="getting-data-from-delimited-files" class="section level3">
+<h3>Getting Data from Delimited Files</h3>
+<p>Much of the data we download or receive from researchers is in the form of delimited files. Whether that be a comma separated (csv) or a tab delimited file, there are multiple functions that can read these data into R.</p>
+<p>We will stick to loading these data from the <code>tidyverse</code> packages but be aware these are not the only methods for doing this. We will use the <code>tidyverse</code> functions just to maintain consistency with everything else we do.</p>
+<div id="readr-in-tidyverse" class="section level4">
+<h4><code>readr</code> in Tidyverse</h4>
+<p>The first package in <code>tidyverse</code> we will use is called <code>readr</code>. This is actually a collection of multiple functions:</p>
+<ul>
+<li><code>read_csv()</code>: comma separated (CSV) files</li>
+<li><code>read_tsv()</code>: tab separated files</li>
+<li><code>read_delim()</code>: general delimited files</li>
+<li><code>read_fwf()</code>: fixed width files</li>
+<li><code>read_table()</code>: tabular files where columns are separated by white-space.</li>
+<li><code>read_log()</code>: web log files</li>
+<li><code>readxl</code> reads in Excel files.</li>
+</ul>
+<p>In order to show an example of this we will create a simple dataset. Consider below with the <code>read.table()</code> function:</p>
+<pre><code>##   subject sex size
+## 1       1   M    7
+## 2       2   F   NA
+## 3       3   F    9
+## 4       4   M   11</code></pre>
+<p>This functions able to see the text in the quotations as rows and columns of a dataset. If you have data which is separated by space, this command is a great way to load the data in.</p>
+<p>Let’s say that we wish to load a csv file into R now. We will take the <code>data</code> that we already have loaded in and create a simple csv file.</p>
+<p>We write the csv file as shown below:</p>
+<pre class="r"><code># Write to a file, suppress row names
+write.csv(data, &quot;data1.csv&quot;, row.names=FALSE)
+
+# Same, except that instead of &quot;NA&quot;, output blank cells
+write.csv(data, &quot;data2.csv&quot;, row.names=FALSE, na=&quot;&quot;)
+
+# Use tabs, suppress row names and column names
+write.table(data, &quot;data3.tab&quot;, sep=&quot;\t&quot;, row.names=FALSE, col.names=FALSE)</code></pre>
+<p>The functions all create a different file that we will read into R now. For example we can see what each of these files look like below:</p>
+<pre class="r"><code>readLines(&quot;data1.csv&quot;)</code></pre>
+<pre><code>## [1] &quot;\&quot;subject\&quot;,\&quot;sex\&quot;,\&quot;size\&quot;&quot; &quot;1,\&quot;M\&quot;,7&quot;                   
+## [3] &quot;2,\&quot;F\&quot;,NA&quot;                   &quot;3,\&quot;F\&quot;,9&quot;                   
+## [5] &quot;4,\&quot;M\&quot;,11&quot;</code></pre>
+<p>We can see that in the above file we have commas separating all of the data elements. We also have NA where the data was missing.</p>
+<pre class="r"><code>readLines(&quot;data2.csv&quot;)</code></pre>
+<pre><code>## [1] &quot;\&quot;subject\&quot;,\&quot;sex\&quot;,\&quot;size\&quot;&quot; &quot;1,\&quot;M\&quot;,7&quot;                   
+## [3] &quot;2,\&quot;F\&quot;,&quot;                     &quot;3,\&quot;F\&quot;,9&quot;                   
+## [5] &quot;4,\&quot;M\&quot;,11&quot;</code></pre>
+<p>In this one we do not have any NA, but R has treated the missing data with blank spaces.</p>
+<pre class="r"><code>readLines(&quot;data3.tab&quot;)</code></pre>
+<pre><code>## [1] &quot;1\t\&quot;M\&quot;\t7&quot;  &quot;2\t\&quot;F\&quot;\tNA&quot; &quot;3\t\&quot;F\&quot;\t9&quot;  &quot;4\t\&quot;M\&quot;\t11&quot;</code></pre>
+<p>With the third data set we do not have any commas but the <code>\t</code> represents a tabbed space.</p>
+</div>
+</div>
+</div>
+<div id="reading-the-data" class="section level2">
+<h2>Reading the Data</h2>
+<p>We can read the csv files with the <code>read.csv()</code> function:</p>
+<pre class="r"><code>data1 &lt;- read.csv(&quot;data1.csv&quot;)
+data1</code></pre>
+<pre><code>##   subject sex size
+## 1       1   M    7
+## 2       2   F   NA
+## 3       3   F    9
+## 4       4   M   11</code></pre>
+<pre class="r"><code>data2 &lt;- read.csv(&quot;data2.csv&quot;)
+data2</code></pre>
+<pre><code>##   subject sex size
+## 1       1   M    7
+## 2       2   F   NA
+## 3       3   F    9
+## 4       4   M   11</code></pre>
+<p>With the tab delimited file we use the general function of <code>read.delim()</code> function. Note that the <code>sep=&quot;\t&quot;</code> displays what separator was used.</p>
+<pre class="r"><code>data3 &lt;- read.delim(&quot;data3.tab&quot;, sep=&quot;\t&quot;, header=F)
+data3</code></pre>
+<pre><code>##   V1 V2 V3
+## 1  1  M  7
+## 2  2  F NA
+## 3  3  F  9
+## 4  4  M 11</code></pre>
+<p>We could also use <code>read.delim()</code> to read a csv file by using <code>sep=&quot;,&quot;</code>.</p>
+</div>
+<div id="importing-from-other-software" class="section level2">
+<h2>Importing From Other Software</h2>
+<p>R can read data from more than just delimited files or internal datasets. R can also read files from all other major statistical software:</p>
+<ul>
+<li>SAS</li>
+<li>Stata</li>
+<li>SPSS</li>
+</ul>
+<div id="enter-haven-package" class="section level3">
+<h3>Enter <code>Haven</code> Package</h3>
+<p><code>Haven</code> is another R package that is part of the tidyverse. It is designed to bring in data from multiple sources. We can also use this function to write data to these same courses.</p>
+<div id="for-sas" class="section level4">
+<h4>For SAS</h4>
+<p>For SAS files we can read and write them in the following manner:</p>
+<pre><code>read_sas(data_file, catalog_file = NULL, encoding = NULL)
+
+write_sas(data, path)</code></pre>
+</div>
+</div>
+</div>
+<div id="for-stata" class="section level2">
+<h2>For Stata</h2>
+<p>For Stata files, we can read and write them in the following manner:</p>
+<pre><code>read_dta(file, encoding = NULL)
+
+read_stata(file, encoding = NULL)
+
+write_dta(data, path, version = 14)</code></pre>
+</div>
+<div id="for-spss" class="section level2">
+<h2>For SPSS</h2>
+<p>For SPSS files, we can read and write them in the following manner:</p>
+<pre><code>read_sav(file, user_na = FALSE)
+
+read_por(file, user_na = FALSE)
+
+write_sav(data, path)
+
+read_spss(file, user_na = FALSE)</code></pre>
+</div>
+<div id="other-data-sources" class="section level2">
+<h2>Other Data Sources</h2>
+<ul>
+<li>We will cover other data sources in another course</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
