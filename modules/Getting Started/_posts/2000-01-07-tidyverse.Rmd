@@ -8,7 +8,7 @@
 <h1>The Tidyverse</h1>
 
 <center>
-<img src="{{site.baseurl}}/img/tidy.png" style="height:100px">
+<img src="{{site.baseurl}}/img/tidy.PNG" style="height:100px">
 </center>
 
 <p>As we move through the rest of this course we will be working with a group of packages called the <a href="tidyverse.org">Tidyverse</a>. These packages form a core set of functions that will allow you to perform most any type of data cleaning or analysis you will need to do. We will use the following from the tidyverse</p>
