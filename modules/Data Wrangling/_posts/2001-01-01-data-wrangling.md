@@ -13,12 +13,12 @@
 Now that we have an idea of how to get started in R, we are ready for the next step: ***Data Wrangling***. Wrangling in the past was associated with taking control or charge of wild livestock. We have all seen this in movies or in reality, but the concept of many wild animals all doing their own thing and a lone cow-person attempting to round them up and bring them under control. 
 
 
-{% comment %}
+
 <center>
 <img src="{{site.baseurl}}/img/wrangling.png" >
 </center>
+{% comment %}
  [Data Watch](http://www.datawatch.com/what-is-data-wrangling/)
-
 {% endcomment %}
 
 
