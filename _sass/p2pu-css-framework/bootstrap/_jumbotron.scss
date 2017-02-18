@@ -7,7 +7,7 @@
   padding: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
   color: $jumbotron-color;
-  background-color: #87CEFA;
+  background-color: ##75aadb;
 
   h1,
   .h1 {
@@ -20,7 +20,7 @@
   }
 
   > hr {
-    border-top-color: darken(#87CEFA, 10%);
+    border-top-color: darken(##75aadb, 10%);
   }
 
   .container & {
