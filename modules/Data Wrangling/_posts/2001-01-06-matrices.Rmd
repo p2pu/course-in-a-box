@@ -1,0 +1,162 @@
+---
+  title: Matrices in R!
+---
+
+<div id="matrices-in-r" class="section level1">
+<h1>Matrices in R</h1>
+<p>A <strong>Matrix</strong> is a vector that also contains information on the number of rows and number of columns. However vectors are not matrices.</p>
+<div id="creating-matrices" class="section level2">
+<h2>Creating Matrices</h2>
+<p>An important first step with matrices is to learn how to create them. One of the easiest ways to do this is with the <strong><em>matrix()</em></strong> function.</p>
+<pre class="r"><code>x &lt;- c(1,2,3,4)
+x.mat &lt;- matrix(x, nrow=2, ncol=2, byrow=TRUE)
+x.mat</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    1    2
+## [2,]    3    4</code></pre>
+<p>Note: the <code>byrow=TRUE</code> means that we will the matrix by the row, it is not the same as if we do not fill it by row:</p>
+<pre class="r"><code>x.mat2 &lt;- matrix(x, nrow=2, ncol=2, byrow=FALSE)
+x.mat2</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4</code></pre>
+<p>We can also create matrices purely by expressing the number of columns we wish to have. In larger forms of data we may not know the exact amount of rows and columns but certainly we can choose at least the number of columns.</p>
+<pre class="r"><code>y &lt;- c(1,2,3,4,5,6,7)
+y.mat &lt;- matrix(y, ncol=2)</code></pre>
+<pre><code>## Warning in matrix(y, ncol = 2): data length [7] is not a sub-multiple or
+## multiple of the number of rows [4]</code></pre>
+<pre class="r"><code>y.mat</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    1    5
+## [2,]    2    6
+## [3,]    3    7
+## [4,]    4    1</code></pre>
+</div>
+<div id="recycling" class="section level2">
+<h2>Recycling</h2>
+<p>Notice in the above example that we did not have enough elements in our vector to full fill out the matrix so we have recycled back to the first element to fill in the final cell.</p>
+</div>
+<div id="matrix-operations" class="section level2">
+<h2>Matrix Operations</h2>
+<p>R can be a great tool for working with matrices. Many operations we need to do with linear algebra can be done in R. A small selection of these follows:</p>
+<p>We can perform elementwise multiplication just like in vectors:</p>
+<pre class="r"><code>x.mat * x.mat2</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    1    6
+## [2,]    6   16</code></pre>
+<p>R does have the ability to do matrix multiplication as well</p>
+<pre class="r"><code>x.mat %*% x.mat2</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    5   11
+## [2,]   11   25</code></pre>
+<p>We can transpose matrices and extract the diagonals as well</p>
+<pre class="r"><code>t(x.mat)</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]    1    3
+## [2,]    2    4</code></pre>
+<pre class="r"><code>diag(x.mat2)</code></pre>
+<pre><code>## [1] 1 4</code></pre>
+<p>Another common matrix calculation is the inverse. Many algorithms and functions in statistics need to work with the inverse of matrices:</p>
+<pre class="r"><code>solve(x.mat)</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,] -2.0  1.0
+## [2,]  1.5 -0.5</code></pre>
+<pre class="r"><code>x.mat %*% solve(x.mat)</code></pre>
+<pre><code>##      [,1]         [,2]
+## [1,]    1 1.110223e-16
+## [2,]    0 1.000000e+00</code></pre>
+</div>
+<div id="the-apply-function" class="section level2">
+<h2>The *<strong>apply()</strong> Function</h2>
+<p>Many times we wish to use our own function over the elements of a matrix. The <strong><em>apply()</em></strong> function allows someone to use an R function or user-defined function with a matrix. This function is</p>
+<center>
+<strong><em>apply(m, dimcode, f, arguments)</em></strong>
+</center>
+<p>Where,</p>
+<ul>
+<li><strong><em>m</em></strong>: matrix you wish to use.</li>
+<li><strong><em>dimcode</em></strong>
+<ul>
+<li>1 if you want to apply function to rows</li>
+<li>2 if you want to apply to columns</li>
+</ul></li>
+<li><strong><em>f</em></strong>: function you wish to use</li>
+<li><strong><em>arguments</em></strong>: specific arguments for function being used.</li>
+</ul>
+</div>
+<div id="apply-example" class="section level2">
+<h2><code>apply()</code> Example</h2>
+<p>We begin with our matrix <strong><em>y.mat</em></strong>. We can use the apply function to get means of either the columns or the rows.</p>
+<pre class="r"><code>apply(y.mat, 1, mean)</code></pre>
+<pre><code>## [1] 3.0 4.0 5.0 2.5</code></pre>
+<pre class="r"><code>apply(y.mat,2,mean)</code></pre>
+<pre><code>## [1] 2.50 4.75</code></pre>
+</div>
+<div id="naming-rows-and-columns-of-matrices" class="section level2">
+<h2>Naming Rows and Columns of Matrices</h2>
+<p>Just like in vectors we may want to name elements in a matrix. Now we have more than on dimension so we can name both the rows and columns. Consider the following matrices where we have recorded both weight(lbs) and height(inches) of subjects at time point 1.</p>
+<pre class="r"><code>time1 &lt;- matrix( c(115, 63, 175, 69, 259, 57, 325, 70), ncol=2, byrow=TRUE)
+time1</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]  115   63
+## [2,]  175   69
+## [3,]  259   57
+## [4,]  325   70</code></pre>
+<p>We then have another measurement at time point 2.</p>
+<pre class="r"><code>time2 &lt;- matrix( c(120, 63, 175, 69, 224, 57, 350, 70), ncol=2, byrow=TRUE)
+time2</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]  120   63
+## [2,]  175   69
+## [3,]  224   57
+## [4,]  350   70</code></pre>
+<p>Without the story behind these we do not know what kind of data we have here or what is being measured. This is where it can be very important to name both the columns and the rows of data.</p>
+<pre class="r"><code>#Names for Time 1
+colnames(time1) &lt;- c(&quot;weight1&quot;, &quot;height1&quot;)
+rownames(time1) &lt;- c(&quot;Subject 1&quot;, &quot;Subject 2&quot;, &quot;Subject 3&quot;, &quot;Subject 4&quot;)
+time1</code></pre>
+<pre><code>##           weight1 height1
+## Subject 1     115      63
+## Subject 2     175      69
+## Subject 3     259      57
+## Subject 4     325      70</code></pre>
+<p>We can see that now <code>time1</code> is much more clear as to what the data contains.</p>
+<pre class="r"><code>#Names for Time 2
+colnames(time2) &lt;- c(&quot;weight2&quot;, &quot;height2&quot;)
+rownames(time2) &lt;- c(&quot;Subject 1&quot;, &quot;Subject 2&quot;, &quot;Subject 3&quot;, &quot;Subject 4&quot;)
+time2</code></pre>
+<pre><code>##           weight2 height2
+## Subject 1     120      63
+## Subject 2     175      69
+## Subject 3     224      57
+## Subject 4     350      70</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
