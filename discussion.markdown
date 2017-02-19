@@ -1,4 +1,5 @@
 ---
+layout: course_page
 published: true
 ---
 
