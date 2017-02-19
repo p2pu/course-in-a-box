@@ -10,8 +10,10 @@
 <p>We will begin our journey into statistical graphics with the package <code>ggplot2</code>. This is another package by Hadley Wickham and is part of the tidyverse. This means we can use <code>piping</code> or <code>chaining</code> to build our graphics. After going through this material, if you would like further information please check out the following books:</p>
 <ul>
 <li><a href="https://www.amazon.com/dp/1449316956/ref=cm_sw_su_dp?tag=ggplot2-20">The R Graphics Cookbook</a> by Winston Chang provides a set of recipes to solve common graphics problems. Read this book if you want to start making standard graphics with ggplot2 as quickly as possible.</li>
+<li><a href="https://www.amazon.com/dp/0387981403/ref=cm_sw_su_dp?tag=ggplot2-20">ggplot2: Elegant Graphics for Data Analysis</a> by Hadley Wickham describes the theoretical underpinnings of ggplot2 and shows you how all the pieces fit together. This book helps you understand the theory that underpins ggplot2, and will help you create new types of graphic specifically tailored to your needs.</li>
 </ul>
-<p><a href="https://www.amazon.com/dp/0387981403/ref=cm_sw_su_dp?tag=ggplot2-20">ggplot2: Elegant Graphics for Data Analysis</a> by Hadley Wickham describes the theoretical underpinnings of ggplot2 and shows you how all the pieces fit together. This book helps you understand the theory that underpins ggplot2, and will help you create new types of graphic specifically tailored to your needs.</p>
+
+
 <div id="what-cant-ggplot2-do" class="section level2">
 <h2>What can’t <code>ggplot2</code> do?</h2>
 <p>A good place to start might be with what <code>ggplot2</code> cannot do. From here we will introduce what it can do.</p>
