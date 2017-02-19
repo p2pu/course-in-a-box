@@ -1,5 +1,4 @@
 ---
-layout: base
 published: true
 ---
 
