@@ -1,5 +1,5 @@
 title: R Basics
 description: Introduction to R and RStudio
-modules: [Getting Started, Data Wrangling]
+modules: [Getting Started, Getting Data, Tidy Data, Graphics, Data Modeling, Publishing]
 signups:
  
