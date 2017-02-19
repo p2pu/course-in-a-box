@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: base
 published: true
 ---
 
