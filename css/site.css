@@ -16,3 +16,86 @@
     padding: 15px 20px;
     margin: 20px 0;
 }
+
+
+
+.quiz-single, .quiz-multiple, .quiz-text {
+  background-color: #F0F0F0;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+
+
+/* EDITED */
+li.quiz-option {
+  list-style-type: none;
+}
+
+
+.quiz-option label {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+input[type="text"].quiz-correct, textarea.quiz-correct {
+  border: 1px solid #50b378;
+  /* color: white; */
+}
+
+input[type="text"].quiz-wrong, textarea.quiz-wrong {
+  border: 1px solid #EB4237;
+  /* color: white; */
+}
+
+.quiz-correct label {
+  background-color: #50b378;
+  color: white;
+}
+
+.quiz-wrong label {
+  background-color: #EB4237;
+  color: white;
+}
+
+.quiz-option label{
+  display: inline;
+  font-size: 1em;
+}
+
+/* CSS for adding correct/incorrect marks to Quiz Options */
+/* Move to Quiz widget after confirming design choice */
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
+li.quiz-wrong:after {
+  content: url(../img/incorrect-icon.png);
+}
+
+.quiz-wrong label {
+  background-color: transparent;
+  color: inherit;
+}
+
+li.quiz-correct:after{
+  content: url(../img/correct-icon.png);
+}
+
+.quiz-correct label {
+  background-color: transparent;
+  color: inherit;
+}
+
+input.quiz-correct + span.status:after {
+  content: url(../img/correct-icon.png);
+}
+
+input.quiz-wrong + span.status:after {
+  content: url(../img/incorrect-icon.png);
+}
