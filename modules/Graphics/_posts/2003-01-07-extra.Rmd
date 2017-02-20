@@ -25,73 +25,30 @@ title: Extra Graphs!
 
 </div>
 
-<hgroup>
-    <h2>Submit and Compare</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<p>What is the sample space for this experiment?</p>
+<h2>Bottom Modal</h2>
 
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
 
-<textarea rows="" style="width:95%" class='submitCompare'
-  placeholder='Type your answer (at least 140 characters)'>
-</textarea>
-<a class='btn btn-success submitCompare'>
-  Submit and Compare
-</a>
-<a class='btn btn-danger clearSubmitCompare'>Clear</a>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-<div class='explanation' style='display: none;'>
-  <p>The sample space for this experiment is</p>
-
-<p>{HH, HT, TH, HH}</p>
-
-</div>
-
-
-
-
-
- <hgroup>
-    <h2>Multi Text</h2>
-  </hgroup>
-  <article data-timings="">
-    
-<div class="quiz-text quiz-multitext well">
-  <p>The length of human pregnancies from conception to birth varies according to a distribution that is approximately Normal with mean 266 days and standard deviation 16 days.</p>
-
-<ol>
-<li>What percent of pregnancies last fewer than 240 days?</li>
-<li>What percent of pregnancies last between 240 and 270 days?</li>
-<li>How long do the longest 25% pregnancies last?</li>
-</ol>
-
-  <button class="quiz-submit btn btn-primary">Submit</button>
-  <button class="quiz-toggle-hint btn btn-info">Show Hint</button>
-  <button class="quiz-show-answer btn btn-success">Show Answer</button>
-  <button class="quiz-clear btn btn-danger">Clear</button>
-  
-  <div class="quiz-explanation">
-  <ol>
-<li><span class='answer'>5.2081279</span></li>
-<li><span class='answer'>54.6625046</span></li>
-<li><span class='answer'>276.791836</span></li>
-</ol>
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
 
 </div>
-<div class="quiz-hint">
-  <p>This is a hint</p>
-
-</div>
-</div>
-
-
- <script src="/js/jquery.quiz.js"></script>
-<script src="/js/mustache.min.js"></script>
-<script src="/js/quiz-app.js"></script>
-
-
-
 <script>
 
 // add bootstrap table styles to pandoc tables
