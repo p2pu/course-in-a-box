@@ -48,6 +48,44 @@ title: Extra Graphs!
 
 </div>
 
+
+
+
+
+ <hgroup>
+    <h2>Multi Text</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div class="quiz-text quiz-multitext well">
+  <p>The length of human pregnancies from conception to birth varies according to a distribution that is approximately Normal with mean 266 days and standard deviation 16 days.</p>
+
+<ol>
+<li>What percent of pregnancies last fewer than 240 days?</li>
+<li>What percent of pregnancies last between 240 and 270 days?</li>
+<li>How long do the longest 25% pregnancies last?</li>
+</ol>
+
+  <button class="quiz-submit btn btn-primary">Submit</button>
+  <button class="quiz-toggle-hint btn btn-info">Show Hint</button>
+  <button class="quiz-show-answer btn btn-success">Show Answer</button>
+  <button class="quiz-clear btn btn-danger">Clear</button>
+  
+  <div class="quiz-explanation">
+  <ol>
+<li><span class='answer'>5.2081279</span></li>
+<li><span class='answer'>54.6625046</span></li>
+<li><span class='answer'>276.791836</span></li>
+</ol>
+
+</div>
+<div class="quiz-hint">
+  <p>This is a hint</p>
+
+</div>
+</div>
+
+
  <script src="http://www.statseducation.com/js/jquery.quiz.js"></script>
 <script src="http://www.statseducation.com/js/mustache.min.js"></script>
 <script src="http://www.statseducation.com/js/quiz-app.js"></script>
