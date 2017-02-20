@@ -1,0 +1,65 @@
+---
+title: "What is Tidy Data?"
+---
+
+
+# What is Tidy Data?
+
+
+There are many ways in which we can organize data. Some of these ways can make for easy data analysis. Others lead to a lot of frustration. This is where tidy data comes in. Tidy data is a concept from  Hadley Wickham's 2014 paper [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf). 
+
+In the framework of tidy data every row is an observation, every column represents variables and every entry into the cells of the data frame are values. [R for Data Science](http://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure) sums this up with the following graphic:
+
+<center>
+<img src="{{site.baseurl}}/img/tidy-1.png" style="height:175px">
+</center>
+
+
+In order to work with data in this way all of these feature line up for us. Consider the following datasets:
+
+
+```
+#table1
+# A tibble: 6 × 4
+      country  year  cases population
+       <fctr> <int>  <int>      <int>
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3      Brazil  1999  37737  172006362
+4      Brazil  2000  80488  174504898
+5       China  1999 212258 1272915272
+6       China  2000 213766 1280428583
+```
+
+```
+#table2
+# A tibble: 12 × 4
+       country  year        key      value
+        <fctr> <int>     <fctr>      <int>
+1  Afghanistan  1999      cases        745
+2  Afghanistan  1999 population   19987071
+3  Afghanistan  2000      cases       2666
+4  Afghanistan  2000 population   20595360
+5       Brazil  1999      cases      37737
+6       Brazil  1999 population  172006362
+7       Brazil  2000      cases      80488
+8       Brazil  2000 population  174504898
+9        China  1999      cases     212258
+10       China  1999 population 1272915272
+11       China  2000      cases     213766
+12       China  2000 population 1280428583
+```
+```
+#table3
+# A tibble: 6 × 3
+      country  year              rate
+       <fctr> <int>             <chr>
+1 Afghanistan  1999      745/19987071
+2 Afghanistan  2000     2666/20595360
+3      Brazil  1999   37737/172006362
+4      Brazil  2000   80488/174504898
+5       China  1999 212258/1272915272
+6       China  2000 213766/1280428583
+```
+
+From these above tables we can see that only Table 1 is actually tidy data. We will consider how we can create tidy data from the other 2 as well as some other examples as we move through this unit. 
