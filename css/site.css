@@ -4,8 +4,15 @@
 
 .content-box-green {
     background-color: #ebf5e9;
-    border: 1px solid #bce3b5;
+    border: 2px solid #24a50d;
     padding: 15px 20px;
     margin: 20px 0;
 }
 
+
+.content-box-blue {
+    background-color: #e1ecf4;
+    border: 2px solid #0c63a5;
+    padding: 15px 20px;
+    margin: 20px 0;
+}

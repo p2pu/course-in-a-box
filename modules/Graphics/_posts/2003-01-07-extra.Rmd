@@ -25,6 +25,11 @@ title: Extra Graphs!
 
 </div>
 
+
+
+<iframe src="http://slidify.github.io/iquiz/#3"</iframe>
+
+
 <script>
 
 // add bootstrap table styles to pandoc tables
