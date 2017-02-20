@@ -52,7 +52,34 @@ title: "What is Tidy Data?"
 </div>
 
 
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
 
+<div data-datacamp-exercise data-lang="r">
+  <code data-type="pre-exercise-code">
+    # This will get executed each time the exercise gets initialized
+    b = 6
+    </code>
+      <code data-type="sample-code">
+        # Create a variable a, equal to 5
+        
+        
+        # Square a
+        
+        </code>
+        <code data-type="solution">
+          # Create a variable a, equal to 5
+          a <- 5
+          
+          # Square a
+          a^2
+          </code>
+            <code data-type="sct">
+            test_object("a")
+          test_output_contains("25", incorrect_msg = "Make sure to print `a`")        
+          success_msg("Great!")
+          </code>
+            <div data-type="hint">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>
+            </div>
 
 </div>
 
