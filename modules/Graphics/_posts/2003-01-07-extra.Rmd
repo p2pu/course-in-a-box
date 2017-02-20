@@ -48,9 +48,9 @@ title: Extra Graphs!
 
 </div>
 
- <script src="../js/jquery.quiz.js"></script>
-<script src="../js/mustache.min.js"></script>
-<script src="../js/quiz-app.js"></script>
+ <script src="http://www.statseducation.com/js/jquery.quiz.js"></script>
+<script src="http://www.statseducation.com/js/mustache.min.js"></script>
+<script src="http://www.statseducation.com/js/quiz-app.js"></script>
 
 
 
