@@ -4,9 +4,6 @@ title: "Constructing Graphs"
 
 
 
-<h1 class="title toc-ignore">Constructing Plots</h1>
-
-</div>
 
 
 <div id="constructing-plots" class="section level1">
