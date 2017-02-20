@@ -25,9 +25,33 @@ title: Extra Graphs!
 
 </div>
 
+<hgroup>
+    <h2>Submit and Compare</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<p>What is the sample space for this experiment?</p>
 
 
-<iframe src="http://slidify.github.io/iquiz/#3" width=100% height=500px></iframe>
+<textarea rows="" style="width:95%" class='submitCompare'
+  placeholder='Type your answer (at least 140 characters)'>
+</textarea>
+<a class='btn btn-success submitCompare'>
+  Submit and Compare
+</a>
+<a class='btn btn-danger clearSubmitCompare'>Clear</a>
+
+<div class='explanation' style='display: none;'>
+  <p>The sample space for this experiment is</p>
+
+<p>{HH, HT, TH, HH}</p>
+
+</div>
+
+ <script src="../js/jquery.quiz.js"></script>
+<script src="../js/mustache.min.js"></script>
+<script src="../js/quiz-app.js"></script>
+
 
 
 <script>
