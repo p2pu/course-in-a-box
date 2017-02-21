@@ -1,6 +1,6 @@
 title: R Basics
 description: Introduction to R and RStudio
-modules: [Getting Started, Getting Data, Tidy Data, Graphics, Data Modeling, Publishing]
+modules: [About Course, Getting Started, Getting Data, Tidy Data, Graphics, Data Modeling, Publishing]
 signups:
 js: [js/jquery.quiz.js, js/mustache.min.js, js/quiz-app.js]
  
