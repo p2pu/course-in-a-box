@@ -4,14 +4,15 @@ title: "Under Construction"
 
 
 <center>
-<img src="{{site.baseurl}}/img/under-construction.png" style="height:175px">
+<img src="/img/under-construction.png" style="height:175px">
 </center>
 
 
 <center>
-This Material Is Currently Being Created
-========================================
 
-Please Check Back Soon
-=======================
+<h1>This Material Is Currently Being Created</h1>
+
+<h1>Please Check Back Soon</h1>
+
+
 </center>
