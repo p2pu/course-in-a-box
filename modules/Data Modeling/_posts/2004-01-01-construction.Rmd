@@ -4,7 +4,7 @@ title: "Under Construction"
 
 
 <center>
-<img src="/img/under-construction.jpg" style="height:175px">
+<img src="{{site.baseurl}}/img/under-construction.jpg" >
 </center>
 
 
