@@ -8,7 +8,7 @@ Now that you know the basics of HTML it is time to write an HTML document and ge
 ## 1: Create an HTML document
 In your `/341-work` directory, create a new child directory labeled `/week-03-hw`.
 
-Within that directory create a new html document labeled `index.html`.
+Within that directory create a new html document labeled `index.html`. (NOTE: The `tree` command is used in the below images as an example. macOS users would need to install a separate script via homebrew to use this command. In other words, you are not expected to use tree. It is simply for demonstration purposes. All other commands however will work and should be used.)
 ![Showing the creation of index.html in the terminal.app](../imgs/addIndexHTML.png "Showing the creation of index.html in the terminal.app (macOS)")
 ![Showing the creation of index.html in the poweshell](../imgs/addIndexHTML_PC.png "Showing the creation of index.html in the PowerShell (windows)")
 
