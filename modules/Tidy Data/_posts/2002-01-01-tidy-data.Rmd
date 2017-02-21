@@ -49,6 +49,9 @@ title: "What is Tidy Data?"
 5       China  1999 212258/1272915272
 6       China  2000 213766/1280428583</code></pre>
 <p>From these above tables we can see that only Table 1 is actually tidy data. We will consider how we can create tidy data from the other 2 as well as some other examples as we move through this unit.</p>
+
+
+<p>To start out with getting the Data Set ready we will use the package `tidyr` and then to start transforming and working with the data to model and graph it, we will use the `dplyr` packages, both of `tidyverse`. </p>
 </div>
 
 

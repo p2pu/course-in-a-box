@@ -1,0 +1,109 @@
+---
+title: "Piping or Chaining"
+author: "Adam J Sullivan"
+date: "February 21, 2017"
+output: html_document
+---
+
+
+<div id="piping-or-chaining" class="section level1">
+<h1>Piping or Chaining</h1>
+<p>We will discuss a concept that will help us greatly when it comes to working with our data. The usual way to perform multiple operations in one line is by nesting.</p>
+<p>To consider an example we will look at the data provided in the gapminder package:</p>
+<pre class="r"><code>library(gapminder)
+head(gapminder)</code></pre>
+<pre><code>## # A tibble: 6 × 6
+##       country continent  year lifeExp      pop gdpPercap
+##        &lt;fctr&gt;    &lt;fctr&gt; &lt;int&gt;   &lt;dbl&gt;    &lt;int&gt;     &lt;dbl&gt;
+## 1 Afghanistan      Asia  1952  28.801  8425333  779.4453
+## 2 Afghanistan      Asia  1957  30.332  9240934  820.8530
+## 3 Afghanistan      Asia  1962  31.997 10267083  853.1007
+## 4 Afghanistan      Asia  1967  34.020 11537966  836.1971
+## 5 Afghanistan      Asia  1972  36.088 13079460  739.9811
+## 6 Afghanistan      Asia  1977  38.438 14880372  786.1134</code></pre>
+<p>Let’s say that we want to have the GDP per capita and life expectancy Kenya. Traditionally speaking we could do this in a nested manner:</p>
+<pre class="r"><code>filter(select(gapminder, country, lifeExp, gdpPercap), country==&quot;Kenya&quot;)</code></pre>
+<p>It is not easy to see exactly what this code was doing but we can write this in a manner that follows our logic much better. The code below represents how to do this with chaining.</p>
+<pre class="r"><code>gapminder %&gt;%
+    select(country, lifeExp, gdpPercap) %&gt;%
+    filter(country==&quot;Kenya&quot;)</code></pre>
+<p>We now have something that is much clearer to read. Here is what our chaining command says:</p>
+<ol style="list-style-type: decimal">
+<li>Take the <code>gapminder</code> data</li>
+<li>Select the variables: <code>country</code>, <code>lifeExp</code> and <code>gdpPercap</code>.</li>
+<li>Only keep information from Kenya.</li>
+</ol>
+<p>The nested code says the same thing but it is hard to see what is going on if you have not been coding for very long. The result of this search is below:</p>
+<pre><code>## # A tibble: 12 × 3
+##    country lifeExp gdpPercap
+##     &lt;fctr&gt;   &lt;dbl&gt;     &lt;dbl&gt;
+## 1    Kenya  42.270  853.5409
+## 2    Kenya  44.686  944.4383
+## 3    Kenya  47.949  896.9664
+## 4    Kenya  50.654 1056.7365
+## 5    Kenya  53.559 1222.3600
+## 6    Kenya  56.155 1267.6132
+## 7    Kenya  58.766 1348.2258
+## 8    Kenya  59.339 1361.9369
+## 9    Kenya  59.285 1341.9217
+## 10   Kenya  54.407 1360.4850
+## 11   Kenya  50.992 1287.5147
+## 12   Kenya  54.110 1463.2493</code></pre>
+<div id="what-is" class="section level2">
+<h2>What is <code>%&gt;%</code></h2>
+<p>In the previous code we saw that we used <code>%&gt;%</code> in the command you can think of this as saying <strong><em>then</em></strong>. For example:</p>
+<pre class="r"><code>gapminder %&gt;%
+    select(country, lifeExp, gdpPercap) %&gt;%
+    filter(country==&quot;Kenya&quot;)</code></pre>
+<p>This translates to:</p>
+<p>Take Gapminder <strong><em>then</em></strong> select these columns select(country, lifeExp, gdpPercap) <strong><em>then</em></strong> filter out so we only keep Kenya</p>
+</div>
+<div id="why-chain" class="section level2">
+<h2>Why Chain?</h2>
+<p>We still might ask why we would want to do this. Chaining increases readability significantly when there are many commands. With many pacakges we can replace the need to perform nested arguments. The chaining operator is automatically imported from the <a href="https://github.com/smbache/magrittr">magrittr</a> package.</p>
+</div>
+<div id="user-defined-function" class="section level2">
+<h2>User Defined Function</h2>
+<p>Let’s say that we wish to find the Euclidean distance between two vectors say, <code>x1</code> and <code>x2</code>. We could use the math formula:</p>
+<p><span class="math display">\[\sqrt{sum(x1-x2)^2}\]</span></p>
+<p>In the nested manner this would be:</p>
+<pre class="r"><code>x1 &lt;- 1:5; x2 &lt;- 2:6
+sqrt(sum((x1-x2)^2))</code></pre>
+<p>However, if we chain this we can see how we would perform this mathematically.</p>
+<pre class="r"><code># chaining method
+(x1-x2)^2 %&gt;% sum() %&gt;% sqrt()</code></pre>
+<p>If we did it by hand we would perform elementwise subtraction of <code>x2</code> from <code>x1</code> <strong><em>then</em></strong> we would sum those elementwise values <strong><em>then</em></strong> we would take the square root of the sum.</p>
+<pre class="r"><code># chaining method
+(x1-x2)^2 %&gt;% sum() %&gt;% sqrt()</code></pre>
+<pre><code>## [1] 2.236068</code></pre>
+<p>Many of us have been performing calculations by this type of method for years, so that chaining really is more natural for us.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
