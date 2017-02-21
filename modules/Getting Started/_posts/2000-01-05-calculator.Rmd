@@ -135,49 +135,6 @@ log10(1000)</code></pre>
 <pre><code>## [1]  1  2  3 10 11 12</code></pre>
 <p>We will look at indexing with much further detail as we move through this course.</p>
 </div>
-<div class="content-box-blue">
-<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
-<h1> Quick Check Practice</h1>        
-
-<div data-datacamp-exercise data-lang="r">
-  <code data-type="pre-exercise-code">
-    b <- NA
-    </code>
-      <code data-type="sample-code">
-        # Create a variable b, equal to 4
-        
-        
-        
-        # What is the log of b?
-        
-        
-        # what is the exponential of the log of b?
-        
-        </code>
-        <code data-type="solution">
-          # Create a variable b, equal to 4
-          b = 4
-          
-          
-          # What is the log of b?
-          log(b)
-          
-          # what is the exponential of the log of b?
-          
-          exp(log(b))
-          </code>
-            <code data-type="sct">
-            test_object("b")
-          test_function("log", args = "x") 
-          test_function("exp", args="x")
-          test_output_contains("1.386", incorrect_msg = "Did you take the logarithm of b?")
-          test_output_contains("4", incorrect_msg = "Did you take theexponential of the logarithm of b?")
-          test_error()
-          success_msg("Great job!")
-          </code>
-            <div data-type="hint">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>
-
-
 
 </div>
 
@@ -285,26 +242,50 @@ log10(1000)</code></pre>
 </div>
 
 
+<div class="content-box-blue">
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+<h1> Quick Check Practice</h1>        
+
+<div data-datacamp-exercise data-lang="r">
+  <code data-type="pre-exercise-code">
+    b <- NA
+    </code>
+      <code data-type="sample-code">
+        # Create a variable b, equal to 4
+        
+        
+        
+        # What is the log of b?
+        
+        
+        # what is the exponential of the log of b?
+        
+        </code>
+        <code data-type="solution">
+          # Create a variable b, equal to 4
+          b = 4
+          
+          
+          # What is the log of b?
+          log(b)
+          
+          # what is the exponential of the log of b?
+          
+          exp(log(b))
+          </code>
+            <code data-type="sct">
+            test_object("b")
+          test_function("log", args = "x") 
+          test_function("exp", args="x")
+          test_output_contains("1.386", incorrect_msg = "Did you take the logarithm of b?")
+          test_output_contains("4", incorrect_msg = "Did you take theexponential of the logarithm of b?")
+          test_error()
+          success_msg("Great job!")
+          </code>
+            <div data-type="hint">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>
 
 
-<div id="your-own-practice" class="section level1">
-<h1>Your own Practice</h1>
-<p>In order to learn R you must do R. Follow the steps below in your RStudio console:</p>
-<ol style="list-style-type: decimal">
-<li>Install the <code>swirl</code> package: <code>install.packages(&quot;swirl&quot;)</code></li>
-<li>Now install a <code>swirl</code> course: <code>library(swirl)   install_course(&quot;R Programming&quot;)</code></li>
-</ol>
-<p>Swirl is a tool that will walk you through a series of problems in R. As we move through this course we will install more courses. To run the current course enter this command:</p>
-<ol start="3" style="list-style-type: decimal">
-<li>Run this command to pick the course:</li>
-</ol>
-<pre><code>swirl()</code></pre>
-<p>You will be promted to choose a course. Type whatever number is in front of <strong>R Programming</strong>. This will then take you to a menu of lessons. For now we will just use lesson 1. Type 1 to choose <strong>Basic Building Blocks</strong> then follow all the instructions until you are finished.</p>
-<p>Once you are finished continue on to the next lesson.</p>
-</div>
-
-
-
+     
 
 <script>
 
