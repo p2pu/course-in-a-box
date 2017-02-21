@@ -32,6 +32,6 @@ This course is designed to cover the very basics of using and working with R. It
 The course will be a self-paced walkthrough of using R in Statistics. Currently all of the materials are in a reading format. Each of these will have an accompying video in time!
 			
 ## I'm in--how do I get started?
-Head over [HERE]({{site.baseurl}}/modules/getting%20started/about-this-course/) to start this course!
+Head over to [About Course]({{site.baseurl}}/modules/about%20course/about/) to get started!
 
 
