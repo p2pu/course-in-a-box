@@ -119,6 +119,79 @@ male.freq</code></pre>
 <pre><code>## [1] 1731</code></pre>
 </div>
 </div>
+
+
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>   
+
+
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+  
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+set.seed(1234)
+example = data.frame(c1=runif(50), c2=rnorm(50), c3=runif(50))
+      </code>
+        <code data-type="sample-code">
+# 1.  How many observations are there in example? 
+
+
+
+# 2. How many variables are there in example? 
+
+
+
+# 3. What are the names of the variables in example?
+
+
+
+# 4.  Create a dataframe with only observations where c1 > 0.2? Name this c1_gr_02.
+
+
+
+# 5.  Create a dataframe with only observations where c1 > 0.2 and c2 > 0.2? Name this c1_c2_gr_02.
+ 
+          </code>
+          <code data-type="solution">
+# 1.  How many observations are there in example? 
+
+dim(example)[1]
+
+# 2. How many variables are there in example? 
+
+dim(example)[2]
+
+# 3. What are the names of the variables in example?
+
+names(example)
+
+# 4.  Create a dataframe with only observations where c1 > 0.2? Name this c1_gr_02.
+
+c1_gr_02 <- example[example$c1>0.2,]
+
+# 5.  Create a dataframe with only observations where c1 > 0.2 and c2 > 0.2? Name this c1_c2_gr_02.
+
+c1_c2_gr_02 <- example[example$c1>0.2 & example$c2>0.2,]
+
+
+         </code>
+              <code data-type="sct">
+test_error()
+test_function("dim")
+test_function("dim")
+test_function("names")
+test_object("c1_gr_02", incorrect_msg = "Did you remember to name the new dataframe?")
+test_object("c1_c2_gr_02",  incorrect_msg = "Did you remember to name the new dataframe?")
+success_msg("Great Job")     </code>
+              <div data-type="hint">Use your knowledge of dataframes to answer these questions.</div>
+              </div>
+              
+              </div
+
+
+
 <div id="adding-new-variables" class="section level2">
 <h2>Adding New Variables</h2>
 <p>Suppose we not only want to know the frequency of survival but the proportion. We can ask R to calculate this and add it to our data.</p>
