@@ -2,3 +2,196 @@
 title: summarise
 ---
 
+
+
+<div id="summarizing-data" class="section level1">
+<h1>Summarizing Data</h1>
+<p>As you have seen in your own work, being able to summarize information is crucial. We need to be able to take out data and summarize it as well. We will consider doing this using the <code>summarise()</code> function.</p>
+<p>Like in the rest of these lessons, let’s consider what happens when we try to to do this in base R. We will:</p>
+<ol style="list-style-type: decimal">
+<li>Create a table grouped by <code>dest</code>.</li>
+<li>Summarize each group by taking mean of <code>arr_delay</code>.</li>
+</ol>
+<pre class="r"><code>head(with(flights, tapply(arr_delay, dest, mean, na.rm=TRUE)))
+head(aggregate(arr_delay ~ dest, flights, mean))</code></pre>
+<p>I am going to default to not explaining the logic and exactly what R is doing with Base R but let’s consider this with the <code>summarise()</code> function.</p>
+<div id="enter-summarise-function" class="section level2">
+<h2>Enter <code>summarise()</code> Function</h2>
+<p>The <code>summarise()</code> function is:</p>
+<pre><code>summarise(.data, ...)</code></pre>
+<p>where</p>
+<ul>
+<li><code>.data</code> is the tibble of interest.</li>
+<li><code>...</code> is a list of name paired summary functions</li>
+<li>Such as:
+<ul>
+<li><code>mean()</code></li>
+<li><code>median</code></li>
+<li><code>var()</code></li>
+<li><code>sd()</code></li>
+<li><code>min()</code></li>
+<li>`max()</li>
+<li>…</li>
+</ul></li>
+</ul>
+<p><em>Note: <code>summarise()</code> is Primarily useful with data that has been grouped by one or more variables</em>.</p>
+<p>Our example:</p>
+<pre><code>flights %&gt;%
+    group_by(dest) %&gt;%
+    summarise(avg_delay = mean(arr_delay, na.rm=TRUE))</code></pre>
+<p>Consider the logic here:</p>
+<ol style="list-style-type: decimal">
+<li>Group flights by destination</li>
+<li>Find the average delay of the groups and call it <code>avg_delay</code>.</li>
+</ol>
+<p>This is much easier to understand than the Base R code.</p>
+<pre><code>## # A tibble: 105 × 2
+##     dest avg_delay
+##    &lt;chr&gt;     &lt;dbl&gt;
+## 1    ABQ  4.381890
+## 2    ACK  4.852273
+## 3    ALB 14.397129
+## 4    ANC -2.500000
+## 5    ATL 11.300113
+## 6    AUS  6.019909
+## 7    AVL  8.003831
+## 8    BDL  7.048544
+## 9    BGR  8.027933
+## 10   BHM 16.877323
+## # ... with 95 more rows</code></pre>
+</div>
+<div id="another-example" class="section level2">
+<h2>Another Example</h2>
+<p>Lets say that we would like to have more than just the averages but we wish to have the minimum and the maximum departure delays by carrier:</p>
+<pre class="r"><code>flights %&gt;%
+    group_by(carrier) %&gt;%
+    summarise_each(funs(min(., na.rm=TRUE), max(., na.rm=TRUE)), matches(&quot;delay&quot;))</code></pre>
+<pre><code>## # A tibble: 16 × 5
+##    carrier dep_delay_min arr_delay_min dep_delay_max arr_delay_max
+##      &lt;chr&gt;         &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;
+## 1       9E           -24           -68           747           744
+## 2       AA           -24           -75          1014          1007
+## 3       AS           -21           -74           225           198
+## 4       B6           -43           -71           502           497
+## 5       DL           -33           -71           960           931
+## 6       EV           -32           -62           548           577
+## 7       F9           -27           -47           853           834
+## 8       FL           -22           -44           602           572
+## 9       HA           -16           -70          1301          1272
+## 10      MQ           -26           -53          1137          1127
+## 11      OO           -14           -26           154           157
+## 12      UA           -20           -75           483           455
+## 13      US           -19           -70           500           492
+## 14      VX           -20           -86           653           676
+## 15      WN           -13           -58           471           453
+## 16      YV           -16           -46           387           381</code></pre>
+<div class="content-box-green">
+<h1>
+On Your Own: RStudio Practice
+</h1>
+<p>The following is a new function:</p>
+<ul>
+<li>Helper function <code>n()</code> counts the number of rows in a group</li>
+</ul>
+<p>Then for each day:</p>
+<ul>
+<li>count total flights</li>
+<li>Sort in descending order.</li>
+</ul>
+<p>Your answer should look like:</p>
+<pre><code>## Source: local data frame [365 x 3]
+## Groups: month [12]
+## 
+##    month   day flight_count
+##    &lt;int&gt; &lt;int&gt;        &lt;int&gt;
+## 1     11    27         1014
+## 2      7    11         1006
+## 3      7     8         1004
+## 4      7    10         1004
+## 5     12     2         1004
+## 6      7    18         1003
+## 7      7    25         1003
+## 8      7    12         1002
+## 9      7     9         1001
+## 10     7    17         1001
+## # ... with 355 more rows</code></pre>
+</div>
+<p>We could also have used what is called the <code>tally()</code> function:</p>
+<pre class="r"><code>flights %&gt;%
+    group_by(month, day) %&gt;%
+    tally(sort = TRUE)</code></pre>
+<pre><code>## Source: local data frame [365 x 3]
+## Groups: month [12]
+## 
+##    month   day     n
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;
+## 1     11    27  1014
+## 2      7    11  1006
+## 3      7     8  1004
+## 4      7    10  1004
+## 5     12     2  1004
+## 6      7    18  1003
+## 7      7    25  1003
+## 8      7    12  1002
+## 9      7     9  1001
+## 10     7    17  1001
+## # ... with 355 more rows</code></pre>
+<div class="content-box-green">
+<h1>
+On Your Own: RStudio Practice
+</h1>
+<p>The following is a new function:</p>
+<ul>
+<li>Helper function <code>n_distinct(vector)</code> counts the number of unique items in that vector</li>
+</ul>
+<p>Then for each destination</p>
+<ul>
+<li>count the total number of flights</li>
+<li>the number of distinct planes that flew there</li>
+</ul>
+<p>Your answer will look like:</p>
+<pre><code>## # A tibble: 105 × 3
+##     dest flight_count plane_count
+##    &lt;chr&gt;        &lt;int&gt;       &lt;int&gt;
+## 1    ABQ          254         108
+## 2    ACK          265          58
+## 3    ALB          439         172
+## 4    ANC            8           6
+## 5    ATL        17215        1180
+## 6    AUS         2439         993
+## 7    AVL          275         159
+## 8    BDL          443         186
+## 9    BGR          375          46
+## 10   BHM          297          45
+## # ... with 95 more rows</code></pre>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
