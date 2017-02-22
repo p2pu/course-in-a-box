@@ -340,6 +340,10 @@ success_msg("Great Job")         </code>
 
 </div>
 
+
+
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+
 <script>
 
 // add bootstrap table styles to pandoc tables
