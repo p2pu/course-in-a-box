@@ -118,12 +118,6 @@ male.freq</code></pre>
 <pre><code>## [1] 1731</code></pre>
 </div>
 </div>
-
-
-
-
-
-
 <div id="adding-new-variables" class="section level2">
 <h2>Adding New Variables</h2>
 <p>Suppose we not only want to know the frequency of survival but the proportion. We can ask R to calculate this and add it to our data.</p>
@@ -148,8 +142,6 @@ head(titanic,4)</code></pre>
 
 
 
-
-</div>
 
 </div>
 
