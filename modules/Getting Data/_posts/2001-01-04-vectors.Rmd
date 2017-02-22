@@ -64,6 +64,11 @@
 <pre><code>## [1] FALSE</code></pre>
 <p>However, not all values of <code>x</code> are larger than 3.</p>
 </div>
+
+
+
+
+
 <div id="other-functions-for-vectors" class="section level2">
 <h2>Other Functions for Vectors</h2>
 <p>There area various other functions that can be run on vectors, some of these you may seen before:</p>
@@ -82,6 +87,61 @@
 <pre class="r"><code> which(x&gt;3)</code></pre>
 <pre><code>## [1] 2 4</code></pre>
 </div>
+
+
+
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>    
+
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+      #You will find out more about the runif command in a few weeks.
+      set.seed(1234)
+      x = runif(5000, 1, 8)
+      </code>
+        <code data-type="sample-code">
+# Do Not Print X as it is a long vector
+# 1. What is the length of x?
+
+# 2. How many values in your vector x are below 2?
+
+
+# 3. How many values in your vector x are above 7?
+
+
+# 4. How many values in your vector x are below 3 or above 8?          
+          </code>
+          <code data-type="solution">
+# Do Not Print X as it is a long vector
+# 1. What is the length of x?
+length(x)
+
+# 2. How many values in your vector x are below 2?
+length(which(x<2))
+
+# 3. How many values in your vector x are above 7?
+length(which(x>7))
+
+# 4. How many values in your vector x are below 3 or above 8?
+length(which(x<3 | x>8))          </code>
+              <code data-type="sct">
+test_error()
+test_output_contains("5000")
+test_function("which", args="x")
+test_output_contains("696")
+test_function("which", args="x")
+test_output_contains("729")
+test_function("which", args="x")
+test_output_contains("1411")
+success_msg("Great Job")           </code>
+              <div data-type="hint">Use your knowledge of indexing and functions that return Booleans.</div>
+              </div>
+              </div
+
+
+
 <div id="indexing-vectors" class="section level2">
 <h2>Indexing Vectors</h2>
 <p>We can call specific elements of a vector by using the following:</p>
@@ -120,6 +180,63 @@
 <pre class="r"><code> x[x &gt; 3]</code></pre>
 <pre><code>## [1] 5 6</code></pre>
 </div>
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>   
+
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+  
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+      #You will find out more about the runif command in a few weeks.
+      set.seed(1234)
+      x = runif(5000, 1, 8)
+      </code>
+        <code data-type="sample-code">
+# Do Not Print X as it is a long vector
+# 1. How many times does the value 2 occur?
+
+
+
+# 2. What are the 3400th - 3402th elements in your vector?
+
+
+# 3. What is the smallest value in x?
+
+
+# 4. What is the largest value in x?        
+          </code>
+          <code data-type="solution">
+# Do Not Print X as it is a long vector
+# 1. How many times does the value 2 occur?
+length(which(x==2))
+
+
+# 2. What are the 3400th - 3402th elements in your vector?
+x[3400:3402]
+
+# 3. What is the smallest value in x?
+min(x)
+
+# 4. What is the largest value in x?
+max(x)          </code>
+              <code data-type="sct">
+test_error()
+test_function("length", args="x")
+test_function("which", args="x")
+test_output_contains("0") 
+test_output_contains("x[3400:3402]")
+test_output_contains("1.002393")
+test_output_contains("7.99")
+success_msg("Great Job")           </code>
+              <div data-type="hint">Use your knowledge of indexing and functions that return Booleans.</div>
+              </div>
+</div>
+
+
+
+
 <div id="more-ways-to-create-vectors" class="section level2">
 <h2>More Ways to Create Vectors</h2>
 <p>There are multiple ways we can create a vector but we must let R know what we are doing</p>
