@@ -149,6 +149,9 @@ head(titanic,4)</code></pre>
 
 
 
+</div>
+
+</div>
 
 <script>
 
