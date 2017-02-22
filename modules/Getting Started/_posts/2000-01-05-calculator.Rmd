@@ -148,7 +148,7 @@ log10(1000)</code></pre>
 
 
 <div class="content-box-blue">
-<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+<h1> Quick Check Practice</h1>    
   
   <div data-datacamp-exercise data-lang="r">
     <code data-type="pre-exercise-code">
@@ -279,7 +279,7 @@ log10(1000)</code></pre>
 
 
 <div class="content-box-blue">
-<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+
 <h1> Quick Check Practice</h1>        
 
 <div data-datacamp-exercise data-lang="r">
@@ -319,10 +319,11 @@ log10(1000)</code></pre>
           success_msg("Great job!")
           </code>
             <div data-type="hint">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>
+            </div>
 
 
      
-
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
 <script>
 
 // add bootstrap table styles to pandoc tables
