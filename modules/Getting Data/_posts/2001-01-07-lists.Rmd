@@ -268,7 +268,75 @@ summary</code></pre>
 </div>
 
 
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>   
 
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+set.seed(1234)
+x = rnorm(500, 10, 3)
+y = runif(1)*x + rnorm(500,0,3.4)
+model = lm(y~x)
+      </code>
+        <code data-type="sample-code">
+# 1. Find the summary of model and assign it as summary. 
+
+
+# 2.  What does list summary contain?
+
+
+
+# 2. Extract the coefficients summary and assign this as coeff. 
+
+
+
+# 3. Print coeff.
+
+
+# 4. What is the class of coeff?
+
+
+# 5. From coeff extract the column of p-values.      
+          </code>
+          <code data-type="solution">
+# 1. Find the summary of model and assign it as summary. 
+summary = summary(model)
+
+# 2.  What does list summary contain?
+
+names(summary)
+
+# 2. Extract the coefficients summary and assign this as coeff. 
+
+coeff = summary$coefficients
+
+# 3. Print coeff.
+
+coeff
+
+
+# 4. What is the class of coeff?
+typeof(coeff)
+
+# 5. From coeff extract the column of p-values. 
+
+coeff[,4]
+         </code>
+              <code data-type="sct">
+test_error()
+test_correct({
+test_object("summary")
+}, {
+  test_function("summary") 
+})
+test_function("names")
+test_object("coeff")
+test_function("typeof")
+test_output_contains("coeff[,4]")
+success_msg("Great Job")         </code>
+              <div data-type="hint">Use your knowledge of lists to answer these questions.</div>
+              </div>
+              </div>
 
 </div>
 

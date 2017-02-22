@@ -92,6 +92,74 @@ y.mat &lt;- matrix(y, ncol=2)</code></pre>
 <pre class="r"><code>apply(y.mat,2,mean)</code></pre>
 <pre><code>## [1] 2.50 4.75</code></pre>
 </div>
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>   
+
+
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+      #You will find out more about the runif command in a few weeks.
+      set.seed(1234)
+      x = runif(5000, 1, 8)
+      </code>
+        <code data-type="sample-code">
+# Do Not Print X as it is a long vector
+# Create a matrix of x with 100 columns and fill it by row
+# Label this matrix c
+
+
+# 1. Find the row means of c. 
+
+
+# 2. Find the column means of c. 
+
+
+# 3. What is the value of the 3rd column and 98th row?      
+          </code>
+          <code data-type="solution">
+# Do Not Print X as it is a long vector
+# Create a matrix of x with 100 columns and fill it by row
+# Label this matrix c
+c <- matrix(x, ncol=100, byrow=TRUE)
+
+# 1. Find the row means of c. 
+apply(c, 1, mean)
+
+
+# 2. Find the column means of c. 
+apply(c, 2, mean)
+
+# 3. What is the value of the 3rd column and 98th row?
+c[3,98]         </code>
+              <code data-type="sct">
+test_error()
+test_correct({
+test_object("c")
+}, {
+  test_function("matrix", args = "byrow") 
+})
+test_correct({
+test_object("c")
+}, {
+  test_function("matrix", args = "ncol") 
+})
+test_function("apply")
+test_output_contains("4.062481")
+test_function("apply")
+test_output_contains("4.058472")
+test_output_contains("1.80")
+success_msg("Great Job")           </code>
+              <div data-type="hint">Use your knowledge of matrices to answer these questions.</div>
+              </div>
+
+
+</div>
+
+
+
+
 <div id="naming-rows-and-columns-of-matrices" class="section level2">
 <h2>Naming Rows and Columns of Matrices</h2>
 <p>Just like in vectors we may want to name elements in a matrix. Now we have more than on dimension so we can name both the rows and columns. Consider the following matrices where we have recorded both weight(lbs) and height(inches) of subjects at time point 1.</p>
