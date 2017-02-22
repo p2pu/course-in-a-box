@@ -56,6 +56,9 @@ title: "What is Tidy Data?"
 
 
 <h2><code>tidyr</code> Functions</h2>
+<center>
+<img src="{{site.baseurl}}/img/tidy-all.png" >
+</center>
 <p>To start out with getting the Data Set ready we will use the package <code>tidyr</code> and then to start transforming and working with the data to model and graph it, we will use the <code>dplyr</code> packages, both of <code>tidyverse</code>.</p>
 <p>For the <code>tidyr</code> package we will focus on the following 4 functions:</p>
 <ol style="list-style-type: decimal">
