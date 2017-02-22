@@ -275,13 +275,15 @@ log10(1000)</code></pre>
 </tbody>
 </table>
 </div>
-</div>
+
 
 
 <div class="content-box-blue">
 
 </div>
 
+
+</div>
 
 <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
 <script>
