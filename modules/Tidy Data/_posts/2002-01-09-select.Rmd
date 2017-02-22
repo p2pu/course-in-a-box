@@ -3,7 +3,6 @@ title: Choosing Columns
 ---
 
 
-
 <div id="selecting" class="section level1">
 <h1>Selecting</h1>
 <p>We have learned how to select the rows that we are interested in. The next logical step would be to select the columns we want as well. Many times we have so many columns that we are no interested in for a particular analysis. Instead of slowing down your analysis by continuing to run through extra data, we could just select the columns we care about.</p>
@@ -141,7 +140,28 @@ flights %&gt;%
 ## 10 N3ALAA
 ## # ... with 336,766 more rows</code></pre>
 <p><em>Note: We only kept the column of data that we renamed</em>.</p>
-<p>There are many more things we can do with selecting but this will come after you have spent more time doing these simple tasks.</p>
+</div>
+</div>
+<div id="unique-observations" class="section level2">
+<h2>Unique Observations</h2>
+<p>Many times we have a lot of repeats in our data. If we just would like to have an account of all things included then we can use the <code>unique()</code> command. Lets assume that we wish to know the origin of a flight and ist destination. We do not want to have every flight listed over and over again so we ask for unique values:</p>
+<pre class="r"><code>flights %&gt;% 
+  select(origin, dest) %&gt;% 
+  unique()</code></pre>
+<pre><code>## # A tibble: 224 × 2
+##    origin  dest
+##     &lt;chr&gt; &lt;chr&gt;
+## 1     EWR   IAH
+## 2     LGA   IAH
+## 3     JFK   MIA
+## 4     JFK   BQN
+## 5     LGA   ATL
+## 6     EWR   ORD
+## 7     EWR   FLL
+## 8     LGA   IAD
+## 9     JFK   MCO
+## 10    LGA   ORD
+## # ... with 214 more rows</code></pre>
 <div class="content-box-green">
 <h1>
 On Your Own: RStudio Practice
@@ -168,7 +188,6 @@ On Your Own: RStudio Practice
 ## 9       557            600      838            846      140
 ## 10      558            600      753            745      138
 ## # ... with 336,766 more rows, and 1 more variables: time_hour &lt;dttm&gt;</code></pre>
-</div>
 </div>
 </div>
 </div>
