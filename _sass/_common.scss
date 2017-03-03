@@ -1,5 +1,5 @@
 body {
-	background-color: $gray-lighter;
+	background-color: $brand-primary;
 }
 
 .relative {
@@ -46,7 +46,8 @@ body {
 }
 
 .sidebar li.active {
-	background-color: $white;
+	color: $white;
+	background-color: $gray-darker;
 }
 
 .sidebar li.active a:hover {
