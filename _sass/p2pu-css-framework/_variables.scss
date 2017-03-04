@@ -14,7 +14,7 @@ $gray-light:            #D3D8E6;
 $gray-lighter:          #F3F4F8;
 $gray-snow:             #FCFCFC;
 
-$brand-primary:         $gray-darker;
+$brand-primary:         #2b2e3c;
 $brand-success:         #B7D500;
 $brand-info:            #05C6B4;
 $brand-warning:         #FFBC1A;
@@ -39,7 +39,7 @@ $body-bg:               #fff;
 $text-color:            $brand-primary;
 
 //** Global textual link color.
-$link-color:            #5F9EA0;
+$link-color:            #556283;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      $link-color;
 
@@ -71,7 +71,8 @@ $line-height-base:        1.428571429; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    "Arvo", Helvetica, Arial, sans-serif;
+//** Heading Font
+$headings-font-family:    Helvetica, Arial, sans-serif;
 $headings-font-weight:    400;
 $headings-line-height:    1.1;
 $headings-color:          inherit;
@@ -279,7 +280,7 @@ $screen-phone:               $screen-xs-min;
 
 // Small screen / tablet
 //** Deprecated `$screen-sm` as of v3.0.1
-$screen-sm:                  768px;
+$screen-sm:                  628px;
 $screen-sm-min:              $screen-sm;
 //** Deprecated `$screen-tablet` as of v3.0.1
 $screen-tablet:              $screen-sm-min;
@@ -314,7 +315,7 @@ $grid-columns:              12;
 $grid-gutter-width:         30px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
-$grid-float-breakpoint:     $screen-md-min;
+$grid-float-breakpoint:     $screen-sm-min;
 //** Point at which the navbar begins collapsing.
 $grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
 
@@ -822,8 +823,8 @@ $code-bg:                     #f9f2f4;
 $kbd-color:                   #fff;
 $kbd-bg:                      #333;
 
-$pre-bg:                      $gray-lighter;
-$pre-color:                   $gray-dark;
+$pre-bg:                      #272822;
+$pre-color:                   #fff;
 $pre-border-color:            #ccc;
 $pre-scrollable-max-height:   340px;
 
@@ -852,5 +853,3 @@ $page-header-border-color:    transparent;
 $dl-horizontal-offset:        $component-offset-horizontal;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter;
-
-

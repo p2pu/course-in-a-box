@@ -1,7 +1,7 @@
 /********MAIN NAVIGATION*******************/
 
-$navbar-dark: $gray-darker;
-$navbar: $gray-dark;
+$navbar-dark: $brand-primary;
+$navbar: $gray-darker;
 $navbar-light: $gray-snow;
 
 .p2pu-color-divider-wrap {
@@ -419,7 +419,7 @@ $navbar-light: $gray-snow;
 	height: 60px;
 	color: $white;
 	&:hover, &:focus {
-		background-color: $brand-primary !important;
+		// background-color: $brand-primary !important;
 		color: $navbar-light;
 		i {
 			@include animation(bounce 1s ease infinite);

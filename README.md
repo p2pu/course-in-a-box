@@ -1,10 +1,12 @@
-# Everything you need to create an online course in a box
+# MART 341 - Web Development
 
+This repository is the web site for the University of Montana, School of Media Art's _Web Development_ (mart 341) course.
 
-## How do I get started?
+### Designed by
+- Professor Michael Musick
+- E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
+- Office: McGill Hall, 224.
 
-Head on over to [howto.p2pu.org](http://howto.p2pu.org). Everything you need to know is over there and once you are done we'll be waiting for you here!
- 
----
-
-This course was created using the [Jekyll Course template from P2PU](http://github.com/p2pu/jekyll-course-template).
+## Links
+- [The course website](https://montana-media-arts.github.io/mart341-webDev/)
+- [The course resources repo](https://github.com/Montana-Media-Arts/341-work)

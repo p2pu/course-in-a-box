@@ -3,31 +3,30 @@ layout: index
 published: true
 ---
 
-## Create a Learning Community that Lasts
+Welcome to the University of Montana, School of Media Art's Web Development course.
 
-Online courses often feel large, intimidating and anonymous. It's hard to feel invested
-in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
-don't know anyone.
+The goals of this course are to introduce and teach technologies, techniques, and aesthetics neccessary to design and build responsive websites.
 
-In a stellar learning experience, you'd know who was in the room and feel super-comfy.
-You'd make projects together and find help when you get stuck. You'd want to send people
-thank-you cards and chicken soup.
+The [**syllabus**]({{site.baseurl}}/modules/course-info/Syllabus-mart341/) contains more information about the course, as well as student expectations.
 
-We know designing a creative, participatory community can be tricky. We're here to help
-you **craft assignments** that rule, **build an audience** and support you along the way. You'll
-even learn a few technical skills in the process. Don't worry, 1s and 0s wash off
-pretty easily.
-		
-## OK, but who are you guys?
+<br />
 
-We're [Peer 2 Peer University](http://p2pu.org)--we build learning communities
-on the web. In the last 5 years, we put together courses like 
-[Play With Your Music](http://www.playwithyourmusic.org/),
-[Learning Creative Learning](http://learn.media.mit.edu/lcl/), the
-[Deeper Learning MOOC](http://dlmooc.deeper-learning.org/), and
-[A Gentle Intro to Python](http://mechanicalmooc.org/). 
-Also, we're a non-profit and a distributed team (so we use the tools we recommend).
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>
 
-			
-## I'm in--how do I get started?
-Head over [here]({{site.baseurl}}/modules/start/about-this-course/) to create your own course!
+<br />
+<br />
+
+# Instructor Introduction Videos
+
+## Nick Moles | Section 50
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZajeJki0OY" frameborder="0" allowfullscreen></iframe></div>
+
+
+## Justine Evans | Section 51
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/203341647" frameborder="0" allowfullscreen></iframe></div>
+
+<br />
+
+# Additional Information
+
+### [University of Montana, School of Media Arts](http://www.umt.edu/mediaarts/)

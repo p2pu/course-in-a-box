@@ -1,5 +1,5 @@
 body {
-	background-color: $gray-lighter;
+	background-color: $brand-primary;
 }
 
 .relative {
@@ -20,6 +20,8 @@ body {
 }
 
 .sidebar {
+	position: absolute;
+	z-index: 10;
 	padding: 60px 0;
 }
 
@@ -36,7 +38,7 @@ body {
 }
 
 .sidebar li:hover {
-	background-color: cadetblue;
+	background-color: $link-color;
 
 	a:hover, a:focus {
 		text-decoration: none;
@@ -45,11 +47,13 @@ body {
 }
 
 .sidebar li.active {
-	background-color: $white;
+	color: $white;
+	// color: lighten($link-color, 40%);
+	background-color: lighten($link-color, 30%);
 }
 
 .sidebar li.active a:hover {
-	color: cadetblue;
+	color: $link-color;
 }
 
 .sidebar li:before {
@@ -86,7 +90,7 @@ body {
 .sidebar li a:before {
 	content: "\f005";
 	font-family: FontAwesome;
-	color: cadetblue;
+	color: $link-color;
 	position: absolute;
 	left: 29px;
 	line-height: 1.7;
@@ -108,6 +112,7 @@ body {
 	content: "";
 
 }
+
 
 .pagination-section {
 	margin: 1em 0;
@@ -136,6 +141,17 @@ body {
 
 .sidebar .pagination-section {
 	padding-left: 60px;
+}
+
+.due-date {
+	margin-bottom: 2em;
+	color: rgb(200, 10, 10);
+	padding-right: $padding-large-horizontal;
+	// line-height: 2;
+}
+
+.active-date-range {
+	margin-bottom: 0.5em;
 }
 
 .content {

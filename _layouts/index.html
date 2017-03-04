@@ -7,12 +7,14 @@ layout: base
 	<div class="container text-center">
 		{% if site.jumbotron_image %}
 			<img src="{{ site.baseurl }}/img/{{ site.jumbotron_image }}"
-			     alt="{{ site.title }} Icon" />
+			     alt="{{ site.title }} Icon" class="jumbotron_image"/>
 		{% endif %}
 		<header>
-			<h1>{{ site.data.course.description }}</h1>
+			<h1>{{ site.data.course.title }}</h1>
+			<h2>{{ site.data.course.institution }}</h2>
 		</header>
 
+<!--
 		<p>
 			<a class="btn btn-danger btn-lg"
 			   href="{{ site.baseurl }}/modules/start/about-this-course/">
@@ -20,17 +22,14 @@ layout: base
 		</p>
 
 		<h3>In collaboration with <a href="http://p2pu.org">P2PU</a>.</h3>
+ -->
 	</div>
 
 </div>
-<div class="container">
-	<div class="clearfix">
-		<div class="col-md-8 col-md-offset-2">
-			<section>
-				{{ content }}
-			</section>
-		</div>
-	</div>
+<div class="clearfix page-container background-white">
+	<section class="col-md-8 col-md-offset-2">
+		{{ content }}
+	</section>
 </div>
 <!--section class="calendar light-section">
 	<div class="container">
@@ -95,7 +94,7 @@ layout: base
 		</script>
 	</div>
 </section-->
-<section class="people clearfix light-section">
+<!-- <section class="people clearfix light-section">
 	<div class="container">
 		<h2>Who else is here?</h2>
 		<hr />
@@ -111,4 +110,4 @@ layout: base
 			{% endfor %}
 		</ul>
 	</div>
-</section>
+</section> -->
