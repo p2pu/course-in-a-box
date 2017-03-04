@@ -20,6 +20,7 @@ body {
 }
 
 .sidebar {
+	position: absolute;
 	z-index: 10;
 	padding: 60px 0;
 }
@@ -37,7 +38,7 @@ body {
 }
 
 .sidebar li:hover {
-	background-color: cadetblue;
+	background-color: $link-color;
 
 	a:hover, a:focus {
 		text-decoration: none;
@@ -47,11 +48,12 @@ body {
 
 .sidebar li.active {
 	color: $white;
-	background-color: $gray-darker;
+	// color: lighten($link-color, 40%);
+	background-color: lighten($link-color, 30%);
 }
 
 .sidebar li.active a:hover {
-	color: cadetblue;
+	color: $link-color;
 }
 
 .sidebar li:before {
@@ -88,7 +90,7 @@ body {
 .sidebar li a:before {
 	content: "\f005";
 	font-family: FontAwesome;
-	color: cadetblue;
+	color: $link-color;
 	position: absolute;
 	left: 29px;
 	line-height: 1.7;
