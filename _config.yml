@@ -1,10 +1,10 @@
 # basic configuration
-baseurl:
+baseurl: /Introduction-to-R
 markdown: kramdown
 permalink: /:categories/:title/
 
 # Change this tracking code with your own tracking code
-ga_tracking_code: UA-5757664-19
+ga_tracking_code: UA-92244589-1
 # Please leave this code here for us to see how Course in a Box get used
 p2pu_ga_tracking_code: UA-55722824-1
 

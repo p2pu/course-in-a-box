@@ -1,0 +1,175 @@
+---
+  title: Tibbles?
+---
+
+
+<div id="tibbles" class="section level1">
+<h1>Tibbles</h1>
+<p>Previously we have worked with data in the form of</p>
+<ul>
+<li>Vectors</li>
+<li>Lists</li>
+<li>Arrays</li>
+<li>Dataframes</li>
+</ul>
+<div id="what-is-a-tibble" class="section level2">
+<h2>What is a Tibble????</h2>
+<p><em>“Tibbles”</em> are a new modern data frame. It keeps many important features of the original data frame. It removes many of the outdated features. They are another amazing feature added to R by Hadley Wickham. We will use them in the tidyverse to replace the older outdated dataframe that we just learned about.</p>
+</div>
+<div id="compared-to-data-frames" class="section level2">
+<h2>Compared to Data Frames</h2>
+<ul>
+<li>A <em>tibble</em> never changes the input type.
+<ul>
+<li>No more worry of characters being automatically turned into strings.</li>
+</ul></li>
+<li>A tibble can have columns that are lists.</li>
+<li>A tibble can have non-standard variable names.
+<ul>
+<li>can start with a number or contain spaces.</li>
+<li>To use this refer to these in a backtick.</li>
+</ul></li>
+<li>It only recycles vectors of length 1.</li>
+<li>It never creates row names.</li>
+</ul>
+<pre class="r"><code>library(tidyverse)
+## Warning: package 'tidyverse' was built under R version 3.3.2
+## Warning: package 'ggplot2' was built under R version 3.3.2
+## Warning: package 'tidyr' was built under R version 3.3.2
+try &lt;- tibble(x = 1:3, y = list(1:5, 1:10, 1:20))
+try
+## # A tibble: 3 × 2
+##       x          y
+##   &lt;int&gt;     &lt;list&gt;
+## 1     1  &lt;int [5]&gt;
+## 2     2 &lt;int [10]&gt;
+## 3     3 &lt;int [20]&gt;</code></pre>
+<p>We can see that <code>y</code> is displayed as a list. If we try to do this with a traditional data frame we get:</p>
+<pre><code>try &lt;- as_data_frame(c(x = 1:3, y = list(1:5, 1:10, 1:20)))
+try</code></pre>
+<pre><code>Error: Variables must be length 1 or 20. Problem variables: 'y1', 'y2'</code></pre>
+<p>We can use a non standard name in our Tibble as well:</p>
+<pre class="r"><code>names(data.frame(`crazy name` = 1))
+## [1] &quot;crazy.name&quot;
+names(tibble(`crazy name` = 1))
+## [1] &quot;crazy name&quot;</code></pre>
+<p>Notice that the dataframe replaced the name that we wanted because it could not handle a space being in the name.</p>
+</div>
+<div id="coercing-into-tibbles" class="section level2">
+<h2>Coercing into Tibbles</h2>
+<p>A tibble can be made by coercing <code>as_tibble()</code>. This works similar to <code>as.data.frame()</code>. It is a very efficient process though.</p>
+<pre class="r"><code>l &lt;- replicate(26, sample(100), simplify = FALSE)
+names(l) &lt;- letters
+
+microbenchmark::microbenchmark(
+  as_tibble(l),
+  as.data.frame(l)
+)
+## Unit: microseconds
+##              expr      min       lq      mean    median       uq      max
+##      as_tibble(l)  309.250  327.099  376.2002  344.7265  386.004 1689.046
+##  as.data.frame(l) 1390.507 1464.361 1614.3087 1543.3465 1690.608 3104.097
+##  neval cld
+##    100  a 
+##    100   b</code></pre>
+<p>Microbenchmarking is a way to calculate the average times spent on an object. You can see how much faster it is to create a tibble than a dataframe. This will make a large difference in a data analysis.</p>
+</div>
+<div id="tibbles-vs-data-frames" class="section level2">
+<h2>Tibbles vs Data Frames</h2>
+<p>There are a couple key differences between tibbles and data frames.</p>
+<ul>
+<li>Printing.</li>
+<li>Subsetting.</li>
+</ul>
+</div>
+<div id="printing" class="section level2">
+<h2>Printing</h2>
+<ul>
+<li>Tibbles only print the first 10 rows and all the columns that fit on a screen. - Each column displays its data type.</li>
+<li>You will not accidentally print too much.</li>
+</ul>
+<pre class="r"><code>tibble(
+  a = lubridate::now() + runif(1e3) * 86400,
+  b = lubridate::today() + runif(1e3) * 30,
+  c = 1:1e3,
+  d = runif(1e3),
+  e = sample(letters, 1e3, replace = TRUE)
+)
+## # A tibble: 1,000 × 5
+##                      a          b     c          d     e
+##                 &lt;dttm&gt;     &lt;date&gt; &lt;int&gt;      &lt;dbl&gt; &lt;chr&gt;
+## 1  2017-02-19 09:02:23 2017-03-09     1 0.02150370     f
+## 2  2017-02-19 01:42:10 2017-03-09     2 0.08031493     k
+## 3  2017-02-19 05:36:59 2017-03-08     3 0.11670172     u
+## 4  2017-02-19 18:49:56 2017-03-09     4 0.24552337     h
+## 5  2017-02-19 04:15:06 2017-03-05     5 0.11232662     b
+## 6  2017-02-19 10:00:27 2017-03-09     6 0.52834632     m
+## 7  2017-02-19 13:42:43 2017-03-16     7 0.78928491     v
+## 8  2017-02-19 17:02:27 2017-03-16     8 0.80388276     h
+## 9  2017-02-19 15:09:33 2017-03-19     9 0.45767339     d
+## 10 2017-02-19 09:14:04 2017-02-25    10 0.18177950     t
+## # ... with 990 more rows</code></pre>
+</div>
+<div id="subsetting" class="section level2">
+<h2>Subsetting</h2>
+<ul>
+<li>We can index a tibble in the manners we are used to
+<ul>
+<li><code>df$x</code></li>
+<li><code>df[[&quot;x&quot;]]</code></li>
+<li><code>df[[1]]</code></li>
+</ul></li>
+<li>We can also use a <code>pipe</code> which we will learn about later.
+<ul>
+<li><code>df %&gt;% .$x</code></li>
+<li><code>df %&gt;% .[[&quot;x&quot;]]</code></li>
+</ul></li>
+</ul>
+<pre class="r"><code>df &lt;- tibble(
+  x = runif(5),
+  y = rnorm(5)
+)
+
+df$x
+## [1] 0.6227033 0.7363213 0.8551199 0.9173554 0.5542486
+df[[&quot;x&quot;]]
+## [1] 0.6227033 0.7363213 0.8551199 0.9173554 0.5542486
+df[[1]]
+## [1] 0.6227033 0.7363213 0.8551199 0.9173554 0.5542486</code></pre>
+<p>The above commands should seem very familiar after the previous work but wit the <code>piping</code> or <code>chaining</code> we can do the same:</p>
+<pre class="r"><code>df %&gt;% .$x
+## [1] 0.6227033 0.7363213 0.8551199 0.9173554 0.5542486
+df %&gt;% .[[&quot;x&quot;]]
+## [1] 0.6227033 0.7363213 0.8551199 0.9173554 0.5542486
+df %&gt;% .[[1]]
+## [1] 0.6227033 0.7363213 0.8551199 0.9173554 0.5542486</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

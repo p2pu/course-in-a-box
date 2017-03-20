@@ -1,0 +1,195 @@
+---
+title: Further Summarizing
+---
+
+
+<div id="further-summaries" class="section level1">
+<h1>Further Summaries</h1>
+<p>We have so far discussed how one could find the basic number summaries:</p>
+<ul>
+<li>mean</li>
+<li>median</li>
+<li>standard deviation</li>
+<li>variance</li>
+<li>minimum</li>
+<li>maximum</li>
+</ul>
+<p>However there are many more operations that you may wish to do for summarizing data. In fact many of the following examples are excellent choices for working with categorical data which does not always make sense to do the above summaries for.</p>
+<p>We will consider:</p>
+<ol style="list-style-type: decimal">
+<li>Grouping and Counting</li>
+<li>Grouping, Counting and Sorting</li>
+<li>Other Groupings</li>
+<li>Counting Groups</li>
+</ol>
+<div id="grouping-and-counting" class="section level2">
+<h2>Grouping and Counting</h2>
+<p>We have seen the functions <code>tally()</code> and <code>count()</code> in a previous lesson. Both of these can be used for grouping and counting. They also are very concise in how they are called.</p>
+<p>For example if we wished to know how many flights there were by month, we would use <code>tally()</code> in this manner:</p>
+<pre class="r"><code>flights %&gt;%
+  group_by(month) %&gt;% 
+  tally()</code></pre>
+<pre><code>## # A tibble: 12 × 2
+##    month     n
+##    &lt;int&gt; &lt;int&gt;
+## 1      1 27004
+## 2      2 24951
+## 3      3 28834
+## 4      4 28330
+## 5      5 28796
+## 6      6 28243
+## 7      7 29425
+## 8      8 29327
+## 9      9 27574
+## 10    10 28889
+## 11    11 27268
+## 12    12 28135</code></pre>
+<p>Where as we could do the same thing with <code>count()</code></p>
+<pre class="r"><code>flights %&gt;% 
+  count(month)</code></pre>
+<pre><code>## # A tibble: 12 × 2
+##    month     n
+##    &lt;int&gt; &lt;int&gt;
+## 1      1 27004
+## 2      2 24951
+## 3      3 28834
+## 4      4 28330
+## 5      5 28796
+## 6      6 28243
+## 7      7 29425
+## 8      8 29327
+## 9      9 27574
+## 10    10 28889
+## 11    11 27268
+## 12    12 28135</code></pre>
+<p>*Notice: <code>count()</code> allowed for month to be called inside of it, removing the need for the <code>group_by()</code> function.</p>
+</div>
+<div id="grouping-counting-and-sorting." class="section level2">
+<h2>Grouping, counting and sorting.</h2>
+<p>Both <code>tally()</code> and <code>count()</code> have an argument called <code>sort()</code>. This allows you to go one step further and group by, count and sort at the same time. For <code>tally()</code> this would be:</p>
+<pre class="r"><code>flights %&gt;% group_by(month) %&gt;% tally(sort=TRUE)</code></pre>
+<pre><code>## # A tibble: 12 × 2
+##    month     n
+##    &lt;int&gt; &lt;int&gt;
+## 1      7 29425
+## 2      8 29327
+## 3     10 28889
+## 4      3 28834
+## 5      5 28796
+## 6      4 28330
+## 7      6 28243
+## 8     12 28135
+## 9      9 27574
+## 10    11 27268
+## 11     1 27004
+## 12     2 24951</code></pre>
+<p>then for <code>count()</code> we would have:</p>
+<pre class="r"><code>flights %&gt;% count_(month, sort=TRUE)</code></pre>
+<pre><code>## Error in as.lazy_dots(.dots): object 'month' not found</code></pre>
+</div>
+<div id="grouping-with-other-functions" class="section level2">
+<h2>Grouping with other functions</h2>
+<p>We can also sum over other values rather than just counting the rows like the above examples. For example let us say we were interested in knowing the total distance for planes in a given month. We could do this with the <code>summarise()</code> function, <code>tally()</code> function or the <code>count()</code> function:</p>
+<pre class="r"><code>flights %&gt;% 
+  group_by(month) %&gt;% 
+  summarise(dist = sum(distance))</code></pre>
+<pre><code>## # A tibble: 12 × 2
+##    month     dist
+##    &lt;int&gt;    &lt;dbl&gt;
+## 1      1 27188805
+## 2      2 24975509
+## 3      3 29179636
+## 4      4 29427294
+## 5      5 29974128
+## 6      6 29856388
+## 7      7 31149199
+## 8      8 31149334
+## 9      9 28711426
+## 10    10 30012086
+## 11    11 28639718
+## 12    12 29954084</code></pre>
+<p>We take flights then group by month and then create a new variable called distance, where we sum the distance. <strong><em>If you wish to see the new column, please run this on your computer</em></strong>. For <code>tally()</code> we could do:</p>
+<pre class="r"><code>flights %&gt;% 
+  group_by(month) %&gt;% 
+  tally(wt = distance)</code></pre>
+<pre><code>## # A tibble: 12 × 2
+##    month        n
+##    &lt;int&gt;    &lt;dbl&gt;
+## 1      1 27188805
+## 2      2 24975509
+## 3      3 29179636
+## 4      4 29427294
+## 5      5 29974128
+## 6      6 29856388
+## 7      7 31149199
+## 8      8 31149334
+## 9      9 28711426
+## 10    10 30012086
+## 11    11 28639718
+## 12    12 29954084</code></pre>
+<p><em>Note: in <code>tally()</code> the <code>wt</code> stands for weight and allows you to weight the sum based on the distance</em>. With the <code>count()</code> function we also use <code>wt</code>:</p>
+<pre class="r"><code>flights %&gt;% count(month, wt = distance)</code></pre>
+<pre><code>## # A tibble: 12 × 2
+##    month        n
+##    &lt;int&gt;    &lt;dbl&gt;
+## 1      1 27188805
+## 2      2 24975509
+## 3      3 29179636
+## 4      4 29427294
+## 5      5 29974128
+## 6      6 29856388
+## 7      7 31149199
+## 8      8 31149334
+## 9      9 28711426
+## 10    10 30012086
+## 11    11 28639718
+## 12    12 29954084</code></pre>
+</div>
+<div id="counting-groups" class="section level2">
+<h2>Counting Groups</h2>
+<p>We may want to know how large our groups are. To do this we can use the following functions:</p>
+<ul>
+<li><code>group_size()</code> is a function that returns counts of group.</li>
+<li><code>n_groups()</code> returns the number of groups</li>
+</ul>
+<p>So if wanted to count the number of flights by month, we could group by month and find the groups size using <code>group_size()</code>:</p>
+<pre class="r"><code>flights %&gt;% 
+  group_by(month) %&gt;% 
+  group_size()</code></pre>
+<pre><code>##  [1] 27004 24951 28834 28330 28796 28243 29425 29327 27574 28889 27268
+## [12] 28135</code></pre>
+<p>If we just wished to know how many months were represented in our data we could use the <code>n_groups()</code> function:</p>
+<pre class="r"><code>flights %&gt;% 
+  group_by(month) %&gt;% 
+  n_groups()</code></pre>
+<pre><code>## [1] 12</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});         
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

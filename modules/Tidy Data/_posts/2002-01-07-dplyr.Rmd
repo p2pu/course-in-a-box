@@ -1,0 +1,65 @@
+---
+title: dplyr
+---
+
+
+<div id="the-dplyr-package" class="section level1">
+<h1>The <code>dplyr</code> Package</h1>
+<p>Now that we have started to tidy up our data we can see that we have a need to transform this data. We may wish to add additional variables. Perhaps we also wish to only look at data that meets a certain requirement. The <code>dplyr</code> package allows us to further work with our data.</p>
+<div id="dplyr-functionality" class="section level2">
+<h2><code>dplyr</code> Functionality</h2>
+<p>With <code>dplyr</code> we have five basic verbs that we will learn to work with:</p>
+<ul>
+<li><code>filter()</code></li>
+<li><code>select()</code></li>
+<li><code>arrange()</code></li>
+<li><code>mutate()</code></li>
+<li><code>summarize()</code></li>
+</ul>
+<p>We also will consider:</p>
+<ul>
+<li><code>joins</code></li>
+<li><code>group_by()</code></li>
+</ul>
+<p>For the purposes of this example we will consider looking at the package <code>nycflights13</code>. This is a dataset that has all flights in and out of NYC in 2013. We also will be using the <code>dyplr</code> package from <code>tidyverse</code>:</p>
+<pre class="r"><code>library(dplyr)
+library(nycflights13)</code></pre>
+<div class="content-box-green">
+<h1>
+On Your Own: RStudio Practice
+</h1>
+<p>Before moving onto the next portion. Take some time to consider the nycflights13 data. You can explore it with the following call:</p>
+<pre><code>library(nycflights12)
+flights</code></pre>
+<p>Once you have spent some time looking at the data, move onto the next lesson.</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

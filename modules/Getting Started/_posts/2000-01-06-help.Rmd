@@ -1,0 +1,79 @@
+---
+  title: Getting Help in R
+---
+
+<div id="getting-help-in-r" class="section level1">
+<h1>Getting Help in R</h1>
+<p>One of the most important features that you will need as you start on your path to becoming and R user is getting help. No matter how skilled of a programmer you are, you always encounter new functions and need help understanding how to use them. We will take some time to explore the help features in R.</p>
+<div id="the-help-function" class="section level2">
+<h2>The <code>help()</code> Function</h2>
+<p>To get online help within an R session we use the <code>help()</code> function. This will allow us to see the documentation on a function that we are interested in.</p>
+<div id="help-function-example" class="section level3">
+<h3>Help Function Example</h3>
+<p>Lets say for example that we wish to to make a sequence. We may read from a blog post or online website that we can do this with a function called <code>seq()</code>. Unfortunately for us most people do not really display how to use the functions that they list. Have no fear! R will help:</p>
+<pre class="r"><code>help(seq)</code></pre>
+<p>If you type the above command into your R Studio window you</p>
+<pre class="r"><code>?seq</code></pre>
+</div>
+</div>
+<div id="further-help-function-use" class="section level2">
+<h2>Further Help Function Use</h2>
+<p>Many times we do not know exactly which function we can use. In order to ask R for help in this case we can actually search all the packages we have for a keyword or phrase.</p>
+<p>For example if we wanted to know about math symbols we could type the following:</p>
+<pre class="r"><code>help(&quot;&lt;&quot;)
+help('&lt;')
+?&quot;&lt;&quot;
+?'&lt;'</code></pre>
+<p>Enter the above searches into RStudio to see what you get.</p>
+<pre><code>?&quot;for&quot;</code></pre>
+<p>The same works for keywords.</p>
+</div>
+<div id="the-example-function" class="section level2">
+<h2>The <code>example()</code> Function</h2>
+<p>Many times we just need to see some examples rather than read the entire documentation of a function or command. In this situation we would use the <code>example()</code> function</p>
+<pre class="r"><code>example(seq)</code></pre>
+<p>Type the above command into RStudio and see what you get when you do this. You may find it useful to see the code in action before trying in yourself.</p>
+<p>We can then see numerous examples that R has run for us. The benefit of this command comes when you are interested in seeing examples of graphics, where just seeing the command and not the final product may not be as intuitive for us</p>
+<p>Consider below where we might be interested in some perspective plots. When you enter this into RStudio you will see some of the beautiful graphics that R can do:</p>
+<pre class="r"><code>example(persp)</code></pre>
+</div>
+<div id="internet-help" class="section level2">
+<h2>Internet Help</h2>
+<p>Aside from these areas of help another method is to search the internet for further help. Here are some other resources:</p>
+<ul>
+<li><a href="https://cran.r-project.org/">The Comprehensive R Archive Network</a></li>
+<li><a href="http://www.ats.ucla.edu/stat/r/">UCLA Statistical Computing Help Site</a></li>
+<li><a href="www.google.com">Google Search Site</a></li>
+<li><a href="www.github.com">Github</a></li>
+<li><a href="http://stackexchange.com/">StackExchange</a></li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

@@ -1,0 +1,80 @@
+---
+  title: The Tidyverse!
+---
+
+
+
+<div id="the-tidyverse" class="section level1">
+<h1>The Tidyverse</h1>
+
+<center>
+<img src="{{site.baseurl}}/img/tidy.PNG" style="height:100px">
+</center>
+
+<p>As we move through the rest of this course we will be working with a group of packages called the <a href="tidyverse.org">Tidyverse</a>. These packages form a core set of functions that will allow you to perform most any type of data cleaning or analysis you will need to do. We will use the following from the tidyverse</p>
+<ul>
+<li><strong>ggplot2</strong>, for data visualisation.</li>
+<li><strong>dplyr</strong>, for data manipulation.</li>
+<li><strong>tidyr</strong>, for data tidying.</li>
+<li><strong>readr</strong>, for data import.</li>
+<li><strong>purrr</strong>, for functional programming.</li>
+<li><strong>tibble</strong>, for tibbles, a modern re-imagining of data frames.</li>
+</ul>
+<p>The Tidyverse can be broken don into many different classes of functions and tools:</p>
+<div id="data-import-specific" class="section level2">
+<h2>Data Import Specific</h2>
+<ul>
+<li><strong>DBI</strong>, for databases.</li>
+<li><strong>haven</strong>, for SPSS, SAS and Stata files.</li>
+<li><strong>httr</strong>, for web apis.</li>
+<li><strong>jsonlite</strong> for JSON.</li>
+<li><strong>readxl</strong>, for .xls and .xlsx files.</li>
+<li><strong>rvest</strong>, for web scraping.</li>
+<li><strong>xml2</strong>, for XML.</li>
+</ul>
+</div>
+<div id="data-manipulation-specific" class="section level2">
+<h2>Data Manipulation Specific</h2>
+<ul>
+<li><strong>hms</strong>, for times.</li>
+<li><strong>stringr</strong>, for strings.</li>
+<li><strong>lubridate</strong>, for date/times.</li>
+<li><strong>forcats</strong>, for factors.</li>
+</ul>
+</div>
+<div id="modeling-specific" class="section level2">
+<h2>Modeling Specific</h2>
+<ul>
+<li><strong>modelr</strong>, for simple modelling within a pipeline</li>
+<li><strong>broom</strong>, for turning models into tidy data</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

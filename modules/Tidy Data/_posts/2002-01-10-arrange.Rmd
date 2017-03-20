@@ -1,0 +1,141 @@
+---
+title: arrange
+---
+
+
+
+
+
+<div id="arranging-the-data" class="section level1">
+<h1>Arranging the Data</h1>
+<p>We also have need to make sure the data is ordered in a certain manner. This can be easily done in R with the <code>arrange()</code> function. Again we can do this in base R but this is not always a clear path.</p>
+<p>Let’s say that we wish to look at only carriers and departure delay and we wish to order departure delays from what smallest to largest. In base R we would have to run the following command:</p>
+<pre class="r"><code>flights[order(flights$dep_delay), c(&quot;carrier&quot;, &quot;dep_delay&quot;)]</code></pre>
+<p>In this command we are ordering the rows by <code>dep_delay</code> and then only keeping <code>carrier</code> and <code>dep_delay</code> in the end.</p>
+<div id="enter-the-arrange-function" class="section level2">
+<h2>Enter the <code>arrange()</code> Function</h2>
+<p>We could do this in an easy manner using the <code>arrange()</code> function:</p>
+<pre><code>arrange(.data, ...)</code></pre>
+<p>Where</p>
+<ul>
+<li><code>.data</code> is a data frame of interest.</li>
+<li><code>...</code> are the variables you wish to sort by.</li>
+</ul>
+<pre class="r"><code>flights %&gt;%
+    select(carrier, dep_delay) %&gt;%
+    arrange(dep_delay)</code></pre>
+<pre><code>## # A tibble: 336,776 × 2
+##    carrier dep_delay
+##      &lt;chr&gt;     &lt;dbl&gt;
+## 1       B6       -43
+## 2       DL       -33
+## 3       EV       -32
+## 4       DL       -30
+## 5       F9       -27
+## 6       MQ       -26
+## 7       EV       -25
+## 8       MQ       -25
+## 9       9E       -24
+## 10      B6       -24
+## # ... with 336,766 more rows</code></pre>
+<p>With <code>arrange()</code> we first use <code>select()</code> to pick the only columns that we want and then we arrange by the <code>dep_delay</code>. If we had wished to order them in a descending manner we could have simply used the <code>desc()</code> function:</p>
+<pre class="r"><code>flights %&gt;%
+    select(carrier, dep_delay) %&gt;%
+    arrange(desc(dep_delay))</code></pre>
+<pre><code>## # A tibble: 336,776 × 2
+##    carrier dep_delay
+##      &lt;chr&gt;     &lt;dbl&gt;
+## 1       HA      1301
+## 2       MQ      1137
+## 3       MQ      1126
+## 4       AA      1014
+## 5       MQ      1005
+## 6       DL       960
+## 7       DL       911
+## 8       DL       899
+## 9       DL       898
+## 10      AA       896
+## # ... with 336,766 more rows</code></pre>
+</div>
+<div id="more-complex-arrange" class="section level2">
+<h2>More Complex Arrange</h2>
+<p>Lets consider that we wish to look at the top 3 departure delays for each day, then we wish to order them from largest to smallest departure delay. We then need to do the following:</p>
+<ol style="list-style-type: decimal">
+<li>Group by month and Day</li>
+<li>Pick the top 3 departure delays</li>
+<li>order them largest to smallest</li>
+</ol>
+<p>This can be done in the following manner:</p>
+<pre class="r"><code>flights %&gt;% 
+  group_by(month, day) %&gt;%  
+  top_n(3, dep_delay) %&gt;% 
+  arrange(desc(dep_delay))</code></pre>
+<pre><code>## Source: local data frame [1,108 x 19]
+## Groups: month, day [365]
+## 
+##     year month   day dep_time sched_dep_time dep_delay arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;
+## 1   2013     1     9      641            900      1301     1242
+## 2   2013     6    15     1432           1935      1137     1607
+## 3   2013     1    10     1121           1635      1126     1239
+## 4   2013     9    20     1139           1845      1014     1457
+## 5   2013     7    22      845           1600      1005     1044
+## 6   2013     4    10     1100           1900       960     1342
+## 7   2013     3    17     2321            810       911      135
+## 8   2013     6    27      959           1900       899     1236
+## 9   2013     7    22     2257            759       898      121
+## 10  2013    12     5      756           1700       896     1058
+## # ... with 1,098 more rows, and 12 more variables: sched_arr_time &lt;int&gt;,
+## #   arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;,
+## #   origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,
+## #   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+<p>Where</p>
+<ul>
+<li><code>group_by()</code> is a way to group data. This way we perform operations on a group. So top 3 delays are by a group of day and month.</li>
+<li><code>top_n()</code>takes a tibble and returns a specific number of rows based on a chosen value.</li>
+</ul>
+<div class="content-box-green">
+<h1>
+On Your Own: RStudio Practice
+</h1>
+<p>Perform the following operations:</p>
+<ul>
+<li>Group by month and day.</li>
+<li>use <code>sample_n()</code> to pick 1 observation per day.</li>
+<li>Arrange by longest to smallest departure delay.</li>
+</ul>
+<p>Your answer <strong><em>may</em></strong> look like:</p>
+<pre class="r"><code>flights %&gt;%
+  group_by(month,day) %&gt;%
+  sample_m(1) %&gt;%
+  arrange(desc(dep_delay))</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

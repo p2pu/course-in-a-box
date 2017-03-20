@@ -1,0 +1,323 @@
+---
+  title: Vectors in R!
+---
+
+<div id="vectors-in-r" class="section level1">
+<h1>Vectors in R</h1>
+<p>The fundamental data type in R is the vector. A vector is a sequence of data elements all of the same type.</p>
+<div id="creating-vectors" class="section level2">
+<h2>Creating Vectors</h2>
+<p>There are various ways to create vectors but one of the most common is the concatenation operator. This takes arguments and places them all in a vector.</p>
+<pre class="r"><code> x &lt;- c(1,5,2, 6)
+ x</code></pre>
+<pre><code>## [1] 1 5 2 6</code></pre>
+<pre class="r"><code> is.vector(x)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>Note that <code>c()</code> orders the values in the vector in the order in which they were entered.</p>
+</div>
+<div id="vector-arithmetic" class="section level2">
+<h2>Vector Arithmetic</h2>
+<p>We can do arithmetic with vectors in a similar manner as we have with integers. When we use operators we are doing something element by element or “elementwise.”</p>
+<pre class="r"><code> y &lt;- c(1,6,4,8)
+ x+y</code></pre>
+<pre><code>## [1]  2 11  6 14</code></pre>
+<p>Notice that we did not add all of the values together but we added both of the first values from <code>x</code> and <code>y</code>, then the second values and so on. This is important to note because you must make sure whether you wish to have elementwise operations or not:</p>
+<pre class="r"><code> x*y</code></pre>
+<pre><code>## [1]  1 30  8 48</code></pre>
+<pre class="r"><code> x/y</code></pre>
+<pre><code>## [1] 1.0000000 0.8333333 0.5000000 0.7500000</code></pre>
+<pre class="r"><code>x %% y</code></pre>
+<pre><code>## [1] 0 5 2 6</code></pre>
+</div>
+<div id="recycling" class="section level2">
+<h2>Recycling</h2>
+<p>Recycling can be a very big problem within data analysis. Recycling is what happens when performing operations on vectors that do not have the same length. Let’s consider what happens:</p>
+<pre class="r"><code> z&lt;- c(1,2 ,6 ,8, 9, 10)
+ 
+ x+z</code></pre>
+<pre><code>## Warning in x + z: longer object length is not a multiple of shorter object
+## length</code></pre>
+<pre><code>## [1]  2  7  8 14 10 15</code></pre>
+<p>Notice that R does warn us but you may not always catch this warning in a large data analysis. Knowing your data is very important. Our intuition would make us think that we could not perform this operation when the length of both vectors are not the same.</p>
+<p>R does this operation still by re-writing <code>x</code> such that we have <code>x &lt;- c(1 , 5, 2, 6 , 1, 5)</code>. This is what we call recycling. The shorter vector is increased by repeating the values until it matches the length of the longer vector.</p>
+<pre class="r"><code>x+ z</code></pre>
+<pre><code>## Warning in x + z: longer object length is not a multiple of shorter object
+## length</code></pre>
+<pre><code>## [1]  2  7  8 14 10 15</code></pre>
+<pre class="r"><code>c(1 , 5, 2, 6 , 1, 5) + z</code></pre>
+<pre><code>## [1]  2  7  8 14 10 15</code></pre>
+</div>
+<div id="functions-on-vectors" class="section level2">
+<h2>Functions on Vectors</h2>
+<p>We considered functions on specific data values but we can actually put vectors into most functions in R. One of the simplest functions can help us with knowing information about Recycling that we encountered before. This is the <code>length()</code> function.</p>
+<pre class="r"><code>length(x)</code></pre>
+<pre><code>## [1] 4</code></pre>
+<pre class="r"><code>length(y)</code></pre>
+<pre><code>## [1] 4</code></pre>
+<pre class="r"><code>length(z)</code></pre>
+<pre><code>## [1] 6</code></pre>
+<p>Then length vector is very important with the writing of functions which we will get to in a later unit. We can use <strong><em>any()</em></strong> and <strong><em>all()</em></strong> in order to answer logical questions about elements</p>
+<pre class="r"><code>any(x&gt;3)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>We see that there must be at least one <code>x</code> that is greater than 3.</p>
+<pre class="r"><code>all(x&gt;3)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<p>However, not all values of <code>x</code> are larger than 3.</p>
+</div>
+
+
+
+
+
+<div id="other-functions-for-vectors" class="section level2">
+<h2>Other Functions for Vectors</h2>
+<p>There area various other functions that can be run on vectors, some of these you may seen before:</p>
+<ul>
+<li><strong><em>mean()</em></strong> finds the arithmetic mean of a vector.</li>
+<li><strong><em>median()</em></strong> finds the median of a vector.</li>
+<li><strong><em>sd()</em></strong> and <strong><em>var()</em></strong> finds the standard deviation and variance of a vector respectively.</li>
+<li><strong><em>min()</em></strong> and <strong><em>max()</em></strong> finds the minimum and maximum of a vector respectively.</li>
+<li><strong><em>sort()</em></strong> returns a vector that is sorted.</li>
+<li><strong><em>summary()</em></strong> returns a 5 number summary of the numbers in a vector.</li>
+</ul>
+</div>
+<div id="the-which-function" class="section level2">
+<h2>The <code>which()</code> Function</h2>
+<p>Some functions help us work with the data more to return values in which we are interested in. For example, above we asked if any elements in vector <code>x</code> were greater than 3. The <code>which()</code> function will tell us the elements that are.</p>
+<pre class="r"><code> which(x&gt;3)</code></pre>
+<pre><code>## [1] 2 4</code></pre>
+</div>
+
+
+
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>    
+
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+      #You will find out more about the runif command in a few weeks.
+      set.seed(1234)
+      x = runif(5000, 1, 8)
+      </code>
+        <code data-type="sample-code">
+# Do Not Print X as it is a long vector
+# 1. What is the length of x?
+
+# 2. How many values in your vector x are below 2?
+
+
+# 3. How many values in your vector x are above 7?
+
+
+# 4. How many values in your vector x are below 3 or above 8?          
+          </code>
+          <code data-type="solution">
+# Do Not Print X as it is a long vector
+# 1. What is the length of x?
+length(x)
+
+# 2. How many values in your vector x are below 2?
+length(which(x<2))
+
+# 3. How many values in your vector x are above 7?
+length(which(x>7))
+
+# 4. How many values in your vector x are below 3 or above 8?
+length(which(x<3 | x>8))          </code>
+              <code data-type="sct">
+test_error()
+test_output_contains("5000")
+test_function("which", args="x")
+test_output_contains("696")
+test_function("which", args="x")
+test_output_contains("729")
+test_function("which", args="x")
+test_output_contains("1411")
+success_msg("Great Job")           </code>
+              <div data-type="hint">Use your knowledge of indexing and functions that return Booleans.</div>
+              </div>
+              </div
+
+
+
+<div id="indexing-vectors" class="section level2">
+<h2>Indexing Vectors</h2>
+<p>We can call specific elements of a vector by using the following:</p>
+<ul>
+<li><code>x[]</code> is a way to call up a specific element of a vector.</li>
+<li><code>x[1]</code> is the first element.</li>
+<li><code>x[3]</code> is the third element.</li>
+<li><code>x[-3]</code> is a vector with everything but the third element.</li>
+</ul>
+<p>We can start of by checking what we have stored so far:</p>
+<pre class="r"><code> ls()</code></pre>
+<pre><code>## [1] &quot;x&quot; &quot;y&quot; &quot;z&quot;</code></pre>
+<p>Now, that we see the vectors available we can try indexing <code>x</code>:</p>
+<pre class="r"><code> x[3]</code></pre>
+<pre><code>## [1] 2</code></pre>
+<pre class="r"><code> x[-3]</code></pre>
+<pre><code>## [1] 1 5 6</code></pre>
+<p>Note that <code>x[3]</code> returns the third element and <code>x[-3]</code> returns everything but the third element.</p>
+</div>
+<div id="replacing-values" class="section level2">
+<h2>Replacing Values</h2>
+<p>We have seen how to subtract an element from a vector but we can use the same information to place it back in. We start with the same vector <code>x</code> that we started with.</p>
+<pre class="r"><code> x</code></pre>
+<pre><code>## [1] 1 5 2 6</code></pre>
+<pre class="r"><code> x&lt;-x[-3]
+ x</code></pre>
+<pre><code>## [1] 1 5 6</code></pre>
+<p>Now we have removed the 3rd value. We can then add the original element back in</p>
+<pre class="r"><code> x &lt;- c(x[1:2], 2, x[3])
+ x</code></pre>
+<pre><code>## [1] 1 5 2 6</code></pre>
+</div>
+<div id="indexing-with-booleans" class="section level2">
+<h2>Indexing with Booleans</h2>
+<p>Before we used <code>any(x &gt; 3)</code> and <code>which(x &gt; 3)</code>. Now we can see not only their position in the vector, but indexing allows us to return their values.</p>
+<pre class="r"><code> x[x &gt; 3]</code></pre>
+<pre><code>## [1] 5 6</code></pre>
+</div>
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>   
+
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+  
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+      #You will find out more about the runif command in a few weeks.
+      set.seed(1234)
+      x = runif(5000, 1, 8)
+      </code>
+        <code data-type="sample-code">
+# Do Not Print X as it is a long vector
+# 1. How many times does the value 2 occur?
+
+
+
+# 2. What are the 3400th - 3402th elements in your vector?
+
+
+# 3. What is the smallest value in x?
+
+
+# 4. What is the largest value in x?        
+          </code>
+          <code data-type="solution">
+# Do Not Print X as it is a long vector
+# 1. How many times does the value 2 occur?
+length(which(x==2))
+
+
+# 2. What are the 3400th - 3402th elements in your vector?
+x[3400:3402]
+
+# 3. What is the smallest value in x?
+min(x)
+
+# 4. What is the largest value in x?
+max(x)          </code>
+              <code data-type="sct">
+test_error()
+test_function("length", args="x")
+test_function("which", args="x")
+test_output_contains("0") 
+test_output_contains("x[3400:3402]")
+test_output_contains("1.002393")
+test_output_contains("7.99")
+success_msg("Great Job")           </code>
+              <div data-type="hint">Use your knowledge of indexing and functions that return Booleans.</div>
+              </div>
+</div>
+
+
+
+
+<div id="more-ways-to-create-vectors" class="section level2">
+<h2>More Ways to Create Vectors</h2>
+<p>There are multiple ways we can create a vector but we must let R know what we are doing</p>
+<pre class="r"><code> w</code></pre>
+<pre><code>Error: object 'w' not found</code></pre>
+<p>We see that <code>w</code> does not exist right now but we can add values to it:</p>
+<pre class="r"><code>w &lt;- NULL
+w</code></pre>
+<pre><code>## NULL</code></pre>
+<p>We define <code>w</code> to be empty</p>
+<pre class="r"><code> w[1] &lt;- 3
+ w[2] &lt;- 15
+ w</code></pre>
+<pre><code>## [1]  3 15</code></pre>
+<p>When we are working with large amounts of data in can be helpful to tell R exactly how long we wish to have the vector before filling it</p>
+<pre class="r"><code> w1 &lt;- vector(length=2)
+ w1[1] &lt;- 3
+ w1[2] &lt;- 15
+ 
+ w1</code></pre>
+<pre><code>## [1]  3 15</code></pre>
+<p>We can also use these methods below with concatenation and sequences</p>
+<pre class="r"><code> w2 &lt;-  c(3,15)
+ w2</code></pre>
+<pre><code>## [1]  3 15</code></pre>
+<pre class="r"><code> w3 &lt;- seq(from=3, to=15, length=2)
+ w3</code></pre>
+<pre><code>## [1]  3 15</code></pre>
+<pre class="r"><code> w4 &lt;- seq(from=3, to=15, by=12)
+ w4</code></pre>
+<pre><code>## [1]  3 15</code></pre>
+<p>Aside from these ways to create the specific vector of (3,15) we can create vectors a couple more ways as well</p>
+<pre class="r"><code> w5 &lt;- 3:10
+ w5</code></pre>
+<pre><code>## [1]  3  4  5  6  7  8  9 10</code></pre>
+<pre class="r"><code> w6 &lt;- rep(8,6)
+ w6</code></pre>
+<pre><code>## [1] 8 8 8 8 8 8</code></pre>
+<p>We can also repeat a vector</p>
+<pre class="r"><code> w7 &lt;- rep(c(1,2,3),3)
+ w7</code></pre>
+<pre><code>## [1] 1 2 3 1 2 3 1 2 3</code></pre>
+</div>
+<div id="naming-vector-elements" class="section level2">
+<h2>Naming Vector Elements</h2>
+<p>With vectors it can be important to assign names to the values. Then when doing plots or considering maximum and minimums, instead of being given a numerical place within the vector we can be given a specific name of what that value represents. For example say that vector <code>x</code> represents the number of medications of 4 unique patients. We could then use the <strong><em>name()</em></strong> function to assign names to the values</p>
+<pre class="r"><code>x</code></pre>
+<pre><code>## [1] 1 5 2 6</code></pre>
+<pre class="r"><code>names(x)</code></pre>
+<pre><code>## NULL</code></pre>
+<pre class="r"><code>names(x) &lt;- c(&quot;Patient A&quot;, &quot;Patient B&quot;, &quot;Patient C&quot;, &quot;Patient D&quot;)
+x</code></pre>
+<pre><code>## Patient A Patient B Patient C Patient D 
+##         1         5         2         6</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

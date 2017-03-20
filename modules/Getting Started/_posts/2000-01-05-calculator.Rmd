@@ -1,0 +1,356 @@
+---
+  title: Using R as a Calculator!
+---
+
+<h1>Using R as a Calculator</h1>
+<p>One of the most basic ways to use R is as a calculator. We can enter many math functions directly into the R Console. We will start to look at the various ways in which we can use R.</p>
+<div id="arithmetic-operators" class="section level2">
+<h2>Arithmetic Operators</h2>
+<p>R can handle most simple types of math operators.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>+</code></td>
+<td>Addition</td>
+</tr>
+<tr class="even">
+<td><code>-</code></td>
+<td>Subtraction</td>
+</tr>
+<tr class="odd">
+<td><code>*</code></td>
+<td>Multiplication</td>
+</tr>
+<tr class="even">
+<td><code>/</code></td>
+<td>Division</td>
+</tr>
+<tr class="odd">
+<td>^ or <code>**</code></td>
+<td>Exponentiation</td>
+</tr>
+</tbody>
+</table>
+<p>For example:</p>
+<pre class="r"><code># Addition
+5+4</code></pre>
+<pre><code>## [1] 9</code></pre>
+<pre class="r"><code># Subtraction
+124 - 26.82 </code></pre>
+<pre><code>## [1] 97.18</code></pre>
+<pre class="r"><code># Multiplication
+5*4</code></pre>
+<pre><code>## [1] 20</code></pre>
+<pre class="r"><code># Division
+35/8</code></pre>
+<pre><code>## [1] 4.375</code></pre>
+</div>
+<div id="more-math-functions." class="section level2">
+<h2>More Math functions.</h2>
+<p>We can also use many other math functions. All of these are included in base R without any extra packages.</p>
+<pre class="r"><code># Exponentials
+3^(1/2)</code></pre>
+<pre><code>## [1] 1.732051</code></pre>
+<pre class="r"><code># Exponential Function
+exp(1.5)</code></pre>
+<pre><code>## [1] 4.481689</code></pre>
+<pre class="r"><code># Log base e
+log(4.481689)</code></pre>
+<pre><code>## [1] 1.5</code></pre>
+<pre class="r"><code># Log base 10
+log10(1000)</code></pre>
+<pre><code>## [1] 3</code></pre>
+</div>
+<div id="logical-operators" class="section level2">
+<h2>Logical Operators</h2>
+<p>Another important feature of R is the ability to use logic. This is not unique to R as all programming languages can do this, but it will be extremely useful when working with data.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>&lt;</code></td>
+<td>Less Than</td>
+</tr>
+<tr class="even">
+<td><code>&gt;</code></td>
+<td>Greater Than</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;=</code></td>
+<td>Less Than or Equal To</td>
+</tr>
+<tr class="even">
+<td><code>&gt;=</code></td>
+<td>Greater Than or Equal To</td>
+</tr>
+<tr class="odd">
+<td><code>==</code></td>
+<td>Exactly Equal To</td>
+</tr>
+<tr class="even">
+<td><code>!=</code></td>
+<td>Not Equal To</td>
+</tr>
+<tr class="odd">
+<td><code>!a</code></td>
+<td>Not <code>a</code></td>
+</tr>
+<tr class="even">
+<td><code>a&amp;b</code></td>
+<td><code>a</code> <strong>AND</strong> <code>b</code></td>
+</tr>
+</tbody>
+</table>
+<p>We can then see an example of this:</p>
+<pre class="r"><code>a &lt;- c(1:12)</code></pre>
+<p>If we wanted to know where <span class="math inline">\(a&gt;9\)</span> or where <span class="math inline">\(a&lt;4\)</span> we would expect to see the values: 1 2 3 10 11 12.</p>
+<div id="having-r-do-this" class="section level3">
+<h3>Having R do this</h3>
+<pre class="r"><code>a</code></pre>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10 11 12</code></pre>
+<pre class="r"><code>a&gt;9</code></pre>
+<pre><code>##  [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE
+## [12]  TRUE</code></pre>
+<p>We can see that what R gives is are Boolean values as to whether or not each element of <code>a</code> is greater than 9. Similarly:</p>
+<pre class="r"><code>a&lt;4</code></pre>
+<pre><code>##  [1]  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+## [12] FALSE</code></pre>
+<p>One simple thing we might try is to just combine these 2 values into a conditional</p>
+<pre class="r"><code>a&gt;9 | a&lt;4</code></pre>
+<pre><code>##  [1]  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE
+## [12]  TRUE</code></pre>
+<p>This again just gives us Booleans and not necessarily the values that we were hoping to see. We use this to <code>index a</code> in the following manner</p>
+<pre class="r"><code>a[a&gt;9 | a&lt;4]</code></pre>
+<pre><code>## [1]  1  2  3 10 11 12</code></pre>
+<p>We will look at indexing with much further detail as we move through this course.</p>
+</div>
+
+</div>
+
+<hr />
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="further-operators" class="section level2">
+<h2>Further Operators</h2>
+<p>There are other operators that we will use that are not necesssarily mathematical in nature. Each one of them is crucial for the use of R.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>R Symbol</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Comment</td>
+<td>#</td>
+<td># This is a comment</td>
+</tr>
+<tr class="even">
+<td>Assignment</td>
+<td><code>&lt;-</code></td>
+<td>x <code>&lt;-</code> 5</td>
+</tr>
+<tr class="odd">
+<td>Assignment</td>
+<td><code>-&gt;</code></td>
+<td>5 <code>-&gt;</code> x</td>
+</tr>
+<tr class="even">
+<td>Assigment</td>
+<td><code>=</code></td>
+<td>x <code>=</code> 5</td>
+</tr>
+<tr class="odd">
+<td>Concatenation operator</td>
+<td>c</td>
+<td>c(1,2,4)</td>
+</tr>
+<tr class="even">
+<td>Modular</td>
+<td>%%</td>
+<td>25 %% 6</td>
+</tr>
+<tr class="odd">
+<td>Sequence from a to b by h</td>
+<td>seq</td>
+<td>seq(a,b,h)</td>
+</tr>
+<tr class="even">
+<td>Sequence Operator</td>
+<td>:</td>
+<td>0:3</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+
+
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>    
+  
+  <div data-datacamp-exercise data-lang="r">
+    <code data-type="pre-exercise-code">
+      # This will get executed each time the exercise gets initialized
+      b = 6
+      </code>
+        <code data-type="sample-code">
+          # Create a variable a, equal to 5
+          # Do this by typing: a <- 5
+          
+          
+          # Square a
+          
+          </code>
+          <code data-type="solution">
+            # Create a variable a, equal to 5
+            a <- 5
+            
+            # Square a
+            a^2
+            </code>
+              <code data-type="sct">
+              test_object("a")
+            test_output_contains("25", incorrect_msg = "Make sure to print `a`")        
+            success_msg("Great!")
+            </code>
+              <div data-type="hint">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>
+              </div>
+</div>
+
+
+
+
+<div id="math-functions-in-r" class="section level2">
+<h2>Math Functions in R</h2>
+<p>We also have access to a wide variety of mathematical functions that are already built into R.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>R Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Square Root</td>
+<td><code>sqrt</code></td>
+</tr>
+<tr class="even">
+<td><code>floor(x)</code></td>
+<td><code>floor</code></td>
+</tr>
+<tr class="odd">
+<td><code>\ceil(x)</code></td>
+<td><code>ceiling</code></td>
+</tr>
+<tr class="even">
+<td>Logarithm</td>
+<td><code>log</code></td>
+</tr>
+<tr class="odd">
+<td>Exponential function, <code>e^x</code></td>
+<td><code>exp</code></td>
+</tr>
+<tr class="even">
+<td>Factorial, <code>!</code></td>
+<td><code>factorial</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+<div class="content-box-blue">
+<h1> Quick Check Practice</h1>    
+
+<div data-datacamp-exercise data-lang="r">
+  <code data-type="pre-exercise-code">
+    b <- NA
+    </code>
+      <code data-type="sample-code">
+        # Create a variable b, equal to 4
+        
+        
+        
+        # What is the log of b?
+        
+        
+        # what is the exponential of the log of b?
+        
+        </code>
+        <code data-type="solution">
+          # Create a variable b, equal to 4
+          b = 4
+          
+          
+          # What is the log of b?
+          log(b)
+          
+          # what is the exponential of the log of b?
+          
+          exp(log(b))
+          </code>
+            <code data-type="sct">
+            test_object("b")
+          test_function("log", args = "x") 
+          test_function("exp", args="x")
+          test_output_contains("1.386", incorrect_msg = "Did you take the logarithm of b?")
+          test_output_contains("4", incorrect_msg = "Did you take theexponential of the logarithm of b?")
+          test_error()
+          success_msg("Great job!")
+          </code>
+            <div data-type="hint">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>
+</div>
+
+
+</div>
+
+<script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

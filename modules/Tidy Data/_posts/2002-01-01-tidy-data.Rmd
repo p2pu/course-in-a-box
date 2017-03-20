@@ -1,0 +1,93 @@
+---
+title: "What is Tidy Data?"
+---
+
+<div id="what-is-tidy-data" class="section level1">
+<h1>What is Tidy Data?</h1>
+<p>There are many ways in which we can organize data. Some of these ways can make for easy data analysis. Others lead to a lot of frustration. This is where tidy data comes in. Tidy data is a concept from Hadley Wickham’s 2014 paper <a href="https://vita.had.co.nz/papers/tidy-data.pdf">Tidy Data</a>.</p>
+<p>In the framework of tidy data every row is an observation, every column represents variables and every entry into the cells of the data frame are values. <a href="http://r4ds.had.co.nz/tidy-data.html#fig:tidy-structure">R for Data Science</a> sums this up with the following graphic:</p>
+
+<center>
+<img src="{{site.baseurl}}/img/tidy-1.png" style="height:175px">
+</center>
+
+<p>In order to work with data in this way all of these feature line up for us. Consider the following datasets:</p>
+<pre><code>#table1
+# A tibble: 6 × 4
+      country  year  cases population
+       &lt;fctr&gt; &lt;int&gt;  &lt;int&gt;      &lt;int&gt;
+1 Afghanistan  1999    745   19987071
+2 Afghanistan  2000   2666   20595360
+3      Brazil  1999  37737  172006362
+4      Brazil  2000  80488  174504898
+5       China  1999 212258 1272915272
+6       China  2000 213766 1280428583</code></pre>
+<pre><code>#table2
+# A tibble: 12 × 4
+       country  year        key      value
+        &lt;fctr&gt; &lt;int&gt;     &lt;fctr&gt;      &lt;int&gt;
+1  Afghanistan  1999      cases        745
+2  Afghanistan  1999 population   19987071
+3  Afghanistan  2000      cases       2666
+4  Afghanistan  2000 population   20595360
+5       Brazil  1999      cases      37737
+6       Brazil  1999 population  172006362
+7       Brazil  2000      cases      80488
+8       Brazil  2000 population  174504898
+9        China  1999      cases     212258
+10       China  1999 population 1272915272
+11       China  2000      cases     213766
+12       China  2000 population 1280428583</code></pre>
+<pre><code>#table3
+# A tibble: 6 × 3
+      country  year              rate
+       &lt;fctr&gt; &lt;int&gt;             &lt;chr&gt;
+1 Afghanistan  1999      745/19987071
+2 Afghanistan  2000     2666/20595360
+3      Brazil  1999   37737/172006362
+4      Brazil  2000   80488/174504898
+5       China  1999 212258/1272915272
+6       China  2000 213766/1280428583</code></pre>
+<p>From these above tables we can see that only Table 1 is actually tidy data. We will consider how we can create tidy data from the other 2 as well as some other examples as we move through this unit.</p>
+
+
+<p>To start out with getting the Data Set ready we will use the package `tidyr` and then to start transforming and working with the data to model and graph it, we will use the `dplyr` packages, both of `tidyverse`. </p>
+</div>
+
+
+<h2><code>tidyr</code> Functions</h2>
+
+<p>To start out with getting the Data Set ready we will use the package <code>tidyr</code> and then to start transforming and working with the data to model and graph it, we will use the <code>dplyr</code> packages, both of <code>tidyverse</code>.</p>
+<p>For the <code>tidyr</code> package we will focus on the following 4 functions:</p>
+<ol style="list-style-type: decimal">
+<li>Gather</li>
+<li>Spread</li>
+<li>Separate</li>
+<li>Unite</li>
+</ol>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

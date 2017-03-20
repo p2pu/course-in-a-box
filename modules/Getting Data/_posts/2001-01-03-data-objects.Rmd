@@ -1,0 +1,121 @@
+---
+  title: Data Objects in R!
+---
+
+<div id="data-objects-in-r" class="section level1">
+<h1>Data Objects in R</h1>
+<p>Now that we can import data into R, it is important to discuss the many types of data that R handles. For example:</p>
+<ul>
+<li><strong>Booleans</strong>: Direct binary values: <code>TRUE</code> or <code>FALSE</code> in R.</li>
+<li><strong>Integers</strong>: Whole numbers or number that can be written without fractional component, represented by a fixed-length block of bits</li>
+<li><strong>Characters</strong>: fixed length block of bits with special coding.</li>
+<li><strong>Strings</strong>: Sequence of characters.</li>
+<li><strong>Floating Point Numbers</strong>: a fraction times an exponent, like <span class="math inline">\(1.34x10^7\)</span>, however in R you would see <code>1.34e7</code>.</li>
+<li><strong>Missing</strong>: <code>Na</code>, <code>NaN</code>, <span class="math inline">\(\ldots\)</span></li>
+</ul>
+<div id="figuring-out-the-data-type" class="section level2">
+<h2>Figuring out the Data Type</h2>
+<p>With all of these types of data, R, has a built in way to help one determine the type that a certain piece of data is stored as. these consist of the following functions:</p>
+<ul>
+<li><strong>typeof()</strong> this function returns the type</li>
+<li><strong>is.<code>typ</code>()</strong> functions return Booleans for whether the argument is of the type <strong><em>typ</em></strong></li>
+<li><strong>as.<code>typ</code>()</strong> functions try to change the argument to type <strong><em><code>typ</code></em></strong></li>
+</ul>
+<p>We can see examples of these functions below</p>
+<pre class="r"><code>typeof(7)</code></pre>
+<pre><code>## [1] &quot;double&quot;</code></pre>
+<pre class="r"><code>is.numeric(7)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>We see that 7 is listed as a double. This has to do with the way R stores this data in bits. It is still viewed as a numeric variable though.</p>
+<pre class="r"><code>is.na(7)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.na(7/0)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<p>Both of the above values are not considered missing. Even though we cannot calculate 7/0 R will have this as:</p>
+<pre class="r"><code>7/0</code></pre>
+<pre><code>## [1] Inf</code></pre>
+<p>If we consider <code>0/0</code> though we can see that:</p>
+<pre class="r"><code>is.na(0/0)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>Now if you check what R displays for the answer to this we have</p>
+<pre class="r"><code>0/0</code></pre>
+<pre><code>## [1] NaN</code></pre>
+<p>For Character data, this is typically data there it is in quotations:</p>
+<pre class="r"><code>is.character(7)</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>is.character(&quot;7&quot;)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+<div id="coercing-data-types" class="section level2">
+<h2>Coercing Data Types</h2>
+<p>It is important to note that you can turn one data type into another. For example we can turn the number <code>5/6</code> into a character:</p>
+<pre class="r"><code>as.character(5/6)</code></pre>
+<pre><code>## [1] &quot;0.833333333333333&quot;</code></pre>
+<p>Now we can turn this back to a numeric value:</p>
+<pre class="r"><code>as.numeric(as.character(5/6))</code></pre>
+<pre><code>## [1] 0.8333333</code></pre>
+</div>
+<div id="equality-of-data" class="section level2">
+<h2>Equality of Data</h2>
+<p>We can then even perform operations on these data after converting them back and forth:</p>
+<pre class="r"><code>6*as.numeric(as.character(5/6))</code></pre>
+<pre><code>## [1] 5</code></pre>
+<p>What happens when we check the equality of these values:</p>
+<pre class="r"><code>5/6 == as.numeric(as.character(5/6))</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<p>We might ask what happened here:</p>
+<ul>
+<li>What we can see happening here is a problem in the precision of what R has stored for a number.</li>
+<li>This can also occur when performing arithmetic operations on values as well.</li>
+</ul>
+<p>Consider the difference between these values. If there were equal this should be 0:</p>
+<pre class="r"><code>5/6 - as.numeric(as.character(5/6))</code></pre>
+<pre><code>## [1] 3.330669e-16</code></pre>
+<p>We can see this in other scenarios as well:</p>
+<pre class="r"><code>0.45 == 3*0.15</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code>0.45-3*0.15</code></pre>
+<pre><code>## [1] 5.551115e-17</code></pre>
+<pre class="r"><code>0.4 - 0.1 == 0.5 - 0.2</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+</div>
+<div id="all.equal-function" class="section level2">
+<h2><code>all.equal()</code> Function</h2>
+<p>When comparing numbers that we have performed operations on it is better to use the <code>all.equal()</code> function.</p>
+</div>
+<div id="example" class="section level2">
+<h2>Example</h2>
+<pre class="r"><code>all.equal(0.45, 3*0.15)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>all.equal(0.4-0.1, 0.5-0.2)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>

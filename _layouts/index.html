@@ -15,11 +15,12 @@ layout: base
 
 		<p>
 			<a class="btn btn-danger btn-lg"
-			   href="{{ site.baseurl }}/modules/start/about-this-course/">
-				Start Your Own Course </a>
+
+			   href="{{site.baseurl}}/modules/about%20course/about/">
+				Get Started Learning R Today! </a>
 		</p>
 
-		<h3>In collaboration with <a href="http://p2pu.org">P2PU</a>.</h3>
+		<h3>A <a href="http://www.statseducation.com">Stats Education</a> Course.</h3>
 	</div>
 
 </div>
@@ -79,7 +80,7 @@ layout: base
 						    <span class="_description">{{ description }}</span>
 						    <span class="_location">{{ location }}</span>
 						    <span class="_organizer">P2PU</span>
-						    <span class="_organizer_email">info@p2pu.org</span>
+						    <span class="_organizer_email">statseducation@sullivanstatistics.com</span>
 						    <span class="_date_format">DD/MM/YYYY</span>
 						</a>
 					</div>
@@ -95,20 +96,4 @@ layout: base
 		</script>
 	</div>
 </section-->
-<section class="people clearfix light-section">
-	<div class="container">
-		<h2>Who else is here?</h2>
-		<hr />
-		<ul class="list-inline">
-			{% for user in site.data.course.signups %}
-				<li class="col-md-1">
-					<a href="https://twitter.com/{{ user.twitter }}"
-					   target="_blank"> <img
-							class="img-circle profile-picture"
-							src="{{ user.image }}"
-							alt="{{ user.name }}"> </a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+

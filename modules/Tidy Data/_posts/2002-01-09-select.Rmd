@@ -1,0 +1,221 @@
+---
+title: Choosing Columns
+---
+
+
+<div id="selecting" class="section level1">
+<h1>Selecting</h1>
+<p>We have learned how to select the rows that we are interested in. The next logical step would be to select the columns we want as well. Many times we have so many columns that we are no interested in for a particular analysis. Instead of slowing down your analysis by continuing to run through extra data, we could just select the columns we care about.</p>
+<div id="enter-the-select-function" class="section level2">
+<h2>Enter the <code>select()</code> Function</h2>
+<p>The <code>select()</code> function chooses columns that we specify. Again we can do this with base functions or with <code>dplyr</code>. We feel that as you continue on with your R usage that you will most likely want to go the route of <code>dplyr</code> functions instead.</p>
+<p>Let’s say that we want to look at the flights data but we are really only interested in the arrival time, departure time and the particular flight number. This seems reasonable if we are a customer and wanted to only know these pieces of information. We could do this with indexing which we learned in <a href="http://statseducation.com/Introduction-to-R/modules/getting%20data/dataframes/">dataframes</a>:</p>
+<pre class="r"><code>flights[, c(&quot;dep_time&quot;, &quot;arr_time&quot;, &quot;flight&quot;)]</code></pre>
+<pre><code>## # A tibble: 336,776 × 3
+##    dep_time arr_time flight
+##       &lt;int&gt;    &lt;int&gt;  &lt;int&gt;
+## 1       517      830   1545
+## 2       533      850   1714
+## 3       542      923   1141
+## 4       544     1004    725
+## 5       554      812    461
+## 6       554      740   1696
+## 7       555      913    507
+## 8       557      709   5708
+## 9       557      838     79
+## 10      558      753    301
+## # ... with 336,766 more rows</code></pre>
+<p>We have indexed based on columns and picked the three columns which we wish to have information on. We could do this with piping in <code>dplyr</code> instead though:</p>
+<pre><code>select(.data, ...)</code></pre>
+<p>where</p>
+<ul>
+<li><code>.data</code> is a tibble.</li>
+<li><code>...</code> are the columns that you wish to have in bare (no quotations)</li>
+</ul>
+<p>We could then do the following</p>
+<pre class="r"><code>flights %&gt;%
+  filter(dep_time, arr_time, flight)</code></pre>
+<pre><code>## # A tibble: 328,063 × 19
+##     year month   day dep_time sched_dep_time dep_delay arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;
+## 1   2013     1     1      517            515         2      830
+## 2   2013     1     1      533            529         4      850
+## 3   2013     1     1      542            540         2      923
+## 4   2013     1     1      544            545        -1     1004
+## 5   2013     1     1      554            600        -6      812
+## 6   2013     1     1      554            558        -4      740
+## 7   2013     1     1      555            600        -5      913
+## 8   2013     1     1      557            600        -3      709
+## 9   2013     1     1      557            600        -3      838
+## 10  2013     1     1      558            600        -2      753
+## # ... with 328,053 more rows, and 12 more variables: sched_arr_time &lt;int&gt;,
+## #   arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;,
+## #   origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;,
+## #   minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+</div>
+<div id="further-uses-of-select-function" class="section level2">
+<h2>Further Uses of <code>select()</code> Function</h2>
+<div id="removing-columns" class="section level3">
+<h3>Removing Columns</h3>
+<p>We may wish to pick certain columns that we wish to have but we also may want to remove certain columns. It is quite common to de-identify a dataset before actually distributing it to a research team. The <code>select()</code> function will also remove columns. Lets say that we wished to remove the <code>month</code> and <code>day</code> of the flights:</p>
+<pre class="r"><code>flights %&gt;%
+  select(-month,-day)</code></pre>
+<pre><code>## # A tibble: 336,776 × 17
+##     year dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##    &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+## 1   2013      517            515         2      830            819
+## 2   2013      533            529         4      850            830
+## 3   2013      542            540         2      923            850
+## 4   2013      544            545        -1     1004           1022
+## 5   2013      554            600        -6      812            837
+## 6   2013      554            558        -4      740            728
+## 7   2013      555            600        -5      913            854
+## 8   2013      557            600        -3      709            723
+## 9   2013      557            600        -3      838            846
+## 10  2013      558            600        -2      753            745
+## # ... with 336,766 more rows, and 11 more variables: arr_delay &lt;dbl&gt;,
+## #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
+## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;,
+## #   time_hour &lt;dttm&gt;</code></pre>
+<p>We also could use a vector for this:</p>
+<pre class="r"><code>cols &lt;- c(&quot;month&quot;, &quot;day&quot;)
+flights %&gt;%
+  select(-one_of(cols))</code></pre>
+<p><em>Note: <code>one_of</code> is a helper function, it basically suggest that you take elements from a character vector</em>.</p>
+<p>We can also remove columns that contain a certain phrase in the name. If we were interested in removing any columns that had to do with time we could search for the word “time” in the data and remove them:</p>
+<pre class="r"><code>flights %&gt;%
+  select(-contains(&quot;time&quot;))</code></pre>
+<pre><code>## # A tibble: 336,776 × 13
+##     year month   day dep_delay arr_delay carrier flight tailnum origin
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;chr&gt;  &lt;int&gt;   &lt;chr&gt;  &lt;chr&gt;
+## 1   2013     1     1         2        11      UA   1545  N14228    EWR
+## 2   2013     1     1         4        20      UA   1714  N24211    LGA
+## 3   2013     1     1         2        33      AA   1141  N619AA    JFK
+## 4   2013     1     1        -1       -18      B6    725  N804JB    JFK
+## 5   2013     1     1        -6       -25      DL    461  N668DN    LGA
+## 6   2013     1     1        -4        12      UA   1696  N39463    EWR
+## 7   2013     1     1        -5        19      B6    507  N516JB    EWR
+## 8   2013     1     1        -3       -14      EV   5708  N829AS    LGA
+## 9   2013     1     1        -3        -8      B6     79  N593JB    JFK
+## 10  2013     1     1        -2         8      AA    301  N3ALAA    LGA
+## # ... with 336,766 more rows, and 4 more variables: dest &lt;chr&gt;,
+## #   distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;</code></pre>
+<p><em>Note: <code>contains()</code> is another helper function, it suggests that whatever inside the function is a literal string. In other words it needs to match a name exactly</em>.</p>
+</div>
+<div id="renaming-columns" class="section level3">
+<h3>Renaming Columns</h3>
+<p>Many times we may wish to rename a column so that it makes more sense to us. The <code>select()</code> function can rename things for us as well. For example, there is a variable called <code>tailnum</code> in the <code>flights</code> data. This actually refers to the tailnumber of the plane. We could rename this to be:</p>
+<pre class="r"><code>flights %&gt;%
+  select(tail = tailnum)</code></pre>
+<pre><code>## # A tibble: 336,776 × 1
+##      tail
+##     &lt;chr&gt;
+## 1  N14228
+## 2  N24211
+## 3  N619AA
+## 4  N804JB
+## 5  N668DN
+## 6  N39463
+## 7  N516JB
+## 8  N829AS
+## 9  N593JB
+## 10 N3ALAA
+## # ... with 336,766 more rows</code></pre>
+<ul>
+<li></li>
+</ul>
+<pre class="r"><code>flights %&gt;% select(tail = tailnum)</code></pre>
+<pre><code>## # A tibble: 336,776 × 1
+##      tail
+##     &lt;chr&gt;
+## 1  N14228
+## 2  N24211
+## 3  N619AA
+## 4  N804JB
+## 5  N668DN
+## 6  N39463
+## 7  N516JB
+## 8  N829AS
+## 9  N593JB
+## 10 N3ALAA
+## # ... with 336,766 more rows</code></pre>
+<p><em>Note: We only kept the column of data that we renamed</em>.</p>
+</div>
+</div>
+<div id="unique-observations" class="section level2">
+<h2>Unique Observations</h2>
+<p>Many times we have a lot of repeats in our data. If we just would like to have an account of all things included then we can use the <code>unique()</code> command. Lets assume that we wish to know the origin of a flight and ist destination. We do not want to have every flight listed over and over again so we ask for unique values:</p>
+<pre class="r"><code>flights %&gt;% 
+  select(origin, dest) %&gt;% 
+  unique()</code></pre>
+<pre><code>## # A tibble: 224 × 2
+##    origin  dest
+##     &lt;chr&gt; &lt;chr&gt;
+## 1     EWR   IAH
+## 2     LGA   IAH
+## 3     JFK   MIA
+## 4     JFK   BQN
+## 5     LGA   ATL
+## 6     EWR   ORD
+## 7     EWR   FLL
+## 8     LGA   IAD
+## 9     JFK   MCO
+## 10    LGA   ORD
+## # ... with 214 more rows</code></pre>
+<div class="content-box-green">
+<h1>
+On Your Own: RStudio Practice
+</h1>
+<p>Consider the flights data: <code>flights</code>.</p>
+<ol style="list-style-type: decimal">
+<li>Select all but the <code>year</code> column.</li>
+<li>Remove the month and day from them.</li>
+<li>Select values which contain “time” in them.</li>
+<li>Chain these together so that you run a command and it does all of these things.</li>
+</ol>
+<p>Your answer should look like:</p>
+<pre><code>## # A tibble: 336,776 × 6
+##    dep_time sched_dep_time arr_time sched_arr_time air_time
+##       &lt;int&gt;          &lt;int&gt;    &lt;int&gt;          &lt;int&gt;    &lt;dbl&gt;
+## 1       517            515      830            819      227
+## 2       533            529      850            830      227
+## 3       542            540      923            850      160
+## 4       544            545     1004           1022      183
+## 5       554            600      812            837      116
+## 6       554            558      740            728      150
+## 7       555            600      913            854      158
+## 8       557            600      709            723       53
+## 9       557            600      838            846      140
+## 10      558            600      753            745      138
+## # ... with 336,766 more rows, and 1 more variables: time_hour &lt;dttm&gt;</code></pre>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
