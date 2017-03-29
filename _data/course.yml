@@ -1,5 +1,5 @@
-title: Course in a Box
-description: Build Your Very Own Open Course
+title: Kurs
+description: Kendi açık kurslarınızı oluşturun: Build Your Very Own Open Course
 modules: [start, community, learning, content, feedback, references]
 signups:
  - name: Geert Hofman
@@ -156,3 +156,6 @@ signups:
  - name : Jeanette Popken
    image : http://i61.tinypic.com/14nz9lw.jpg
    twitter: Jeanette_Lena
+ - name : Mehmet Keçeci
+   image : https://raw.githubusercontent.com/K-Class/course-in-a-box/gh-pages/img/mk.jpg
+   twitter: mkececi
