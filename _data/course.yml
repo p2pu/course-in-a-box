@@ -1,6 +1,6 @@
-title: Course in a Box
-description: Build Your Very Own Open Course
-modules: [start, community, learning, content, feedback, references]
+title: Isauro Arancibia | Planes y Proyectos
+description: Construyan sus propias planificaciones educativas abiertas
+modules: [inicio, tercer-ciclo, revista]
 signups:
  - name: Geert Hofman
    image: https://media.licdn.com/media/p/3/000/1b0/2c9/2daad0c.jpg
@@ -138,10 +138,11 @@ signups:
    image: https://pbs.twimg.com/profile_images/79129479/n29003170_31235140_867.jpg
    twitter: thebrandonshow
  - name: Alvar Maciel
-   image: https://pbs.twimg.com/profile_images/378800000119378128/9487f620fd1e8a5a459f34cb39ab946a_400x400.jpeg
+   image: https://s.gravatar.com/avatar/7c81b3f1f9fd6d5e0040ab0904037102?s=80
    twitter: amaciel
- - name : Mark Williams
-   image : https://pbs.twimg.com/profile_images/686913009021681665/zUefm9PB.png
+   github: alvarmaciel
+ - name: Mark Williams
+   image : https://pbs.twimg.com/profile_images/686913009021681665/zUefm9PB.png 
    twitter: the_markness
  - name: Robert Konsdorf
    image:  http://www.gravatar.com/avatar/7a402bf770629b108763bc8482c18ff3.png
