@@ -1,6 +1,6 @@
 title: Course in a Box
 description: Build Your Very Own Open Course
-modules: [start, community, learning, content, feedback, references]
+modules: [tutorial, resources, references]
 signups:
  - name: Geert Hofman
    image: https://media.licdn.com/media/p/3/000/1b0/2c9/2daad0c.jpg
