@@ -28,9 +28,11 @@
 					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
 				</li>
 			</ul>
+      {% if site.github.owner_name == 'p2pu' %}
 			<ul class="p2pu-logo">
-				<li><a class="p2pu-tab" href="#"><img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" /></a></li>
+				<li><a class="p2pu-tab" href="https://www.p2pu.org/"><img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" /></a></li>
 			</ul>
+      {% endif %}
 		</div>
 		<!-- /.navbar-collapse -->
 	</div>
