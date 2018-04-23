@@ -2,7 +2,9 @@
 
 This will be the open, online curriculum for BklynConnect, a cohort-based, project-driven course in wireless networking, digital privacy, and designing for consentfulness. 
 
-The course is still in progress, and currently the curriculum lives in [a living Google Doc](https://docs.google.com/document/d/1sZLhq8VYMmUQGTuuZ0I7k-LEnMXuVUUwcUOOeXRQPus/edit?usp=sharing), but the hope is to port it to a simple to navigate website, and to incorporate ways for anyone to remix the curriculum for their own needs. 
+The course is still in progress, and currently the curriculum lives in [a living Google Doc](https://docs.google.com/document/d/1sZLhq8VYMmUQGTuuZ0I7k-LEnMXuVUUwcUOOeXRQPus/edit?usp=sharing), but the hope is to port it to a simple to navigate website, and to incorporate ways for anyone to remix the curriculum for their own needs.
+
+Right now, the larger project lives at [https://github.com/mayawagon/bklynCONNECT](https://github.com/mayawagon/bklynCONNECT) and the course website repo is at [https://github.com/mayawagon/datamoves](https://github.com/mayawagon/datamoves). These need to be combined or linked in some way. 
 
 ## How do I see where the site is right now?
 
