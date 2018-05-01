@@ -1,6 +1,6 @@
 title: How Data Travels
 description:  An open digital literacy curriculum for a community-driven wireless network and intergenerational tech fellowship in Brooklyn.
-modules: [planning]
+modules: [planning, prototyping-consent, portable-network-kits]
 signups:
  - name: Geert Hofman
    image: https://media.licdn.com/media/p/3/000/1b0/2c9/2daad0c.jpg
