@@ -1,0 +1,119 @@
+---
+title: The Backwards Design Method
+---
+
+# The Backwards Design Method
+
+We relied heavily on the work done by [Detroit Community Technology Projects](https://detroitcommunitytech.org/), and encourage you to [donate to support their work](https://www.alliedmedia.org/dctp/donate), and to read [all that they have published](https://detroitcommunitytech.org/?q=learning-materials). 
+
+In particular, we will refer back to the [Teaching Community Technology Handbook](https://detroitcommunitytech.org/sites/default/files/librarypdfs/TeachingCommunityTech.pdf) throughout this section on planning your community-based digital literacy curriculum. The following is from this handbook, with examples from BklynConnect scattered throughout: 
+
+## Backwards Design In Action: Developing a Curriculum Outline
+
+Now that you have figured out your goals, you can create an overall outline of your curriculum. A curriculum outline serves as the framework for your teaching flow or lesson plan. To begin this process, you have to think about what learners will need to experience, do, understand and discover in order to gain the knowledge 
+they need. Your curriculum is essentially a learning plan, and the lesson plans of that curriculum are the detailed processes learners will go through. This section is our interpretation of the backwards design process. It explains key terms and walks you through the process of writing a curriculum outline.
+
+
+
+### I. Curriculum Focus
+
+Practicing critical pedagogy and popular education means rooting learning in the context of your 
+environment, addressing significant problems the learning communities you are working with face. Work 
+with your community to identify an issue you want to address or something you want to transform in your 
+community. These ideas should be the focus of your curriculum. For example, if digital literacy is a challenge in your community, start by brainstorming with your neighbors all the ways in which not understanding or having access to technology is affecting your neighborhood. Then take some time to brainstorm what specific outcomes you believe you can achieve through teaching and learning as a community. This brainstorm is the 
+place you can pull the purpose and focus of your curriculum.
+
+<div class="BC-example">
+	<h2>BklynConnect's Curriculum Focus</h2>
+	<em>What program objectives, projects, or learning outcomes will be addressed or accomplished?</em>
+
+	<p>It can often feel like we have little control over our personal information, and by extension, our lives. Using the internet, or just existing in a connected world with sensors and monitoring technologies enables surveillance by law enforcement, parents, peers, and schools, can affect access to opportunities and resources, and can expose us in ways we never asked for. We want learners to build an understanding of how to personally control what information is transmitted, but also why and how governments, corporations, and nonprofit institutions use and control our data and communication tools, and how to make change in these systems (and how to build our own alternatives). </p>
+</div>
+
+### II. Goals
+
+Here is where you will envision what you want learners to experience and achieve through your curriculum. This is often the most difficult step because these goals serve as the foundation for both the curriculum outline as well as the lesson plans. When articulating goals, think about where learners need to end up. Goals should be stated in terms of the learner’s knowledge, behavior, and attitude and should be realistically attainable within the time and space you have to teach. Goals need to have actions, specific knowledge, and experiences identified that will lead you in guiding learners to the purpose of the curriculum. The whole curriculum design process is working backward from your goals.
+
+### III. Desired Understandings
+
+Desired Understandings are what learners will need to understand in order to achieve the goals of the curriculum. Wiggins and McTighe suggest the following “filters” for arriving at worthwhile understandings:
+
+A desired understanding ...
+- Has enduring value beyond the classroom. 
+- Resides at the heart of the discipline (involves 
+“doing” the subject). 
+- Requires uncoverage (of abstract or often 
+misunderstood ideas). 
+- Offers potential for engaging learners. 
+
+To help think through desired understandings, ask yourself: 
+What are my own understandings (of myself, the world, this discipline/topic) that inform the goals I’ve set? These are the understandings you want to share and cultivate. 
+
+### IV. Overarching Essential Questions
+
+Essential questions are open-ended questions that lead to investigation. They guide the learning process and 
+lead learners to discover patterns in knowledge through solving problems and discovering meaning, which increases motivation to learn. When designing your essential questions, make sure to frame them in ways that can guide learners through a process of inquiry and focused instruction. 
+
+In this section you want to create overarching questions that investigate the issues you are trying to transform. These questions will explore the change you want to see and lead learners to the cultivation of skills and practices needed in order to achieve that change. Your essential questions should work in tandem with the purpose and focus of your curriculum. 
+
+Here are good definitions of essential questions, from 
+Jay McTighe and Grant Wiggins.
+- Is thought-provoking and intellectually engaging, 
+often sparking discussion and debate.
+- Calls for higher-order thinking, such as analysis, 
+inference, evaluation, prediction. It cannot be 
+effectively answered by recall alone.
+- Points toward important, transferable ideas within 
+(and sometimes across) disciplines.
+- Raises additional questions and sparks further 
+inquiry.
+
+To get started, think through how the desired 
+understandings and goals will impact the purpose/focus 
+of your curriculum. 
+
+### V. Supporting Essential Questions
+
+Supporting essential questions are a series of sub-questions that allow you to investigate the overarching 
+essential questions. They help break down the essential questions into tangible parts. You can start by figuring out what questions will lead learners through the process of investigating your overarching questions. These sub-questions will go on to be used as unit titles or headings for your lesson plans. Each question essentially will shape the content of your lesson plans, leading up to answering the big question of the full curriculum outline. 
+
+Generating at least four supporting questions will help you understand the scope of work and capacity needed 
+to implement your curriculum, because these are the questions that will be guiding discussions and activities.
+
+### VI. Knowledge and Skills
+
+Knowledge and skills are key components that learners will develop through the learning experience. In this 
+step you will identify what people will need to know and be able to do in order to explore the questions you 
+have developed. The skills and knowledge are how your goals will be realized. You can identify them by thinking through what learners will need in order to develop the desired understandings and answer the essential and supporting questions. What you identify in this section will drive the content of your curriculum. 
+
+Here are some questions to guide you in identifying 
+skills and knowledge:
+- What information (facts, history, principles, 
+terminology) do learners need to perform the 
+tasks? 
+- What relevant skills (processes, procedures, 
+strategies) and experiences will learners walk 
+away with?
+
+### VII. Performance Tasks
+
+Performance tasks are essentially assessments that learners perform to demonstrate their knowledge, 
+understanding, and proficiency. Performance tasks yield a tangible product and/or performance that 
+serve as evidence of learning. These can look like final projects, tests, or presentations learners do that help you gauge your teaching methods. 
+
+Performance tasks serve two purposes:
+- Facilitate learners in deepening and putting into action the desired understandings.
+- Provide you an opportunity to assess where learners are at so you can course correct if needed. 
+
+Wiggins and McTighe’s six facets of understandings may be helpful in designing performance tasks. Performance 
+is measured when learners ...
+- Can explain who/what/why/when. 
+- Can interpret and develop personal meaning.
+- Can apply to different contexts. 
+- See it in perspective, with multiple viewpoints.
+- Can empathize and provide insights from another role or stakeholder.
+- Can develop self-knowledge and examine their relevant personal needs and values.
+
+Think about what you’ll have learners do to evaluate and document what learning has been achieved. 
+
+Allowing learners to perform and present their learning at the beginning of a curriculum will ensure a learner-centered curriculum with effective assessment built in. 

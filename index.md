@@ -3,26 +3,13 @@ layout: index
 published: true
 ---
 
-## Create your own online course (and keep it)
+## Summary of internship
+This cohort of the Tech Lab will learn about networks and how data travels, both from a technical perspective, and from a civic and political perspective. The 3-month session will be organized around three projects, and will give young people to opportunity to develop marketable skills in web development and wireless networks, to create media to teach an intergenerational audience about data and privacy issues, and to build their own internet/mesh wireless network along Belmont Avenue. Additionally, students will leave with the skills to be lifelong learners by using library resources, online resources, and cooperative learning networks.
 
-Course in a Box is simple, open source tool to help you create your very own online course. It is designed to minimize the amount of time you need to spend fumbling around with technology, allowing you to focus on bringing together the resources, activities, and lessons that you want to share with the world.
+## Why this is important
 
-By default, your course will be hosted on [Github](https://www.github.com), a popular development platform that allows for collaborative drafting, version control, and easy dissemination of your course. Best of all, hosting a course on Github is **free**!
+It can often feel like we have little control over our personal information, and by extension, our lives. Using the internet, or just existing in a connected world with sensors and monitoring technologies enables surveillance by law enforcement, parents, peers, and schools, can affect access to opportunities and resources, and can expose us in ways we never asked for. We want learners to build an understanding of how to personally control what information is transmitted, but also why and how governments, corporations, and nonprofit institutions use and control our data and communication tools, and how to make change in these systems (and how to build our own alternatives). 
 
-So what does it look like? Recently, Creative Commons and the Open University used in Course in a Box to create [a course about Open Educational Resources](http://www.exploerercourse.org/). The Children’s Museum in Pittsburgh created [a course about designing maker spaces in libraries and museums](http://p2pu.github.io/makingandlearning/).
-
-Using Course in a Box is completely free. However, if you’d like to hire us to help you set things up and give feedback along the way, we are available to do that too. Just reach out to us a thepeople[at]p2pu[dot]org.
-
-## Not just technology and content
-
-In Deschooling Society (1971), Ivan Illich wrote that “technology is available to develop either independence and learning or bureaucracy and teaching”. So much of education technology that is developed today is geared towards the latter. Think about every learning management system you’ve ever engaged with, or the promises of smart tutors and personalized algorithms that will tell people exactly what to learn. More often than not, these tools reinforce the role of an expert or an administrator more than they empower individual learners to pursue their own interests.
-
-At P2PU, we believe that effective learning is not going to come from the top down, regardless of how smart the teacher or refined the algorithm. We also believe that you don’t need to spend $100,000 to create a good online course! Taking time to frame questions in new ways and reaching out to communities who might benefit from your course is way more important that filming lessons in 4K video in a fancy video studio.
-
-## Reach new audiences
-
-Online courses take a big step forwards in the sharing of knowledge around the world. However, your course is only ever as good as the people it reaches. To help reach new audiences with online courses, P2PU developed learning circles: face-to-face study groups for people who want to take online courses together, in local libraries or community spaces.
-
-Once you create a course, you can add it to P2PU’s learning circle [course page](http://p2pu.org/en/courses), a growing database of online courses that people are using to facilitate learning circles around the world. You can also check out [https://www.p2pu.org/en/facilitate/](https://www.p2pu.org/en/facilitate/) for information on running your own learning circles.
-
+## Why the Brooklyn Public Library is Doing This
+Brooklyn Public Library (BPL) is an anchor institution that plays a crucial role as a community connector and hopes to deepen its cohort-based work readiness services. A community-driven wireless network and a technology-based fellowship program for young adults, ages 18-24, will serve up to 45 young people annually and will teach technology, leadership and workplace readiness skills. Fellows will install and maintain the wireless network, while engaging community members – residents, community-based organizations and small businesses – in using the free broadband access.
 
