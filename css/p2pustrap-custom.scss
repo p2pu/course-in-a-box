@@ -5,6 +5,8 @@
 
 @import "p2pu-css-framework/p2pustrap";
 
+
+
 {% if site.jumbotron_color %}
 	$jumbotron-color: {{ site.jumbotron_color }};
 {% else %}
@@ -42,3 +44,5 @@
     top:0; left: 0;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,0) 70%, rgba(255, 255, 255, 1));
 }
+
+@import "bklyn-connect-custom";
