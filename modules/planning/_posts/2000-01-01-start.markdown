@@ -6,12 +6,14 @@ title: The Backwards Design Method
 
 We relied heavily on the work done by [Detroit Community Technology Projects](https://detroitcommunitytech.org/), and encourage you to [donate to support their work](https://www.alliedmedia.org/dctp/donate), and to read [all that they have published](https://detroitcommunitytech.org/?q=learning-materials). 
 
-In particular, we will refer back to the [Teaching Community Technology Handbook](https://detroitcommunitytech.org/sites/default/files/librarypdfs/TeachingCommunityTech.pdf) throughout this section on planning your community-based digital literacy curriculum. 
+In particular, we will refer back to the [Teaching Community Technology Handbook](https://detroitcommunitytech.org/sites/default/files/librarypdfs/TeachingCommunityTech.pdf) throughout this section on planning your community-based digital literacy curriculum. The following is from this handbook, with examples from BklynConnect scattered throughout: 
 
 ## Backwards Design In Action: Developing a Curriculum Outline
 
 Now that you have figured out your goals, you can create an overall outline of your curriculum. A curriculum outline serves as the framework for your teaching flow or lesson plan. To begin this process, you have to think about what learners will need to experience, do, understand and discover in order to gain the knowledge 
 they need. Your curriculum is essentially a learning plan, and the lesson plans of that curriculum are the detailed processes learners will go through. This section is our interpretation of the backwards design process. It explains key terms and walks you through the process of writing a curriculum outline.
+
+
 
 ### I. Curriculum Focus
 
@@ -20,6 +22,14 @@ environment, addressing significant problems the learning communities you are wo
 with your community to identify an issue you want to address or something you want to transform in your 
 community. These ideas should be the focus of your curriculum. For example, if digital literacy is a challenge in your community, start by brainstorming with your neighbors all the ways in which not understanding or having access to technology is affecting your neighborhood. Then take some time to brainstorm what specific outcomes you believe you can achieve through teaching and learning as a community. This brainstorm is the 
 place you can pull the purpose and focus of your curriculum.
+
+<div class="BC-example">
+	<h1>BklynConnect's Curriculum Focus</h1>
+	<em>What program objectives, projects, or learning outcomes will be addressed or accomplished?</em>
+
+	<p>It can often feel like we have little control over our personal information, and by extension, our lives. Using the internet, or just existing in a connected world with sensors and monitoring technologies enables surveillance by law enforcement, parents, peers, and schools, can affect access to opportunities and resources, and can expose us in ways we never asked for. We want learners to build an understanding of how to personally control what information is transmitted, but also why and how governments, corporations, and nonprofit institutions use and control our data and communication tools, and how to make change in these systems (and how to build our own alternatives). </p>
+
+</div>
 
 ### II. Goals
 
