@@ -1,5 +1,5 @@
 # basic configuration
-baseurl: /course-in-a-box
+baseurl: /invention-bootcamp-pcc
 markdown: kramdown
 permalink: /:categories/:title/
 
