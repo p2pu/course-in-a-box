@@ -1,5 +1,4 @@
 # basic configuration
-baseurl:
 markdown: kramdown
 permalink: /:categories/:title/
 
