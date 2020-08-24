@@ -21,33 +21,14 @@ layout: base
 
 		<h3>In collaboration with <a href="https://www.p2pu.org">P2PU</a>.</h3>
 	</div>
-
 </div>
+
 <div class="container">
 	<div class="clearfix">
-		<div class="col-md-8 col-md-offset-2">
+		<div class="col-8 offset-2">
 			<section>
 				{{ content }}
 			</section>
 		</div>
 	</div>
 </div>
-{% comment %}
-<section class="people clearfix light-section">
-	<div class="container">
-		<h2>Who else is here?</h2>
-		<hr />
-		<ul class="list-inline">
-			{% for user in site.data.course.signups %}
-				<li class="col-md-1">
-					<a href="https://twitter.com/{{ user.twitter }}"
-					   target="_blank"> <img
-							class="img-circle profile-picture"
-							src="{{ user.image }}"
-							alt="{{ user.name }}"> </a>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
-{% endcomment %}

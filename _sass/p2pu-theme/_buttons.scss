@@ -1,0 +1,209 @@
+.p2pu-btn {
+  border-radius: 2em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-weight-bold;
+  padding: 10px 20px;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  transition: color 0.3s linear;
+  display: inline-block;
+  margin: 2px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    border-radius: 2em;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  &:hover:before, &:focus:before, &:active:before {
+    transform: scaleX(1);
+  }
+
+
+  &.dark {
+    background: $gray-darker;
+    border: 2px solid $gray-darker;
+    color: $white;
+
+    &:before {
+      background: lighten($gray-darker, 5%);
+    }
+
+    &.secondary {
+      background: $white;
+      color: $gray-darker;
+      border: 2px solid $gray-darker;
+      &:before {
+        background: transparentize($gray-darker, 0.95);
+      }
+
+      &:hover {
+        color: $gray-darker;
+      }
+    }
+  }
+
+  &.light {
+    background: $gray-lighter;
+    border: 2px solid $gray-lighter;
+    color: $gray-darker;
+
+    &:before {
+      background: $white;
+    }
+  }
+
+  &.arrow {
+    padding: 0.7em 1em;
+    font-size: 1em;
+    align-self: center;
+  }
+
+  &.transparent {
+    background: transparent;
+    color: $white;
+    border: 2px solid $white;
+    &:before {
+      background: transparentize($white, 0.9);
+    }
+  }
+
+  &.blue {
+    background: $p2pu-blue;
+    border: 2px solid $p2pu-blue;
+    color: $white;
+
+    &:before {
+      background: lighten($p2pu-blue, 1%);
+    }
+
+    &.secondary {
+      background: $white;
+      color: $p2pu-blue;
+      border: 2px solid $p2pu-blue;
+      &:before {
+        background: transparentize($p2pu-blue, 0.95);
+      }
+
+      &:hover {
+        color: $p2pu-blue;
+      }
+    }
+  }
+
+  &.orange {
+    background: $p2pu-orange;
+    border: 2px solid $p2pu-orange;
+    color: $white;
+
+    &:before {
+      background: lighten($p2pu-orange, 1%);
+    }
+
+    &.secondary {
+      background: $white;
+      color: $p2pu-orange;
+      border: 2px solid $p2pu-orange;
+      &:before {
+        background: transparentize($p2pu-orange, 0.95);
+      }
+
+      &:hover {
+        color: $p2pu-orange;
+      }
+    }
+  }
+
+  &.yellow {
+    background: $p2pu-yellow;
+    border: 2px solid $p2pu-yellow;
+    color: $white;
+
+    &:before {
+      background: lighten($p2pu-yellow, 3%);
+    }
+
+    &.secondary {
+      background: $white;
+      color: $p2pu-yellow;
+      border: 2px solid $p2pu-yellow;
+      &:before {
+        background: transparentize($p2pu-yellow, 0.95);
+      }
+
+      &:hover {
+        color: $p2pu-yellow;
+      }
+    }
+  }
+
+  &.green {
+    background: $p2pu-green;
+    border: 2px solid $p2pu-green;
+    color: $white;
+
+    &:before {
+      background: lighten($p2pu-green, 1%);
+    }
+
+    &.secondary {
+      background: $white;
+      color: $p2pu-green;
+      border: 2px solid $p2pu-green;
+      &:before {
+        background: transparentize($p2pu-green, 0.95);
+      }
+
+      &:hover {
+        color: $p2pu-green;
+      }
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+  }
+
+  &.with-outline {
+    border: 2px solid $gray-lighter;;
+  }
+
+  @media (max-width: map-get($grid-breakpoints, "sm")) {
+    padding: 0.4em 1em;
+
+    &.dark {
+      background: $gray-darker;
+      color: $white;
+
+      &:before {
+        background: $gray-darker;
+      }
+    }
+
+    &.light {
+      background: $white;
+      color: $gray-darker;
+
+      &:before {
+        background: $white;
+      }
+    }
+  }
+}

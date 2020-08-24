@@ -1,0 +1,67 @@
+.pos-absolute {
+  position: absolute;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.text {
+  &-blue {
+    color: $p2pu-blue;
+  }
+
+  &-green {
+    color: $p2pu-green;
+  }
+
+  &-yellow {
+    color: $p2pu-yellow;
+  }
+
+  &-orange {
+    color: $p2pu-orange;
+  }
+
+  &-dark {
+    color: $gray-darker;
+  }
+
+  &-black {
+    color: $black;
+  }
+
+  &-light {
+    color: $gray-snow;
+  }
+
+  &-white {
+    color: $white;
+  }
+}
+
+.bg {
+  &-blue {
+    background-color: $p2pu-blue;
+  }
+
+  &-green {
+    background-color: $p2pu-green;
+  }
+
+  &-yellow {
+    background-color: $p2pu-yellow;
+  }
+
+  &-orange {
+    background-color: $p2pu-orange;
+  }
+
+  &-dark {
+    background-color: $gray-darker;
+  }
+
+  &-light {
+    background-color: $gray-snow;
+  }
+}

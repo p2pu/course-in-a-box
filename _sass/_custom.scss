@@ -1,0 +1,251 @@
+@include media-breakpoint-up(md) {
+  .navbar {
+    line-height: 3;
+  }
+}
+
+.navbar {
+  a, .nav-link, button {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+  }
+}
+
+.nav-item.active {
+  background-color: #707782;
+}
+
+.nav-link{
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+footer {
+  padding: 1em;
+}
+
+
+body {
+	background-color: $gray-lighter;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+}
+
+.relative {
+	position: relative;
+}
+
+.background-white {
+	padding: 60px 0;
+	background-color: $white;
+}
+
+.sidebar {
+	padding: 60px 0;
+  font-size: 15px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar li {
+	line-height: 4;
+	padding-left: 60px;
+	position: relative;
+	@include transition(color, 0.3s, linear);
+}
+
+.sidebar li:hover {
+	background-color: cadetblue;
+
+	a:hover, a:focus {
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+.sidebar li.active {
+	background-color: $white;
+}
+
+.sidebar li.active a:hover {
+	color: cadetblue;
+}
+
+.sidebar li:before {
+	content: "";
+	border-left: 3px solid #aab0bf;
+	position: absolute;
+	left: 40px;
+	height: 100%;
+	top: 0;
+}
+
+.sidebar li.first:before {
+	height: 50%;
+	top: 50%;
+}
+
+.sidebar li.last:before {
+	height: 50%;
+	top: 0;
+}
+
+.sidebar li.first.last:before {
+	height: 0;
+	top: 0;
+}
+
+.sidebar li a {
+	display: block;
+	line-height: 4;
+	text-transform: uppercase;
+	@include transition(color, 0.3s, linear);
+}
+
+.sidebar li a:before {
+	content: "\f005";
+	font-family: FontAwesome;
+	color: cadetblue;
+	position: absolute;
+	left: 29px;
+	line-height: 1.7;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 3px solid $gray;
+	top: 18px;
+	background-color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.sidebar li.active a:before {
+	content: "\f04b";
+}
+
+.sidebar li a:after {
+	content: "";
+
+}
+
+.pagination-section {
+	margin: 1em 0;
+}
+
+.pagination-section .title {
+	color: $gray;
+	line-height: 2;
+}
+
+.pagination-section {
+	.next, .prev {
+		text-transform: uppercase;
+	}
+}
+
+.pagination-section .next:after {
+	content: "\f0da";
+	font-family: FontAwesome;
+}
+
+.pagination-section .prev:before {
+	content: "\f0d9";
+	font-family: FontAwesome;
+}
+
+.sidebar .pagination-section {
+	padding-left: 60px;
+}
+
+.content {
+	line-height: 2;
+}
+
+blockquote {
+	font-size: initial;
+	font-style: italic;
+	line-height: 1.9;
+}
+
+#ghUsername-box {
+	position: relative;
+	background: $gray-lighter;
+	padding: 10px 20px;
+
+	.ghUsername-set {
+		@extend .h2;
+		padding: 7px 15px;
+		display: block;
+		margin: 0;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+	}
+	.label {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+.gh-username-set {
+	input {
+		padding: 4px;
+	}
+	button {
+		margin-top: -5px;
+	}
+}
+
+section {
+	margin: 3em 0;
+	font-size: large;
+	line-height: 1.8;
+}
+
+.light-section{
+	background-color: $white;
+
+	hr{
+		border-color: $gray-lighter;
+	}
+}
+.dark-section{
+	background-color: $gray-lighter;
+
+	hr{
+		border-color: $white;
+	}
+}
+.jumbotron {
+	background: $jumbotron-color;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-image: url('../img/#{$jumbotron-image}');
+	background-size: auto;
+	color: $white;
+	position: relative;
+
+	a {
+		color: #fcfcfc;
+		border-bottom: 1px dotted;
+		text-decoration: none;
+		transition: all 0.3s linear;
+	}
+	a:hover, a:focus {
+		border-bottom: none;
+		text-decoration: none;
+	}
+
+}
+
+.jumbotron header h1 {
+	font-family: $font-family-sans-serif;
+	font-size: 4em;
+}

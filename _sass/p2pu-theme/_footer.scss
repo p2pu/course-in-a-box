@@ -1,0 +1,140 @@
+footer.home-footer {
+  font-size: $font-size-sm;
+
+  .title {
+    padding-bottom: 10px;
+  }
+
+  .contact-info {
+    background: $gray-darker;
+    color: $white;
+    padding-top: $padding-sm;
+    padding-bottom: $padding-md;
+
+    .columns {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+
+  a {
+    color: $white;
+  }
+
+  header {
+    padding-bottom: $padding-sm;
+  }
+
+  .social {
+    .content {
+      display: flex;
+      justify-content: space-between;
+
+      .social-link a {
+        font-size: 22px;
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          background: $white;
+
+          i {
+            color: $gray-darker;
+          }
+        }
+
+        &:focus, &:active {
+          background-color: $p2pu-blue;
+          outline: none;
+          text-decoration: none;
+
+          i {
+            color: $white;
+          }
+        }
+      }
+
+      span {
+        i {
+          margin-right: $padding-sm;
+          width: 14px;
+        }
+      }
+    }
+  }
+
+  .newsletter {
+    form {
+      #mc_embed_signup_scroll {
+        display: flex;
+      }
+
+      input[type="email"], input[type="submit"] {
+        background: none;
+        border: 2px solid $white;
+        color: $white;
+        height: 40px;
+        padding: 0 10px;
+        font-size: 14px;
+
+        &::placeholder {
+          font-style: italic;
+          color: $gray;
+        }
+      }
+
+      input[type="email"] {
+        border-right: none;
+        flex-grow: 1;
+      }
+
+      input[type="submit"]:hover {
+        background: $white;
+        color: $gray-darker;
+      }
+
+      input[type="submit"]:focus {
+        background: $p2pu-blue;
+        color: $white;
+        outline: none;
+      }
+    }
+  }
+
+  .toc {
+    background: $white;
+
+    .container {
+      display: flex;
+
+      > div {
+        padding-top: $padding-sm;
+        padding-bottom: $padding-sm;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: $gray-darker;
+        font-size: $font-size-sm;
+
+        > div span {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    a {
+      color: $gray-darker;
+    }
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, "md")) {
+  .newsletter {
+    margin-bottom: 20px;
+  }
+}
