@@ -1,0 +1,72 @@
+@mixin feature-overlay() {
+  &:before {
+    color: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 1em;
+    width: 1em;
+    z-index: 1;
+    margin: -0.5em 0 0 -0.5em;
+    font-family: FontAwesome;
+    font-size: 6em;
+    line-height: 1em;
+    text-align: center;
+    @include transition(transform 0.1s ease-in-out, font-size 0.1s ease-in-out);
+  }
+  &:hover:before {
+    color:$white;
+    font-size: 7em;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    display: block;
+    background-color: rgba(81, 86, 101, 0.8);
+    @include transition(opacity 0.25s ease-in-out);
+  }
+  &:hover:after {
+    opacity: 1;
+  }
+}
+
+@mixin flex-column-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin circle-cta {
+  @include flex-column-centered;
+  height: 200px;
+  width: 200px;
+  background: $p2pu-light-blue;
+  border-radius: 50%;
+  text-align: center;
+  padding: $padding-sm;
+  color: $gray-darker;
+}
+
+@keyframes pulse-grow {
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@mixin grow-on-hover {
+  transform: perspective(1px) translateZ(0);
+  animation-name: pulse-grow;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}

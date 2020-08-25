@@ -1,0 +1,234 @@
+body {
+  &.freeze {
+    overflow: hidden;
+  }
+}
+
+nav {
+  z-index: $zindex-navbar-fixed;
+  font-family: $headings-font-family;
+  font-size: $font-size-base;
+
+  button.nav-item {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: $primary;
+
+    i {
+      margin-right: 12px;
+    }
+  }
+
+  .logo {
+    img {
+      height: 1.5em;
+    }
+  }
+
+  &.nav-collapsed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  &.collapsed {
+    display: none !important;
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+
+     > .nav-item {
+      margin: 0 15px;
+      cursor: pointer;
+      white-space: nowrap;
+
+      a, button {
+        color: $primary;
+      }
+
+      i {
+        margin-right: 6px;
+      }
+
+      li {
+        a {
+          color: $primary;
+          display: flex;
+          align-items: center;
+
+          span.bullet {
+            height: 5px;
+            width: 0px;
+            background: $p2pu-yellow;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+            display: block;
+          }
+
+          span.text {
+            transition: transform 0.2s ease-in-out;
+          }
+
+          &:hover, &:focus {
+            background-color: transparent;
+
+            span.bullet {
+              width: 10px;
+            }
+
+            span.text {
+              transform: translateX(15px);
+            }
+          }
+        }
+      }
+
+      .dropdown-menu {
+        padding: 10px;
+        min-width: 250px;
+
+        li {
+          padding: 3px 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, "md")) {
+  nav {
+    .nav-items {
+      > .nav-item {
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+#close-menu {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: $white;
+  color: $p2pu-blue;
+  font-size: 22px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: none;
+  z-index: 1;
+
+  &:hover {
+    transform: rotate(90deg);
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 4px transparentize($white, 0.5);
+    outline: none;
+  }
+}
+
+#full-page-menu {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: transparentize($p2pu-blue, 0.03);
+  top: 0;
+  left: 0;
+  transition: left 0.5s ease-in-out;
+  z-index: 999;
+  box-shadow: -2px 2px 10px 1px rgba(0,0,0,0.2);
+
+  .content-container {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    overflow-y: scroll;
+
+    .content {
+      padding-top: 40px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .nav-container {
+    align-items: center;
+  }
+
+  &.collapsed {
+    left: 105%;
+  }
+
+  a {
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+
+  .menu-section {
+    &.top-level {
+      border-bottom: 1px solid transparentize($white, 0.3);
+    }
+
+    .menu-item {
+      font-size: calc(14px + 1vh);
+      transition: transform 0.2s ease-in-out;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+
+      span.bullet {
+        height: calc(5px + 0.1vh);
+        min-height: 5px;
+        width: 0;
+        background: $p2pu-yellow;
+        border-radius: 100px;
+        transition: all 0.2s ease-in-out;
+        display: block;
+      }
+
+      span.text {
+        color: $white;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      &:hover {
+        span.bullet {
+          width: calc(5px + 0.5vh);
+        }
+
+        span.text {
+          transform: translateX(15px);
+        }
+      }
+
+      &.submenu {
+        font-size: calc(14px + 0.5vh);
+        padding: 4px;
+        padding-left: 40px;
+
+        span.text {
+          color: $white;
+        }
+      }
+    }
+  }
+}

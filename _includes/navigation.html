@@ -1,41 +1,33 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-expand-md py-0 .navbar-dark bg-dark text-light">
+  <div class="container">
+    <a class="navbar-brand" href="{{site.baseurl}}/"><i class="fa fa-home"></i></a>
+ 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+ 
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {% for module in site.data.course.modules %}
+          {% assign first_post = site.categories[module]|reverse|first %}
+          <li class="nav-item py-0{% if page.categories[1] == module %} active{% endif %}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
+              {{ module }}
+            </a>
+          </li>
+        {% endfor %}
+        <li class="nav-item py-0">
+          <a class="nav-link" href="http://community.p2pu.org/" target="_blank">Discussion</a>
+        </li>
+      </ul>
+    </div>
+ 
+    {% if site.github.owner_name == 'p2pu' %}
+      <ul class="p2pu-logo">
+        <li><a class="p2pu-tab" href="https://www.p2pu.org/"><img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" /></a></li>
+      </ul>
+    {% endif %}
 
-	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
-			<i class="fa fa-bars"></i>
-		</a>
-	</div>
-
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="container">
-		<div class="collapse navbar-collapse" id="p2pu-menu">
-			<ul class="nav navbar-nav">
-				<li>
-					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
-				</li>
-				{% for module in site.data.course.modules %}
-					{% assign first_post = site.categories[module]|reverse|first %}
-					<li class="dropdown {% if page.categories[1] == module %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}">
-						<a href="{{ site.baseurl }}{{ first_post.url }}"
-						   class="dropdown-item">
-							{{ module }}
-						</a>
-					</li>
-				{% endfor %}
-				<li>
-					<a href="http://community.p2pu.org/" target="_blank">Discussion</a>
-				</li>
-			</ul>
-      {% if site.github.owner_name == 'p2pu' %}
-			<ul class="p2pu-logo">
-				<li><a class="p2pu-tab" href="https://www.p2pu.org/"><img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" /></a></li>
-			</ul>
-      {% endif %}
-		</div>
-		<!-- /.navbar-collapse -->
-	</div>
-	<!-- /.container-fluid -->
+  </div>
 </nav>
-<!-- End Navigation -->
