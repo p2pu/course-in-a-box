@@ -1,3 +1,10 @@
+body {
+	background-color: $gray-lighter;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+}
+
 @include media-breakpoint-up(md) {
   .navbar {
     line-height: 3;
@@ -11,8 +18,9 @@
   }
 }
 
-.nav-item.active {
+.nav-item.active, .nav-item:hover {
   background-color: #707782;
+	transition: all 0.3s linear;
 }
 
 .nav-link{
@@ -20,25 +28,48 @@
   padding-right: 1em !important;
 }
 
-footer {
-  padding: 1em;
-}
-
-
-body {
-	background-color: $gray-lighter;
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-  }
-}
-
-.relative {
+.jumbotron {
+	background: $jumbotron-color;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-image: url('../img/#{$jumbotron-image}');
+	background-size: auto;
+	color: $white;
 	position: relative;
+
+	a {
+		color: #fcfcfc;
+		border-bottom: 1px dotted;
+		text-decoration: none;
+		transition: all 0.3s linear;
+	}
+	a:hover, a:focus {
+		border-bottom: none;
+		text-decoration: none;
+	}
+
 }
 
-.background-white {
-	padding: 60px 0;
-	background-color: $white;
+.jumbotron header h1 {
+	font-family: $font-family-sans-serif;
+	font-size: 4em;
+}
+
+.content {
+  margin-top: 1em;
+	line-height: 2;
+}
+
+blockquote {
+	font-size: initial;
+	font-style: italic;
+	line-height: 1.9;
+}
+
+section {
+	margin: 3em 0;
+	font-size: large;
+	line-height: 1.8;
 }
 
 .sidebar {
@@ -161,16 +192,6 @@ body {
 	padding-left: 60px;
 }
 
-.content {
-	line-height: 2;
-}
-
-blockquote {
-	font-size: initial;
-	font-style: italic;
-	line-height: 1.9;
-}
-
 #ghUsername-box {
 	position: relative;
 	background: $gray-lighter;
@@ -191,6 +212,11 @@ blockquote {
 		position: absolute;
 		top: 0;
 		right: 0;
+    padding: 0 5px;
+    background-color: $gray-darker;
+    color: white;
+    font-size: 12pt;
+    font-style: italic;
 	}
 }
 
@@ -203,49 +229,22 @@ blockquote {
 	}
 }
 
-section {
-	margin: 3em 0;
-	font-size: large;
-	line-height: 1.8;
-}
-
-.light-section{
-	background-color: $white;
-
-	hr{
-		border-color: $gray-lighter;
-	}
-}
-.dark-section{
-	background-color: $gray-lighter;
-
-	hr{
-		border-color: $white;
-	}
-}
-.jumbotron {
-	background: $jumbotron-color;
-	background-position: bottom center;
-	background-repeat: no-repeat;
-	background-image: url('../img/#{$jumbotron-image}');
-	background-size: auto;
-	color: $white;
-	position: relative;
-
-	a {
-		color: #fcfcfc;
-		border-bottom: 1px dotted;
-		text-decoration: none;
-		transition: all 0.3s linear;
-	}
-	a:hover, a:focus {
-		border-bottom: none;
-		text-decoration: none;
-	}
-
-}
-
-.jumbotron header h1 {
-	font-family: $font-family-sans-serif;
-	font-size: 4em;
+footer {
+  padding: 2em 0;
+  background-color: $gray-dark;
+  color: $gray-lighter;
+  text-align: center;
+  font-size: 12pt;
+  a {
+    color: #FCFCFC;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  a:hover {
+    border: none;
+    color: #FCFCFC;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
 }
