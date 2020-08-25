@@ -73,8 +73,8 @@ section {
 }
 
 .sidebar {
-	padding: 60px 0;
   font-size: 15px;
+  padding-bottom: 10px;
 }
 
 .sidebar ul {
@@ -82,9 +82,8 @@ section {
 	padding: 0;
 }
 
+
 .sidebar li {
-	line-height: 4;
-	padding-left: 60px;
 	position: relative;
 	@include transition(color, 0.3s, linear);
 }
@@ -96,6 +95,9 @@ section {
 		text-decoration: none;
 		color: $white;
 	}
+  .pagination-section {
+    margin: 1em 0;
+  }
 }
 
 .sidebar li.active {
@@ -106,65 +108,11 @@ section {
 	color: cadetblue;
 }
 
-.sidebar li:before {
-	content: "";
-	border-left: 3px solid #aab0bf;
-	position: absolute;
-	left: 40px;
-	height: 100%;
-	top: 0;
-}
-
-.sidebar li.first:before {
-	height: 50%;
-	top: 50%;
-}
-
-.sidebar li.last:before {
-	height: 50%;
-	top: 0;
-}
-
-.sidebar li.first.last:before {
-	height: 0;
-	top: 0;
-}
-
 .sidebar li a {
 	display: block;
-	line-height: 4;
+  padding: 0.8em 0.5em;
 	text-transform: uppercase;
 	@include transition(color, 0.3s, linear);
-}
-
-.sidebar li a:before {
-	content: "\f005";
-	font-family: FontAwesome;
-	color: cadetblue;
-	position: absolute;
-	left: 29px;
-	line-height: 1.7;
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
-	border: 3px solid $gray;
-	top: 18px;
-	background-color: white;
-	text-align: center;
-	font-size: 0.8em;
-}
-
-.sidebar li.active a:before {
-	content: "\f04b";
-}
-
-.sidebar li a:after {
-	content: "";
-
-}
-
-.pagination-section {
-	margin: 1em 0;
 }
 
 .pagination-section .title {
@@ -188,8 +136,73 @@ section {
 	font-family: FontAwesome;
 }
 
-.sidebar .pagination-section {
-	padding-left: 60px;
+
+@include media-breakpoint-up(md) {
+  .sidebar {
+	  padding: 60px 0;
+  }
+
+  .sidebar li {
+	  padding-left: 60px;
+  }
+
+  .sidebar li:before {
+    content: "";
+    border-left: 3px solid #aab0bf;
+    position: absolute;
+    left: 40px;
+    height: 100%;
+    top: 0;
+  }
+
+  .sidebar li.first:before {
+    height: 50%;
+    top: 50%;
+  }
+
+  .sidebar li.last:before {
+    height: 50%;
+    top: 0;
+  }
+
+  .sidebar li.first.last:before {
+    height: 0;
+    top: 0;
+  }
+
+  .sidebar li a {
+    padding: 1.2em 0;
+  }
+
+  .sidebar li a:before {
+    content: "\f005";
+    font-family: FontAwesome;
+    color: cadetblue;
+    position: absolute;
+    left: 29px;
+    line-height: 1.7;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid $gray;
+    top: 18px;
+    background-color: white;
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  .sidebar li.active a:before {
+    content: "\f04b";
+  }
+
+  .sidebar li a:after {
+    content: "";
+  }
+
+  .sidebar .pagination-section {
+    padding-left: 60px;
+  }
+
 }
 
 #ghUsername-box {
