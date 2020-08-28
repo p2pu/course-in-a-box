@@ -66,7 +66,6 @@ body {
 	background-size: auto;
 }
 
-
 .content {
   margin-top: 1em;
 	line-height: 2;
@@ -80,6 +79,17 @@ blockquote {
   font-style: normal;
   font-size: inherit;
   border-left: 7px solid $p2pu-light-blue;
+}
+
+pre {
+  border-left: 7px solid $gray-light;
+  padding: 1em;
+  background-color: $gray-lighter;
+  line-height: 1.2;
+}
+
+code {
+  background-color: $gray-lighter;
 }
 
 section {
