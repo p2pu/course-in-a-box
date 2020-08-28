@@ -72,9 +72,13 @@ body {
 }
 
 blockquote {
-	font-size: initial;
-	font-style: italic;
-	line-height: 1.9;
+  padding: 1.2em;
+  margin: 0;
+  border: 0;
+  background: #DFF7F4;
+  font-style: normal;
+  font-size: inherit;
+  border-left: 7px solid $p2pu-light-blue;
 }
 
 section {
