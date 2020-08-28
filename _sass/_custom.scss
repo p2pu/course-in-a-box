@@ -33,6 +33,7 @@ body {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk8AEAAFIATgDK/mEAAAAASUVORK5CYII=), url('../#{$jumbotron-background-image}') $jumbotron-color;
   background-size: contain;
 	color: $white;
+  text-shadow: 5px 5px 10px $gray-darker;
 
 	a {
 		color: #fcfcfc;
