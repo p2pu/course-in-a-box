@@ -19,9 +19,9 @@
 {% endif %}
 
 {% if site.jumbotron_background_image %}
-	$jumbotron-image: '{{ site.jumbotron_background_image }}';
+	$jumbotron-background-image: '{{ site.jumbotron_background_image }}';
 {% else %}
-	$jumbotron-image: 'banner.svg';
+	$jumbotron-background-image: 'jumbotron.svg';
 {% endif %}
 
 @import "custom";

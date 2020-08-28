@@ -3,23 +3,14 @@ layout: base
 ---
 
 <!-- Banner -->
-<div class="jumbotron">
+<div class="jumbotron jumbotron-fluid">
 	<div class="container text-center">
+		<h1>{{ site.data.course.title }}</h1>
+    <p class="lead">{{site.data.course.description}}</p>
 		{% if site.jumbotron_image %}
-			<img src="{{ site.baseurl }}/img/{{ site.jumbotron_image }}"
+			<img src="{{ site.baseurl }}{{ site.jumbotron_image }}"
 			     alt="{{ site.title }} Icon" />
 		{% endif %}
-		<header>
-			<h1>{{ site.data.course.description }}</h1>
-		</header>
-
-		<p>
-			<a class="btn btn-danger btn-lg"
-			   href="{{ site.baseurl }}/modules/tutorial/start/">
-				Create Your Course </a>
-		</p>
-
-		<h3>In collaboration with <a href="https://www.p2pu.org">P2PU</a>.</h3>
 	</div>
 </div>
 
