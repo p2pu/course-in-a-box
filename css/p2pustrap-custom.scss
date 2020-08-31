@@ -18,10 +18,23 @@
  $jumbotron-color: $p2pu-blue;
 {% endif %}
 
-{% if site.jumbotron_background_image %}
-	$jumbotron-background-image: '{{ site.jumbotron_background_image }}';
+{% if site.jumbotron_image %}
+	$jumbotron-image: '{{ site.jumbotron_image}}';
 {% else %}
-	$jumbotron-background-image: 'jumbotron.svg';
+	$jumbotron-image: 'jumbotron-image.svg';
+{% endif %}
+
+{% assign image_ext = site.jumbotron_image|split:"."|last %}
+{% if image_ext == "svg" %}
+  $jumbotron-image-size: contain;
+{% else %}
+  $jumbotron-image-size: cover;
+{% endif %}
+
+{% if site.jumbotron_mask %}
+	$jumbotron-mask: '{{ site.jumbotron_mask}}';
+{% else %}
+	$jumbotron-mask: 'jumbotron_mask.svg';
 {% endif %}
 
 @import "custom";
