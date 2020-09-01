@@ -73,19 +73,3 @@ or
 ```
 ![Alternative text for image](https://p2pu.org/static/images/homepage/logo-p2pu-menu.png)
 ```
-
-----
-
-<iframe width="640" height="360" src="//www.youtube.com/embed/5LtpOZT0z7E" frameborder="0" allowfullscreen></iframe>
-
-```
-<iframe width="640" height="360" src="//www.youtube.com/embed/5LtpOZT0z7E" frameborder="0" allowfullscreen></iframe>
-```
-
-----
-
-<a class="btn btn-primary" href="#"><i class="fa fa-home"></i> A fancy button</a>
-
-```
-<a class="btn btn-primary" href="#"><i class="fa fa-home"></i> A fancy button</a>
-```
