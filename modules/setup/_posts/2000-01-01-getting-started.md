@@ -4,7 +4,7 @@ title: Getting Started with GitHub
 
 ## Getting Started with GitHub
 
-Course-in-a-Box courses are used as websites and are edited and hosted through GitHub, a web-based service for managing code and collaborating with a global community on projects. If you don’t have one, you’ll need to create a GitHub account. (Free for personal use!)
+Course-in-a-Box courses are websites that are edited and hosted through GitHub, a web-based service for managing code and collaborating with a global community on projects. If you don’t have one, you’ll need to create a GitHub account. (Free for personal use!)
 
 If you’re new to GitHub, it can be a complex system to get used to. For a great basic primer on GitHub, check out [Hello World](https://guides.github.com/activities/hello-world/) and the [GitHub Term Glossary](https://docs.github.com/en/github/getting-started-with-github/github-glossary). If you get stuck at any point in the setup process, head to our community forum and someone can help you out!
 
