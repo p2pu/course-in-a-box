@@ -12,3 +12,5 @@ Google Analytics is a free web analytics service that tracks and reports website
 1. Add your tracking code after the `ga_tracking_code:` line of `_config.yml` 
 
 [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml)
+
+This will take a while to update and won't look very exciting until you start widely sharing your course. If you want to test it now, send the link to a few friends and check the analytics dashboard 24 hours later to make sure things are functioning properly.
