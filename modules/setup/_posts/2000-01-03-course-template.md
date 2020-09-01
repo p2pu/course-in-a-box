@@ -10,7 +10,7 @@ This tutorial will show you exactly where to look to update the relevant parts o
 
 <br>
 
-### Directory Layout
+#### Directory Layout
 
 ```
 📁 _data - course metadata
