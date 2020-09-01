@@ -8,6 +8,8 @@ Course-in-a-Box is a free tool for building and publishing online courses—no p
 * **Content:** Update the course structure and add your copy & media
 * **Customize:** Add some (optional) finishing touches
 
+<p> 
+
 #### Course-in-a-Box Courses We Love ❤️
 Here are some examples of Course-in-a-Box in the wild:
 
@@ -16,9 +18,13 @@ Here are some examples of Course-in-a-Box in the wild:
 * [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
 * [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/)  by P2PU
 
+<br> 
+
 #### We’re Here To Help 
 
 You can hire P2PU to get additional support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
+
+<br> 
 
 #### About Course-in-a-Box
 
