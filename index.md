@@ -8,7 +8,7 @@ Course-in-a-Box is a free tool for building and publishing online courses—no p
 * **Content:** Update the course structure and add your copy & media
 * **Customize:** Add some (optional) finishing touches
 
-<p> 
+<br> 
 
 #### Course-in-a-Box Courses We Love ❤️
 Here are some examples of Course-in-a-Box in the wild:
