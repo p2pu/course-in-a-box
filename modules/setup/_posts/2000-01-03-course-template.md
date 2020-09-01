@@ -4,9 +4,9 @@ title: Understanding the Course Template
 
 ## Understanding the Course Template
 
-Once you’ve forked the course, you’ll see the course guts as a list of folders and file names. This contains all of the learning content for the course as well as the code that holds it all together. Below is a full list of each folder and file in the main project folder and what they're used for.
+Once you’ve forked the course, you’ll see the course guts as a list of folders and file names. This contains all of the learning content for the course as well as the code that holds it all together. Below is a list of the folders and files in the main project folder and what they're used for.
 
-This tutorial will show you exactly where to look to update the relevant parts of the course, so you don’t need to memorize this section in order to proceed. We’ve included it in case you’re curious!
+Our guide will show you in context exactly where to look to update the relevant parts of the course, so you don’t need to memorize this section in order to proceed. We’ve included it in case you’re curious!
 
 <br>
 
