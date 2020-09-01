@@ -9,7 +9,7 @@ Course-in-a-Box is a free tool for building and publishing online courses—no p
 * **Customize:** Add some (optional) finishing touches
 
 #### Course-in-a-Box Courses We Love ❤️
-This guide was built with CIAB, so what you see here is what you'll start with. Here are some examples of Course-in-a-Box in the wild:
+Here are some examples of Course-in-a-Box in the wild:
 
 * [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
 * [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
