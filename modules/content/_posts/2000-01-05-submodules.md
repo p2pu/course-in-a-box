@@ -24,7 +24,7 @@ Before you make your submodules, note that submodules need to follow a specific 
 
 #### Creating Submodules 
 
-To add content, you need to create a section in a module. You can do so the same way you created a test section inside the introduction module before. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts) and create a new file for every section that you want within the module.
+To add a new submodule, create a new file within the module you want it to live in. You can do so the same way you created a test section inside the introduction module before. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts) and create a new file for every section that you want within the module.
 {% endhighlight %}
 
 While the text should be more or less, readable, you will notice some characters that you don't see on this page. That is because you will use Markdown to write the content for your course.
