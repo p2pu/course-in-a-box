@@ -1,0 +1,29 @@
+---
+title: Adding Media
+---
+
+## Adding Media
+
+----
+
+![Alternative text for image](https://p2pu.org/static/images/homepage/logo-p2pu-menu.png)
+
+```
+![Alternative text for image](https://p2pu.org/static/images/homepage/logo-p2pu-menu.png)
+```
+
+----
+
+<iframe width="500" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+
+```
+<iframe width="500" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+```
+
+----
+
+<a class="btn btn-primary" href="#"><i class="fa fa-home"></i> A fancy button</a>
+
+```
+<a class="btn btn-primary" href="#"><i class="fa fa-home"></i> A fancy button</a>
+```
