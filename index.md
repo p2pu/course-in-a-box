@@ -8,7 +8,7 @@ Course-in-a-Box is a free tool for building and publishing online courses—no p
 * **Content:** Update the course structure and add your copy & media
 * **Customize:** Add some (optional) finishing touches
 
-## Course-in-a-Box Courses We Love ❤️
+### Course-in-a-Box Courses We Love ❤️
 This guide was built with CIAB, so what you see here is what you'll start with. Here are some examples of Course-in-a-Box in the wild:
 
 * [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
@@ -16,11 +16,11 @@ This guide was built with CIAB, so what you see here is what you'll start with. 
 * [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
 * [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/)  by P2PU
 
-## We’re Here To Help 
+### We’re Here To Help 
 
 You can hire P2PU to get additional support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
 
-## About Course-in-a-Box
+### About Course-in-a-Box
 
 P2PU created Course-in-a-Box in 2014 as a free and lightweight tool for building online courses. We wanted to preserve the modular structure of MOOCs outside of the bulky (and often proprietary) environment of learning/content management systems. Course-in-a-Box is open-source, and we welcome contributions [on our Github repo](https://github.com/p2pu/course-in-a-box).
 
