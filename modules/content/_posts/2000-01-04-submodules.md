@@ -13,11 +13,12 @@ title: Submodules
 Before you make your submodules, note that submodules need to follow a specific naming convention to work correctly: 
 
 `YYYY-MM-DD-your-section-name.md`
-**YYYY-MM-DD** - Each file name needs starts with a valid date in the format `YYYY-MM-DD`—the actual date doesn't matter, but the order of the submodules will be determined by chronological date. The easiest option is to use `2000-01-01` and increment the day (01, 02, 03, etc.) to define the order.
 
-**your-section-name** - This is a short title for your submodule and will appear in the URL linking to it. You can hyphenate between multiple words if needed and edit this anytime.
+* **YYYY-MM-DD** - Each file name needs starts with a valid date in the format `YYYY-MM-DD`—the actual date doesn't matter, but the order of the submodules will be determined by chronological date. The easiest option is to use `2000-01-01` and increment the day (01, 02, 03, etc.) to define the order.
 
-**.md** – This sets the file type as a Markdown document which tells the course how to read the content that's inside. Things won't work right without this!
+* **your-section-name** - This is a short title for your submodule and will appear in the URL linking to it. You can hyphenate between multiple words if needed and edit this anytime.
+
+* **.md** – This sets the file type as a Markdown document which tells the course how to read the content that's inside. Things won't work right without this!
 
 <br>
 
