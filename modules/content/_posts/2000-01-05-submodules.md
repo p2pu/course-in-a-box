@@ -46,8 +46,8 @@ title: Submodules
 ---
 ```
 
-After that, it's all you! This is the space to add in your learning content and experiment with the best ways to present it. Keep the [Markdown Cheatsheet](../modules/content/_posts/2000-01-01-markdown.md) and [Media Guide](../modules/content/_posts/2000-01-01-markdown.md) handy to speed up the process.
+After that, it's all you! This is the space to add in your learning content and experiment with the best ways to present it. Keep the [Markdown Cheatsheet](../markdown) and [Media Guide](../media) handy to speed up the process.
 
-If you're learning this as you go, it can be immensely helpful to peek under the hood of other projects to see how they're made. To compare this page with its Markdown guts, check out `modules/content/_posts/2000-01-05-submodules.md`.
+If you're learning this as you go, it can be immensely helpful to peek under the hood of other projects to see how they're made. To compare this page with its Markdown guts, check out `modules/content/_posts/2000-01-05-submodules.md`
 
 [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/content/_posts/2000-01-05-submodules.md](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/content/_posts/2000-01-05-submodules.md)
