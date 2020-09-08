@@ -5,11 +5,12 @@ layout: base
 <!-- Banner -->
 <div class="jumbotron jumbotron-fluid">
 	<div class="container text-center">
+		<img src="{{ site.baseurl }}/{{ site.jumbotron_icon }}"
+		alt="{{ site.title }} Icon" />
 		<h1>{{ site.data.course.title }}</h1>
     <p class="lead">{{site.data.course.description}}</p>
 		{% if site.jumbotron_icon %}
-			<img src="{{ site.baseurl }}{{ site.jumbotron_icon }}"
-			     alt="{{ site.title }} Icon" />
+
 		{% endif %}
 	</div>
 </div>
