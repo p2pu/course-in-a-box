@@ -4,30 +4,29 @@ title: Understanding the Course Template
 
 ## Understanding the Course Template
 
-Once you’ve forked the course, you’ll see the course guts as a list of folders and file names. This contains all of the learning content for the course as well as the code that holds it all together. Below is a list of the folders and files in the main project folder and what they're used for.
+![Screenshot of the course template in GitHub](/course-in-a-box/img/course-template.png)
 
-Our guide will show you in context exactly where to look to update the relevant parts of the course, so you don’t need to memorize this section in order to proceed. We’ve included it in case you’re curious!
+Once you’ve forked the course, you’ll see the course's guts as a list of folders and file names. This list contains all of the learning content for the course as well as the code that holds it all together. This guide will always tell you exactly where to look to update different parts of your course, so you don’t need to read or memorize this section in order to proceed.
 
 <br>
 
-#### Directory Layout
+#### Directory layout explanation
 
 ```
 📁 _data - course metadata 
-📁 _includes - html for the ‘theme’
-📁 _layouts - more html for the ‘theme’
-📁 _sass - css for the ‘theme’
-📁 css - more css for the ‘theme’
-📁 fonts - fonts used by the ‘theme’
-📁 img - images used for the ‘theme’ and course content
-📁 js - JavaScript for the ‘theme’
-📁 modules - holds subfolders corresponding to submodules of content
-.gitignore - a github file (for if you want to do things on the console)
-CNAME - used for setting custom domains
+📁 _includes - html for page components
+📁 _layouts - html for various page layouts
+📁 _sass - styling code
+📁 css - more styling code
+📁 fonts - font files (including icons!)
+📁 img - image files
+📁 js - JavaScript for interactive components of the site
+📁 modules - folder for the actual course content
+.gitignore - a git file (for keeping this directory tidy)
+CNAME - use for setting custom domains
 Gemfile - used by jekyll/GitHub pages
-README.md - a file with instructions
-_config.yml - jekyll/GitHub pages config
-index.md - homepage content
+LICENSE - CIAB is licensed under the MIT License (do not edit)
+README.md - a text file to introduce and explain the project
+_config.yml - Jekyll/GitHub pages configuration & settings
+index.md - landing page content
 ```
-
-Each folder on GitHub also contains a file called README.md which includes more detailed instructions about the files inside. Check those out for further information!
