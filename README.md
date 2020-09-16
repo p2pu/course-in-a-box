@@ -1,7 +1,7 @@
 # An open-source project for creating online courses, built by P2PU
 Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. 
 
-To create your own course, simply fork this repository and delete the CNAME file: detailed documentation is available at [howto.p2pu.org](http://howto.p2pu.org).
+To create your own course, simply fork this repository and delete the CNAME file. Detailed documentation is available at [howto.p2pu.org](http://howto.p2pu.org).
 
 Questons? Ask on P2PU's [Community Forum](https://community.p2pu.org/c/tech/course-in-a-box/78).
 
