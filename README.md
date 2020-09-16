@@ -1,4 +1,4 @@
-# An open-source project for creating online courses, built by [P2PU]((http://www.p2pu.org)
+# An open-source project for creating online courses, built by [P2PU](http://www.p2pu.org)
 Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. 
 
 ## Getting Started
