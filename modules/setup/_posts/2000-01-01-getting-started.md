@@ -15,4 +15,6 @@ If you tell us your username, we can prepare some links and make things a bit ea
 </div>-->
 [your-github-username](https://github.com/your-github-username-set/course-in-a-box/)
 
-Please note that this guide is based on editing a course directly in the GitHub web interface where updates can take a few minutes to appear live on your site. If you’d prefer to work locally, you can run Jekyll on your computer to speed up information. [See more info.](https://nicolas-van.github.io/bootstrap-4-github-pages#run-jekyll-on-your-computer-to-speed-up-testing)
+This guide is a cohesive companion for building a course directly in GitHub’s web interface with minimal coding knowledge. Please note that this method often needs a few minutes before changes will appear on your live course website. 
+
+Optionally, if you’re already comfortable with setting up and working in local dev environments, you can [install and run Jekyll](https://nicolas-van.github.io/bootstrap-4-github-pages#run-jekyll-on-your-computer-to-speed-up-testing) to build your course and speed up testing.
