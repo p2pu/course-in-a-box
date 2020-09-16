@@ -4,7 +4,7 @@ title: Understanding the Course Template
 
 ## Understanding the Course Template
 
-![Screenshot of the course template in GitHub](/course-in-a-box/img/course-template.png)
+<img src="/course-in-a-box/img/course-template.png" alt="Screenshot of the course template in GitHub" width="500px"/>
 
 Once you’ve forked the course, you’ll see the course's guts as a list of folders and file names. This list contains all of the learning content for the course as well as the code that holds it all together. This guide will always tell you exactly where to look to update different parts of your course, so you don’t need to read or memorize this section in order to proceed.
 
