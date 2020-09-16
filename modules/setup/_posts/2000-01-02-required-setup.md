@@ -26,4 +26,4 @@ You can view it by going to
 
 [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/)
 
-(It may take a few minutes to show up!)
+Note: it can take between 2–20 minutes for your course to show up for the first time! 
