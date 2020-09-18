@@ -5,7 +5,7 @@ title: Understanding the Course Template
 ## Understanding the Course Template
 <br>
 
-<center><img src="/course-in-a-box/img/course-template.png" alt="Screenshot of the course template in GitHub" width="75%"/></center>
+<center><img src="/img/course-template.png" alt="Screenshot of the course template in GitHub" width="75%"/></center>
 
 <br>
 
