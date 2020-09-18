@@ -4,9 +4,9 @@ published: true
 ---
 
 Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
-* **[Setup](/modules/setup):** Get your instance of Course-in-a-Box up and running
-* **[Content](/modules/content):** Update the course structure and add your copy & media
-* **[Customize](/modules/customize):** Add some (optional) finishing touches
+* **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
+* **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
+* **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
 
 There’s also a link to our community **[Forum](https://community.p2pu.org/c/tech/course-in-a-box/78)** where you can reach out with questions anytime.
 
