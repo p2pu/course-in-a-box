@@ -3,12 +3,12 @@ layout: index
 published: true
 ---
 
-Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This website is itself an instance of Course-in-a-Box, and it contains three modules that will walk you through the course creation process: 
-* **Setup:** Get your instance of Course-in-a-Box up and running
-* **Content:** Update the course structure and add your copy & media
-* **Customize:** Add some (optional) finishing touches
+Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
+* **[Setup](/modules/setup):** Get your instance of Course-in-a-Box up and running
+* **[Content](/modules/content):** Update the course structure and add your copy & media
+* **[Customize](/modules/customize):** Add some (optional) finishing touches
 
-Designing a course for learning circles? [Check out our guide.](https://docs.google.com/document/u/1/d/116fJM3GS7XDzilUOL_ynMZ0yTncUD6aVUbcQKsTra6U/edit#heading=h.l36tzg40xcgr)
+There’s also a link to our community **[Forum](https://community.p2pu.org/c/tech/course-in-a-box/78)** where you can reach out with questions anytime.
 
 <br> 
 
@@ -31,4 +31,5 @@ You can hire P2PU to get additional support with learning design, technical setu
 #### About Course-in-a-Box
 
 P2PU created Course-in-a-Box in 2014 as a free and lightweight tool for building online courses. We wanted to preserve the modular structure of MOOCs outside of the bulky (and often proprietary) environment of learning/content management systems. Course-in-a-Box is open-source, and we welcome contributions [on our Github repo](https://github.com/p2pu/course-in-a-box).
-Questions? Ask them on our [community forum](https://community.p2pu.org/c/tech/course-in-a-box/78).
+
+p.s. Designing a course for learning circles? [Check out the Learning Circle Course Creation guide](https://docs.google.com/document/u/1/d/116fJM3GS7XDzilUOL_ynMZ0yTncUD6aVUbcQKsTra6U/edit#heading=h.l36tzg40xcgr) for some best practices on course design.
