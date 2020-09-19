@@ -1,19 +1,21 @@
 ---
-title: Markdown & Media Cheatsheet
+title: Markdown & Media
 ---
 
 ## Formatting Text with Markdown
 
-If you want to visually format the copywriting in your course, you'll do that using a punctuation-based language called **Markdown**. Markdown also supports HTML which you'll use for [embedding media](../media) or more complicated formatting if needed.
+<br>
 
-This guide focuses on editing your course directly through GitHub, which offers a Preview tab above the code editor so you can see how your edits look before you commit your changes and wait for them to appear live:
+Course-in-a-Box uses a system called **Markdown** which uses different combinations of punctuation marks to add emphasis and formatting to written content. Any file name in your GitHub project that ends in `.md` will be interpreted using Markdown rules. (Markdown also supports HTML tags which are used for embedding media or more complicated formatting if needed.)
 
-![screenshot of github's Preview Changes function]({{site.baseurl}}/img/preview-changes.png)
+This guide focuses on editing your course directly through GitHub, which offers a Preview tab above the code editor so you can see how your Markdown edits look before you commit your changes and wait for them to appear live:
+
+<center><img src="/img/preview-changes.png" alt="screenshot of github's Preview Changes function" width="75%"/></center>
 
 If you want to write your text in other software before bringing it into CIAB, here are a few options to convert your formatting into Markdown before bringing it into CIAB:
-* Google Docs: [GSuite Tool: Docs to Markdown](https://github.com/evbacher/gd2md-html/wiki#installing-docs-to-markdown)
-* Microsoft Word: [Word to Markdown Converter](https://word2md.com/)
-* [StackEdit: a visual in-browser Markdown editor](https://stackedit.io/app#)
+* [GSuite Tool: Google Docs to Markdown](https://github.com/evbacher/gd2md-html/wiki#installing-docs-to-markdown)
+* [Microsoft Word to Markdown Converter](https://word2md.com/)
+* [StackEdit: a visual Markdown editor](https://stackedit.io/app#)
 
 <br>
 
@@ -114,7 +116,6 @@ Markdown supports a few types of links, but we're just sharing the most common v
 <br>
 
 ----
-
 #### Fancy Buttons
 (This is HTML, not Markdown, but just in case you want to get fancy...)
 
@@ -126,13 +127,15 @@ Markdown supports a few types of links, but we're just sharing the most common v
 
 <br>
 
-## Adding Media
+----
+
+<br>
+
+## Media cheetsheat
 
 While Markdown supports adding images, its capacities for media are generally limited. Fortunately, Markdown is designed to support and work alongside HTML which has vast options for customizing your course content with images, videos, and other interactive features.
 
 <br>
-
-#### Media cheatsheet
 
 ----
 ##### Using Existing Images
@@ -144,6 +147,9 @@ If you're using an image that is already uploaded somewhere, you can copy the UR
 
 ![alt text for image](https://www.p2pu.org/assets/images/p2pu-logo.png)
 
+<br> 
+
+----
 ##### Hosting Images on Github
 
 You can also host images for your course for free through GitHub. Head to the `img` folder, click *Add File > Upload Files* (top right above the list of files), and use the upload tool to add your images. When you add an image to your course, you'll link to it with the code below and replace `logo.png` with the name of the image.
