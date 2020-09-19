@@ -14,7 +14,7 @@ All submodule files need to follow a specific naming convention to work correctl
 
 `YYYY-MM-DD-your-section-name.md`
 
-* **YYYY-MM-DD** - Each file name needs starts with a valid date in the format `YYYY-MM-DD`—the actual date doesn't matter, but the order of the submodules will be determined by chronological date. The easiest option is to use `2000-01-01` and increment the day (01, 02, 03, etc.) to define the order.
+* **YYYY-MM-DD** - Each file name starts with a valid date in the format `YYYY-MM-DD`—the actual date doesn't matter, but the order of the submodules will be determined by chronological date (for these purposes, you can think of each submodule as a blog post, where the earliest post appears first). We use `2000-01-01` for the first submodule and increment the day (01, 02, 03, etc.) to define the order.
 
 * **your-section-name** - This is a short title for your submodule and will appear in the URL linking to it. You can hyphenate between multiple words if needed and edit this anytime.
 
@@ -34,7 +34,7 @@ Below the name, you'll see a vast white space, full of possibility and eagerly a
 
 <br>
 
-#### Editing content
+#### Adding a Page Title
 
 Above your learning content, it's helpful to add something called "front matter" to the top of your document. This sets meta-information about your page – while it won't be visible on the page itself, it will establish the information that shows up in bookmarks, link previews, and search results.
 
@@ -48,6 +48,6 @@ title: Submodules
 
 After that, it's all you! This is the space to add in your learning content and experiment with the best ways to present it. Keep the [Markdown Cheatsheet](../markdown) and [Media Guide](../media) handy to speed up the process.
 
-If you're learning this as you go, it can be immensely helpful to peek under the hood of other projects to see how they're made. To compare this page with its Markdown guts, check out `modules/content/_posts/2000-01-05-submodules.md`
+If you're learning this as you go, it can be immensely helpful to peek under the hood of other projects to see how they're made. To compare this page with its Markdown guts, check out `2000-01-05-submodules.md`:
 
 [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/content/_posts/2000-01-05-submodules.md](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/content/_posts/2000-01-05-submodules.md)
