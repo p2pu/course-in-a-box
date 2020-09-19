@@ -18,6 +18,7 @@ Once you’ve forked the project, you’ll need to remove the **CNAME** file tha
 [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME)
 
 Once open, click the trash can icon in the upper right side of the code section to delete the file. On the confirmation page, click the green “Commit changes” button to update (“commit”) your change and return you to the file list.
+
 <br> 
 
 #### Your course is now live!
@@ -26,4 +27,4 @@ You can view it by going to
 
 [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/)
 
-Note: it can take between 2–20 minutes for your course to show up for the first time! 
+Note: it can take between 2–20 minutes for your course to show up for the first time.
