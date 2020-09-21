@@ -4,8 +4,6 @@ title: Markdown & Media
 
 ## Formatting Text with Markdown
 
-<br>
-
 Course-in-a-Box uses a system called **Markdown** which uses different combinations of punctuation marks to add emphasis and formatting to written content. Any file name in your GitHub project that ends in `.md` will be interpreted using Markdown rules. (Markdown also supports HTML tags which are used for embedding media or more complicated formatting if needed.)
 
 This guide focuses on editing your course directly through GitHub, which offers a Preview tab above the code editor so you can see how your Markdown edits look before you commit your changes and wait for them to appear live:
