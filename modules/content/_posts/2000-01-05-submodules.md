@@ -2,7 +2,7 @@
 title: Submodules
 ---
 
-# Submodules
+## Submodules
 
 **Submodules** are the subsections of a module where your learning content lives. What you're looking at right now is a submodule about submodules. Meta!
 
