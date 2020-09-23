@@ -1,5 +1,5 @@
 body {
-	background-color: $gray-lighter;
+	background-color: white;
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
   }
@@ -58,6 +58,10 @@ body {
 	line-height: 2;
 }
 
+.content img {
+    max-width: 100%;
+}
+
 blockquote {
   padding: 1.2em;
   margin: 0;
@@ -86,6 +90,7 @@ section {
 }
 
 .sidebar {
+	background-color: $gray-lighter;
   font-size: 15px;
   padding-bottom: 10px;
 }
@@ -94,7 +99,6 @@ section {
 	list-style-type: none;
 	padding: 0;
 }
-
 
 .sidebar li {
 	position: relative;

@@ -2,38 +2,32 @@
 layout: base
 ---
 {% assign module=page.categories[1] %}
-<div class="container-fluid">
-  <div class="row">
+<div class="container-fluid d-flex flex-grow-1 flex-column">
+  <div class="row flex-grow-1">
 		{% include side_toolbar.html %}
-		<div class="col-md-9 bg-white">
-			<div class="col-lg-8 offset-lg-0">
-				<div class="row">
-					<div class="content col-12">
-						{{ content }}
-						{% include next_in_module.html %}
-						{% if prev or next %}
-							<hr />
-						{% endif %}
-						{% if prev %}
-							<div class="pagination-section float-sm-left">
-								<div class="title">
-									Previous submodule:
-								</div>
-								<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev.url }}">
-									{{ prev.title }} </a>
-							</div>
-						{% endif %}
-						{% if next %}
-							<div class="pagination-section float-sm-right">
-								<div class="title">
-									Next submodule:
-								</div>
-								<a rel="next" class="next" href="{{ site.baseurl }}{{ next.url }}"> {{ next.title }}
-								</a>
-							</div>
-						{% endif %}
+		<div class="col-lg-6 col-md-9 bg-white">
+			<div class="content p-md-2">
+				{{ content }}
+				{% include next_in_module.html %}
+				{% if prev or next %}<hr />{% endif %}
+				{% if prev %}
+					<div class="pagination-section float-sm-left">
+						<div class="title">
+							Previous submodule:
+						</div>
+						<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev.url }}">
+							{{ prev.title }} </a>
 					</div>
-				</div>
+				{% endif %}
+				{% if next %}
+					<div class="pagination-section float-sm-right">
+						<div class="title">
+							Next submodule:
+						</div>
+						<a rel="next" class="next" href="{{ site.baseurl }}{{ next.url }}"> {{ next.title }}
+						</a>
+					</div>
+				{% endif %}
 			</div>
 		</div>
   </div>
