@@ -31,5 +31,5 @@ prose:
 # this is a hex value http://www.w3schools.com/tags/ref_colorpicker.asp
 jumbotron_color: "#58D7CB"
 jumbotron_image: "img/jumbotron-image.svg"
-#jumbotron_mask: "img/jumbotron-mask.svg"
+jumbotron_mask: ""
 jumbotron_icon: "img/box-icon.png"
