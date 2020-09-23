@@ -139,6 +139,11 @@ section {
 	}
 }
 
+.pagination-section.float-sm-left {
+  padding-right: 2em;
+}
+
+
 .pagination-section .next:after {
 	content: "\f0da";
 	font-family: FontAwesome;
