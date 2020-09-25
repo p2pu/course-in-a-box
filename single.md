@@ -1,6 +1,5 @@
 ---
-layout: Page
-published: true
+layout: page
 ---
 
 ## Making a single page
