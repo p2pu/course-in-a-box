@@ -2,6 +2,8 @@
 Title: Adding Single Pages
 ---
 
+## Adding Single Pages
+
 If you have extra content that you don’t want to fit within a course module (contact page, credits, reference guides, etc), you can also set up single pages. These pages will appear with no left-hand sidebar, just a top navigation and a central space to fill with your content.
 
 <center><img src="/img/example-single-page.png" alt="Screenshot of an example single page" width="75%"/></center>
