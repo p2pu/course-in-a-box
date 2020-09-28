@@ -1,5 +1,5 @@
 ---
-Title: Adding Single Pages
+title: Adding Single Pages
 ---
 
 ## Adding Single Pages
