@@ -1,8 +1,8 @@
 ---
-title: Using Google Analytics
+title: Use Google Analytics
 ---
 
-## Using Google Analytics
+## Use Google Analytics
 
 Google Analytics is a free web analytics service that tracks and reports website traffic. If you're interested in seeing information like how people are finding your course, what country they live in, and how long they spend on different pages, you'll like Google Analytics!
 
