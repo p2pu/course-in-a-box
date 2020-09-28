@@ -21,4 +21,4 @@ layout: page
 
 Underneath that, you can add your Markdown-formatted content however you’d like. 😎
 
-Note that this file won’t automatically appear in the top navigation bar of your course or anywhere else unless you specifically link to it. For information on adding links, see the [Markdown and Media](../../content/submodules/markdown-and-media) page. To add a link to your nav bar, head to the next section, [Customizing the Top Menu](../top-menu).
+Note that this file won’t automatically appear in the top navigation bar of your course or anywhere else unless you specifically link to it. For information on adding links, see the [Markdown and Media](../../content/markdown-and-media) page. To add a link to your nav bar, head to the next section, [Customizing the Top Menu](../top-menu).
