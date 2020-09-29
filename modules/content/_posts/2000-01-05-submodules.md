@@ -36,7 +36,7 @@ Below the name, you'll see a vast white space, full of possibility and eagerly a
 
 #### Adding a Page Title
 
-Above your learning content, it's helpful to add something called "front matter" to the top of your document. This sets meta-information about your page – while it won't be visible on the page itself, it will establish the information that shows up in bookmarks, link previews, and search results.
+To set the name of your submodule in the left-hand side bar, you’ll need to add something called “front matter” to the top of your document. This sets meta-information about your page – while it won't be visible on the page itself, it will establish the information that shows up in bookmarks, link previews, and search results.
 
 We primarily use `title` in Course-in-a-Box — this text set here won't be visible on the page itself but will establish the title of the page that will show up in bookmarks, link previews, and in search results. All you need to do is plop the text below into the beginning of your `.md.` files and replace the word(s) after `title:` with the name of your page. 
 
@@ -47,6 +47,8 @@ title: Submodules
 ```
 
 <br>
+
+#### Add Your Content
 
 After that, it's all you! This is the space to add in your learning content and experiment with the best ways to present it. Keep the [Markdown & Media](../markdown-and-media) guide handy to speed up the process.
 
