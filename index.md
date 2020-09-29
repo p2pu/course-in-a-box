@@ -8,8 +8,6 @@ Course-in-a-Box is a free tool for building and publishing online courses—no p
 * **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
 * **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
 
-There’s also a link to our community **[Forum](https://community.p2pu.org/c/tech/course-in-a-box/78)** where you can reach out with questions anytime.
-
 <br> 
 
 #### Course-in-a-Box Courses We Love ❤️
@@ -22,9 +20,10 @@ Here are some examples of Course-in-a-Box in the wild:
 
 <br> 
 
-#### We’re Here To Help 
+#### Need some help?
+Our [community forum](https://community.p2pu.org/c/tech/course-in-a-box/78) is a great place to ask questions or find help when you get stuck. Feel free to post there anytime!
 
-You can hire P2PU to get additional support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
+For bigger projects, you can hire P2PU to get additional support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
 
 <br> 
 
