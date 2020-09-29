@@ -10,8 +10,9 @@ layout: base
 				{{ content }}
 				{% include next_in_module.html %}
 				{% if prev or next %}<hr />{% endif %}
+        <div class="row">
 				{% if prev %}
-					<div class="pagination-section float-sm-left">
+					<div class="pagination-section col-sm-6">
 						<div class="title">
 							Previous submodule:
 						</div>
@@ -20,7 +21,7 @@ layout: base
 					</div>
 				{% endif %}
 				{% if next %}
-					<div class="pagination-section float-sm-right">
+					<div class="pagination-section text-sm-right col-sm-6">
 						<div class="title">
 							Next submodule:
 						</div>
@@ -28,6 +29,7 @@ layout: base
 						</a>
 					</div>
 				{% endif %}
+        </div>
 			</div>
 		</div>
   </div>
