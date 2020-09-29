@@ -5,21 +5,21 @@ layout: base
 <div class="container-fluid d-flex flex-grow-1 flex-column">
   <div class="row flex-grow-1">
 		{% include side_toolbar.html %}
-		<div class="col-lg-6 col-md-9 bg-white">
+		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
 				{{ content }}
 				{% include next_in_module.html %}
 				{% if prev or next %}<hr />{% endif %}
         <div class="row">
-				{% if prev %}
 					<div class="pagination-section col-sm-6">
+				{% if prev %}
 						<div class="title">
 							Previous submodule:
 						</div>
 						<a rel="prev" class="prev" href="{{ site.baseurl }}{{ prev.url }}">
 							{{ prev.title }} </a>
-					</div>
 				{% endif %}
+					</div>
 				{% if next %}
 					<div class="pagination-section text-sm-right col-sm-6">
 						<div class="title">
