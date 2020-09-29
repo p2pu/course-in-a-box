@@ -13,7 +13,9 @@ Head to [P2PU’s course-in-a-box project](https://github.com/p2pu/course-in-a-b
 <br>
 
 #### Delete CNAME
-Once you’ve forked the project, you’ll need to remove the **CNAME** file that appears in the main list of folders and files. This file is specific to P2PU’s web hosting for this tutorial website, and it’ll prevent your site from working if you keep it. Click the file to open it:
+Once you’ve forked the project, you’ll need to remove the **CNAME** file that appears in the main list of folders and files. This file is specific to P2PU’s web hosting for this tutorial website, and it’ll prevent your site from working if you keep it. (If you’ve already got a custom domain that you want to use for your course, you can edit this instead of deleting it—see [Set a Custom Domain](../../customize/custom-domain/) for more information.)
+
+Click the file to open it:
 
 [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME)
 
