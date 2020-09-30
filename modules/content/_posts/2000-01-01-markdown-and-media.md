@@ -4,13 +4,13 @@ title: Markdown & Media
 
 ## Formatting Text with Markdown
 
-Course-in-a-Box uses a system called **Markdown** which uses different combinations of punctuation marks to add emphasis and formatting to written content. Any file name in your GitHub project that ends in `.md` will be interpreted using Markdown rules. (Markdown also supports HTML tags which are used for embedding media or more complicated formatting if needed.)
+Course-in-a-Box uses **Markdown**, a text-to-HTML conversion tool which uses different combinations of punctuation marks to add emphasis and formatting to content written for the web. Any file name in your GitHub project that ends in `.md` will be interpreted using Markdown rules. (Markdown also supports HTML tags which are used for embedding media or more complicated formatting if needed.)
 
 This guide focuses on editing your course directly through GitHub, which offers a Preview tab above the code editor so you can see how your Markdown edits look before you commit your changes and wait for them to appear live:
 
 <center><img src="/img/preview-changes.png" alt="screenshot of github's Preview Changes function" width="75%"/></center>
 
-If you want to write your text in other software before bringing it into CIAB, here are a few options to convert your formatting into Markdown before bringing it into CIAB:
+If you want to write your text in other software before bringing it into Course-in-a-Box, here are a few options to convert your formatting into Markdown before bringing it into Course-in-a-Box:
 * [GSuite Tool: Google Docs to Markdown](https://github.com/evbacher/gd2md-html/wiki#installing-docs-to-markdown)
 * [Microsoft Word to Markdown Converter](https://word2md.com/)
 * [StackEdit: a visual Markdown editor](https://stackedit.io/app#)
@@ -131,7 +131,7 @@ Markdown supports a few types of links, but we're just sharing the most common v
 
 ## Media cheetsheat
 
-While Markdown supports adding images, its capacities for media are generally limited. Fortunately, Markdown is designed to support and work alongside HTML which has vast options for customizing your course content with images, videos, and other interactive features.
+While Markdown supports adding images, its capacities for media are generally limited. Fortunately, Markdown is designed to support and work alongside HTML, which has vast options for customizing your course content with images, videos, and other interactive features.
 
 <br>
 
