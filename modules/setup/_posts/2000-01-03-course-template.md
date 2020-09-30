@@ -33,5 +33,5 @@ LICENSE - Course-in-a-Box is licensed under the MIT License (do not edit)
 README.md - a text file to introduce and explain the project
 _config.yml - Jekyll/GitHub pages configuration & settings
 index.md - landing page content
-single.md - an example single page of content
+single-page.md - an example single page of content
 ```
