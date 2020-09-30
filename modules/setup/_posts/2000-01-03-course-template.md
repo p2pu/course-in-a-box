@@ -29,7 +29,7 @@ Once you’ve forked the course, you’ll see the course's guts as a list of fol
 404.html - error text that appears on broken links or nonexistent pages
 CNAME - use for setting custom domains
 Gemfile - used by jekyll/GitHub pages
-LICENSE - CIAB is licensed under the MIT License (do not edit)
+LICENSE - Course-in-a-Box is licensed under the MIT License (do not edit)
 README.md - a text file to introduce and explain the project
 _config.yml - Jekyll/GitHub pages configuration & settings
 index.md - landing page content
