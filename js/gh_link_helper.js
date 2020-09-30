@@ -20,7 +20,7 @@ var ghLinkHelper = (function ($) {
         // update all links
         links.replaceWith(function(){
 	        var linkClass = '',
-		        linkClear = 'This is not taking me to the right place ' +
+		        linkClear = 'This is not taking me to the right place.' +
 			        '<a href="#" class="clear-ghUserName">' +
 					'Set the Github name again.' +
 					'</a>',
