@@ -15,7 +15,7 @@ If you or your organization don’t already own the domain name where you want t
 
 Once you’ve registered the domain, there are two steps needed to route it to your course: adding a CNAME and configuring your DNS record.
 
-Remember that CNAME file you deleted when you first forked your course? Er, well, you’ll have to make that again in order to use a custom domain. Sorry! In the main repository of your course, create a new file titled `CNAME` and paste your custom domain into the file. 
+Remember that CNAME file you deleted when you first forked your course? Er, well, you’ll have to make that again in order to use a custom domain. In the main repository of your course, create a new file titled `CNAME` and paste your custom domain into the file. 
 
 [https://your-github-username.github.io/course-in-a-box/CNAME](https://your-github-username.github.io/course-in-a-box/CNAME.)
 
