@@ -7,7 +7,7 @@ body {
 
 @include media-breakpoint-up(md) {
   .navbar {
-    line-height: 3;
+    //line-height: 3;
   }
 }
 
@@ -101,6 +101,7 @@ section {
 }
 
 .sidebar li {
+	padding-right: 1em;
 	position: relative;
 	@include transition(color, 0.3s, linear);
 }
