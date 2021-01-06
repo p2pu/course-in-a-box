@@ -8,8 +8,7 @@ To make changes to the template itself, a good place to start is the [`_layouts`
 Questions? Ask on P2PU's [Community Forum](https://community.p2pu.org/c/tech/course-in-a-box/78).
 
 # Running locally
-- install docker
-- create a directory called .bundler
+- [install docker](https://docs.docker.com/engine/install/) 
 - Run `docker run -i -t --rm -u 1000:1000 -p 4000:4000 -v `pwd`:/opt/app -v `pwd`/.bundler/:/opt/bundler -e BUNDLE_PATH=~/opt/bundler -w /opt/app ruby:2.7 bash -c "bundle install && bundle exec jekyll serve --watch -H 0.0.0.0"`
 
 ---
