@@ -1,14 +1,13 @@
 ---
-title: Submodules
+title: Sharing
 ---
 
-## Submodules
+## Sharing your work
 
-**Submodules** are the subsections of a module where your learning content lives. What you're looking at right now is a submodule about submodules. Meta!
-
+**Sharing** your work is important! After you have done all the coding and your project is ready to see the light of day, shine bright like a diamond, check out these options for sharing your baby online (and for free):
 <br>
 
-#### Naming Submodules
+#### Personal Blog
 
 All submodule files need to follow a specific naming convention to work correctly: 
 
@@ -22,7 +21,13 @@ All submodule files need to follow a specific naming convention to work correctl
 
 <br>
 
-#### Creating Submodules 
+#### Social Platforms
+
+* [Medium] (https://medium.com/) 
+* LinkedIn
+* Twitter
+* YouTube
+* Kaggle
 
 To add a new blank submodule, open the `modules` folder in your GitHub repository. 
 
@@ -34,14 +39,13 @@ Below the name, you'll see a vast white space, full of possibility and eagerly a
 
 <br>
 
-#### Adding a Page Title
+#### Streamlit.io
 
 To set the name of your submodule in the left-hand side bar, you’ll need to add something called “front matter” to the top of your document. This sets meta-information about your page – while it won't be visible on the page itself, it will establish the information that shows up in bookmarks, link previews, and search results. We primarily use `title` in Course-in-a-Box — all you need to do is plop the text below into the beginning of your `.md.` files and replace the word(s) after `title:` with the name of your page. 
 
 ```
----
-title: Submodules
----
+import streamlit as st
+st.title('Hello World')
 ```
 
 <br>
