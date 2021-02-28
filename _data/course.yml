@@ -1,3 +1,3 @@
 title: Wisdom beyond Data
 description: An open-source project for creating online courses, built by <a href="https://www.wisdombeyonddata.com">Eva</a>
-modules: [setup, content, customize]
+modules: [setup, data, models]
