@@ -16,7 +16,8 @@ Here are some examples of Course-in-a-Box in the wild:
 * [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
 * [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
 * [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
-* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/)  by P2PU
+* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/) by P2PU
+* [Queer Cinema for High School](https://queercinema.net/) by Sarah Schrag
 
 <br> 
 
