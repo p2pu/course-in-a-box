@@ -161,12 +161,24 @@ You can also host images for your course for free through GitHub. Head to the `i
 
 ----
 ##### YouTube Videos
-If you want to place a video in your course, the easiest way is to upload it to YouTube and grab the automatically-generated embed code from the **Share** button on the video's YouTube page. You can plop this directly into a submodule's `.md` file.
+If you want to place a video in your course, the easiest way is to upload it to YouTube and grab the automatically-generated embed code from the **Share** button on the video's YouTube page. You can plop this directly into a submodule's `.md` file:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+The code above includes specific values for width and height which lets you controle exactly how big your video will appear. This can be helfpul in many cases, but it can also make it harder for mobile users to view the video. If you want your video size to be "responsive" (aka changing its size relative to the size of the browser window), you can copy the URL to your YouTube video into the code below:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+</div>
+
+```
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+</div>
 ```
 
 <br>
