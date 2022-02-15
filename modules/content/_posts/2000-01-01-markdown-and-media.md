@@ -152,9 +152,11 @@ If you're using an image that is already uploaded somewhere, you can copy the UR
 
 You can also host images for your course for free through GitHub. Head to the `img` folder, click *Add File > Upload Files* (top right above the list of files), and use the upload tool to add your images. When you add an image to your course, you'll link to it with the code below and replace `logo.png` with the name of the image.
 
+<!-- {% raw %} -->
 ```
 ![alt]({{site.baseurl}}/img/logo.png)
 ```
+<!-- {% endraw %} -->
 ![alt]({{site.baseurl}}/img/logo.png)
 
 <br>
