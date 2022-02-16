@@ -13,6 +13,9 @@ Course-in-a-Box is a free tool for building and publishing online courses—no p
 #### Course-in-a-Box Courses We Love ❤️
 Here are some examples of Course-in-a-Box in the wild:
 
+* [We Are AI](https://dataresponsibly.github.io/we-are-ai/) by Center for Responsible AI
+* [How to Talk about Race](https://how-to-talk-about-race.p2pu.org/) by Amrita Patel and Denise LaForce
+* [Leveraging Learning for Life](https://leveraging-learning.p2pu.org/) by College Unbound
 * [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
 * [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
 * [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
