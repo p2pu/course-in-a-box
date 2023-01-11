@@ -1,0 +1,14 @@
+version: '3'
+services:
+  jekyll:
+    image: ruby:2.7
+    user: 1000:1000
+    working_dir: /opt/app
+    ports:
+    - 4000:4000
+    volumes:
+    - .:/opt/app
+    - .bundler:/opt/bundler
+    environment:
+    - BUNDLE_PATH=/opt/bundler
+    command: bash -c "bundle install && bundle exec jekyll serve -H 0.0.0.0 --watch"
