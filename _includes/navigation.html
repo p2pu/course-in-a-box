@@ -1,26 +1,25 @@
+<style>
+.bg-dark {
+	background-color: #1a1a1a !important;
+}
+</style>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md py-0 .navbar-dark bg-dark text-light">
-  <a class="navbar-brand" href="{{site.baseurl}}/"><i class="fa fa-home"></i></a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa fa-bars"></i>
-  </button>
-
-  <div class="navbar-collapse collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      {% for module in site.data.course.modules %}
-       {% assign first_post = site.categories[module]|reverse|first %}
-       <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
-         <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
-           {{ module }}
-         </a>
-       </li>
-      {% endfor %}
-<!--
+	<a class="navbar-brand" href="{{site.baseurl}}/"><i class="fa fa-home"></i></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<i class="fa fa-bars"></i>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav"> {% for module in site.data.course.modules %} {% assign first_post = site.categories[module]|reverse|first %} <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
+				<a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
+					{{ module }}
+				</a>
+			</li> {% endfor %}
+			<!--
       <li class="nav-item py-2">
         <a class="nav-link" href="https://www.p2pu.org/en/" target="_blank">Example Link</a>
       </li>
 -->
-    </ul>
-  </div>
+		</ul>
+	</div>
 </nav>
