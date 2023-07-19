@@ -3,10 +3,7 @@ layout: index
 published: true
 ---
 
-Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
-* **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
-* **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
-* **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
+Welcome to our course dedicated to helping men achieve their goals of increasing their penis size. Our community is focused on sharing and discussing various penis enlargement practices, techniques, and products. With input from the knowledgeable and supportive members of r/gettingbigger, we aim to provide a safe and informative space where you can learn and get started growing with ease. Join us in the pursuit of a larger, more confident you!
 
 <br> 
 
