@@ -10,14 +10,11 @@
 		<i class="fa fa-bars"></i>
 	</button>
 	<div class="navbar-collapse collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav"> {% for module in site.data.course.modules %} {% assign first_post = site.categories[module]|reverse|first %} <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
-				<a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
-					{{ module }}
-				</a>
-			</li> {% endfor %}
 			
       <li class="nav-item py-2">
-        <a class="nav-link" href="https://www.p2pu.org/en/" target="_blank">Example Link</a>
+        <a class="nav-link" href="modules/setup/getting-started/" target="_blank">Length</a>
+	<a class="nav-link" href="/modules/content/homepage/" target="_blank">Girth</a>
+	<a class="nav-link" href="modules/customize/single-pages/" target="_blank">Chemical PE</a>
       </li>
 		</ul>
 	</div>
