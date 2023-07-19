@@ -8,7 +8,7 @@ published: true
 
 <br> 
 
-#### <b><font color="white">Need some help?</font></b>
+#### <b><font color="white">Need some help 🆘 </font></b>
 
 <font color="white">Are you struggling to find the most suitable routine for your PE goals? Look no further! Here, we have curated a comprehensive selection of exercises to help you determine the most optimal regimen for maximizing your growth potential.</font>
 
