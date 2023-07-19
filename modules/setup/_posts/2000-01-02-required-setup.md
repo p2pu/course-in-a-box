@@ -1,32 +1,25 @@
 ---
-title: Required Setup
+title: PE stuff 2
 ---
 
 ## Required Setup
 
-Once you’re logged in to GitHub, the first step of creating a course is to copy ( “fork”) the Course-in-a-Box project folder ( “repository”) from P2PU’s account to yours. This will make an identical copy of this website and its content in your account library. (Making your course is essentially a matter of editing out our content and customizing it with your own.)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod sapien eu dolor facilisis, id suscipit felis mollis. Vestibulum tincidunt, mi in faucibus tincidunt, risus felis volutpat elit, nec luctus mauris augue vel eros. Ut quis urna vitae purus tempor volutpat eget non arcu.
 
-To start, head to [P2PU’s course-in-a-box project](https://github.com/p2pu/course-in-a-box) and click “Fork” in the top right, or simply click the button below:
-
-<a class="btn btn-primary" href="https://github.com/p2pu/course-in-a-box/fork" target="_blank"><i class="fa fa-code-fork"></i> Fork this repository on GitHub</a> 
+<video width="400" controls>
+  <source src="https://www.youtube.com/watch?v=LcKX2lHlz9M" type="video/mp4">
+  <source src="https://www.youtube.com/watch?v=LcKX2lHlz9M" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
 
 <br>
 
-#### Delete CNAME
-Once you’ve forked the project, you’ll need to remove the **CNAME** file that appears in the main list of folders and files. This file is specific to P2PU’s web hosting for this tutorial website, and it’ll prevent your site from working if you keep it. (If you’ve already got a custom domain that you want to use for your course, you can edit this instead of deleting it—see [Set a Custom Domain](../../customize/custom-domain/) for more information.)
+#### Hanging
 
-Click the file to open it:
-
-[https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME)
-
-Once open, click the trash can icon in the upper right side of the code section to delete the file. On the confirmation page, click the green “Commit changes” button to update (“commit”) your change and return you to the file list.
+Proin at tincidunt libero. Nullam tempus odio sit amet tellus posuere, in fermentum elit consequat. Sed vel odio eget odio laoreet fermentum. Nulla in interdum elit. Nullam dignissim nisi nec leo iaculis, in euismod velit tempus.
 
 <br> 
 
-#### Your course is now live!
+#### Extending
 
-You can view it by going to 
-
-[https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/)
-
-Note: it can take between 2–20 minutes for your course to show up for the first time.
+Praesent auctor, lectus quis mattis suscipit, nunc metus dapibus libero, at ullamcorper elit nisl et mauris. Pellentesque dapibus erat sed purus laoreet, eu eleifend felis finibus.
