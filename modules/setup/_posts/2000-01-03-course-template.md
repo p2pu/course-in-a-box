@@ -1,37 +1,29 @@
 ---
-title: Understanding the Course Template
+title: PE stuff 3
 ---
 
-## Understanding the Course Template
+## Understanding how PE works
 <br>
 
-<center><img src="/img/course-template.png" alt="Screenshot of the course template in GitHub" width="75%"/></center>
-
-<br>
-
-Once you’ve forked the course, you’ll see the course's guts as a list of folders and file names. This list contains all of the learning content for the course as well as the code that holds it all together. This guide will always tell you exactly where to look to update different parts of your course, so you don’t need to read or memorize this section in order to proceed.
+<center><img src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png" alt="Screenshot of the course template in GitHub" width="75%"/></center>
 
 <br>
 
-#### Directory layout explanation
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod sapien eu dolor facilisis, id suscipit felis mollis. Vestibulum tincidunt, mi in faucibus tincidunt, risus felis volutpat elit, nec luctus mauris augue vel eros. Ut quis urna vitae purus tempor volutpat eget non arcu.
+
+<br>
+
+#### PE stuff
 
 ```
-📁 _data - course metadata 
-📁 _includes - html for page components
-📁 _layouts - html for various page layouts
-📁 _sass - styling code
-📁 css - more styling code
-📁 fonts - font files (including icons!)
-📁 img - image files
-📁 js - JavaScript for interactive components of the site
-📁 modules - folder for the actual course content
-.gitignore - a git file (for keeping this directory tidy)
-404.html - error text that appears on broken links or nonexistent pages
-CNAME - use for setting custom domains
-Gemfile - used by jekyll/GitHub pages
-LICENSE - Course-in-a-Box is licensed under the MIT License (do not edit)
-README.md - a text file to introduce and explain the project
-_config.yml - Jekyll/GitHub pages configuration & settings
-index.md - landing page content
-single-page.md - an example single page of content
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+2. Sed euismod sapien eu dolor facilisis, id suscipit felis mollis.
+3. Vestibulum tincidunt, mi in faucibus tincidunt, risus felis volutpat elit.
+4. Nullam nec cursus quam. Sed finibus augue id eros congue hendrerit.
+5. Integer ut diam eget nulla tincidunt sodales non id quam.
+6. Etiam euismod justo ut ipsum varius, vel auctor erat consequat.
+7. In hac habitasse platea dictumst. Nullam tempus odio sit amet tellus posuere.
+8. Sed vel odio eget odio laoreet fermentum. Nulla in interdum elit.
+9. Nullam dignissim nisi nec leo iaculis, in euismod velit tempus.
+10. Proin at tincidunt libero. Nullam tempus odio sit amet tellus posuere.
 ```
