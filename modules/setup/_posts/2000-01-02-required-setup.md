@@ -6,7 +6,7 @@ title: PE stuff 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod sapien eu dolor facilisis, id suscipit felis mollis. Vestibulum tincidunt, mi in faucibus tincidunt, risus felis volutpat elit, nec luctus mauris augue vel eros. Ut quis urna vitae purus tempor volutpat eget non arcu.
 
-<iframe src="https://www.youtube.com/watch?v=BaFa78KsoQg" height="auto" width="auto"></iframe>
+<img src="https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png" width="auto"/>
 
 <br>
 
