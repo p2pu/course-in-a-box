@@ -6,11 +6,7 @@ title: PE stuff 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod sapien eu dolor facilisis, id suscipit felis mollis. Vestibulum tincidunt, mi in faucibus tincidunt, risus felis volutpat elit, nec luctus mauris augue vel eros. Ut quis urna vitae purus tempor volutpat eget non arcu.
 
-<video width="400" controls>
-  <source src="https://www.youtube.com/watch?v=LcKX2lHlz9M" type="video/mp4">
-  <source src="https://www.youtube.com/watch?v=LcKX2lHlz9M" type="video/ogg">
-  Your browser does not support HTML video.
-</video>
+<iframe src="https://www.youtube.com/watch?v=BaFa78KsoQg" height="auto" width="auto"></iframe>
 
 <br>
 
