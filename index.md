@@ -45,8 +45,10 @@ published: true
         return;
       }
 
-      //Blur the background when the alert is open
-      document.body.classList.add('blur-background');
+      // Show the overlay to blur the background
+      const overlay = document.createElement('div');
+      overlay.classList.add('overlay');
+      document.body.appendChild(overlay);
 
       const { value: accept } = await Swal.fire({
         title: 'Terms and Conditions',
@@ -60,8 +62,8 @@ published: true
         }
       });
 
-      // Remove the blur effect when the alert is closed
-      document.body.classList.remove('blur-background');
+      // Hide the overlay after the alert is closed
+      document.body.removeChild(overlay);
 
       if (accept) {
         const adminpass = "admin";
