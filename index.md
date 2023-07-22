@@ -22,68 +22,70 @@ published: true
 <font color="white">Upon completing this course, you will gain comprehensive knowledge on effective and safe methods to enhance both the length and girth of your penis. We equip you with the necessary information to achieve your desired growth goals using the most optimal approaches.</font>
 <body>
   <style>
-    /* CSS to blur the background when the alert is open */
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      backdrop-filter: blur(5px);
-      z-index: 9999;
-      display: none;
-    }
-.swal2-checkbox, .swal2-radio {
-    align-items: center;
-    justify-content: center;
-    background: #101010;
-    color: inherit;
+ 
+/* CSS to blur the background when the alert is open */
+ .overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     backdrop-filter: blur(5px);
+     z-index: 9999;
+     display: none;
 }
-.swal2-popup {
-    display: none;
-    position: relative;
-    box-sizing: border-box;
-    grid-template-columns: minmax(0,100%);
-    width: 32em;
-    max-width: 100%;
-    padding: 0 0 1.25em;
-    border: none;
-    border-radius: 30px;
-    background: #101010;
-    color: #545454;
-    font-family: inherit;
-    font-size: 1rem;
+ .swal2-checkbox, .swal2-radio {
+     align-items: center;
+     justify-content: center;
+     background: #101010;
+     color: inherit;
 }
-.swal2-title {
-    position: relative;
-    max-width: 100%;
-    margin: 0;
-    padding: 0.8em 1em 0;
-    color: #fcfcfc;
-    font-size: 1.875em;
-    font-weight: 600;
-    text-align: center;
-    text-transform: none;
-    word-wrap: break-word;
+ .swal2-popup {
+     display: none;
+     position: relative;
+     box-sizing: border-box;
+     grid-template-columns: minmax(0,100%);
+     width: 32em;
+     max-width: 100%;
+     padding: 0 0 1.25em;
+     border: none;
+     border-radius: 30px;
+     background: #101010;
+     color: #545454;
+     font-family: inherit;
+     font-size: 1rem;
 }
-.swal2-checkbox, .swal2-radio {
-    align-items: center;
-    justify-content: center;
-    background: #101010;
-    color: white;
+ .swal2-title {
+     position: relative;
+     max-width: 100%;
+     margin: 0;
+     padding: 0.8em 1em 0;
+     color: #fcfcfc;
+     font-size: 1.875em;
+     font-weight: 600;
+     text-align: center;
+     text-transform: none;
+     word-wrap: break-word;
 }
-.swal2-input-label {
-    display: flex;
-    justify-content: center;
-    margin: 1em auto 0;
-    color: white;
+ .swal2-checkbox, .swal2-radio {
+     align-items: center;
+     justify-content: center;
+     background: #101010;
+     color: white;
 }
-.swal2-input {
-    height: 2.625em;
-    padding: 0 0.75em;
-    color: white;
+ .swal2-input-label {
+     display: flex;
+     justify-content: center;
+     margin: 1em auto 0;
+     color: white;
 }
+ .swal2-input {
+     height: 2.625em;
+     padding: 0 0.75em;
+     color: white;
+}
+
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
