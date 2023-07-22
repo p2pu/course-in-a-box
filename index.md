@@ -73,6 +73,12 @@ published: true
     background: #000;
     color: white;
 }
+.swal2-input-label {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto 0;
+    color: white;
+}
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
