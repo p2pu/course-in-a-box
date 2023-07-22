@@ -70,7 +70,7 @@ published: true
 .swal2-checkbox, .swal2-radio {
     align-items: center;
     justify-content: center;
-    background: #000;
+    background: #101010;
     color: white;
 }
 .swal2-input-label {
