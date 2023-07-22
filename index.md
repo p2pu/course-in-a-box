@@ -22,10 +22,17 @@ published: true
 <font color="white">Upon completing this course, you will gain comprehensive knowledge on effective and safe methods to enhance both the length and girth of your penis. We equip you with the necessary information to achieve your desired growth goals using the most optimal approaches.</font>
 <body>
   <style>
-    /* CSS to blur the background when the SweetAlert is open */
-    body.blur-background {
-      filter: blur(5px);
-      pointer-events: none; /* Prevent clicking on the blurred elements */
+    /* CSS to blur the background when the alert is open */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(5px);
+      z-index: 9999;
+      display: none;
     }
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
