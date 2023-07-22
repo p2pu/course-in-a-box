@@ -79,6 +79,11 @@ published: true
     margin: 1em auto 0;
     color: white;
 }
+.swal2-input {
+    height: 2.625em;
+    padding: 0 0.75em;
+    color: white;
+}
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
