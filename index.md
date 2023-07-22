@@ -55,6 +55,24 @@ published: true
     font-family: inherit;
     font-size: 1rem;
 }
+.swal2-title {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.8em 1em 0;
+    color: #fcfcfc;
+    font-size: 1.875em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    word-wrap: break-word;
+}
+.swal2-checkbox, .swal2-radio {
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white;
+}
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
