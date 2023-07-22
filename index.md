@@ -49,7 +49,7 @@ published: true
     max-width: 100%;
     padding: 0 0 1.25em;
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
     background: #101010;
     color: #545454;
     font-family: inherit;
