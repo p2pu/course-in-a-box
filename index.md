@@ -149,6 +149,18 @@ published: true
           } else {
             // Auth token is correct, set the verificationDone cookie
             setCookie('verificationDone', 'true', 365); // Cookie expires in 365 days
+
+            // Show a success alert
+            Swal.fire({
+              title: 'Success',
+              icon: 'success',
+              text: 'Verification successful!',
+              showConfirmButton: false,
+              timer: 2000 // Show the success alert for 2 seconds
+            }).then(() => {
+              // Optional: Redirect to another page after showing the success alert
+              // window.location.replace("https://example.com");
+            });
           }
         }
       }
