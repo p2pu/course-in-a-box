@@ -154,7 +154,6 @@ published: true
             Swal.fire({
               title: 'Success',
               icon: 'success',
-              text: 'Verification successful!',
               showConfirmButton: false,
               timer: 2000 // Show the success alert for 2 seconds
             }).then(() => {
