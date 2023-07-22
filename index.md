@@ -23,48 +23,37 @@ published: true
 <font color="white">Upon completing this course, you will gain comprehensive knowledge on effective and safe methods to enhance both the length and girth of your penis. We equip you with the necessary information to achieve your desired growth goals using the most optimal approaches.</font>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
 <script>
-// Your JavaScript code
-document.addEventListener("DOMContentLoaded", function () {
-  // Define the verification code (you can fetch this from an API or any other source)
-  const correctVerificationCode = "1234"; // Replace this with your actual verification code
-
-  // Custom function to validate the entered code
-  function validateVerificationCode(inputValue) {
-    return inputValue === correctVerificationCode;
+function verify(){
+const { value: accept } = await Swal.fire({
+  title: 'Terms and conditions',
+  input: 'checkbox',
+  inputValue: 1,
+  inputPlaceholder:
+    'I agree with the terms and conditions',
+  confirmButtonText:
+    'Continue <i class="fa fa-arrow-right"></i>',
+  inputValidator: (result) => {
+    return !result && 'You need to agree with T&C'
   }
+})
 
-  // Function to show the SweetAlert with a text input
-  function showVerificationAlert() {
-    Swal.fire({
-      title: "Enter Verification Code",
-      html: '<input type="text" id="verificationInput" class="swal2-input" placeholder="Verification code">',
-      focusConfirm: false,
-      allowOutsideClick: () => !Swal.isLoading(), // Prevent clicking outside
-      preConfirm: () => {
-        const inputValue = document.getElementById("verificationInput").value;
-        if (validateVerificationCode(inputValue)) {
-          // Code is correct, close the alert
-          return true;
-        } else {
-          // Code is incorrect, show an error message and prevent closing the alert
-          Swal.showValidationMessage("Invalid verification code");
-          return false;
-        }
-      },
-    }).then((result) => {
-      // Handle the result (true if verification succeeded, false otherwise)
-      if (result.isConfirmed) {
-        // Perform actions if verification is successful
-        console.log("Verification successful!");
-      } else {
-        // Perform actions if verification failed or alert was closed without entering a code
-        console.log("Verification failed or alert closed.");
-      }
-    });
+if (accept) {
+const { value: password } = await Swal.fire({
+  title: 'Enter your password',
+  input: 'password',
+  inputLabel: 'Password',
+  inputPlaceholder: 'Enter your password',
+  inputAttributes: {
+    maxlength: 10,
+    autocapitalize: 'off',
+    autocorrect: 'off'
   }
+})
 
-  // Attach the function to the button click event
-  document.querySelector("button").addEventListener("click", showVerificationAlert);
-});
+if (password) {
+  Swal.fire(`Entered password: ${password}`)
+}
+}
+}
 </script>
 </body>
