@@ -116,7 +116,6 @@ s0.parentNode.insertBefore(s1,s0);
         const overlay = document.createElement('div');
         overlay.classList.add('overlay');
         document.head.appendChild(overlay);
-        document.getElementsByClassName("tawk-custom-color tawk-custom-border-color tawk-button tawk-button-circle tawk-button-large")[0].disabled=true;
 
         const { value: accept } = await Swal.fire({
           title: 'Terms and Conditions',
@@ -173,7 +172,6 @@ s0.parentNode.insertBefore(s1,s0);
             }).then(() => {
               // Optional: Redirect to another page after showing the success alert
               // window.location.replace("https://example.com");
-              document.getElementsByClassName("tawk-custom-color tawk-custom-border-color tawk-button tawk-button-circle tawk-button-large")[0].disabled=false;
             });
           }
         }
