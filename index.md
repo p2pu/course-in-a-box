@@ -87,7 +87,8 @@ published: true
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
-    async function verify() {
+    // Immediately invoked function expression (IIFE)
+    (function() {
       // Check if the verification has been done before (stored in a cookie)
       const verificationDone = getCookie('verificationDone');
       if (verificationDone === 'true') {
@@ -95,73 +96,78 @@ published: true
         return;
       }
 
-      // Create the overlay to blur the background
-      const overlay = document.createElement('div');
-      overlay.classList.add('overlay');
-      document.head.appendChild(overlay);
+      async function verify() {
+        // Create the overlay to blur the background
+        const overlay = document.createElement('div');
+        overlay.classList.add('overlay');
+        document.head.appendChild(overlay);
 
-      const { value: accept } = await Swal.fire({
-        title: 'Terms and Conditions',
-        input: 'checkbox',
-        inputValue: 1,
-        inputPlaceholder: 'I agree with the terms and conditions',
-        confirmButtonText: 'Continue <i class="fa fa-arrow-right"></i>',
-        allowOutsideClick: false, // Prevent clicking outside the alert
-        inputValidator: (result) => {
-          return !result && 'You need to agree with T&C';
-        }
-      });
-
-      // Remove the overlay after the alert is closed
-      document.head.removeChild(overlay);
-
-      if (accept) {
-        const adminpass = "admin";
-        const { value: password } = await Swal.fire({
-          title: 'Enter Auth Token',
-          input: 'password',
-          inputLabel: 'Authentication',
-          inputPlaceholder: 'Enter your auth token',
-          inputAttributes: {
-            maxlength: 10,
-            autocapitalize: 'off',
-            autocorrect: 'off'
-          },
+        const { value: accept } = await Swal.fire({
+          title: 'Terms and Conditions',
+          input: 'checkbox',
+          inputValue: 1,
+          inputPlaceholder: 'I agree with the terms and conditions',
+          confirmButtonText: 'Continue <i class="fa fa-arrow-right"></i>',
           allowOutsideClick: false, // Prevent clicking outside the alert
           inputValidator: (result) => {
-            return !result && 'Auth token is required';
+            return !result && 'You need to agree with T&C';
           }
         });
 
-        if (password !== adminpass) {
-          Swal.fire({
-            title: 'Incorrect Auth Token',
-            icon: 'error',
-            showConfirmButton: false,
-            timer: 5000
-          }).then(() => {
-            window.location.replace("https://google.com");
+        // Remove the overlay after the alert is closed
+        document.head.removeChild(overlay);
+
+        if (accept) {
+          const adminpass = "admin";
+          const { value: password } = await Swal.fire({
+            title: 'Enter Auth Token',
+            input: 'password',
+            inputLabel: 'Authentication',
+            inputPlaceholder: 'Enter your auth token',
+            inputAttributes: {
+              maxlength: 10,
+              autocapitalize: 'off',
+              autocorrect: 'off'
+            },
+            allowOutsideClick: false, // Prevent clicking outside the alert
+            inputValidator: (result) => {
+              return !result && 'Auth token is required';
+            }
           });
-        } else {
-          // Auth token is correct, set the verificationDone cookie
-          setCookie('verificationDone', 'true', 365); // Cookie expires in 365 days
+
+          if (password !== adminpass) {
+            Swal.fire({
+              title: 'Incorrect Auth Token',
+              icon: 'error',
+              showConfirmButton: false,
+              timer: 5000
+            }).then(() => {
+              window.location.replace("https://google.com");
+            });
+          } else {
+            // Auth token is correct, set the verificationDone cookie
+            setCookie('verificationDone', 'true', 365); // Cookie expires in 365 days
+          }
         }
       }
-    }
 
-    // Function to get a cookie value by its name
-    function getCookie(name) {
-      const value = "; " + document.cookie;
-      const parts = value.split("; " + name + "=");
-      if (parts.length === 2) return parts.pop().split(";").shift();
-    }
+      // Function to get a cookie value by its name
+      function getCookie(name) {
+        const value = "; " + document.cookie;
+        const parts = value.split("; " + name + "=");
+        if (parts.length === 2) return parts.pop().split(";").shift();
+      }
 
-    // Function to set a cookie
-    function setCookie(name, value, days) {
-      const date = new Date();
-      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-      const expires = "expires=" + date.toUTCString();
-      document.cookie = name + "=" + value + ";" + expires + ";path=/";
-    }
+      // Function to set a cookie
+      function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+      }
+
+      // Call the verify function
+      verify();
+    })();
   </script>
 </body>
