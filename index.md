@@ -21,9 +21,26 @@ published: true
 
 <font color="white">Upon completing this course, you will gain comprehensive knowledge on effective and safe methods to enhance both the length and girth of your penis. We equip you with the necessary information to achieve your desired growth goals using the most optimal approaches.</font>
 <body>
+  <style>
+    /* CSS to blur the background when the SweetAlert is open */
+    body.blur-background {
+      filter: blur(5px);
+      pointer-events: none; /* Prevent clicking on the blurred elements */
+    }
+  </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
     async function verify() {
+      // Check if the verification has been done before (stored in a cookie)
+      const verificationDone = getCookie('verificationDone');
+      if (verificationDone === 'true') {
+        // Verification has been done before, no need to ask again
+        return;
+      }
+
+      //Blur the background when the alert is open
+      document.body.classList.add('blur-background');
+
       const { value: accept } = await Swal.fire({
         title: 'Terms and Conditions',
         input: 'checkbox',
@@ -35,6 +52,9 @@ published: true
           return !result && 'You need to agree with T&C';
         }
       });
+
+      // Remove the blur effect when the alert is closed
+      document.body.classList.remove('blur-background');
 
       if (accept) {
         const adminpass = "admin";
@@ -64,8 +84,26 @@ published: true
           }).then(() => {
             window.location.replace("https://google.com");
           });
+        } else {
+          // Auth token is correct, set the verificationDone cookie
+          setCookie('verificationDone', 'true', 365); // Cookie expires in 365 days
         }
       }
+    }
+
+    // Function to get a cookie value by its name
+    function getCookie(name) {
+      const value = "; " + document.cookie;
+      const parts = value.split("; " + name + "=");
+      if (parts.length === 2) return parts.pop().split(";").shift();
+    }
+
+    // Function to set a cookie
+    function setCookie(name, value, days) {
+      const date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      const expires = "expires=" + date.toUTCString();
+      document.cookie = name + "=" + value + ";" + expires + ";path=/";
     }
   </script>
 </body>
