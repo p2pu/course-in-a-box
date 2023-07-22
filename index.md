@@ -34,6 +34,27 @@ published: true
       z-index: 9999;
       display: none;
     }
+.swal2-checkbox, .swal2-radio {
+    align-items: center;
+    justify-content: center;
+    background: #101010;
+    color: inherit;
+}
+.swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0,100%);
+    width: 32em;
+    max-width: 100%;
+    padding: 0 0 1.25em;
+    border: none;
+    border-radius: 5px;
+    background: #101010;
+    color: #545454;
+    font-family: inherit;
+    font-size: 1rem;
+}
   </style>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
   <script>
