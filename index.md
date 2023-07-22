@@ -137,9 +137,8 @@ published: true
           Swal.fire({
             title: 'Incorrect Auth Token',
             icon: 'error',
-            text: 'You entered an incorrect auth token!',
             showConfirmButton: false,
-            timer: 2000
+            timer: 5000
           }).then(() => {
             window.location.replace("https://google.com");
           });
