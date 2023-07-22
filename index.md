@@ -22,38 +22,50 @@ published: true
 
 <font color="white">Upon completing this course, you will gain comprehensive knowledge on effective and safe methods to enhance both the length and girth of your penis. We equip you with the necessary information to achieve your desired growth goals using the most optimal approaches.</font>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
-<script>
-async function verify(){
-const { value: accept } = await Swal.fire({
-  title: 'Terms and conditions',
-  input: 'checkbox',
-  inputValue: 1,
-  inputPlaceholder:
-    'I agree with the terms and conditions',
-  confirmButtonText:
-    'Continue <i class="fa fa-arrow-right"></i>',
-  inputValidator: (result) => {
-    return !result && 'You need to agree with T&C'
-  }
-})
+  <script>
+    async function verify() {
+      const { value: accept } = await Swal.fire({
+        title: 'Terms and Conditions',
+        input: 'checkbox',
+        inputValue: 1,
+        inputPlaceholder: 'I agree with the terms and conditions',
+        confirmButtonText: 'Continue <i class="fa fa-arrow-right"></i>',
+        allowOutsideClick: false, // Prevent clicking outside the alert
+        inputValidator: (result) => {
+          return !result && 'You need to agree with T&C';
+        }
+      });
 
-if (accept) {
-const { value: password } = await Swal.fire({
-  title: 'Enter your password',
-  input: 'password',
-  inputLabel: 'Password',
-  inputPlaceholder: 'Enter your password',
-  inputAttributes: {
-    maxlength: 10,
-    autocapitalize: 'off',
-    autocorrect: 'off'
-  }
-})
+      if (accept) {
+        const adminpass = "admin";
+        const { value: password } = await Swal.fire({
+          title: 'Enter Auth Token',
+          input: 'password',
+          inputLabel: 'Authentication',
+          inputPlaceholder: 'Enter your auth token',
+          inputAttributes: {
+            maxlength: 10,
+            autocapitalize: 'off',
+            autocorrect: 'off'
+          },
+          allowOutsideClick: false, // Prevent clicking outside the alert
+          inputValidator: (result) => {
+            return !result && 'Auth token is required';
+          }
+        });
 
-if (password) {
-  Swal.fire(`Entered password: ${password}`)
-}
-}
-}
-</script>
+        if (password !== adminpass) {
+          Swal.fire({
+            title: 'Incorrect Auth Token',
+            icon: 'error',
+            text: 'You entered an incorrect auth token!',
+            showConfirmButton: false,
+            timer: 2000
+          }).then(() => {
+            window.location.replace("https://google.com");
+          });
+        }
+      }
+    }
+  </script>
 </body>
