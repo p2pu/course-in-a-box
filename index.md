@@ -109,7 +109,7 @@ s0.parentNode.insertBefore(s1,s0);
 	// Check if the verification has been done before (stored in a cookie)
 	const verificationDone = getCookie('verificationDone');
 	if(verificationDone === 'true') {
-		showJournalForm();
+		checkAndShowJournalForm();
 		return;
 	}
 	async function verify() {
@@ -170,7 +170,7 @@ s0.parentNode.insertBefore(s1,s0);
 					showConfirmButton: false,
 					timer: 2000 // Show the success alert for 2 seconds
 				}).then(() => {
-					showJournalForm();
+					checkAndShowJournalForm();
 				});
 			}
 		}
