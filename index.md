@@ -109,7 +109,7 @@ s0.parentNode.insertBefore(s1,s0);
 	// Check if the verification has been done before (stored in a cookie)
 	const verificationDone = getCookie('verificationDone');
 	if(verificationDone === 'true') {
-		// Verification has been done before, no need to ask again
+		showJournalForm();
 		return;
 	}
 	async function verify() {
