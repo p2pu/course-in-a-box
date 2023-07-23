@@ -252,7 +252,6 @@ function showJournalForm() {
 					icon: "success",
 					title: "Journal Submitted",
 					allowOutsideClick: false,
-					text: "Your journal entry has been submitted successfully!",
 				});
 			}, 1000); // Simulating a short delay for the AJAX/fetch request
 		},
