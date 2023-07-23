@@ -31,7 +31,6 @@
 		}
 		formHtml += `
 			<!-- Add more questions here -->
-			<button type="submit">Submit</button>
 		</form>
 		`;
 		return formHtml;
@@ -46,10 +45,8 @@
 			showCloseButton: true,
 			showCancelButton: false,
 			focusConfirm: false,
-			html: true, // To enable HTML content in the alert
-			customClass: {
-				content: 'journal-form-container',
-			},
+			confirmButtonText: '<i class="fa fa-thumbs-up"></i> Submit',
+			confirmButtonAriaLabel: 'Submit',
 			onOpen: () => {
 				// Add a click event listener to the form's submit button
 				document.getElementById('journalForm').addEventListener('submit', function(event) {
