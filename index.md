@@ -259,7 +259,6 @@ function showJournalForm() {
 
 function generateUserToken() {
 	// Replace this with your actual user authentication/token logic
-	// For this example, let's generate a random token of length 6
 	const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 	let token = "";
 	for(let i = 0; i < 6; i++) {
