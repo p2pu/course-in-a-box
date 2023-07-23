@@ -33,14 +33,16 @@
 
     // Show the journal form in a SweetAlert when the "Open Journal Form" button is clicked
     document.getElementById('openJournalForm').addEventListener('click', function() {
-      swal.fire({
+      swal({
         title: "Weekly Journal",
-        html: createJournalFormHtml(),
+        text: createJournalFormHtml(),
+        type: "info", // Use "info" type for version 1
         showCancelButton: false,
         showConfirmButton: false,
         showCloseButton: false,
+        html: true, // To enable HTML content in the alert
         customClass: {
-          content: 'journal-form-container',
+          content: 'journal-form-container', // Use "content" class for version 1
         },
       });
     });
@@ -58,7 +60,7 @@
         // Save the answers to the database or any storage of your choice
         saveJournalEntry(userId, answers).then(() => {
           // Close the SweetAlert
-          swal.close();
+          swal.close(); // For version 1, use "swal.close()"
           // Show success alert
           swal('Success!', 'Your journal entry has been submitted.', 'success');
         }).catch((error) => {
