@@ -1,130 +1,94 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Weekly Journal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Journal Submission</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
 </head>
-
 <body>
-	<h1>Weekly Journal</h1>
-	<button id="openJournalForm">Open Journal Form</button>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css" />
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
-	<script>
-	// Fake user ID (replace with actual user authentication)
-	const userId = 1;
-	// Array of example questions
-	const exampleQuestions = [
-		"What is your starting length and girth?",
-		"What are your goals for the week?",
-		// Add more example questions here
-	];
+  <h1>Weekly Journal Submission</h1>
+  <button id="openFormButton">Open Form</button>
 
-	// Function to create the journal form HTML
-	function createJournalFormHtml() {
-		let formHtml = '<form id="journalForm">';
-		for (let i = 0; i < exampleQuestions.length; i++) {
-			formHtml += `
-				<label for="question${i + 1}">${exampleQuestions[i]}</label>
-				<input type="text" id="question${i + 1}" name="answer${i + 1}" required>
-			`;
-		}
-		formHtml += `
-			<!-- Add more questions here -->
-		</form>
-		`;
-		return formHtml;
-	}
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("openFormButton").addEventListener("click", function () {
+    showJournalForm();
+  });
+});
 
-	// Show the journal form in a SweetAlert when the "Open Journal Form" button is clicked
-	document.getElementById('openJournalForm').addEventListener('click', function() {
-		Swal.fire({
-			title: '<strong>Weekly Journal</strong>',
-			icon: 'info',
-			html: createJournalFormHtml(),
-			showCloseButton: true,
-			showCancelButton: false,
-			focusConfirm: false,
-			confirmButtonText: '<i class="fa fa-thumbs-up"></i> Submit',
-			confirmButtonAriaLabel: 'Submit',
-			onOpen: () => {
-				// Add a click event listener to the form's submit button
-				document.getElementById('journalForm').addEventListener('submit', function(event) {
-					event.preventDefault();
-					// Get form data
-					const formData = new FormData(event.target);
-					const answers = {};
-					// Store answers in an object
-					formData.forEach((value, key) => {
-						answers[key] = value;
-					});
-					// Save the answers to the database or any storage of your choice
-					saveJournalEntry(userId, answers).then(() => {
-						// Close the SweetAlert
-						Swal.close();
-						// Show success alert
-						Swal.fire('Success!', 'Your journal entry has been submitted.', 'success');
-					}).catch((error) => {
-						// Show error alert
-						Swal.fire('Error!', 'There was a problem submitting your journal entry.', 'error');
-						console.error(error);
-					});
-					// Clear form after submission
-					event.target.reset();
-				});
-			}
-		});
-	});
+function showJournalForm() {
+  const userToken = generateUserToken(); // Replace this with your actual user authentication/token logic
+  const currentDate = new Date().toISOString().split("T")[0];
 
-	function saveJournalEntry(userId, answers) {
-		// Simulate saving to a database (replace with actual database integration)
-		return new Promise((resolve, reject) => {
-			// Simulate server delay
-			setTimeout(() => {
-				// Create a new JournalEntry record (if needed) with user ID and date
-				const entryId = Math.floor(Math.random() * 1000); // Replace with actual entry ID
-				const dateSubmitted = new Date().toLocaleDateString(); // Replace with actual date
-				// Save answers to the database (replace with actual database call)
-				// For simplicity, we will just log the data here instead of saving to a database
-				console.log(`User ID: ${userId}`);
-				console.log(`Entry ID: ${entryId}`);
-				console.log(`Date Submitted: ${dateSubmitted}`);
-				console.log('Answers:', answers);
-				// Resolve the promise
-				resolve();
-			}, 1500); // Simulated server delay of 1.5 seconds
-		});
-	}
-	</script>
-	<style>
-	/* Custom CSS for the journal form */
-	.journal-form-container {
-		max-width: 400px;
-		margin: 0 auto;
-	}
+  Swal.fire({
+    title: "Weekly Journal",
+    allowOutsideClick: false,
+    html:
+      `<p><strong>Starting Length:</strong></p>
+      <input type="text" id="startingLength" class="swal2-input" placeholder="Enter starting length" required>
+      <p><strong>Starting Girth:</strong></p>
+      <input type="text" id="startingGirth" class="swal2-input" placeholder="Enter starting girth" required>
+      <p><strong>End Goals:</strong></p>
+      <input type="text" id="endGoals" class="swal2-input" placeholder="Enter end goals" required>`,
+    focusConfirm: false,
+    preConfirm: () => {
+      const startingLength = document.getElementById("startingLength").value;
+      const startingGirth = document.getElementById("startingGirth").value;
+      const endGoals = document.getElementById("endGoals").value;
 
-	.journal-form-container label {
-		display: block;
-		font-weight: bold;
-		margin-bottom: 5px;
-	}
+      // Store data in your database (backend) using AJAX or fetch API
+      // Replace the following code with your actual backend integration
+      const journalData = {
+        userToken: userToken,
+        date: currentDate,
+        questions: [
+          {
+            question: "Starting Length",
+            answer: startingLength,
+          },
+          {
+            question: "Starting Girth",
+            answer: startingGirth,
+          },
+          {
+            question: "End Goals",
+            answer: endGoals,
+          },
+        ],
+      };
 
-	.journal-form-container input {
-		width: 100%;
-		height: 30px; /* Adjust the height for smaller inputs */
-		margin-bottom: 10px;
-	}
+      // Simulate AJAX/fetch request success with a log and a SweetAlert notification
+      // Replace this with your actual AJAX/fetch call to your backend
+      // and handle success/error responses accordingly
+      setTimeout(function () {
+        console.log("User Token:", userToken);
+        console.log("Date:", currentDate);
+        console.log("Journal Data:", journalData);
+        Swal.fire({
+          icon: "success",
+          title: "Journal Submitted",
+	  allowOutsideClick: false,
+          text: "Your journal entry has been submitted successfully!",
+        });
+      }, 1000); // Simulating a short delay for the AJAX/fetch request
+    },
+  });
+}
 
-	.journal-form-container button {
-		display: block;
-		width: 100%;
-		padding: 10px;
-		background-color: #4CAF50;
-		color: white;
-		border: none;
-		cursor: pointer;
-	}
-	</style>
+function generateUserToken() {
+  // Replace this with your actual user authentication/token logic
+  // For this example, let's generate a random token of length 6
+  const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let token = "";
+  for (let i = 0; i < 6; i++) {
+    token += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return token;
+}
+
+
+</script>
 </body>
-
 </html>
