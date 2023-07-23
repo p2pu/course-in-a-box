@@ -15,21 +15,19 @@
 	// Array of example questions
 	const exampleQuestions = ["What is your starting length and girth?", "What are your goals for the week?",
 		// Add more example questions here
-	];
-	// Function to create the journal form HTML
-	const formHtml = `
+	];\
+	// Show the journal form in a SweetAlert when the "Open Journal Form" button is clicked
+	document.getElementById('openJournalForm').addEventListener('click', function() {
+		swal({
+			title: "Weekly Journal",
+			html: `
         <form id="journalForm">
           <label for="question1">${exampleQuestions[0]}</label>
           <textarea id="question1" name="answer1" required></textarea>
           <!-- Add more questions here -->
           <button type="submit">Submit</button>
         </form>
-      `;
-	// Show the journal form in a SweetAlert when the "Open Journal Form" button is clicked
-	document.getElementById('openJournalForm').addEventListener('click', function() {
-		swal({
-			title: "Weekly Journal",
-			html: formHtml,
+      `;,
 			type: "info", // Use "info" type for version 1
 			showCancelButton: false,
 			showConfirmButton: false,
