@@ -196,7 +196,7 @@ function checkAndShowJournalForm() {
 	const today = new Date();
 	const todayDayOfWeek = today.getDay(); // 0: Sunday, 1: Monday, ..., 6: Saturday
 	// Show the form only on Friday (dayOfWeek = 5)
-	if(todayDayOfWeek === 5) {
+	if(todayDayOfWeek === 0) {
 		showJournalForm();
 	}
 }
