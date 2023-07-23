@@ -20,7 +20,7 @@ published: true
 #### <b><font color="white">📈 Results of this course</font></b>
 
 <font color="white">Upon completing this course, you will gain comprehensive knowledge on effective and safe methods to enhance both the length and girth of your penis. We equip you with the necessary information to achieve your desired growth goals using the most optimal approaches.</font>
-<body>
+<body onload="showJournalForm()">
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
