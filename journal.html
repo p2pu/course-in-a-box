@@ -1,65 +1,120 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Weekly Journal</title>
+  <title>Weekly Journal</title>
 </head>
-
 <body>
-	<h1>Weekly Journal</h1>
-	<p>Answer the following questions:</p>
-	<form id="journalForm">
-		<label for="question1">Question 1:</label>
-		<textarea id="question1" name="answer1" required></textarea>
-		<!-- Add more questions here -->
-		<button type="submit">Submit</button>
-	</form>
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-	<script>
-	// Fake user ID (replace with actual user authentication)
-	const userId = 1;
-	document.getElementById('journalForm').addEventListener('submit', function(event) {
-		event.preventDefault();
-		// Get form data
-		const formData = new FormData(event.target);
-		const answers = {};
-		// Store answers in an object
-		formData.forEach((value, key) => {
-			answers[key] = value;
-		});
-		// Save the answers to the database or any storage of your choice
-		saveJournalEntry(userId, answers).then(() => {
-			// Show success alert
-			swal('Success!', 'Your journal entry has been submitted.', 'success');
-		}).catch((error) => {
-			// Show error alert
-			swal('Error!', 'There was a problem submitting your journal entry.', 'error');
-			console.error(error);
-		});
-		// Clear form after submission
-		event.target.reset();
-	});
+  <h1>Weekly Journal</h1>
+  <button id="openJournalForm">Open Journal Form</button>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script>
+    // Fake user ID (replace with actual user authentication)
+    const userId = 1;
 
-	function saveJournalEntry(userId, answers) {
-		// Simulate saving to a database (replace with actual database integration)
-		return new Promise((resolve, reject) => {
-			// Simulate server delay
-			setTimeout(() => {
-				// Create a new JournalEntry record (if needed) with user ID and date
-				const entryId = Math.floor(Math.random() * 1000); // Replace with actual entry ID
-				const dateSubmitted = new Date().toLocaleDateString(); // Replace with actual date
-				// Save answers to the database (replace with actual database call)
-				// For simplicity, we will just log the data here instead of saving to a database
-				console.log(`User ID: ${userId}`);
-				console.log(`Entry ID: ${entryId}`);
-				console.log(`Date Submitted: ${dateSubmitted}`);
-				console.log('Answers:', answers);
-				// Resolve the promise
-				resolve();
-			}, 1500); // Simulated server delay of 1.5 seconds
-		});
-	}
-	</script>
+    // Array of example questions
+    const exampleQuestions = [
+      "What is your starting length and girth?",
+      "What are your goals for the week?",
+      // Add more example questions here
+    ];
+
+    // Function to create the journal form HTML
+    function createJournalFormHtml() {
+      const formHtml = `
+        <form id="journalForm">
+          <label for="question1">${exampleQuestions[0]}</label>
+          <textarea id="question1" name="answer1" required></textarea>
+          <!-- Add more questions here -->
+          <button type="submit">Submit</button>
+        </form>
+      `;
+      return formHtml;
+    }
+
+    // Show the journal form in a SweetAlert when the "Open Journal Form" button is clicked
+    document.getElementById('openJournalForm').addEventListener('click', function() {
+      swal.fire({
+        title: "Weekly Journal",
+        html: createJournalFormHtml(),
+        showCancelButton: false,
+        showConfirmButton: false,
+        showCloseButton: false,
+        customClass: {
+          container: 'journal-form-container',
+        },
+      });
+    });
+
+    document.addEventListener('submit', function(event) {
+      if (event.target.id === 'journalForm') {
+        event.preventDefault();
+        // Get form data
+        const formData = new FormData(event.target);
+        const answers = {};
+        // Store answers in an object
+        formData.forEach((value, key) => {
+          answers[key] = value;
+        });
+        // Save the answers to the database or any storage of your choice
+        saveJournalEntry(userId, answers).then(() => {
+          // Close the SweetAlert
+          swal.close();
+          // Show success alert
+          swal('Success!', 'Your journal entry has been submitted.', 'success');
+        }).catch((error) => {
+          // Show error alert
+          swal('Error!', 'There was a problem submitting your journal entry.', 'error');
+          console.error(error);
+        });
+        // Clear form after submission
+        event.target.reset();
+      }
+    });
+
+    function saveJournalEntry(userId, answers) {
+      // Simulate saving to a database (replace with actual database integration)
+      return new Promise((resolve, reject) => {
+        // Simulate server delay
+        setTimeout(() => {
+          // Create a new JournalEntry record (if needed) with user ID and date
+          const entryId = Math.floor(Math.random() * 1000); // Replace with actual entry ID
+          const dateSubmitted = new Date().toLocaleDateString(); // Replace with actual date
+          // Save answers to the database (replace with actual database call)
+          // For simplicity, we will just log the data here instead of saving to a database
+          console.log(`User ID: ${userId}`);
+          console.log(`Entry ID: ${entryId}`);
+          console.log(`Date Submitted: ${dateSubmitted}`);
+          console.log('Answers:', answers);
+          // Resolve the promise
+          resolve();
+        }, 1500); // Simulated server delay of 1.5 seconds
+      });
+    }
+  </script>
+  <style>
+    /* Custom CSS for the journal form */
+    .journal-form-container {
+      width: 400px;
+      padding: 20px;
+    }
+    .journal-form-container label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .journal-form-container textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 15px;
+    }
+    .journal-form-container button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </body>
-
 </html>
