@@ -8,8 +8,23 @@ To make changes to the template itself, a good place to start is the [`_layouts`
 Questions? Ask on P2PU's [Community Forum](https://community.p2pu.org/c/tech/course-in-a-box/78).
 
 # Running locally
-- [install docker](https://docs.docker.com/engine/install/) 
-- Run ```docker run -i -t --rm -u 1000:1000 -p 4000:4000 -v `pwd`:/opt/app -v `pwd`/.bundler/:/opt/bundler -e BUNDLE_PATH=~/opt/bundler -w /opt/app ruby:2.7 bash -c "bundle install && bundle exec jekyll serve --watch -H 0.0.0.0"```
+- [install docker](https://docs.docker.com/engine/install/)
+- Run `./serve.sh`
+
+# Adding figures
+
+The [jekyll-figure](https://github.com/paulrobertlloyd/jekyll-figure) module has been added to this repository. To make figures, enclose images in `{% figure %}` markdown
+and use the class "caption", i.e.
+
+```
+{% figure [caption: "The Figure Caption"] [class: "caption"] %}
+
+![The Alt Text for the Image](../img/the_image.jpg)
+
+{% endfigure %}
+```
+
+As a convention, images can be placed in an `img/` folder created within the module directory and linked as per the above example.
 
 ---
 Course-in-a-Box is built by [Peer 2 Peer University](https://www.p2pu.org) and shared under an MIT License.
