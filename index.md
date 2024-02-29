@@ -3,36 +3,144 @@ layout: index
 published: true
 ---
 
-Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
-* **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
-* **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
-* **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
+This course offers a practical introduction to Pathogen Bioinformatics for Genomic Epidemiology, using both Galaxy and command line interface (CLI). It will use analysis of SARS-CoV-2 sequencing data as an example and also cover handling metadata to add context
+to the sequencing data being discussed and illustrate techniques in genomic epidemiology.
 
-<br> 
+## Programme
 
-#### Course-in-a-Box Courses We Love ❤️
-Here are some examples of Course-in-a-Box in the wild:
+The course is a two week (10 days) programme of in-person instruction combining theoretical back with practical instruction and opporunity for hands-on practice of the skills presented.
 
-* [We Are AI](https://dataresponsibly.github.io/we-are-ai/) by Center for Responsible AI
-* [How to Talk about Race](https://how-to-talk-about-race.p2pu.org/) by Amrita Patel and Denise LaForce
-* [Leveraging Learning for Life](https://leveraging-learning.p2pu.org/) by College Unbound
-* [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
-* [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
-* [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
-* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/) by P2PU
-* [Queer Cinema for High School](https://queercinema.net/) by Sarah Schrag
+<!-- LEAVE THIS TABLE ALONE - the rest of the page continues where it says BELOWTHETABLE -->
 
-<br> 
+<style>
+    td, th, table { border: 1px solid black; }
+    td, th {padding-left: 10px; padding-right: 10px; }
+    th { font-weight: bold }
+    .break { background: lightblue; }
+    .weekheader { background: green; color: white }
+</style>
 
-#### Need some help?
-Our [community forum](https://community.p2pu.org/c/tech/course-in-a-box/78) is a great place to ask questions or find help when you get stuck. Feel free to post there anytime!
+<table>
+  <tr class="weekheader">
+    <td colspan="6">
+      <strong>Week 1</strong>
+    </td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td></td>
+    <th>Day 1 (Mon)</th>
+    <th>Day 2 (Tue)</th>
+    <th>Day 3 (Wed)</th>
+    <th>Day 4 (Thu)</th>
+    <th>Day 5 (Fri)</th>
+  </tr>
+  <tr>
+    <td>09h00</td>
+    <td rowspan="2">Introduction Unix/linux, command line, shell scripting </td>
+    <td rowspan="2">
+Introduction Unix/linux, command line, shell scripting cont... 
+      <!-- <p>Package management with Conda </p> -->
+    </td>
+    <td>Package management with Conda </td>
+    <td rowspan="2">Containers workflow, theory, coding</td>
+    <td>Nextflow theory, coding</td>
+  </tr>
+  <tr>
+    <td>09h30</td>
+    <td>Package management with Conda </td>
+      <td>Nextflow theory, coding</td>
+  </tr>
+  <tr class="break">
+    <td>11h00</td>
+    <td colspan="5">Tea Break</td>
+  </tr>
+  <tr>
+    <td>11h30</td>
+    <td>Introduction Unix/linux, command line, shell scripting </td>
+    <td>Introduction Unix/linux, command line, shell scripting cont... </td>
+    <td>Package management with Conda </td>
+    <td>Containers workflow, theory, coding</td>
+    <td>Nextflow theory, coding</td>
+  </tr>
+  <tr class="break">
+    <td>13h00</td>
+    <td colspan="5">Lunch Break</td>
+  </tr>
+  <tr>
+    <td>14h00</td>
+    <td>Introduction Unix/linux, command line, shell scripting</td>
+    <td>Introduction Unix/linux, command line, shell scripting cont... </td>
+    <td>Package management with Conda</td>
+    <td>Containers workflow, theory, coding</td>
+    <td></td>
+  </tr>
+</table>
 
-You can also hire P2PU to provide support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
+<hr>
 
-<br> 
+<table>
+  <tr class="weekheader">
+    <td colspan="6"><strong>Week 2</strong></td>
+  </tr>
+  <tr>
+    <td></td>
+    <th>Day 6 (Mon)</th>
+    <th>Day 7 (Tue)</th>
+    <th>Day 8 (Wed)</th>
+    <th>Day 9 (Thu)</th>
+    <th>Day 10 (Fri)</th>
+  </tr>
+  <tr>
+    <td>09h00</td>
+    <td rowspan="2">R programming </td>
+    <td>R programming cont...</td>
+    <td>Galaxy introduction </td>
+    <td>Cholera case study</td>
+    <td rowspan="2">Cholera case study cont...</td>
+  </tr>
+  <tr>
+    <td>09h30</td>
+    <td>R programming cont..</td>
+    <td>Galaxy introduction</td>
+    <td>Cholera case study</td>
+  </tr>
+  <tr class="break">
+    <td>11h00</td>
+    <td colspan="5">Tea Break</td>
+  </tr>
+  <tr>
+    <td>11h30</td>
+    <td>R programming </td>
+    <td>R programming cont...</td>
+    <td>Galaxy introduction</td>
+    <td>Cholera case study</td>
+    <td>Cholera case study cont...</td>
+  </tr>
+  <tr class="break">
+    <td>13h00</td>
+    <td colspan="5">Lunch Break</td>
+  </tr>
+  <tr>
+    <td>14h00</td>
+    <td>R programming</td>
+    <td>R programming cont...</td>
+    <td>Galaxy introduction</td>
+    <td>Cholera case study</td>
+    <td>Cholera case study cont ...</td>
+  </tr>
+</table>
 
-#### About Course-in-a-Box
+<!-- BELOWTHETABLE -->
 
-P2PU created Course-in-a-Box in 2014 as a free and lightweight tool for building online courses. We wanted to preserve the modular structure of MOOCs outside of the bulky (and often proprietary) environment of learning/content management systems. Course-in-a-Box is open-source, and we welcome contributions [on our Github repo](https://github.com/p2pu/course-in-a-box).
+## Partners
 
-p.s. Designing a course for learning circles? [Check out the Learning Circle Course Creation guide](https://docs.p2pu.org/courses/creating-courses) for some best practices on course design.
+This course is being organised by [SANBI](https://www.sanbi.ac.za/) (the South African National Bioinformatics Institute) at the 
+[University of the Western Cape (UWC)](https://www.uwc.ac.za/) in collaboration with [Africa CDC](https://africacdc.org) (the Africa Centres for Disease Control and Prevention), part of the African Union (AU), [CBIO](https://health.uct.ac.za/computational-biology/) (the Computational Biology Department at the University of Cape Town)
+
+<p float="left">
+  <img src="img/african_union_logo.svg" width="18%" align="top">
+  <img src="img/africacdc_logo.svg" width="18%" align="top">
+  <img src="img/uwc_logo.svg" width="18%" align="top">
+  <img src="img/sanbi_logo.svg" width="20%" align="top">
+<img src="img/uct-logo.svg" width="22%" align="top" style="background-color:rgb(30, 30, 30);">
+</p>
