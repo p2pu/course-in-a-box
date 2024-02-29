@@ -1,4 +1,4 @@
-A# basic configuration
+# basic configuration
 markdown: kramdown
 permalink: /:categories/:title/
 
