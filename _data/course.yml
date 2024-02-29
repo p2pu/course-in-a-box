@@ -1,3 +1,10 @@
-title: Course-in-a-Box
-description: An open-source project for creating online courses, built by <a href="https://www.p2pu.org">P2PU</a>
-modules: ["setup", "content", "customize"]
+title: Bioinformatics for Genomic Epidemiology March 2024
+description: An introductory course on Pathogen Bioinformatics for Genomic Epidemiology
+modules: 
+  - "unix-linux-introduction"
+  - "package-management-conda"
+  - "containers"
+  - "nextflow"
+  - "r-programming"
+  - "galaxy-introduction"
+  - "cholera-case-study"
