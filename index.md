@@ -3,8 +3,9 @@ layout: index
 published: true
 ---
 
-This course offers a practical introduction to Pathogen Bioinformatics for Genomic Epidemiology, using both Galaxy and command line interface (CLI). It will use analysis of SARS-CoV-2 sequencing data as an example and also cover handling metadata to add context
-to the sequencing data being discussed and illustrate techniques in genomic epidemiology.
+<b>Week 1 Overview:</b> Fundamental bioinformatics, programming, HPC, Basic computer skills. Introducing the Shell. Navigating Files & Directories. Github and version control. Data carpentry, data analysis, different workflows and containerization. Data curation group. Sharing, ethical and legal considerations. ECBI, NCBI database training. The difference between INSDC and GISAID. Some bioinformatic tools, R tools.
+
+<b>Week 2 Overview:</b> Running handson workshops. Get hands on with pathogen bioinformatics focusing on cholera examples. 
 
 ## Programme
 
