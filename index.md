@@ -37,19 +37,11 @@ The course is a two week (10 days) programme of in-person instruction combining 
   </tr>
   <tr>
     <td>09h00</td>
-    <td rowspan="2">Introduction Unix/linux, command line, shell scripting </td>
-    <td rowspan="2">
-Introduction Unix/linux, command line, shell scripting cont... 
-      <!-- <p>Package management with Conda </p> -->
-    </td>
+    <td>Introduction Unix/Linux, command line, shell scripting </td>
     <td>Package management with Conda </td>
-    <td rowspan="2">Containers workflow, theory, coding</td>
-    <td>Nextflow theory, coding</td>
-  </tr>
-  <tr>
-    <td>09h30</td>
-    <td>Package management with Conda </td>
-      <td>Nextflow theory, coding</td>
+    <td>Containers</td>
+    <td>Nextflow</td>
+    <td>R</td>
   </tr>
   <tr class="break">
     <td>11h00</td>
@@ -57,11 +49,11 @@ Introduction Unix/linux, command line, shell scripting cont...
   </tr>
   <tr>
     <td>11h30</td>
-    <td>Introduction Unix/linux, command line, shell scripting </td>
-    <td>Introduction Unix/linux, command line, shell scripting cont... </td>
+    <td>Introduction Unix/Linux, command line, shell scripting </td>
     <td>Package management with Conda </td>
-    <td>Containers workflow, theory, coding</td>
-    <td>Nextflow theory, coding</td>
+    <td>Containers</td>
+    <td>Nextflow</td>
+    <td>R</td>
   </tr>
   <tr class="break">
     <td>13h00</td>
@@ -69,11 +61,11 @@ Introduction Unix/linux, command line, shell scripting cont...
   </tr>
   <tr>
     <td>14h00</td>
-    <td>Introduction Unix/linux, command line, shell scripting</td>
-    <td>Introduction Unix/linux, command line, shell scripting cont... </td>
+    <td>Introduction Unix/Linux, command line, shell scripting</td>
     <td>Package management with Conda</td>
-    <td>Containers workflow, theory, coding</td>
-    <td></td>
+    <td>Containers</td>
+    <td>R</td>
+    <td>R</td>
   </tr>
 </table>
 
@@ -93,17 +85,11 @@ Introduction Unix/linux, command line, shell scripting cont...
   </tr>
   <tr>
     <td>09h00</td>
-    <td rowspan="2">R programming </td>
-    <td>R programming cont...</td>
-    <td>Galaxy introduction </td>
+    <td>R</td>
+    <td>Galaxy</td>
     <td>Cholera case study</td>
-    <td rowspan="2">Cholera case study cont...</td>
-  </tr>
-  <tr>
-    <td>09h30</td>
-    <td>R programming cont..</td>
-    <td>Galaxy introduction</td>
     <td>Cholera case study</td>
+    <td>Bioinformatics networking</td>
   </tr>
   <tr class="break">
     <td>11h00</td>
@@ -111,11 +97,11 @@ Introduction Unix/linux, command line, shell scripting cont...
   </tr>
   <tr>
     <td>11h30</td>
-    <td>R programming </td>
-    <td>R programming cont...</td>
-    <td>Galaxy introduction</td>
+    <td>R</td>
+    <td>Galaxy</td>
     <td>Cholera case study</td>
-    <td>Cholera case study cont...</td>
+    <td>Cholera case study</td>
+    <td>Bioinformatics networking</td>
   </tr>
   <tr class="break">
     <td>13h00</td>
@@ -123,11 +109,11 @@ Introduction Unix/linux, command line, shell scripting cont...
   </tr>
   <tr>
     <td>14h00</td>
-    <td>R programming</td>
-    <td>R programming cont...</td>
-    <td>Galaxy introduction</td>
+    <td>Galaxy</td>
     <td>Cholera case study</td>
-    <td>Cholera case study cont ...</td>
+    <td>Cholera case study</td>
+    <td>Cholera case study</td>
+    <td>Bioinformatics networking</td>
   </tr>
 </table>
 
@@ -143,5 +129,5 @@ This course is being organised by [SANBI](https://www.sanbi.ac.za/) (the South A
   <img src="img/africacdc_logo.svg" width="18%" align="top">
   <img src="img/uwc_logo.svg" width="18%" align="top">
   <img src="img/sanbi_logo.svg" width="20%" align="top">
-<img src="img/uct-logo.svg" width="22%" align="top" style="background-color:rgb(30, 30, 30);">
+<img src="img/uct-logo.svg" width="22%" align="top">
 </p>
