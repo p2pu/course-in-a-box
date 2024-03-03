@@ -113,7 +113,7 @@ If we want to collate our reports to see a summary and do a comparison across sa
 
 **5.** Under Select a Kraken2 database, choose the most recent **Standard (2021/05/17)** database.
 <br>
-![Kraken_aggregate](/img/11_Kraken_aggregate_Galaxy.png)
+![Kraken_aggregate](/img/11_Kraken_aggregate_new_Galaxy.png)
 <br>
 <br>
 
