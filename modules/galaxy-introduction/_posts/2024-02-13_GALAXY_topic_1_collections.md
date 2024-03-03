@@ -79,13 +79,13 @@ Uncheck that box, to allow you to individually select each sample.
 <br>
 <br>
 <br>
-- This new box allows you to pair your samples by looking for any common pattern that will allow you to select all samples belonging to one group and separate them from another.
+This new box allows you to pair your samples by looking for any common pattern that will allow you to select all samples belonging to one group and separate them from another.
 <br>
 <br>
-- In our case, the algorithm predicted that the forward reads will all have a **_1** and the reverse reads all have an **_2**. So, it already paired our forward and reverse reads for us based on this pattern.
+In our case, the algorithm predicted that the forward reads will all have a **_1** and the reverse reads all have an **_2**. So, it already paired our forward and reverse reads for us based on this pattern.
 <br>
 <br>
-- But we can look at the view we would get if the samples were named differently, and the algorithm may not have gotten it right. For example, forward and reverse reads are sometimes labelled with R1 and R2 to distinguish read pairs.
+But we can look at the view we would get if the samples were named differently, and the algorithm may not have gotten it right. For example, forward and reverse reads are sometimes labelled with R1 and R2 to distinguish read pairs.
 <br>
 <br>
 <br>
@@ -93,9 +93,12 @@ Uncheck that box, to allow you to individually select each sample.
 ![Unpair_all](/img/4_Unpair_all_Galaxy.png)
 <br>
 <br>
-- Your box should now look like this.
-If your samples were named differently, and Galaxy couldn’t successfully pair it, the samples will all appear on top and you would have to find a pattern in your sample names to allow the correct classification. E.g. **R1** in the box on the top left and **R2** in the box on the top right.
+Your box should now look like this.
 <br>
+
+- If your samples were named differently, and Galaxy couldn’t successfully pair it, the samples will all appear on top and you would have to find a pattern in your sample names to allow the correct classification. E.g. **R1** in the box on the top left and **R2** in the box on the top right.
+<br>
+
 ![Pair_forward_reverse_reads](/img/5_Pair_forward_reverse_reads_Galaxy.png)
 <br>
 <br>
