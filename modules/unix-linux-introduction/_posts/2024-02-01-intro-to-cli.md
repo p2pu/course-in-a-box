@@ -8,6 +8,8 @@ The Bash shell is typically used as part of the Linux or MacOS operating systems
 a common origin in the Unix of the 1970s, 80s and 90s, there are also some differences between Linux and MacOS that we will
 note as we go along.
 
+Before we start - go to [Mentimeter](https://www.menti.com/al6zy2jhnid6) to join the presentation.
+
 ### Tasks
 
 We will be focusing on tasks using the resources listed in the _Resources_ section.
