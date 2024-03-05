@@ -3,24 +3,23 @@ layout: index
 published: true
 ---
 
-Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
-* **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
-* **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
-* **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
+OneSearch is the library's online catalog. You can find print and electronic books, magazine, newspaper, and peer-reviewed articles, and videos on your topic by using OneSearch. This tutorial will show you how to use OneSearch to narrow and filter your results. You will also learn about each type of source and how it addds to your research project. Move through the tutorial by selecting the appropriate tab.At the end of ths tutorial students should be able to:
+-Demonstrate the ability to find, evaluate and use appropriate information sources to answer an information need.
+
 
 <br> 
 
-#### Course-in-a-Box Courses We Love ❤️
-Here are some examples of Course-in-a-Box in the wild:
+#### Related tutorials that we love ❤️
+Here are tutorials you may find useful
 
-* [We Are AI](https://dataresponsibly.github.io/we-are-ai/) by Center for Responsible AI
-* [How to Talk about Race](https://how-to-talk-about-race.p2pu.org/) by Amrita Patel and Denise LaForce
-* [Leveraging Learning for Life](https://leveraging-learning.p2pu.org/) by College Unbound
-* [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
-* [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
-* [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
-* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/) by P2PU
-* [Queer Cinema for High School](https://queercinema.net/) by Sarah Schrag
+* [The Research Process](https://lib.taftcollege.edu/LibraryResearchTheProcess)
+* [Database Tutorials](https://lib.taftcollege.edu/c.php?g=1251907) 
+* [Fake News](https://lib.taftcollege.edu/FakeNews) 
+* [Bias](https://lib.taftcollege.edu/c.php?g=861448) 
+* [Reference Sources](https://lib.taftcollege.edu/c.php?g=772423) 
+* [Scholarly and Peer Reviewed Journals](https://lib.taftcollege.edu/ScholarlyandPeerReviewedJournals) 
+* [What is a Call Number?](https://lib.taftcollege.edu/c.php?g=773309) 
+* [Types of Sources](https://lib.taftcollege.edu/typesofsources) by Sarah Schrag
 
 <br> 
 

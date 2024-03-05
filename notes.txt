@@ -1,0 +1,1 @@
+I am trying to figure out if I have write permissions.  According to the book, I do have write permissions because I have written this note and there is a commit changes green box in the upper right corner.
