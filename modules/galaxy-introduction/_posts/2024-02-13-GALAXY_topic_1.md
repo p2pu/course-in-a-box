@@ -26,7 +26,7 @@ Please click on [this link](https://usegalaxy.eu/join-training/path-gen-march-24
 
 #### Introductory materials on Galaxy
 
-What is Galaxy? See the slides [here](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/introduction/slides.html). To find out more about Galaxy and about using Galaxy, read about [Galaxy Resources for Research](https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit#slide=id.p) and see some common [Questions and Answers about Galaxy](https://www.slideshare.net/kbradnam/13-questions-you-might-have-about-galaxy).
+What is Galaxy? See the slides [here](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/introduction/slides.html). To find out more about Galaxy, read about [Galaxy Resources for Research](https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit#slide=id.p) and see some common [Questions and Answers about Galaxy](https://www.slideshare.net/kbradnam/13-questions-you-might-have-about-galaxy).
 <br>
 <br>
 #### First hands on with Galaxy
