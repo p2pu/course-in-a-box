@@ -5,14 +5,16 @@ title: COLLECTIONS AND WORKFLOWS
 
 <br>
 
-When doing Bioinformatics analyses, it’s a more common practice to process many samples at once. This often also requires the grouping of samples. 
-- For example aired short reads, such as Illumina reads, are usually grouped together. But grouping may extend to any specific way in which one wishes to classify our data. 
+When doing Bioinformatics analyses, it’s a more common practice to process multiple samples at once. This often also requires the grouping of these samples. 
+- For example, paired short reads, such as Illumina reads, are usually grouped. However, grouping may extend to any specific way in which one wishes to classify ones data. 
 
 
-- Similarly, we may want to compare a set of drug resistant strains to drug sensitive strains. We would call each of these groupings of samples, a dataset. Similarly, we may want to compare a dataset containing samples from Namibia to those of Cape Verde, etc.
+- Similarly, we may want to compare a set of drug resistant strains to drug sensitive strains. Similarly, we may want to compare a dataset containing samples from Namibia to those of Cape Verde, etc. We would call each of these grouping of samples, a **dataset.** 
 
 
-Galaxy allows us to do this in one step. That is, we can make sure a forward and reverse read belonging to the same sample is paired. We can then also group these paired reads together into one dataset collection, so that we can run analyses on all of our samples at once, rather than doing them one by one.
+Galaxy allows us to do this in one step. That is, we can make sure a **forward** and **reverse read** belonging to the same sample is paired.
+<br>
+We can then also group these, now paired reads, together into one dataset **collection**, so that we can run analyses on all of our samples at once, rather than doing them one by one.
 
 <br>
 Let’s see this in action.
@@ -23,11 +25,11 @@ Let’s see this in action.
 > [!NOTE]
 >The samples for this lesson can be found at https://zenodo.org/records/10760705
 
-> You may copy this url into your browser to download the zip file containing all the files, and then upload the files to Galaxy from your local machine.
+> You have **two** options.
+>   1. You may click on this url to download the zip file containing all the files, and then upload the files to Galaxy from your local machine.
+>   2. Or you may paste the links below for each file into Galaxy.
 
-> Or you may paste the links below for each file into Galaxy.
-
-> However, you will need to change the file names if you use the second method.
+> :exclamation: However, you will need to change the file names **individually** in Galaxy, if you use the second method.
 
 ```
 https://zenodo.org/records/10760705/files/SRR24446250_1.fastq.gz?download=1
