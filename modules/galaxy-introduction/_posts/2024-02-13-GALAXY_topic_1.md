@@ -9,14 +9,16 @@ In our training we will be using the [Galaxy](https://galaxyproject.org) bioinfo
 <br>
 
 > [!WARNING]  
-> We will be using the Galaxy **Europe** server (usegalaxy.eu)[https://usegalaxy.eu].
+> We will be using the **European** Galaxy server [here](https://usegalaxy.eu).
 
 <br>
 
 Sign up for usegalaxy.eu is free. Select the _Login or Register_ item at the top right to sign up.
 <br>
 <br>
-The Galaxy Training Network (GTN) provides tutorials on doing bioinformatics analysis and data science using Galaxy at [https://training.galaxyproject.org/] and we will be using some of this materials in the course.
+The Galaxy Training Network (GTN) provides tutorials on doing bioinformatics analysis and data science using Galaxy and we will be using some of this materials in the course.
+<br>
+Please click on [this link](https://usegalaxy.eu/join-training/path-gen-march-24/) **AFTER** creating your account using the first link above.
 
 <br>
 
