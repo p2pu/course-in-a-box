@@ -2,11 +2,6 @@
 layout: index
 published: true
 ---
-
-<b>Week 1 Overview:</b> Fundamental bioinformatics, programming, HPC, Basic computer skills. Introducing the Shell. Navigating Files & Directories. Github and version control. Data carpentry, data analysis, different workflows and containerization. Data curation group. Sharing, ethical and legal considerations. ECBI, NCBI database training. The difference between INSDC and GISAID. Some bioinformatic tools, R tools.
-
-<b>Week 2 Overview:</b> Running handson workshops. Get hands on with pathogen bioinformatics focusing on cholera examples. 
-
 ## Programme
 
 The course is a two week (10 days) programme of in-person instruction combining theoretical back with practical instruction and opporunity for hands-on practice of the skills presented.
