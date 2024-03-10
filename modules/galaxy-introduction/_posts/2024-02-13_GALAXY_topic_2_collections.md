@@ -14,22 +14,27 @@ When doing Bioinformatics analyses, it’s a more common practice to process mul
 
 Galaxy allows us to do this in one step. That is, we can make sure a **forward** and **reverse read** belonging to the same sample is paired.
 <br>
-We can then also group these, now paired reads, together into one dataset **collection**, so that we can run analyses on all of our samples at once, rather than doing them one by one.
+We can then group these paired reads into a dataset or **collection** of paired reads, so that we can run analyses on all of our samples at once, rather than doing them one by one.
 
 <br>
-Let’s see this in action.
 <br>
 
+:hammer_and_wrench: **Let’s see this in action.**
+<br>
 <br>
 
 > [!NOTE]
 >The samples for this lesson can be found at https://zenodo.org/records/10760705
+<br>
+<br>
 
 > You have **two** options.
->   1. You may click on this url to download the zip file containing all the files, and then upload the files to Galaxy from your local machine.
->   2. Or you may paste the links below for each file into Galaxy.
+>   1. You may click on this url to download the zip file with all the files, and then upload the files to Galaxy from your local machine.
+>   2. Or you may paste the links below, which correspond to the individual samples, into Galaxy.
 
 > :exclamation: However, you will need to change the file names **individually** in Galaxy, if you use the second method.
+<br>
+<br>
 
 ```
 https://zenodo.org/records/10760705/files/SRR24446250_1.fastq.gz?download=1
@@ -50,8 +55,8 @@ https://zenodo.org/records/10760705/files/SRR24446302_1.fastq.gz?download=1
 https://zenodo.org/records/10760705/files/SRR24446302_2.fastq.gz?download=1
 ```
 
-
-
+<br>
+<br>
 
 **1.** **Import** the selection of cholera samples
 
@@ -62,11 +67,12 @@ https://zenodo.org/records/10760705/files/SRR24446302_2.fastq.gz?download=1
 <br>
 <br>
 
-**3.** Just above your imported samples, you will see a box that is checked.
+**3.** Just above your imported samples, you will see a small blue box with a checked sign :ballot_box_with_check:.
 <br>
-Uncheck that box, to allow you to individually select each sample.
+Uncheck that box. This will allow you to individually select each sample.
 <br>
 ![UNchecked_samples_Galaxy](/img/2_UNchecked_samples_Galaxy.png)
+<br>
 <br>
 <br>
 **4.** Click on the **Select All** button on the right.
@@ -81,10 +87,10 @@ Uncheck that box, to allow you to individually select each sample.
 <br>
 <br>
 <br>
-This new box allows you to pair your samples by looking for any common pattern that will allow you to select all samples belonging to one group and separate them from another.
+This new box gives you the ability to pair your samples, by looking for any common pattern in one group, that distinguished them from another group. For example, what pattern do you see in the file name of the forward reads, that is not in the reverse reads.
 <br>
 <br>
-In our case, the algorithm predicted that the forward reads will all have a **_1** and the reverse reads all have an **_2**. So, it already paired our forward and reverse reads for us based on this pattern.
+In our case, the algorithm predicted that the _forward reads_ will all have a **_1** in their name and the _reverse reads_ all have an **_2**. So, it already paired our forward and reverse reads for us based on this pattern.
 <br>
 <br>
 But we can look at the view we would get if the samples were named differently, and the algorithm may not have gotten it right. For example, forward and reverse reads are sometimes labelled with R1 and R2 to distinguish read pairs.
@@ -95,14 +101,14 @@ But we can look at the view we would get if the samples were named differently, 
 ![Unpair_all](/img/4_Unpair_all_Galaxy.png)
 <br>
 <br>
-Your box should now look like this.
+<br>
+<br>
+Your box should now look like this (BELOW).
 <br>
 
-- If your samples were named differently, and Galaxy couldn’t successfully pair it, the samples will all appear on top and you would have to find a pattern in your sample names to allow the correct classification. E.g. **R1** in the box on the top left and **R2** in the box on the top right.
-<br>
+- Thus, if your samples were named differently, and Galaxy couldn’t successfully pair it, the samples will all appear on top (in the white space above) and you would have to figure out a pattern in your sample names to allow the correct classification. E.g. **R1** in the box on the top left and **R2** in the box on the top right. In the worse case scenario, you may need to rename all of your samples to enforce a common pattern.
 
 ![Pair_forward_reverse_reads](/img/5_Pair_forward_reverse_reads_Galaxy.png)
-<br>
 <br>
 <br>
 **8.** You can manually pair the set of reads by clicking the white button in the middle that says **Pair these datasets**, and it will move them all to the bottom as they were before.
