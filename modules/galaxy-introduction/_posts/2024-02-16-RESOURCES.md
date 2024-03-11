@@ -1,6 +1,6 @@
-----
+---
 title: ADDITIONAL RESOURCES
------
+---
 
 Here are som additional resources to get you further up to scratch with Galaxy.
 
