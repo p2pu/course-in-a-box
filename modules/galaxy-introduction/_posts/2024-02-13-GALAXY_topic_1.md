@@ -9,14 +9,15 @@ In our training we will be using the [Galaxy](https://galaxyproject.org) bioinfo
 <br>
 
 > [!WARNING]  
-> We will be using the Galaxy **Europe** server (usegalaxy.eu)[https://usegalaxy.eu].
+> We will be using the **European** Galaxy server [here](https://usegalaxy.eu).
 
 <br>
 
-Sign up for usegalaxy.eu is free. Select the _Login or Register_ item at the top right to sign up.
+Signing up to **usegalaxy.eu** is free. Select the _Login or Register_ item at the top right to sign up.
 <br>
 <br>
-The Galaxy Training Network (GTN) provides tutorials on doing bioinformatics analysis and data science using Galaxy at [https://training.galaxyproject.org/] and we will be using some of this materials in the course.
+The Galaxy Training Network (GTN) provides tutorials on doing bioinformatics analyses and data science using Galaxy and we will be using some of this materials in the course.
+<br>
 
 <br>
 
@@ -24,12 +25,14 @@ The Galaxy Training Network (GTN) provides tutorials on doing bioinformatics ana
 
 #### Introductory materials on Galaxy
 
-What is Galaxy? See the slides [here](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/introduction/slides.html). To find out more about Galaxy and using Galaxy, read about [Galaxy Resources for Research](https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit#slide=id.p) and see some common [Questions and Answers about Galaxy](https://www.slideshare.net/kbradnam/13-questions-you-might-have-about-galaxy).
+What is Galaxy? See the slides [here](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/introduction/slides.html). To find out more about Galaxy, read about [Galaxy Resources for Research](https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit#slide=id.p) and see some common [Questions and Answers about Galaxy](https://www.slideshare.net/kbradnam/13-questions-you-might-have-about-galaxy).
 <br>
 <br>
 #### First hands on with Galaxy
 
-Firstly, if you are part of the March 2024 training at SANBI, log into usegalaxy.eu and click [this link](https://usegalaxy.eu/join-training/training-path-gen-march-24) to register as part of the training group. This will ensure that you have priority access to computing resources during our training. **Remember** that you must first **be logged in** to usegalaxy.eu before clicking this link.
+Firstly, if you are part of the March 2024 training at SANBI, log into usegalaxy.eu
+<br>
+Then click [this link](https://usegalaxy.eu/join-training/path-gen-march-24/) to register as part of the training group. This will ensure that you have priority access to computing resources during our training. **Remember** that you must first **be logged in** to usegalaxy.eu before clicking the previous link.
 
 To get used to the interface, start with [A Short Introduction To Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html). This will get you used to uploading data, running tools, doing some basic work with Galaxy Histories and also give you a first introduction to Galaxy Workflows.
 

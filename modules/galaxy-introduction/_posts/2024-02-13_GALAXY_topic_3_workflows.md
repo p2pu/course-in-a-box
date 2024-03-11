@@ -6,11 +6,11 @@ Now that you have created your own dataset, you can run an analysis or several a
 
 <br>
 
-These are some of the things you can do around workflows:
+These are some of the things you can do with workflows:
 <br>
 **a)** Build your own
 <br>
-**b)** Import someone else
+**b)** Import someone else's
 <br>
 **c)** Edit it
 <br>
@@ -23,21 +23,21 @@ These are some of the things you can do around workflows:
 
 <br>
 
-Galaxy offers a variety of different NGS reads trimming/filtering tools. 
+Galaxy offers a variety of different trimming/filtering tools for NGS reads . 
 <br>
- - Here, we will use the **fastp** tool, which is straightforward to configure, and when combined with the **MultiQC** tool, enables nice and easy-to-interpret visualizations of the effects of preprocessing, in particular for multiple samples.
+ - Here, we will use the **fastp** tool, which is straightforward to configure, and when combined with the **MultiQC** tool, enables a nice and easy-to-interpret visualization of how preprocessing changes the quality of your reads for multiple samples.
 
 <br>
 <br>
 
 **1.** Search for **fastp** in your toolshed.
-First scroll all the way to the bottom of this new information that popped up. Here you can read what you can do with the tool, how it works (input and output files) and even tutorials about the tool.
+After you find it, first scroll all the way to the bottom of this new information that popped up. Here you can read what you can do with the tool, how it works (input and output files), referencing and even tutorials about the tool.
 <br>
 <br>
 
-**2.** Click the drop-down under Single or Paired-end reads, and choose **Paired Collection**
+**2.** Click the drop-down arrow under Single or Paired-end reads, and choose **Paired Collection**
 <br>
-- You will see that it automatically selects the dataset you created the **Select paired collection(s)**, because you only have one collection in your current History
+- You will see that it automatically selects the dataset you created under the option for **Select paired collection(s)**, because you only have one collection in your current History.
   
 ![Search_fastp](/img/8_Search_fastp_Galaxy.png)
 <br>
@@ -51,7 +51,7 @@ First scroll all the way to the bottom of this new information that popped up. H
 <br>
 
 > [!WARNING]
->  When doing Bioinformatics, it’s important to plan your workflow and to understand the input an output formats of each subsequent tools.
+>  When doing Bioinformatics, it is important to **plan your workflow** and to understand the input an output formats of each subsequent tool.
 
 <br>
 
@@ -71,17 +71,17 @@ If we want to collate our reports to see a summary and do a comparison across sa
 
 ### :question: Questions: 
 
-**1.** What do you notice about the samples from the General statistics?
+**1.** What do you notice about the samples under the _General statistics_ section?
 
-**2.** Does anything stand out under the Filtered Reads section?
+**2.** Does anything stand out under the _Filtered Reads_ section?
 
-**3.** Is there a change in the N-content for the forward and reverse reads after cleaning it up with fastp?
+**3.** Is there a change in the _N-content_ for the forward and reverse reads after cleaning it up with fastp?
 
-**4.** What do you notice about GC content of samples?
+**4.** What do you notice about _GC content_ of samples?
 
 **5.** What do you think this could mean?
 
-**6.** What type of test can you do to validate the sample?
+**6.** What type of test can you do to validate the sample species?
 
 <br>
 <br>
@@ -95,8 +95,12 @@ If we want to collate our reports to see a summary and do a comparison across sa
 
 ### Kraken
 
+> [!CAUTION]
+> :exclamation:**Kraken takes VERY LONG to run.** So be prepared to do something else while you wait. :exclamation:
+<br>
+<br>
 
-**1.** Search for Kraken2
+**1.** Search for **Kraken2.**
 <br>
 <br>
 **2.** Select a single read (image below).
@@ -111,8 +115,14 @@ If we want to collate our reports to see a summary and do a comparison across sa
 <br>
 <br>
 
-**5.** Under Select a Kraken2 database, choose the most recent **Standard (2021/05/17)** database.
+**5.** Choose "Yes" to Print a report with aggreagate counts/clades
 <br>
+<br>
+
+**6** Under Select a Kraken2 database, choose the most recent **Standard (2021/05/17)** database and **Run** the tool.
+<br>
+
+
 ![Kraken_aggregate](/img/11_Kraken_aggregate_new_Galaxy.png)
 <br>
 <br>
@@ -125,26 +135,26 @@ If we want to collate our reports to see a summary and do a comparison across sa
 
 <br>
 
-If this is the type of analyses that you usually have to do on your samples, and you don’t want to keep doing this from scratch.
+If this is a type of analyses that you usually have to do on your samples, and you don’t want to keep doing this analyses from scratch.
 <br>
 It is advisable to turn your analysis into a **workflow**.
 
 <br>
 
-**1.** At the top right corner, click on the drop-down arrow to expand the options for your History, and select **Extract Workflow**
+**1.** At the top right corner of your History, click on the drop-down arrow to expand the options, and select **Extract Workflow.**
 <br>
 ![Extract_workflow_](/img/12_Extract_workflow_Galaxy.png)
 <br>
 <br>
 
-**2.** Change the workflow name to something intuitive and click on **Create Workflow**
+**2.** Change the **workflow name** to something intuitive and click on **Create Workflow.**
 <br>
 ![Create_workflow](/img/13_Create_workflow_Galaxy.png)
 <br>
 <br>
 You will now be able to click on the Workflow tab all the way at the top and see your very own created workflow.
 <br>
-- You can either click on the **Run** button at the far right. This will allow you to run it on any new samples you want to process in a new History.
+- You can either click on the **Run** button at the far right. This will allow you to run it on any new samples you want to process in you **new History.**
 
 - Or you can click on the dropdown to the left of the workflow name to **Edit, View, Share, Export, etc.**
 <br>
@@ -175,7 +185,7 @@ You will now be able to click on the Workflow tab all the way at the top and see
 **3.** Click on the tool and it will add it to your workflow.
 <br>
 
-**4.** You can not connect the input for this file by dragging the arrow from the input data to where it should go on your snippy tool.
+**4.** You can now connect the input for this file by dragging the arrow from the input data to where it should go on your snippy tool.
 <br>
 ![Expand_workflow](/img/15_Expand_workflow_Galaxy.png)
 <br>
@@ -205,7 +215,7 @@ You will now be able to click on the Workflow tab all the way at the top and see
 Here you can either make it publicly available to anyone on Galaxy, or you can send the url of your workflow to your peers. 
 <br>
 <br>
-**3.** You may also share your workflow with individuals via their email address.
+**3.** Similarly, you may also share your workflow with individuals via their email address.
 <br>
 ![Publish_workflow](/img/17_Publish_workflow_Galaxy.png)
 <br>
