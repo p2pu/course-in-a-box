@@ -37,3 +37,4 @@ jumbotron_mask: "img/jumbotron-mask.svg"
 plugins:
   - jekyll-figure
   - jekyll-pdf-embed
+  - jemoji
