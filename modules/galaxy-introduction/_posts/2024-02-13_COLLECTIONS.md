@@ -1,5 +1,5 @@
 ---
-title: COLLECTIONS AND WORKFLOWS
+title: COLLECTIONS 
 ---
 ## Making Collections in Galaxy
 
