@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker run -i -t --rm -u 1000:1000 \
+docker run -i -t --rm -u $(id -u):$(id -g) \
     -p 4000:4000 -v $(pwd):/opt/app \
     -v $(pwd)/.bundler/:/opt/bundler \
     -e BUNDLE_PATH=/opt/bundler \

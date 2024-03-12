@@ -272,6 +272,7 @@ DEPENDENCIES
   github-pages
   jekyll-figure
   jekyll-pdf-embed
+  jemoji
 
 BUNDLED WITH
    2.1.4
