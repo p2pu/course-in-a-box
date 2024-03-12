@@ -24,7 +24,7 @@ We can then group these paired reads into a dataset or **collection** of paired 
 <br>
 
 > [!NOTE]
->The samples for this lesson can be found at https://zenodo.org/records/10760705
+>The samples for this lesson can be found at [Zenodo](https://zenodo.org/records/10760705)
 <br>
 <br>
 
