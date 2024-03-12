@@ -63,8 +63,13 @@ If we want to collate our reports to see a summary and do a comparison across sa
 
 <br>
 <br>
-<br>
 
+**4.** Search for the **MultiQC** tool and select that you generated the files using **fastp.** Make sure you click on the JSON file, so that you get the option to run the tool.
+![MultiQC](/img/MultiQC.png)
+<br>
+<br>
+<br>
+<br>
 > :hammer_and_wrench: Let’s analyze the output
 
 <br>
@@ -257,7 +262,7 @@ Anyone can publish a workflow on Galaxy.
 
 
 
-4. Click on the Version button and it will import the workflow. Even though this workflow may not be appropriate for cholera, this is also a way to save yourself time. You can always modify this one with tools and parameters for a a cholera analysis and rename it appropriately.
+**4.** Click on the Version button and it will import the workflow. Even though this workflow may not be appropriate for cholera, this is also a way to save yourself time. You can always modify this one with tools and parameters for a a cholera analysis and rename it appropriately.
 <br>
 <br>
 
