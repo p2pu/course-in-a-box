@@ -90,7 +90,9 @@ Uncheck that box. This will allow you to individually select each sample.
 This new box gives you the ability to pair your samples, by looking for any common pattern in one group, that distinguished them from another group. For example, what pattern do you see in the file name of the forward reads, that is not in the reverse reads.
 <br>
 <br>
+
 In our case, the algorithm predicted that the _forward reads_ will all have a **_1** in their name and the _reverse reads_ all have an **_2**. So, it already paired our forward and reverse reads for us based on this pattern.
+
 <br>
 <br>
 But we can look at the view we would get if the samples were named differently, and the algorithm may not have gotten it right. For example, forward and reverse reads are sometimes labelled with R1 and R2 to distinguish read pairs.
