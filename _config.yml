@@ -1,6 +1,6 @@
 # basic configuration
-#markdown: kramdown
-markdown: GFM
+markdown: kramdown
+#markdown: GFM
 permalink: /:categories/:title/
 
 # Change this tracking code with your own tracking code
