@@ -1,0 +1,33 @@
+[2024-03-14 16:08:54,883] multiqc                                            [DEBUG  ]  This is MultiQC v1.21
+[2024-03-14 16:08:54,883] multiqc                                            [DEBUG  ]  Command used: /home/pvh/mambaforge/envs/multiqc/bin/multiqc --module fastp --outdir fastp_summary cleaned_reads/SRR8364253 cleaned_reads/SRR8364260 cleaned_reads/SRR8364364 cleaned_reads/SRR8364370 cleaned_reads/SRR8364373
+[2024-03-14 16:08:56,017] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.21, released 2024-02-28
+[2024-03-14 16:08:56,017] multiqc                                            [DEBUG  ]  Working dir : /home/pvh/Documents/vibrio
+[2024-03-14 16:08:56,017] multiqc                                            [DEBUG  ]  Template    : default
+[2024-03-14 16:08:56,017] multiqc                                            [DEBUG  ]  Running Python 3.11.8 | packaged by conda-forge | (main, Feb 16 2024, 20:53:32) [GCC 12.3.0]
+[2024-03-14 16:08:56,018] multiqc                                            [INFO   ]  Only using modules: fastp
+[2024-03-14 16:08:56,018] multiqc                                            [DEBUG  ]  Analysing modules: fastp
+[2024-03-14 16:08:56,018] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpumu879p7
+[2024-03-14 16:08:56,026] multiqc                                            [INFO   ]  Search path : /home/pvh/Documents/vibrio/cleaned_reads/SRR8364253
+[2024-03-14 16:08:56,026] multiqc                                            [INFO   ]  Search path : /home/pvh/Documents/vibrio/cleaned_reads/SRR8364260
+[2024-03-14 16:08:56,026] multiqc                                            [INFO   ]  Search path : /home/pvh/Documents/vibrio/cleaned_reads/SRR8364364
+[2024-03-14 16:08:56,026] multiqc                                            [INFO   ]  Search path : /home/pvh/Documents/vibrio/cleaned_reads/SRR8364370
+[2024-03-14 16:08:56,026] multiqc                                            [INFO   ]  Search path : /home/pvh/Documents/vibrio/cleaned_reads/SRR8364373
+[2024-03-14 16:08:56,026] multiqc                                            [DEBUG  ]  Ignored 329 search patterns as didn't match running modules.
+[2024-03-14 16:08:56,069] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_no_match: 170] // [skipped_ignore_pattern: 10]
+[2024-03-14 16:08:56,105] multiqc.modules.fastp.fastp                        [INFO   ]  Found 5 reports
+[2024-03-14 16:08:56,105] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR8364253
+[2024-03-14 16:08:56,105] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR8364260
+[2024-03-14 16:08:56,106] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR8364364
+[2024-03-14 16:08:56,107] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR8364370
+[2024-03-14 16:08:56,107] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: SRR8364373
+[2024-03-14 16:08:56,129] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_fastp.txt
+[2024-03-14 16:08:56,199] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2024-03-14 16:08:56,200] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_software_versions.txt
+[2024-03-14 16:08:56,214] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2024-03-14 16:08:56,215] multiqc                                            [DEBUG  ]  Compressing plot data
+[2024-03-14 16:08:56,588] multiqc.utils.util_functions                       [DEBUG  ]  Wrote data file multiqc_data.json
+[2024-03-14 16:08:56,596] multiqc                                            [INFO   ]  Report      : fastp_summary/multiqc_report.html
+[2024-03-14 16:08:56,596] multiqc                                            [INFO   ]  Data        : fastp_summary/multiqc_data
+[2024-03-14 16:08:56,596] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpumu879p7/multiqc_data' to '/home/pvh/Documents/vibrio/fastp_summary/multiqc_data'
+[2024-03-14 16:08:56,602] multiqc                                            [DEBUG  ]  Full report path: /home/pvh/Documents/vibrio/fastp_summary/multiqc_report.html
+[2024-03-14 16:08:56,740] multiqc                                            [INFO   ]  MultiQC complete

@@ -1,0 +1,6 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	SRR8364253	/home/pvh/Documents/vibrio/cleaned_reads/SRR8364253/main/qc/summary/SRR8364253.fastp.json
+fastp	all_sections	SRR8364260	/home/pvh/Documents/vibrio/cleaned_reads/SRR8364260/main/qc/summary/SRR8364260.fastp.json
+fastp	all_sections	SRR8364364	/home/pvh/Documents/vibrio/cleaned_reads/SRR8364364/main/qc/summary/SRR8364364.fastp.json
+fastp	all_sections	SRR8364370	/home/pvh/Documents/vibrio/cleaned_reads/SRR8364370/main/qc/summary/SRR8364370.fastp.json
+fastp	all_sections	SRR8364373	/home/pvh/Documents/vibrio/cleaned_reads/SRR8364373/main/qc/summary/SRR8364373.fastp.json
