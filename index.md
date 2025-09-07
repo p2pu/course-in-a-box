@@ -6,6 +6,7 @@ published: true
 Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
 * **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
 * **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
+* **[Dropdown](/modules/drop-down1-1/first-post/)** - Add additional content in a dropdown menu (optional)
 * **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
 
 <br> 

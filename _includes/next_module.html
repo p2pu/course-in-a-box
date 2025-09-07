@@ -1,16 +1,34 @@
 {% assign next=null %}
 {% assign prev=null %}
 {% assign temp=null %}
+{% assign all_modules = "" | split: "" %}
 
+<!-- Build flat list of all modules (including dropdown items) -->
 {% for m in site.data.course.modules %}
+  {% if m == "dropdown" %}
+    <!-- This is a dropdown module, add its children -->
+    {% for dropdown in site.data.course.dropdowns %}
+      {% assign dropdown_config = dropdown[1] %}
+      {% for dropdown_item in dropdown_config.items %}
+        {% assign all_modules = all_modules | push: dropdown_item %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
+    <!-- This is a regular module -->
+    {% assign all_modules = all_modules | push: m %}
+  {% endif %}
+{% endfor %}
+
+<!-- Find previous and next modules in the flat list -->
+{% for m in all_modules %}
 	{% if m == module and forloop.first != true %}
 		{% assign p = forloop.index0 | minus:1  %}
-		{% assign prev = site.data.course.modules[p] %}
+		{% assign prev = all_modules[p] %}
 		{% assign prev_post = site.categories[prev]|reverse|first %}
 	{% endif %}
 	{% if m == module and forloop.last != true %}
 		{% assign n = forloop.index0 | plus:1  %}
-		{% assign next = site.data.course.modules[n] %}
+		{% assign next = all_modules[n] %}
 		{% assign next_post = site.categories[next]|reverse|first %}
 	{% endif %}
 {% endfor %}

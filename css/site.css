@@ -1,1 +1,45 @@
+/* Custom dropdown styling for course navigation */
+.navbar-nav .dropdown-menu {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  margin-top: 0.125rem;
+  background-color: #515665; /* Match navbar bg-dark color */
+}
 
+.navbar-nav .dropdown-item {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  transition: background-color 0.15s ease-in-out;
+  color: rgba(255, 255, 255, 0.8); /* Match navbar text color */
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: #707782; /* Match navbar hover color from _custom.scss */
+  color: white;
+}
+
+.navbar-nav .dropdown-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar-nav .dropdown-item.active:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure dropdown caret is visible */
+.navbar-nav .dropdown-toggle::after {
+  margin-left: 0.5rem;
+}
+
+/* Make dropdown work on hover for desktop, click for mobile */
+@media (min-width: 768px) {
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .navbar-nav .dropdown:hover .dropdown-toggle {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

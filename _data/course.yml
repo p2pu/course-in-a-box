@@ -1,3 +1,12 @@
 title: Course-in-a-Box
 description: An open-source project for creating online courses, built by <a href="https://www.p2pu.org">P2PU</a>
-modules: ["setup", "content", "customize"]
+modules: ["setup", "content", "dropdown", "customize"]
+
+# Dropdown configurations (multiple allowed)
+dropdowns:
+  dropdown:
+    title: "Modules"
+    items: ["drop-down1-1","drop-down1-2"]
+
+
+

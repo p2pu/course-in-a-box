@@ -9,12 +9,47 @@
   <div class="navbar-collapse collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       {% for module in site.data.course.modules %}
-       {% assign first_post = site.categories[module]|reverse|first %}
-       <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
-         <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
-           {{ module }}
-         </a>
-       </li>
+        {% if module == "dropdown" %}
+          <!-- Handle dropdown modules -->
+          {% for dropdown in site.data.course.dropdowns %}
+            {% assign dropdown_key = dropdown[0] %}
+            {% assign dropdown_config = dropdown[1] %}
+            {% assign dropdown_active = false %}
+            {% for dropdown_item in dropdown_config.items %}
+              {% if page.categories[1] == dropdown_item %}
+                {% assign dropdown_active = true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            <li class="nav-item dropdown py-2{% if dropdown_active %} active{% endif %}">
+              <a class="nav-link dropdown-toggle" href="#" id="{{ dropdown_key }}Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ dropdown_config.title }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="{{ dropdown_key }}Dropdown">
+                {% for dropdown_item in dropdown_config.items %}
+                  {% assign first_post = site.categories[dropdown_item]|reverse|first %}
+                  {% if first_post %}
+                    <a class="dropdown-item{% if page.categories[1] == dropdown_item %} active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
+                      {{ dropdown_item }}
+                    </a>
+                  {% else %}
+                    <a class="dropdown-item" href="#">
+                      {{ dropdown_item }} <span class="text-muted">(No posts)</span>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </li>
+          {% endfor %}
+        {% else %}
+          <!-- Regular menu item -->
+          {% assign first_post = site.categories[module]|reverse|first %}
+          <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
+              {{ module }}
+            </a>
+          </li>
+        {% endif %}
       {% endfor %}
 <!--
       <li class="nav-item py-2">
